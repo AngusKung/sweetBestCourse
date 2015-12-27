@@ -101,7 +101,7 @@ def Login(user, password):
     for a in font:
         i += 1
         flag = setflag(a.text[2:5],flag)
-        print '\n' + "NNNNNNNN  "+ str(i)  
+        #print '\n' + "NNNNNNNN  "+ str(i)  
         addto(grouped,a,flag,undone,exp)
         b = a.findAll("td")
         if len(b) == 1:

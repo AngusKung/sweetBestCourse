@@ -79,10 +79,12 @@ class GUI:
         print "Logging..."
         self.bi_show, self.fu_shuan_bi_show = Initial(self.user_field.get(), self.grade_field.get())
         self.takenCourses,self.toGraduate = Login(self.user_field.get(), self.pswd_field.get())
-        self.ruleOutTaken()
         self.InitialState.setPersonDepart("EE")
+        self.ruleOutTaken()
         for to in self.toGraduate:
-            print to
+            for t in to:
+                print t
+        pdb.set_trace()
         #self.bi_show.append(self.fu_shuan_bi_show[0])通識
         #self.to_show = [course for course in self.bi_show if course not in self.takenCourses]
         #self.updateBishow2Table(self.to_show)
@@ -95,7 +97,7 @@ class GUI:
                 self.updateTable([time, item])
 
     def updateTable(self, time):
-        #time[0] = time ,time[0][1]=class time,time[0][0]=weekdays
+        #time[0] = time, time[0][1] = class time, time[0][0] = weekdays
         #time[1] = course name
         index = "%i,%i" % (int(time[0][1]), (int(ord(time[0][0])-65)))
         value = time[1]
@@ -105,6 +107,8 @@ class GUI:
         print "Loading..."
 
     def searchMethod(self):
+        #for category in self.toGraduate:
+        #    while category[0]!=0:
         (nextState,score,class_stars,GPA,course) = max([(self.InitialState.generateSuccessor(course,self.credit_limit),\
                     (course.class_stars/5.0*3.66)+course.GPA,course.class_stars,course.GPA,course)\
                     for course in self.courses if self.InitialState.generateSuccessor(course,self.credit_limit) != None],key=itemgetter(1))
@@ -147,32 +151,25 @@ class GUI:
     def ruleOutTaken(self):
         flag=0
         for taken in self.takenCourses:
+            if taken == 'EE4049':
+                continue
             for c in self.courses:
-                if str(taken)==c.name:
+                if taken==c.ID:
                     print c
                     self.courses.remove(c)
                     flag=1
-                    break
-            if flag==1:
-                continue
             for c in self.general_courses:
-                if str(taken)==c.name:
+                if taken==c.ID:
                     print c
                     self.general_courses.remove(c)
                     flag=1
-                    break
-            if flag==1:
-                continue
             for c in self.PE_courses:
-                if str(taken)==c.name:
+                if taken==c.ID:
                     print c
                     self.PE_courses.remove(c)
                     flag=1
-                    break
-            if flag==1:
-                continue
-            else:
-                print "Can't find"
+            if flag!=1:
+                print "!!! Can't find:",taken
 
     def createTable(self):
         self.user_label = tkinter.Label(self.root, text="帳號：")

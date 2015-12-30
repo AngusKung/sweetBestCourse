@@ -78,13 +78,30 @@ class GUI:
     def loginMethod(self):
         print "Logging..."
         self.bi_show, self.fu_shuan_bi_show = Initial(self.user_field.get(), self.grade_field.get())
-        self.takenCourses,self.toGraduate = Login(self.user_field.get(), self.pswd_field.get())
+        self.takenCourses,toGraduate_unorderd = Login(self.user_field.get(), self.pswd_field.get())
         self.InitialState.setPersonDepart("EE")
-        self.ruleOutTaken()
-        for to in self.toGraduate:
-            for t in to:
-                print t
-        pdb.set_trace()
+        exceptions = ['EE4049']
+        self.ruleOutTaken(exceptions) #rule out the taken classes
+        # --- customize courses ---
+        self.depart_courses = []
+        self.non_depart_courses = []
+        for course in self.courses:
+            if self.InitialState.personDepart in course.ID and len(course.ID)==6:
+                self.depart_courses.append(course)
+            else:
+                self.non_depart_courses.append(course)
+        self.InitialState.setCategorizedCourses(self.depart_courses,self.non_depart_courses,self.general_courses,self.PE_courses)
+        del self.depart_courses, self.non_depart_courses, self.general_courses, self.PE_courses, self.courses
+        # --- deal with personal toGraduate ---
+        self.toGraduate = [0]#必修
+        self.toGraduate.append(toGraduate_unorderd[4:])
+        self.toGraduate.append(toGraduate_unorderd[0][0])#系上選修
+        self.toGraduate.append(toGraduate_unorderd[1][0])
+        self.toGraduate.append(toGraduate_unorderd[2][0])
+        self.toGraduate.append(toGraduate_unorderd[3][0])
+        self.InitialState.setPersonDistrib(self.toGraduate)
+        self.InitialState.transformID()
+        print self.toGraduate
         #self.bi_show.append(self.fu_shuan_bi_show[0])通識
         #self.to_show = [course for course in self.bi_show if course not in self.takenCourses]
         #self.updateBishow2Table(self.to_show)
@@ -107,29 +124,25 @@ class GUI:
         print "Loading..."
 
     def searchMethod(self):
-        #for category in self.toGraduate:
-        #    while category[0]!=0:
-        (nextState,score,class_stars,GPA,course) = max([(self.InitialState.generateSuccessor(course,self.credit_limit),\
-                    (course.class_stars/5.0*3.66)+course.GPA,course.class_stars,course.GPA,course)\
-                    for course in self.courses if self.InitialState.generateSuccessor(course,self.credit_limit) != None],key=itemgetter(1))
-        print nextState.distrib, nextState.rule_out
-        nextState.distrib = checkRuleOut(self.courses, course, nextState.distrib, nextState.rule_out)
-        print nextState.distrib, nextState.rule_out
-        while True:
-            try:
-                (nextState,score,class_stars,GPA,course) = max([(nextState.generateSuccessor(course,self.credit_limit),\
-                        (course.class_stars/5.0*3.66)+course.GPA,course.class_stars,course.GPA,course)\
-                        for course in self.courses if nextState.generateSuccessor(course,self.credit_limit) != None],key=itemgetter(1))
-                print nextState.distrib, nextState.rule_out
-                nextState.distrib = checkRuleOut(self.courses, course, nextState.distrib, nextState.rule_out)
-                print nextState.distrib, nextState.rule_out
+        nextState = self.InitialState
+        courseCount = 0
+        while(nextState.credit <= self.credit_limit):
+            trialState = nextState.greedySearch()
+            if not trialState:
+                print "Fininshed optimzed greedy!"
+                print courseCount,"courses added !!!"
+                print "Course taken:"
+                for t in nextState.taken:
+                    print t
+                break
+            else:
+                courseCount += 1
                 for c in nextState.taken:
                     for t in c.time:
                         index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
                         self.var[index] = c.name
-            except:
-                print "Greedy finished!!!"
-                break
+                nextState = trialState
+        self.searchedState = nextState
 
     def updateScore(self):
         self.total_score = int(self.shibi_spin.get()) + int(self.shish_spin.get()) + \
@@ -148,10 +161,10 @@ class GUI:
         self.score_label.config(text="能力點數：%i" % (20-self.total_score))
         print self.total_score
 
-    def ruleOutTaken(self):
+    def ruleOutTaken(self,exceptions):
         flag=0
         for taken in self.takenCourses:
-            if taken == 'EE4049':
+            if taken in exceptions: #add exceptions here
                 continue
             for c in self.courses:
                 if taken==c.ID:

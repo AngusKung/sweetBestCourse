@@ -101,7 +101,7 @@ class GUI:
         self.toGraduate.append(toGraduate_unorderd[3][0])
         self.InitialState.setPersonDistrib(self.toGraduate)
         self.InitialState.transformID()
-        print self.toGraduate
+        #print self.toGraduate
         #self.bi_show.append(self.fu_shuan_bi_show[0])通識
         #self.to_show = [course for course in self.bi_show if course not in self.takenCourses]
         #self.updateBishow2Table(self.to_show)
@@ -121,7 +121,11 @@ class GUI:
         self.var[index] = time[1]
         
     def loadMethod(self):
-        print "Loading..."
+        try:
+            self.toGraduate.append(str(self.load_field.get()).upper())
+            print "Course %s loaded" % str(self.load_field.get()).upper()
+        except:
+            print "Please loggin first!"
 
     def searchMethod(self):
         nextState = self.InitialState
@@ -200,7 +204,7 @@ class GUI:
         self.grade_field = tkinter.Entry(self.root, width=15)
         self.grade_field.grid(row=2, column=1, columnspan=3)
 
-        self.load_label = tkinter.Label(self.root, text="帶入課程：")
+        self.load_label = tkinter.Label(self.root, text="帶入課號：")
         self.load_label.grid(row=3, column=0)
         self.load_field = tkinter.Entry(self.root, width=20)
         self.load_field.grid(row=3, column=1, columnspan=3)
@@ -229,35 +233,44 @@ class GUI:
 
         self.sport_label = tkinter.Label(self.root, text="體育")
         self.sport_label.grid(row=4, column=4)
-        self.sport_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
+        self.sport_spin  = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
         self.sport_spin.grid(row=5, column=4)
         
+        self.sweet_scale  = tkinter.Scale(self.root, label="甜度", from_=5, to=0)
+        self.sweet_scale.grid(row=6, column = 0)
+        self.load_scale   = tkinter.Scale(self.root, label="重度", from_=5, to=0)
+        self.load_scale.grid(row=6, column = 1)
+        self.credit_scale = tkinter.Scale(self.root, label="學分", from_=25, to=0)
+        self.credit_scale.grid(row=6, column = 4)
+
         self.score_label = tkinter.Label(self.root, text="能力點數：%i" % (21-self.total_score))
-        self.score_label.grid(row=6, column=0, columnspan=2)
+        self.score_label.grid(row=7, column=0, columnspan=2)
         
         self.search_button = tkinter.Button(self.root, text="搜尋最佳課程", command=self.searchMethod)
         self.search_button["width"] = 20
-        self.search_button.grid(row=6, column=2, columnspan=3)
+        self.search_button.grid(row=7, column=2, columnspan=3)
         
         self.login_button = tkinter.Button(self.root, text="登入", command=self.loginMethod)
-        self.login_button.grid(row=7, column=1)
+        self.login_button.grid(row=8, column=1)
     
         self.quit_button = tkinter.Button(self.root, text="離開", command=self.root.destroy)
-        self.quit_button.grid(row=7, column=3)
+        self.quit_button.grid(row=8, column=3)
     
 
         self.test = Table(self.root,
                      rows=16,
                      cols=7,
                      state='disabled',
-                     width=200,
+                     width=20,
                      height=100,
+                     rowheight=2,
+                     colwidth=15,
                      titlerows=1,
                      titlecols=1,
                      roworigin=-1,
                      colorigin=-1,
                      selectmode='browse',
-                     selecttype='row',
+                     #selecttype='row',
                      rowstretch='unset',
                      colstretch='last',
                      browsecmd=self.browsecmd,

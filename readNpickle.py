@@ -1,5 +1,6 @@
 import cPickle
 import csv
+import pdb
 
 import Course
 import State
@@ -8,6 +9,15 @@ sweety_list = "Data/sweety_list.csv"
 NTUcourse = "Data/NTUcourse_stars.pkl"
 EEComment = "Data/EE_comment_stars.pkl"
 Courses = "Data/Courses.pkl"
+TEACHER = "data/teachers_loading.pkl"
+CLASSES = "data/classes_loading.pkl"
+TEACHER_CLASS = "data/class_teacher_loading.pkl"
+with open(TEACHER,'rb') as fh:
+	teacher_load = cPickle.load(fh)
+with open(CLASSES,'rb') as fh:
+	class_load = cPickle.load(fh)
+with open(TEACHER_CLASS,'rb') as fh:
+	teacher_class_load = cPickle.load(fh)
 
 fh = open(NTUcourse,'rb')
 teacher_stars,class_stars,teacher_classes,class_teachers = cPickle.load(fh)
@@ -32,6 +42,14 @@ with open(sweety_list, 'rb') as fh:
 		#==========
 		newC = Course.Course(line[0],line[1],[l for l in line[5].split(' ') if l != '']\
 							,line[2],[int(s) for s in line[8:]],line[4]) 
+		if line[0] in class_load:
+			newC.setClassLoad(class_load[line[0]])
+			print line[0],":",class_load[line[0]]
+		#default = 0.0
+		if line[1] in teacher_load:
+			newC.setTeacherLoad(teacher_load[line[1]])
+			print line[1],":",teacher_load[line[1]]
+		#default = 0.0
 		if line[0] in class_stars:
 			newC.setClassStars( class_stars[line[0]] )
 		else:

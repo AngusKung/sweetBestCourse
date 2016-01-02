@@ -7,7 +7,20 @@ import cPickle
 import Course
 import State
 
-Courses = "Data/Courses.pkl"
+Courses = "data/Courses.pkl"
+
+def readLoadingPickle():
+	TEACHER = "data/teachers_loading.pkl"
+	CLASSES = "data/classes_loading.pkl"
+	TEACHER_CLASS = "data/class_teacher_loading.pkl"
+	with open(TEACHER,'rb') as fh:
+		teacher = cPickle.load(fh)
+	with open(CLASSES,'rb') as fh:
+		classes = cPickle.load(fh)
+	with open(TEACHER_CLASS,'rb') as fh:
+		teacher_class = cPickle.load(fh)
+
+	return teacher,classes,teacher_class
 
 def readCoursePickle():
 	with open(Courses,'rb') as fh:

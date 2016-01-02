@@ -205,7 +205,7 @@ class State:
     return self.maxScore(self.PE_courses,remain_credit)
 
   def maxScore( self, courses ,creditLimit):
-    return max([( (course.class_stars/5.0*3.66)+course.GPA, course ) for course in courses if (course.credit <= creditLimit and self.canTake(course))],key=itemgetter(0))
+    return max([( (course.class_stars/5.0*3.66)+course.GPA+course.class_load, course ) for course in courses if (course.credit <= creditLimit and self.canTake(course))],key=itemgetter(0))
 
   def transformID( self ):
     options = [selection[1:] for selection in self.distrib[1]]

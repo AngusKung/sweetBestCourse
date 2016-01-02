@@ -14,6 +14,8 @@ class Course:
     self.ID = ID
     self.class_stars = None
     self.teacher_stars = None
+    self.class_load = 0.0
+    self.teacher_load = 0.0
     self.category = []
     if sum(self.sweet)==0:
       self.GPA = 3.66
@@ -54,6 +56,12 @@ class Course:
 
   def setTeacherStars( self, stars ):
     self.teacher_stars = stars
+
+  def setClassLoad( self, load ):
+    self.class_load = load
+
+  def setTeacherLoad( self, load ):
+    self.teacher_load = load
 
   def setCategory( self, newCat ):
     self.category.append(newCat)

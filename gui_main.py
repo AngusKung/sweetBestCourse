@@ -21,8 +21,7 @@ class GUI:
         self.courses, self.general_courses, self.PE_courses = readCoursePickle()
         self.EmptyState = State.State()
         self.InitialState = State.State()
-        self.InitialState.setPersonDepart("EE") #for testing
-        self.credit_limit = 25
+        self.nextState = self.InitialState.copy()
         self.total_score = 1
         
     def test_cmd(self, event):
@@ -74,6 +73,12 @@ class GUI:
             elif x == 3: self.var[index] = "四"
             elif x == 4: self.var[index] = "五"
             elif x == 5: self.var[index] = "六"
+
+    def clearVar(self):
+        for y in range(0, 15):
+            for x in range(0, 6):
+                index = "%i,%i" % (y, x)
+                self.var[index] = ""
            
     def loginMethod(self):
         print "Logging..."
@@ -99,10 +104,11 @@ class GUI:
         self.toGraduate.append(toGraduate_unorderd[1][0])
         self.toGraduate.append(toGraduate_unorderd[2][0])
         self.toGraduate.append(toGraduate_unorderd[3][0])
-
+        self.InitialState.setLoadingLimit(50.0)
         self.InitialState.setPersonDistrib(self.toGraduate)
         self.InitialState.transformID()
-        self.nextState = self.InitialState
+        self.nextState = self.InitialState.copy()
+        self.nextState.setLoadingLimit(self.load_scale.get()) 
         #print self.toGraduate
         #self.bi_show.append(self.fu_shuan_bi_show[0])通識
         #self.to_show = [course for course in self.bi_show if course not in self.takenCourses]
@@ -123,17 +129,22 @@ class GUI:
         self.var[index] = time[1]
         
     def loadMethod(self):
+        '''
         course = (name,teache)
         if self.nextState.canTake(course):
-            
         self.nextState.generateSuccessor(course)
         try:
             self.toGraduate.append(str(self.load_field.get()).upper())
             print "Course %s loaded" % str(self.load_field.get()).upper()
         except:
             print "Please loggin first!"
+        '''
 
     def searchMethod(self):
+        self.credit_limit = self.credit_scale.get()
+        self.nextState = self.InitialState.copy()
+        self.clearVar()
+        self.nextState.setLoadingLimit(self.load_scale.get())
         courseCount = 0
         while(self.nextState.credit <= self.credit_limit):
             trialState = self.nextState.greedySearch()
@@ -146,11 +157,12 @@ class GUI:
                 break
             else:
                 courseCount += 1
-                for c in self.nextState.taken:
-                    for t in c.time:
-                        index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
-                        self.var[index] = c.name
                 self.nextState = trialState
+        for c in self.nextState.taken:
+            for t in c.time:
+                index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
+                self.var[index] = c.name
+        print "Loading =",self.nextState.loading, "while loading_limit =",self.nextState.loading_limit
 
     def updateScore(self):
         self.total_score = int(self.shibi_spin.get()) + int(self.shish_spin.get()) + \
@@ -242,10 +254,13 @@ class GUI:
         
         self.sweet_scale  = tkinter.Scale(self.root, label="甜度", from_=5, to=0)
         self.sweet_scale.grid(row=6, column = 0)
-        self.load_scale   = tkinter.Scale(self.root, label="重度", from_=5, to=0)
+        self.sweet_scale.set(5)
+        self.load_scale   = tkinter.Scale(self.root, label="重度", from_=310, to=0, variable=5)
         self.load_scale.grid(row=6, column = 1)
-        self.credit_scale = tkinter.Scale(self.root, label="學分", from_=25, to=0)
+        self.load_scale.set(125)
+        self.credit_scale = tkinter.Scale(self.root, label="學分", from_=31, to=0)
         self.credit_scale.grid(row=6, column = 4)
+        self.credit_scale.set(25)
 
         self.score_label = tkinter.Label(self.root, text="能力點數：%i" % (21-self.total_score))
         self.score_label.grid(row=7, column=0, columnspan=2)

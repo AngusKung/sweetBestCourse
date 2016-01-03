@@ -19,6 +19,8 @@ class State:
       self.non_depart_courses = prevState.non_depart_courses
       self.general_courses = prevState.general_courses
       self.PE_courses = prevState.PE_courses
+      self.loading = prevState.loading
+      self.loading_limit = prevState.loading_limit
       """
       Mon  Tues Wed  Thur Fri  Sat  Sun
       A0   B0   C0   D0   E0   F0   G0
@@ -43,6 +45,8 @@ class State:
       self.rule_out = set()
       self.personDepart = "None"
       self.depart_courses = self.non_depart_courses = self.general_courses = self.PE_courses = []
+      self.loading = 0.0
+      self.loading_limit = 125.0
 
   def __eq__( self , other ):
   	return self.taken == other.taken
@@ -65,6 +69,23 @@ class State:
   def __hash__( self ):
     return hash(self.taken)
 
+  def copy( self ):
+    state = State()
+    state.taken = self.taken #set of course taken (type = Course)
+    state.free = self.free  #set of free time slot
+    state.credit = self.credit
+    #[shibi,shishuan,shuanshow,general,PE]
+    state.distrib = self.distrib
+    state.rule_out = self.rule_out
+    state.personDepart = self.personDepart
+    state.depart_courses = self.depart_courses
+    state.non_depart_courses = self.non_depart_courses
+    state.general_courses = self.general_courses
+    state.PE_courses = self.PE_courses
+    state.loading = self.loading
+    state.loading_limit = self.loading_limit
+    return state
+
   def canTake( self , course ):
     for time in course.getTime():
       if time not in self.free:
@@ -83,6 +104,7 @@ class State:
       state.free.remove(time)
     state.taken.append(course)
     state.credit += course.credit
+    state.loading += course.class_load
     return state
 
   def setPersonDepart( self,department ):
@@ -97,6 +119,12 @@ class State:
     self.non_depart_courses = non_depart_courses
     self.general_courses = general_courses
     self.PE_courses = PE_courses
+
+  def setLoading( self, loading ):
+    self.loading = loading
+
+  def setLoadingLimit( self, loading_limit ):
+    self.loading_limit = loading_limit
 
   def greedySearch( self ):
     toSelect = []
@@ -155,6 +183,7 @@ class State:
       print "empty"
 
     if not toSelect:
+      print "Not toSelect"
       return None
     else:
       course = max(toSelect,key=itemgetter(0))[1]
@@ -181,7 +210,7 @@ class State:
     if not self.distrib[1]:
       return None
     return max([self.maxScore(courses,10) for courses in self.distrib[1]],key=itemgetter(0))
-    # 5 is a null number, for guaranteed permission
+    # 10 is a null number, for guaranteed permission
 
   def maxDepartSelective( self, remain_credit):
     if remain_credit==0:
@@ -205,7 +234,8 @@ class State:
     return self.maxScore(self.PE_courses,remain_credit)
 
   def maxScore( self, courses ,creditLimit):
-    return max([( (course.class_stars/5.0*3.66)+course.GPA+course.class_load, course ) for course in courses if (course.credit <= creditLimit and self.canTake(course))],key=itemgetter(0))
+    return max([( (course.class_stars/5.0*3.66)+course.GPA+course.class_load, course ) for course in courses \
+                if (course.credit <= creditLimit and self.canTake(course) and self.loading <= self.loading_limit)],key=itemgetter(0))
 
   def transformID( self ):
     options = [selection[1:] for selection in self.distrib[1]]

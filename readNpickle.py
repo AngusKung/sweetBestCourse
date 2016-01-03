@@ -9,6 +9,7 @@ sweety_list = "Data/sweety_list.csv"
 NTUcourse = "Data/NTUcourse_stars.pkl"
 EEComment = "Data/EE_comment_stars.pkl"
 Courses = "Data/Courses.pkl"
+
 TEACHER = "data/teachers_loading.pkl"
 CLASSES = "data/classes_loading.pkl"
 TEACHER_CLASS = "data/class_teacher_loading.pkl"
@@ -43,12 +44,12 @@ with open(sweety_list, 'rb') as fh:
 		newC = Course.Course(line[0],line[1],[l for l in line[5].split(' ') if l != '']\
 							,line[2],[int(s) for s in line[8:]],line[4]) 
 		if line[0] in class_load:
-			newC.setClassLoad(class_load[line[0]])
-			print line[0],":",class_load[line[0]]
+			newC.setClassLoad(((-class_load[line[0]])+1.0)*5.0)
+			print line[0],":",newC.class_load
 		#default = 0.0
 		if line[1] in teacher_load:
-			newC.setTeacherLoad(teacher_load[line[1]])
-			print line[1],":",teacher_load[line[1]]
+			newC.setTeacherLoad(((-teacher_load[line[1]])+1.0)*5.0)
+			print line[1],":",newC.teacher_load
 		#default = 0.0
 		if line[0] in class_stars:
 			newC.setClassStars( class_stars[line[0]] )

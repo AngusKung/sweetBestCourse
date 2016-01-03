@@ -99,8 +99,10 @@ class GUI:
         self.toGraduate.append(toGraduate_unorderd[1][0])
         self.toGraduate.append(toGraduate_unorderd[2][0])
         self.toGraduate.append(toGraduate_unorderd[3][0])
+
         self.InitialState.setPersonDistrib(self.toGraduate)
         self.InitialState.transformID()
+        self.nextState = self.InitialState
         #print self.toGraduate
         #self.bi_show.append(self.fu_shuan_bi_show[0])通識
         #self.to_show = [course for course in self.bi_show if course not in self.takenCourses]
@@ -121,6 +123,10 @@ class GUI:
         self.var[index] = time[1]
         
     def loadMethod(self):
+        course = (name,teache)
+        if self.nextState.canTake(course):
+            
+        self.nextState.generateSuccessor(course)
         try:
             self.toGraduate.append(str(self.load_field.get()).upper())
             print "Course %s loaded" % str(self.load_field.get()).upper()
@@ -128,25 +134,23 @@ class GUI:
             print "Please loggin first!"
 
     def searchMethod(self):
-        nextState = self.InitialState
         courseCount = 0
-        while(nextState.credit <= self.credit_limit):
-            trialState = nextState.greedySearch()
+        while(self.nextState.credit <= self.credit_limit):
+            trialState = self.nextState.greedySearch()
             if not trialState:
                 print "Fininshed optimzed greedy!"
                 print courseCount,"courses added !!!"
                 print "Course taken:"
-                for t in nextState.taken:
+                for t in self.nextState.taken:
                     print t
                 break
             else:
                 courseCount += 1
-                for c in nextState.taken:
+                for c in self.nextState.taken:
                     for t in c.time:
                         index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
                         self.var[index] = c.name
-                nextState = trialState
-        self.searchedState = nextState
+                self.nextState = trialState
 
     def updateScore(self):
         self.total_score = int(self.shibi_spin.get()) + int(self.shish_spin.get()) + \

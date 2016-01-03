@@ -87,7 +87,7 @@ class Table(tkinter.Widget):
                                'lappend auto_path {%s}' % tktable_lib)
             master.tk.call('package', 'require', 'Tktable')
             _TKTABLE_LOADED = True
-
+        
         tkinter.Widget.__init__(self, master, 'table', kw)
 
     def _options(self, cnf, kw=None):

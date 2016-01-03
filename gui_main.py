@@ -7,6 +7,7 @@ from tktable import *
 from initial import *
 from login import *
 from util import *
+#from hover import *
 import State
 import Course
 from operator import itemgetter
@@ -32,13 +33,36 @@ class GUI:
             return 'set'
 
     def browsecmd(self, event):
-        print("event:", event.__dict__)
-        print("curselection:", self.test.curselection())
-        print("active cell index:", self.test.index('active'))
-        print("active:", self.test.index('active', 'row'))
-        print("anchor:", self.test.index('anchor', 'row'))
-        b_index = self.test.index('active')
-        course_name = self.var[b_index]
+        self.test.bind("<BackSpace>", self.delete)
+        self.test.bind("<Return>", self.display)
+        #print("event:", event.__dict__)
+        #print("curselection:", self.test.curselection())
+        #print("active cell index:", self.test.index('active'))
+        #print("active:", self.test.index('active', 'row'))
+        #print("anchor:", self.test.index('anchor', 'row'))
+        
+
+    def display(self, event):
+        menu = tkinter.Menu(self.root, tearoff=0)
+        index = self.test.index('active')
+        course_name = self.var[index].encode('utf-8')
+        for c in self.nextState.taken:
+            if c.name == course_name:
+                #c.GPA, c.class_load, c.teacher_load, c.class_stars, c.teacher_stars
+                menu.add_command(label="平均GPA: %.2f / 4.3" % c.GPA)
+                menu.add_command(label="課程重度: %.2f / 10.00" % c.class_load)
+                menu.add_command(label="老師重度: %.2f / 10.00" % c.teacher_load)
+                menu.add_command(label="課程星數: %.2f / 5.00" % c.class_stars)
+                menu.add_command(label="老師星數: %.2f / 5.00" % c.teacher_stars)      
+                #self.score_label.post(event.x_root, event.y_root)
+            #if c.name == course_name:
+        #print event.x_root, event.y_root
+        menu.post(200, 200)
+        
+
+    def delete(self, event):
+        index = self.test.index('active')
+        course_name = self.var[index]
         for i in range(len(self.current_state)):
             if course_name == self.current_state[i][0]:
                 self.current_state.pop(i)
@@ -51,7 +75,7 @@ class GUI:
                         self.var[index] = ""
                 except:
                     pass
-        
+
     def initVar(self):
         self.root = tkinter.Tk()
         self.var = ArrayVar(self.root)
@@ -175,21 +199,24 @@ class GUI:
         print "Loading =",self.nextState.loading, "while loading_limit =",self.nextState.loading_limit
 
     def updateScore(self):
-        self.total_score = int(self.shibi_spin.get()) + int(self.shish_spin.get()) + \
-                           int(self.shush_spin.get()) + int(self.tonsh_spin.get()) + int(self.sport_spin.get())
-        self.shibi_spin.config(to=(40-self.total_score))
-        self.shish_spin.config(to=(40-self.total_score))
-        self.shush_spin.config(to=(40-self.total_score))
-        self.tonsh_spin.config(to=(40-self.total_score))
-        self.sport_spin.config(to=(40-self.total_score))
-        if self.total_score >= 20:
-            self.shibi_spin.config(to=self.shibi_spin.get())
-            self.shish_spin.config(to=self.shish_spin.get())
-            self.shush_spin.config(to=self.shush_spin.get())
-            self.tonsh_spin.config(to=self.tonsh_spin.get())
-            self.sport_spin.config(to=self.sport_spin.get())
-        self.score_label.config(text="能力點數：%i" % (20-self.total_score))
-        print self.total_score
+        if (self.credit_scale.get()-self.total_score) >= 0:
+            self.total_score = int(self.shibi_spin.get()) + int(self.shish_spin.get()) + \
+                               int(self.shush_spin.get()) + int(self.tonsh_spin.get()) + int(self.sport_spin.get())
+            self.shibi_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            self.shish_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            self.shush_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            self.tonsh_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            self.sport_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            if self.total_score >= self.credit_scale.get():
+                self.shibi_spin.config(to=self.shibi_spin.get())
+                self.shish_spin.config(to=self.shish_spin.get())
+                self.shush_spin.config(to=self.shush_spin.get())
+                self.tonsh_spin.config(to=self.tonsh_spin.get())
+                self.sport_spin.config(to=self.sport_spin.get())
+            self.score_label.config(text="能力點數：%i" % (self.credit_scale.get()-self.total_score))
+   
+    def updateCredit(self, value):
+        self.updateScore()
 
     def ruleOutTaken(self,exceptions):
         flag=0
@@ -213,7 +240,7 @@ class GUI:
                     flag=1
             if flag!=1:
                 print "!!! Can't find:",taken
-
+    
     def createTable(self):
         self.user_label = tkinter.Label(self.root, text="帳號：")
         self.user_label.grid(row=0, column=0)
@@ -272,11 +299,11 @@ class GUI:
         self.load_scale   = tkinter.Scale(self.root, label="重度", from_=310, to=0, variable=5)
         self.load_scale.grid(row=6, column = 1)
         self.load_scale.set(125)
-        self.credit_scale = tkinter.Scale(self.root, label="學分", from_=31, to=0)
+        self.credit_scale = tkinter.Scale(self.root, label="學分", from_=31, to=0, command=self.updateCredit)
         self.credit_scale.grid(row=6, column = 4)
         self.credit_scale.set(25)
 
-        self.score_label = tkinter.Label(self.root, text="能力點數：%i" % (21-self.total_score))
+        self.score_label = tkinter.Label(self.root, text="能力點數：%i" % (self.credit_scale.get()+1-self.total_score))
         self.score_label.grid(row=7, column=0, columnspan=2)
         
         self.search_button = tkinter.Button(self.root, text="搜尋最佳課程", command=self.searchMethod)
@@ -297,12 +324,13 @@ class GUI:
                      width=20,
                      height=100,
                      rowheight=2,
-                     colwidth=15,
+                     colwidth=20,
                      titlerows=1,
                      titlecols=1,
                      roworigin=-1,
                      colorigin=-1,
                      selectmode='browse',
+                     #bordercursor='sss',
                      #selecttype='row',
                      rowstretch='unset',
                      colstretch='last',
@@ -311,6 +339,7 @@ class GUI:
                      variable=self.var,
                      usecommand=0,
                      command=self.test_cmd)
+        #self.var["%i,%i" % (-1, -1)].bind("<Enter>",self.Display)
         self.test.grid(row=0, column=5, rowspan=20)
         self.test.tag_configure('sel', background='yellow')
         self.test.tag_configure('active', background='blue')

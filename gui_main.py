@@ -115,12 +115,12 @@ class GUI:
         #self.to_show = [course for course in self.bi_show if course not in self.takenCourses]
         #self.updateBishow2Table(self.to_show)
         
-    def updateBishow2Table(self, bi_show):
-        sweety_dict = readSweetyCsv()
-        for item in bi_show:
-            for time in sweety_dict[item][0][4].split(" ")[ :-1]:
-                self.current_state.append(sweety_dict[item])
-                self.updateTable([time, item])
+    #def updateBishow2Table(self, bi_show):
+    #    sweety_dict = readSweetyCsv()
+    #    for item in bi_show:
+    #        for time in sweety_dict[item][0][4].split(" ")[ :-1]:
+    #            self.current_state.append(sweety_dict[item])
+    #            self.updateTable([time, item])
 
     def updateTable(self, time):
         #time[0] = time, time[0][1] = class time, time[0][0] = weekdays
@@ -130,16 +130,19 @@ class GUI:
         self.var[index] = time[1]
         
     def loadMethod(self):
-        '''
-        course = (name,teache)
+        sweety_dict = readSweetyCsv()
+        course_info = sweety_dict[(self.loadC_field.get(), self.loadT_field.get())][0]
+        course_info[6:] = map(int, course_info[6:])
+        course = Course.Course(self.loadC_field.get(), self.loadT_field.get(), course_info[3], \
+                        course_info[0], course_info[6:], course_info[2])
+        #print self.loadC_field.get(), self.loadT_field.get(), course_info[3], course_info[0],\
+        #      course_info[6:], course_info[2]
         if self.nextState.canTake(course):
-        self.nextState.generateSuccessor(course)
-        try:
-            self.toGraduate.append(str(self.load_field.get()).upper())
-            print "Course %s loaded" % str(self.load_field.get()).upper()
-        except:
-            print "Please loggin first!"
-        '''
+            self.nextState.generateSuccessor(course)
+            print "Course %s loaded" % self.loadC_field.get()
+        else: 
+            print "fuck me!"
+        
 
     def searchMethod(self):
         self.credit_limit = self.credit_scale.get()
@@ -227,10 +230,14 @@ class GUI:
         self.grade_field = tkinter.Entry(self.root, width=15)
         self.grade_field.grid(row=2, column=1, columnspan=3)
 
-        self.load_label = tkinter.Label(self.root, text="帶入課號：")
-        self.load_label.grid(row=3, column=0)
-        self.load_field = tkinter.Entry(self.root, width=20)
-        self.load_field.grid(row=3, column=1, columnspan=3)
+        self.loadC_label = tkinter.Label(self.root, text="帶入課號：")
+        self.loadC_label.grid(row=3, column=0)
+        self.loadC_field = tkinter.Entry(self.root, width=10)
+        self.loadC_field.grid(row=3, column=1)
+        self.loadT_label = tkinter.Label(self.root, text="教師：")
+        self.loadT_label.grid(row=3, column=2)
+        self.loadT_field = tkinter.Entry(self.root, width=6)
+        self.loadT_field.grid(row=3, column=3)
         self.load_button = tkinter.Button(self.root, text="帶入", command=self.loadMethod)
         self.load_button.grid(row=3, column=4)
 

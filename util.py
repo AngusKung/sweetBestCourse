@@ -31,12 +31,12 @@ def readCoursePickle():
 
 def readSweetyCsv():
 	sweety_dict = dict()
-	with open ("Data/sweety_list.csv", 'r') as f :
-		for line in f :
-			info = line.split(',')
+	with open('Data/sweety_list.csv', 'rb') as fh:
+		data = csv.reader(fh, delimiter=',')
+		for line in data:
+			info = line
 			course_name = info[0].decode('utf-8')
-			#print course_name
-			#teacher = info[1]
+			teacher = info[1].decode('utf-8')
 			#credit = info[2]
 			#class_for = info[3]
 			#class_num = info[4]
@@ -53,10 +53,10 @@ def readSweetyCsv():
 			#Am = info[15]
 			#A  = info[16]
 			#Ap = info[17]
-			if course_name not in sweety_dict:
-				sweety_dict[course_name] = [info[1:]]
+			if (course_name, teacher) not in sweety_dict:
+				sweety_dict[(course_name, teacher)] = [info[2:]]
 			else:
-				sweety_dict[course_name].append(info[1:])
+				sweety_dict[(course_name, teacher)].append(info[2:])
 	return sweety_dict
 
 def checkRuleOut( courses, course, distrib, rule_out):

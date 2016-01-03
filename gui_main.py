@@ -11,6 +11,7 @@ import State
 import Course
 from operator import itemgetter
 import pdb
+import copy
 
 class GUI:
     def __init__(self):
@@ -21,7 +22,7 @@ class GUI:
         self.courses, self.general_courses, self.PE_courses = readCoursePickle()
         self.EmptyState = State.State()
         self.InitialState = State.State()
-        self.nextState = self.InitialState.copy()
+        self.nextState = State.State()
         self.total_score = 1
         
     def test_cmd(self, event):
@@ -107,7 +108,7 @@ class GUI:
         self.InitialState.setLoadingLimit(50.0)
         self.InitialState.setPersonDistrib(self.toGraduate)
         self.InitialState.transformID()
-        self.nextState = self.InitialState.copy()
+        self.nextState = copy.deepcopy(self.InitialState)
         self.nextState.setLoadingLimit(self.load_scale.get()) 
         #print self.toGraduate
         #self.bi_show.append(self.fu_shuan_bi_show[0])通識
@@ -142,7 +143,13 @@ class GUI:
 
     def searchMethod(self):
         self.credit_limit = self.credit_scale.get()
-        self.nextState = self.InitialState.copy()
+        self.nextState = copy.deepcopy(self.InitialState)
+        print "nextState:"
+        for c in self.nextState.taken:
+            print c
+        print "InitialState:"
+        for c in self.InitialState.taken:
+            print c
         self.clearVar()
         self.nextState.setLoadingLimit(self.load_scale.get())
         courseCount = 0

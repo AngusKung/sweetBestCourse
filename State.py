@@ -69,23 +69,6 @@ class State:
   def __hash__( self ):
     return hash(self.taken)
 
-  def copy( self ):
-    state = State()
-    state.taken = self.taken #set of course taken (type = Course)
-    state.free = self.free  #set of free time slot
-    state.credit = self.credit
-    #[shibi,shishuan,shuanshow,general,PE]
-    state.distrib = self.distrib
-    state.rule_out = self.rule_out
-    state.personDepart = self.personDepart
-    state.depart_courses = self.depart_courses
-    state.non_depart_courses = self.non_depart_courses
-    state.general_courses = self.general_courses
-    state.PE_courses = self.PE_courses
-    state.loading = self.loading
-    state.loading_limit = self.loading_limit
-    return state
-
   def canTake( self , course ):
     for time in course.getTime():
       if time not in self.free:

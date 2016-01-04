@@ -192,7 +192,10 @@ class State:
   def maxFushuanBishow( self, selectList ):
     if not self.distrib[1]:
       return None
-    return max([self.maxScore(courses,10) for courses in self.distrib[1]],key=itemgetter(0))
+    try:
+      return max([self.maxScore(courses,10) for courses in self.distrib[1]],key=itemgetter(0))
+    except:
+      return None
     # 10 is a null number, for guaranteed permission
 
   def maxDepartSelective( self, remain_credit):
@@ -217,8 +220,11 @@ class State:
     return self.maxScore(self.PE_courses,remain_credit)
 
   def maxScore( self, courses ,creditLimit):
-    return max([( (course.class_stars/5.0*3.66)+course.GPA+course.class_load, course ) for course in courses \
+    try:
+      return max([( (course.class_stars/5.0*3.66)+course.GPA+course.class_load, course ) for course in courses \
                 if (course.credit <= creditLimit and self.canTake(course) and self.loading <= self.loading_limit)],key=itemgetter(0))
+    except:
+      return None
 
   def transformID( self ):
     options = [selection[1:] for selection in self.distrib[1]]

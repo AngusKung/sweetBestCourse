@@ -47,18 +47,19 @@ class GUI:
         course_name = self.var[index].encode('utf-8')
         for c in self.nextState.taken:
             if c.name == course_name:
+                menu.add_command(label="教師: %f" % c.teacher)
                 menu.add_command(label="平均GPA: %.2f / 4.3" % c.GPA)
                 menu.add_command(label="課程重度: %.2f / 10.00" % c.class_load)
                 menu.add_command(label="老師重度: %.2f / 10.00" % c.teacher_load)
                 menu.add_command(label="課程星數: %.2f / 5.00" % c.class_stars)
                 menu.add_command(label="老師星數: %.2f / 5.00" % c.teacher_stars)     
-                menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))
+        menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))
         
     def delete(self, event):
         index = self.test.index('active')
         course_name = self.var[index].encode('utf-8')
         trialState = self.nextState.deleteCourse(course_name)
-        if not trialState:
+        if trialState != None:
             self.lastStates.append(copy.deepcopy(self.nextState))
             self.nextState = trialState
             for x in range(0,6):
@@ -67,9 +68,8 @@ class GUI:
                     if course_name == self.var[index].encode('utf-8'):
                         self.var[index] = ""
         else:
-            print "No delete matching found!!!"
+            self.info_label.config(text="刪除失敗QQ")
                     
-
                 
     def initVar(self):
         self.root = tkinter.Tk()
@@ -141,33 +141,34 @@ class GUI:
     #            self.current_state.append(sweety_dict[item])
     #            self.updateTable([time, item])
 
-    def updateTable(self, time):
-        #time[0] = time, time[0][1] = class time, time[0][0] = weekdays
-        #time[1] = course name
-        index = "%i,%i" % (int(time[0][1]), (int(ord(time[0][0])-65)))
-        value = time[1]
-        self.var[index] = time[1]
+    def updateTable(self):
+        self.clearVar()
+        for c in self.nextState.taken:
+            for t in c.time:
+                index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
+                self.var[index] = c.name
+        self.infoUpdate("show courses not in table")
+    
+    def checkLogin(self):
+        if self.bi_show == []:
+            self.info_label.config(text="請先登入！")    
         
     def loadMethod(self):
+        self.checkLogin()
         sweety_dict = readSweetyCsv()
         course_info = sweety_dict[(self.loadC_field.get(), self.loadT_field.get())][0]
         course_info[6:] = map(int, course_info[6:])
         course = Course.Course(self.loadC_field.get(), self.loadT_field.get(), course_info[3], \
                         course_info[0], course_info[6:], course_info[2])
-        #print self.loadC_field.get(), self.loadT_field.get(), course_info[3], course_info[0],\
-        #      course_info[6:], course_info[2]
         if self.nextState.canTake(course):
             self.nextState.generateSuccessor(course)
             print "Course %s loaded" % self.loadC_field.get()
-            for c in self.nextState.taken:
-                for t in c.time:
-                    index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
-                    self.var[index] = c.name
+            self.updateTable()
         else: 
-            print "fuck me!"
-        
+            self.info_label.config(text="帶入課程有誤") 
 
     def searchMethod(self):
+        self.checkLogin()
         self.credit_limit = self.credit_scale.get()
         self.nextState = copy.deepcopy(self.InitialState)
         self.clearVar()
@@ -186,15 +187,24 @@ class GUI:
             else:
                 courseCount += 1
                 self.nextState = trialState
-        for c in self.nextState.taken:
-            for t in c.time:
-                index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
-                self.var[index] = c.name
+        self.updateTable()
         print "Loading =",self.nextState.loading, "while loading_limit =",self.nextState.loading_limit
         print "nextState:"
         for c in self.nextState.taken:
             print c
         
+    def infoUpdate(self, cmd):
+        if cmd == "show courses not in table":
+            table_classes = []
+            for y in range(0, 15):
+                for x in range(0, 6):
+                    if self.var["%i,%i" % (y,x)] != "":
+                        table_classes.append(self.var["%i,%i" % (y,x)].encode('utf-8'))
+            taken_classes = []
+            for c in self.nextState.taken:
+                taken_classes.append(c.name)
+            info_classes = [_class for _class in taken_classes if _class not in table_classes]
+            self.info_label.config(text="\n".join(info_classes))
 
     def updateScore(self):
         if (self.credit_scale.get()-self.total_score) >= 0:
@@ -238,7 +248,30 @@ class GUI:
                     flag=1
             if flag!=1:
                 print "!!! Can't find:",taken
-    
+
+    def prevStep(self):
+        if len(self.lastStates) > 0:
+            if self.nextState not in self.lastStates:
+                tmp = copy.deepcopy(self.nextState)
+                self.nextState = self.lastStates[-1]
+                self.lastStates.append(tmp)
+            else:
+                self.nextState = self.lastStates[(self.lastStates.index(self.nextState)) - 1]
+            self.updateTable()
+        else:
+            self.info_label.config(text="請先登入！")
+
+    def nextStep(self):
+        if len(self.lastStates) >0:
+            if self.nextState == self.lastStates[-1]:
+                self.info_label.config(text="無法下一步囉 嫩！")
+            else:
+                self.nextState = self.lastStates[(self.lastStates.index(self.nextState)) + 1]
+                self.updateTable()
+        else:
+            self.info_label.config(text="請先登入！")
+
+
     def createTable(self):
         self.user_label = tkinter.Label(self.root, text="帳號：")
         self.user_label.grid(row=0, column=0)
@@ -307,12 +340,21 @@ class GUI:
         self.search_button = tkinter.Button(self.root, text="搜尋最佳課程", command=self.searchMethod)
         self.search_button["width"] = 20
         self.search_button.grid(row=7, column=2, columnspan=3)
+
+        self.nextstep_button = tkinter.Button(self.root, text="下一步", command=self.nextStep)
+        self.nextstep_button.grid(row=8, column=4)
+
+        self.prevstep_button = tkinter.Button(self.root, text="上一步", command=self.prevStep)
+        self.prevstep_button.grid(row=8, column=3)
+
+        self.info_label = tkinter.Label(self.root, text="請登入")
+        self.info_label.grid(row=8, column=0, columnspan=3)
         
         self.login_button = tkinter.Button(self.root, text="登入", command=self.loginMethod)
-        self.login_button.grid(row=8, column=1)
+        self.login_button.grid(row=10, column=1)
     
         self.quit_button = tkinter.Button(self.root, text="離開", command=self.root.destroy)
-        self.quit_button.grid(row=8, column=3)
+        self.quit_button.grid(row=10, column=3)
     
 
         self.test = Table(self.root,

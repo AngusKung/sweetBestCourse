@@ -25,11 +25,41 @@ class GUI:
         self.nextState = State.State()    
         self.lastStates = []
         self.total_score = 1
+    
     def test_cmd(self, event):
         if event.i == 0:
             return '%i, %i' % (event.r, event.c)
         else:
             return 'set'
+    
+    def initVar(self):
+        self.root = tkinter.Tk()
+        self.var = ArrayVar(self.root)
+        for y in range(-1, 15):
+            index = "%i,%i" % (y, -1)
+            self.var[index] = index
+            if y == -1:
+                self.var[index] = ""
+            elif 0 <= y <= 10:
+                self.var[index] = y
+            else:
+                self.var[index] = chr(54+y)
+        for x in range(-1,6):
+            index = "%i,%i" % (-1, x)
+            self.var[index] = index
+            if x == -1:  self.var[index] = ""
+            elif x == 0: self.var[index] = "ㄧ"
+            elif x == 1: self.var[index] = "二"
+            elif x == 2: self.var[index] = "三"
+            elif x == 3: self.var[index] = "四"
+            elif x == 4: self.var[index] = "五"
+            elif x == 5: self.var[index] = "六"
+
+    def clearVar(self):
+        for x in range(0, 6):
+            for y in range(0, 15):
+                index = "%i,%i" % (y, x)
+                self.var[index] = ""
 
     def browsecmd(self, event):
         self.test.bind("<BackSpace>", self.delete)
@@ -41,12 +71,14 @@ class GUI:
         course_name = self.var[index].encode('utf-8')
         for c in self.nextState.taken:
             if c.name == course_name:
-                menu.add_command(label="教師: %f" % c.teacher)
+                menu.add_command(label="教師: %s" % c.teacher)
                 menu.add_command(label="平均GPA: %.2f / 4.3" % c.GPA)
                 menu.add_command(label="課程重度: %.2f / 10.00" % c.class_load)
                 menu.add_command(label="老師重度: %.2f / 10.00" % c.teacher_load)
                 menu.add_command(label="課程星數: %.2f / 5.00" % c.class_stars)
-                menu.add_command(label="老師星數: %.2f / 5.00" % c.teacher_stars)     
+                menu.add_command(label="老師星數: %.2f / 5.00" % c.teacher_stars)  
+                menu.add_command(label="課程推薦: %.2f / 5.00" % c.class_recc)
+                menu.add_command(label="老師推薦: %.2f / 5.00" % c.teacher_recc)            
         menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))
         
     def delete(self, event):
@@ -183,6 +215,43 @@ class GUI:
             if flag!=1:
                 print "!!! Can't find:",taken
 
+    def updateTable(self):
+        self.clearVar()
+        for c in self.nextState.taken:
+            for t in c.time:
+                index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
+                self.var[index] = c.name
+        self.infoUpdate("show courses not in table")
+    
+    def checkLogin(self):
+        if self.bi_show == []:
+            self.info_label.config(text="請先登入！")
+    
+    def updateCredit(self, value):
+        self.updateScore()
+
+    def prevStep(self):
+        if len(self.lastStates) > 0:
+            if self.nextState not in self.lastStates:
+                tmp = copy.deepcopy(self.nextState)
+                self.nextState = self.lastStates[-1]
+                self.lastStates.append(tmp)
+            else:
+                self.nextState = self.lastStates[(self.lastStates.index(self.nextState)) - 1]
+            self.updateTable()
+        else:
+            self.info_label.config(text="請先登入！")
+
+    def nextStep(self):
+        if len(self.lastStates) >0:
+            if self.nextState == self.lastStates[-1]:
+                self.info_label.config(text="無法下一步囉 嫩！")
+            else:
+                self.nextState = self.lastStates[(self.lastStates.index(self.nextState)) + 1]
+                self.updateTable()
+        else:
+            self.info_label.config(text="請先登入！")
+
     def createTable(self):
         self.user_label = tkinter.Label(self.root, text="帳號：")
         self.user_label.grid(row=0, column=0)
@@ -313,43 +382,6 @@ class GUI:
                 self.tonsh_spin.config(to=self.tonsh_spin.get())
                 self.sport_spin.config(to=self.sport_spin.get())
             self.score_label.config(text="能力點數：%i" % (self.credit_scale.get()-self.total_score))
-    
-    def updateTable(self):
-        self.clearVar()
-        for c in self.nextState.taken:
-            for t in c.time:
-                index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
-                self.var[index] = c.name
-        self.infoUpdate("show courses not in table")
-    
-    def checkLogin(self):
-        if self.bi_show == []:
-            self.info_label.config(text="請先登入！")
-    
-    def updateCredit(self, value):
-        self.updateScore()
-
-    def prevStep(self):
-        if len(self.lastStates) > 0:
-            if self.nextState not in self.lastStates:
-                tmp = copy.deepcopy(self.nextState)
-                self.nextState = self.lastStates[-1]
-                self.lastStates.append(tmp)
-            else:
-                self.nextState = self.lastStates[(self.lastStates.index(self.nextState)) - 1]
-            self.updateTable()
-        else:
-            self.info_label.config(text="請先登入！")
-
-    def nextStep(self):
-        if len(self.lastStates) >0:
-            if self.nextState == self.lastStates[-1]:
-                self.info_label.config(text="無法下一步囉 嫩！")
-            else:
-                self.nextState = self.lastStates[(self.lastStates.index(self.nextState)) + 1]
-                self.updateTable()
-        else:
-            self.info_label.config(text="請先登入！")
 
 
 gui = GUI()

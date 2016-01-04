@@ -241,4 +241,20 @@ class State:
       real_options.append(temp_option)
     self.distrib[1] = real_options
 
-
+  def deleteCourse(self, course_name):
+    for c in self.taken:
+      if c.name == course_name:
+        self.taken.remove(c)
+        self.credit -= c.credit
+        if c in self.depart_courses:
+          self.depart_courses.remove(c)
+        if c in self.non_depart_courses:
+          self.non_depart_courses.remove(c)
+        if c in self.general_courses:
+          self.general_courses.remove(c)
+        if c in self.PE_courses:
+          self.PE_courses.remove(c)
+        self.loading -= c.class_load
+        return True
+    return False
+    

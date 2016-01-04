@@ -57,7 +57,10 @@ class GUI:
     def delete(self, event):
         index = self.test.index('active')
         course_name = self.var[index].encode('utf-8')
-        if self.nextState.deleteCourse(course_name):
+        trialState = self.nextState.deleteCourse(course_name)
+        if not trialState:
+            self.lastStates.append(self.nextState)
+            self.nextState = copy.deepcopy(trialState)
             for x in range(0,6):
                 for y in range(0,15):
                     index = "%i,%i" % (y, x)
@@ -115,7 +118,7 @@ class GUI:
         self.InitialState.setCategorizedCourses(self.depart_courses,self.non_depart_courses,self.general_courses,self.PE_courses)
         del self.depart_courses, self.non_depart_courses, self.general_courses, self.PE_courses, self.courses
         # --- deal with personal toGraduate ---
-        self.toGraduate = [0]#必修
+        self.toGraduate = [[b for b in self.bi_show if b not in self.takenCourses]]
         self.toGraduate.append(toGraduate_unorderd[4:])
         self.toGraduate.append(toGraduate_unorderd[0][0])#系上選修
         self.toGraduate.append(toGraduate_unorderd[1][0])

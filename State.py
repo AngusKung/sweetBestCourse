@@ -41,7 +41,7 @@ class State:
       for day in dayList:
         for i in range(0,15):
           self.free.add(day+str(i))
-      self.distrib = [0,[0],0,0,0,0]
+      self.distrib = [[],[0],0,0,0,0]
       self.rule_out = set()
       self.personDepart = "None"
       self.depart_courses = self.non_depart_courses = self.general_courses = self.PE_courses = []
@@ -112,8 +112,11 @@ class State:
   def greedySearch( self ):
     toSelect = []
     result_state = None
-    # - TO DO -
-    #必修
+    #必修 ,always first
+    result = self.maxBishow(self.distrib[0])
+    if result:
+      result_state = self.generateSuccessor(result[1])
+      return result_state
     #[複選必修]
     result1 = self.maxFushuanBishow(self.distrib[1])
     print "複選必修:"
@@ -189,6 +192,11 @@ class State:
       result_state = self.generateSuccessor(course)
       return result_state
 
+  def maxBishow( self, selectList ):
+    if not self.distrib[0]:
+      return None
+    return self.maxScore(selectList,10)
+
   def maxFushuanBishow( self, selectList ):
     if not self.distrib[1]:
       return None
@@ -228,7 +236,6 @@ class State:
 
   def transformID( self ):
     options = [selection[1:] for selection in self.distrib[1]]
-    print options
     real_options = []
     for opt in options:
       temp_option = []
@@ -240,21 +247,34 @@ class State:
             break
       real_options.append(temp_option)
     self.distrib[1] = real_options
+    temp = []
+    print "Bi show:"
+    for ID in self.distrib[0]:
+      for course in self.depart_courses:
+        if course.ID == ID:
+          print course
+          temp.append(course)
+          self.depart_courses.remove(course)
+    self.distrib[0] = temp
 
-  def deleteCourse(self, course_name):
+
+  def deleteCourse(self, course):
     for c in self.taken:
       if c.name == course_name:
-        self.taken.remove(c)
-        self.credit -= c.credit
-        if c in self.depart_courses:
-          self.depart_courses.remove(c)
-        if c in self.non_depart_courses:
-          self.non_depart_courses.remove(c)
-        if c in self.general_courses:
-          self.general_courses.remove(c)
-        if c in self.PE_courses:
-          self.PE_courses.remove(c)
-        self.loading -= c.class_load
-        return True
-    return False
+        state = State(self)
+        for time in course.getTime():
+          state.free.add(time)
+        state.taken.remove(c)
+        state.credit -= c.credit
+        state.loading -= c.class_load
+        if c in state.depart_courses:
+          state.depart_courses.remove(c)
+        if c in state.non_depart_courses:
+          state.non_depart_courses.remove(c)
+        if c in state.general_courses:
+          state.general_courses.remove(c)
+        if c in state.PE_courses:
+          state.PE_courses.remove(c)
+        return state
+    return None
     

@@ -30,7 +30,7 @@ def Initial(user, grade):
             if not len(items) == 7:
                 continue
             if items[4].text=='': 
-                bi_show.append(items[1].text)
+                bi_show.append(items[0].text.split(' ')[0])
             else:
             	fu_shuan_bi_show.append(items[1].text)
         grade_int -= 1

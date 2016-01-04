@@ -59,8 +59,8 @@ class GUI:
         course_name = self.var[index].encode('utf-8')
         trialState = self.nextState.deleteCourse(course_name)
         if not trialState:
-            self.lastStates.append(self.nextState)
-            self.nextState = copy.deepcopy(trialState)
+            self.lastStates.append(copy.deepcopy(self.nextState))
+            self.nextState = trialState
             for x in range(0,6):
                 for y in range(0,15):
                     index = "%i,%i" % (y, x)
@@ -174,7 +174,7 @@ class GUI:
         self.nextState.setLoadingLimit(self.load_scale.get())
         courseCount = 0
         while(self.nextState.credit <= self.credit_limit):
-            self.lastStates.append(self.nextState)
+            self.lastStates.append(copy.deepcopy(self.nextState))
             trialState = self.nextState.greedySearch()
             if not trialState:
                 print "Fininshed optimzed greedy!"

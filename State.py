@@ -258,11 +258,12 @@ class State:
     self.distrib[0] = temp
 
 
-  def deleteCourse(self, course):
+  def deleteCourse(self, course_name):
     for c in self.taken:
       if c.name == course_name:
+        print "Delete:",course_name
         state = State(self)
-        for time in course.getTime():
+        for time in c.getTime():
           state.free.add(time)
         state.taken.remove(c)
         state.credit -= c.credit

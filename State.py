@@ -236,6 +236,7 @@ class State:
         for course in self.depart_courses:
           if course.ID == ID:
             temp_option.append(course)
+            self.depart_courses.remove(course)
             break
       real_options.append(temp_option)
     self.distrib[1] = real_options

@@ -23,8 +23,7 @@ class GUI:
         self.EmptyState = State.State()
         self.InitialState = State.State()
         self.nextState = State.State()
-        self.total_score = 1
-        
+        self.total_score = 1        
     def test_cmd(self, event):
         if event.i == 0:
             return '%i, %i' % (event.r, event.c)
@@ -140,6 +139,10 @@ class GUI:
         if self.nextState.canTake(course):
             self.nextState.generateSuccessor(course)
             print "Course %s loaded" % self.loadC_field.get()
+            for c in self.nextState.taken:
+                for t in c.time:
+                    index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
+                    self.var[index] = c.name
         else: 
             print "fuck me!"
         

@@ -70,35 +70,6 @@ class GUI:
         else:
             self.info_label.config(text="刪除失敗QQ")
                     
-                
-    def initVar(self):
-        self.root = tkinter.Tk()
-        self.var = ArrayVar(self.root)
-        for y in range(-1, 15):
-            index = "%i,%i" % (y, -1)
-            self.var[index] = index
-            if y == -1:
-                self.var[index] = ""
-            elif 0 <= y <= 10:
-                self.var[index] = y
-            else:
-                self.var[index] = chr(54+y)
-        for x in range(-1,6):
-            index = "%i,%i" % (-1, x)
-            self.var[index] = index
-            if x == -1:  self.var[index] = ""
-            elif x == 0: self.var[index] = "ㄧ"
-            elif x == 1: self.var[index] = "二"
-            elif x == 2: self.var[index] = "三"
-            elif x == 3: self.var[index] = "四"
-            elif x == 4: self.var[index] = "五"
-            elif x == 5: self.var[index] = "六"
-
-    def clearVar(self):
-        for y in range(0, 15):
-            for x in range(0, 6):
-                index = "%i,%i" % (y, x)
-                self.var[index] = ""
            
     def loginMethod(self):
         print "Logging..."
@@ -139,19 +110,7 @@ class GUI:
     #    for item in bi_show:
     #        for time in sweety_dict[item][0][4].split(" ")[ :-1]:
     #            self.current_state.append(sweety_dict[item])
-    #            self.updateTable([time, item])
-
-    def updateTable(self):
-        self.clearVar()
-        for c in self.nextState.taken:
-            for t in c.time:
-                index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
-                self.var[index] = c.name
-        self.infoUpdate("show courses not in table")
-    
-    def checkLogin(self):
-        if self.bi_show == []:
-            self.info_label.config(text="請先登入！")    
+    #            self.updateTable([time, item])    
         
     def loadMethod(self):
         self.checkLogin()
@@ -206,25 +165,6 @@ class GUI:
             info_classes = [_class for _class in taken_classes if _class not in table_classes]
             self.info_label.config(text="\n".join(info_classes))
 
-    def updateScore(self):
-        if (self.credit_scale.get()-self.total_score) >= 0:
-            self.total_score = int(self.shibi_spin.get()) + int(self.shish_spin.get()) + \
-                               int(self.shush_spin.get()) + int(self.tonsh_spin.get()) + int(self.sport_spin.get())
-            self.shibi_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            self.shish_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            self.shush_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            self.tonsh_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            self.sport_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            if self.total_score >= self.credit_scale.get():
-                self.shibi_spin.config(to=self.shibi_spin.get())
-                self.shish_spin.config(to=self.shish_spin.get())
-                self.shush_spin.config(to=self.shush_spin.get())
-                self.tonsh_spin.config(to=self.tonsh_spin.get())
-                self.sport_spin.config(to=self.sport_spin.get())
-            self.score_label.config(text="能力點數：%i" % (self.credit_scale.get()-self.total_score))
-   
-    def updateCredit(self, value):
-        self.updateScore()
 
     def ruleOutTaken(self,exceptions):
         flag=0
@@ -362,6 +302,38 @@ class GUI:
         self.test.tag_configure('active', background='blue')
         self.test.tag_configure('title', anchor='w', bg='red', relief='sunken')
         self.root.mainloop()
+
+    def updateScore(self):
+        if (self.credit_scale.get()-self.total_score) >= 0:
+            self.total_score = int(self.shibi_spin.get()) + int(self.shish_spin.get()) + \
+                               int(self.shush_spin.get()) + int(self.tonsh_spin.get()) + int(self.sport_spin.get())
+            self.shibi_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            self.shish_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            self.shush_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            self.tonsh_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            self.sport_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            if self.total_score >= self.credit_scale.get():
+                self.shibi_spin.config(to=self.shibi_spin.get())
+                self.shish_spin.config(to=self.shish_spin.get())
+                self.shush_spin.config(to=self.shush_spin.get())
+                self.tonsh_spin.config(to=self.tonsh_spin.get())
+                self.sport_spin.config(to=self.sport_spin.get())
+            self.score_label.config(text="能力點數：%i" % (self.credit_scale.get()-self.total_score))
+    
+    def updateTable(self):
+        self.clearVar()
+        for c in self.nextState.taken:
+            for t in c.time:
+                index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
+                self.var[index] = c.name
+        self.infoUpdate("show courses not in table")
+    
+    def checkLogin(self):
+        if self.bi_show == []:
+            self.info_label.config(text="請先登入！")
+    
+    def updateCredit(self, value):
+        self.updateScore()
 
     def prevStep(self):
         if len(self.lastStates) > 0:

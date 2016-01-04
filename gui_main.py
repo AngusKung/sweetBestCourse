@@ -34,13 +34,7 @@ class GUI:
     def browsecmd(self, event):
         self.test.bind("<BackSpace>", self.delete)
         self.test.bind("<Return>", self.display)
-        #print("event:", event.__dict__)
-        #print("curselection:", self.test.curselection())
-        #print("active cell index:", self.test.index('active'))
-        #print("active:", self.test.index('active', 'row'))
-        #print("anchor:", self.test.index('anchor', 'row'))
         
-
     def display(self, event):
         menu = tkinter.Menu(self.root, tearoff=0)
         index = self.test.index('active')

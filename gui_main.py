@@ -249,29 +249,6 @@ class GUI:
             if flag!=1:
                 print "!!! Can't find:",taken
 
-    def prevStep(self):
-        if len(self.lastStates) > 0:
-            if self.nextState not in self.lastStates:
-                tmp = copy.deepcopy(self.nextState)
-                self.nextState = self.lastStates[-1]
-                self.lastStates.append(tmp)
-            else:
-                self.nextState = self.lastStates[(self.lastStates.index(self.nextState)) - 1]
-            self.updateTable()
-        else:
-            self.info_label.config(text="請先登入！")
-
-    def nextStep(self):
-        if len(self.lastStates) >0:
-            if self.nextState == self.lastStates[-1]:
-                self.info_label.config(text="無法下一步囉 嫩！")
-            else:
-                self.nextState = self.lastStates[(self.lastStates.index(self.nextState)) + 1]
-                self.updateTable()
-        else:
-            self.info_label.config(text="請先登入！")
-
-
     def createTable(self):
         self.user_label = tkinter.Label(self.root, text="帳號：")
         self.user_label.grid(row=0, column=0)
@@ -385,6 +362,29 @@ class GUI:
         self.test.tag_configure('active', background='blue')
         self.test.tag_configure('title', anchor='w', bg='red', relief='sunken')
         self.root.mainloop()
+
+    def prevStep(self):
+        if len(self.lastStates) > 0:
+            if self.nextState not in self.lastStates:
+                tmp = copy.deepcopy(self.nextState)
+                self.nextState = self.lastStates[-1]
+                self.lastStates.append(tmp)
+            else:
+                self.nextState = self.lastStates[(self.lastStates.index(self.nextState)) - 1]
+            self.updateTable()
+        else:
+            self.info_label.config(text="請先登入！")
+
+    def nextStep(self):
+        if len(self.lastStates) >0:
+            if self.nextState == self.lastStates[-1]:
+                self.info_label.config(text="無法下一步囉 嫩！")
+            else:
+                self.nextState = self.lastStates[(self.lastStates.index(self.nextState)) + 1]
+                self.updateTable()
+        else:
+            self.info_label.config(text="請先登入！")
+
 
 gui = GUI()
 gui.initVar()

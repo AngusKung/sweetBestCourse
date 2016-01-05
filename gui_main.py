@@ -77,8 +77,8 @@ class GUI:
                 menu.add_command(label="老師重度: %.2f / 10.00" % c.teacher_load)
                 menu.add_command(label="課程星數: %.2f / 5.00" % c.class_stars)
                 menu.add_command(label="老師星數: %.2f / 5.00" % c.teacher_stars)  
-                menu.add_command(label="課程推薦: %.2f / 5.00" % c.class_recc)
-                menu.add_command(label="老師推薦: %.2f / 5.00" % c.teacher_recc)            
+                menu.add_command(label="課程推薦: %.4s / 5.00" % c.class_recc)
+                menu.add_command(label="老師推薦: %.4s / 5.00" % c.teacher_recc)            
         menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))
         
     def delete(self, event):
@@ -98,7 +98,7 @@ class GUI:
                     
            
     def loginMethod(self):
-        print "Logging..."
+        self.info_label.config(text="登入中...")
         self.bi_show, self.fu_shuan_bi_show = Initial(self.user_field.get(), self.grade_field.get())
         self.takenCourses,toGraduate_unorderd = Login(self.user_field.get(), self.pswd_field.get())
         self.InitialState.setPersonDepart("EE")
@@ -125,7 +125,8 @@ class GUI:
         self.InitialState.setPersonDistrib(self.toGraduate)
         self.InitialState.transformID()
         self.nextState = copy.deepcopy(self.InitialState)
-        self.nextState.setLoadingLimit(self.load_scale.get()) 
+        self.nextState.setLoadingLimit(self.load_scale.get())
+        self.info_label.config(text="登入完成！")
         #print self.toGraduate
         #self.bi_show.append(self.fu_shuan_bi_show[0])通識
         #self.to_show = [course for course in self.bi_show if course not in self.takenCourses]

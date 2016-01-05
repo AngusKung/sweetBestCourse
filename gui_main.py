@@ -47,7 +47,8 @@ class GUI:
         course_name = self.var[index].encode('utf-8')
         for c in self.nextState.taken:
             if c.name == course_name:
-                menu.add_command(label="教師: %f" % c.teacher)
+                menu.add_command(label="教師: %s" % c.teacher)
+                menu.add_command(label="課號: %s" % c.ID)
                 menu.add_command(label="平均GPA: %.2f / 4.3" % c.GPA)
                 menu.add_command(label="課程重度: %.2f / 10.00" % c.class_load)
                 menu.add_command(label="老師重度: %.2f / 10.00" % c.teacher_load)
@@ -172,7 +173,9 @@ class GUI:
         self.credit_limit = self.credit_scale.get()
         self.nextState = copy.deepcopy(self.InitialState)
         self.clearVar()
-        self.nextState.setLoadingLimit(self.load_scale.get())
+        self.nextState.setLoadingLimit((self.load_scale.get()+5)*self.credit_scale.get())
+        self.nextState.setSweetW(self.sweet_scale.get())
+        self.nextState.setLoadW(self.load_scale.get())
         courseCount = 0
         while(self.nextState.credit <= self.credit_limit):
             self.lastStates.append(copy.deepcopy(self.nextState))
@@ -192,6 +195,7 @@ class GUI:
         print "nextState:"
         for c in self.nextState.taken:
             print c
+        print self.nextState.sweetW
         
     def infoUpdate(self, cmd):
         if cmd == "show courses not in table":
@@ -227,8 +231,8 @@ class GUI:
         self.updateScore()
 
     def ruleOutTaken(self,exceptions):
-        flag=0
         for taken in self.takenCourses:
+            flag=0
             if taken in exceptions: #add exceptions here
                 continue
             for c in self.courses:
@@ -324,12 +328,12 @@ class GUI:
         self.sport_spin  = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
         self.sport_spin.grid(row=5, column=4)
         
-        self.sweet_scale  = tkinter.Scale(self.root, label="甜度", from_=5, to=0)
+        self.sweet_scale  = tkinter.Scale(self.root, label="甜度", from_=5, to=-5)
         self.sweet_scale.grid(row=6, column = 0)
         self.sweet_scale.set(5)
-        self.load_scale   = tkinter.Scale(self.root, label="重度", from_=310, to=0, variable=5)
+        self.load_scale   = tkinter.Scale(self.root, label="重度", from_=5, to=-5)
         self.load_scale.grid(row=6, column = 1)
-        self.load_scale.set(125)
+        self.load_scale.set(3)
         self.credit_scale = tkinter.Scale(self.root, label="學分", from_=31, to=0, command=self.updateCredit)
         self.credit_scale.grid(row=6, column = 4)
         self.credit_scale.set(25)

@@ -126,7 +126,21 @@ class GUI:
         self.InitialState.setPersonDistrib(self.toGraduate)
         self.InitialState.transformID()
         self.nextState = copy.deepcopy(self.InitialState)
-        self.nextState.setLoadingLimit(self.load_scale.get()) 
+        self.nextState.setLoadingLimit(self.load_scale.get())
+        #---set value in display---
+        self.shibi_spin.delete(0)
+        self.shibi_spin.insert(0,len(self.toGraduate[0])+len(self.toGraduate[1]))
+        self.shish_spin.delete(0)
+        self.shish_spin.insert(0,self.toGraduate[2])
+        self.shush_spin.delete(0)
+        self.shush_spin.insert(0,self.toGraduate[3])
+        self.tonsh_spin.delete(0)
+        self.tonsh_spin.insert(0,self.toGraduate[4])
+        self.sport_spin.delete(0)
+        self.sport_spin.insert(0,self.toGraduate[5]) 
+        self.sweet_scale.set(5)
+        self.load_scale.set(3)
+        self.credit_scale.set(25)
         #print self.toGraduate
         #self.bi_show.append(self.fu_shuan_bi_show[0])通識
         #self.to_show = [course for course in self.bi_show if course not in self.takenCourses]
@@ -273,69 +287,67 @@ class GUI:
         self.grade_field.grid(row=2, column=1, columnspan=3)
 
         self.loadC_label = tkinter.Label(self.root, text="帶入課號：")
-        self.loadC_label.grid(row=3, column=0)
+        self.loadC_label.grid(row=4, column=0)
         self.loadC_field = tkinter.Entry(self.root, width=10)
-        self.loadC_field.grid(row=3, column=1)
+        self.loadC_field.grid(row=4, column=1)
         self.loadT_label = tkinter.Label(self.root, text="教師：")
-        self.loadT_label.grid(row=3, column=2)
+        self.loadT_label.grid(row=4, column=2)
         self.loadT_field = tkinter.Entry(self.root, width=6)
-        self.loadT_field.grid(row=3, column=3)
+        self.loadT_field.grid(row=4, column=3)
         self.load_button = tkinter.Button(self.root, text="帶入", command=self.loadMethod)
-        self.load_button.grid(row=3, column=4)
+        self.load_button.grid(row=4, column=4)
 
         self.shibi_label = tkinter.Label(self.root, text="系必")
-        self.shibi_label.grid(row=4, column=0)
+        self.shibi_label.grid(row=5, column=0)
         self.shibi_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
-        self.shibi_spin.grid(row=5, column=0)
+        self.shibi_spin.grid(row=6, column=0)
 
         self.shish_label = tkinter.Label(self.root, text="系選")
-        self.shish_label.grid(row=4, column=1)
+        self.shish_label.grid(row=5, column=1)
         self.shish_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
-        self.shish_spin.grid(row=5, column=1)
+        self.shish_spin.grid(row=6, column=1)
 
         self.shush_label = tkinter.Label(self.root, text="選修")
-        self.shush_label.grid(row=4, column=2)
+        self.shush_label.grid(row=5, column=2)
         self.shush_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
-        self.shush_spin.grid(row=5, column=2)
+        self.shush_spin.grid(row=6, column=2)
 
         self.tonsh_label = tkinter.Label(self.root, text="通識")
-        self.tonsh_label.grid(row=4, column=3)
+        self.tonsh_label.grid(row=5, column=3)
         self.tonsh_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
-        self.tonsh_spin.grid(row=5, column=3)
+        self.tonsh_spin.grid(row=6, column=3)
 
         self.sport_label = tkinter.Label(self.root, text="體育")
-        self.sport_label.grid(row=4, column=4)
+        self.sport_label.grid(row=5, column=4)
         self.sport_spin  = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
-        self.sport_spin.grid(row=5, column=4)
+        self.sport_spin.grid(row=6, column=4)
         
         self.sweet_scale  = tkinter.Scale(self.root, label="甜度", from_=5, to=-5)
-        self.sweet_scale.grid(row=6, column = 0)
-        self.sweet_scale.set(5)
+        self.sweet_scale.grid(row=7, column = 0)
         self.load_scale   = tkinter.Scale(self.root, label="重度", from_=5, to=-5)
-        self.load_scale.grid(row=6, column = 1)
-        self.load_scale.set(3)
+        self.load_scale.grid(row=7, column = 1)
         self.credit_scale = tkinter.Scale(self.root, label="學分", from_=31, to=0, command=self.updateCredit)
-        self.credit_scale.grid(row=6, column = 4)
-        self.credit_scale.set(25)
+        self.credit_scale.grid(row=7, column = 4)
 
-        self.score_label = tkinter.Label(self.root, text="能力點數：%i" % (self.credit_scale.get()+1-self.total_score))
-        self.score_label.grid(row=7, column=0, columnspan=2)
+
+        #self.score_label = tkinter.Label(self.root, text="能力點數：%i" % (self.credit_scale.get()+1-self.total_score))
+        #self.score_label.grid(row=8, column=0, columnspan=2)
         
         self.search_button = tkinter.Button(self.root, text="搜尋最佳課程", command=self.searchMethod)
         self.search_button["width"] = 20
-        self.search_button.grid(row=7, column=2, columnspan=3)
+        self.search_button.grid(row=8, column=1, columnspan=3)
 
         self.nextstep_button = tkinter.Button(self.root, text="下一步", command=self.nextStep)
-        self.nextstep_button.grid(row=8, column=4)
+        self.nextstep_button.grid(row=9, column=4)
 
         self.prevstep_button = tkinter.Button(self.root, text="上一步", command=self.prevStep)
-        self.prevstep_button.grid(row=8, column=3)
+        self.prevstep_button.grid(row=9, column=3)
 
-        self.info_label = tkinter.Label(self.root, text="請登入")
-        self.info_label.grid(row=8, column=0, columnspan=3)
+        #self.info_label = tkinter.Label(self.root, text="請登入")
+        #self.info_label.grid(row=8, column=0, columnspan=3)
         
         self.login_button = tkinter.Button(self.root, text="登入", command=self.loginMethod)
-        self.login_button.grid(row=10, column=1)
+        self.login_button.grid(row=2, column=4)
     
         self.quit_button = tkinter.Button(self.root, text="離開", command=self.root.destroy)
         self.quit_button.grid(row=10, column=3)
@@ -385,7 +397,7 @@ class GUI:
                 self.shush_spin.config(to=self.shush_spin.get())
                 self.tonsh_spin.config(to=self.tonsh_spin.get())
                 self.sport_spin.config(to=self.sport_spin.get())
-            self.score_label.config(text="能力點數：%i" % (self.credit_scale.get()-self.total_score))
+            #self.score_label.config(text="能力點數：%i" % (self.credit_scale.get()-self.total_score))
 
 
 gui = GUI()

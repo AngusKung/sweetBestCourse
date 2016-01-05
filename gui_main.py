@@ -114,7 +114,7 @@ class GUI:
             else:
                 self.non_depart_courses.append(course)
         self.InitialState.setCategorizedCourses(self.depart_courses,self.non_depart_courses,self.general_courses,self.PE_courses)
-        del self.depart_courses, self.non_depart_courses, self.general_courses, self.PE_courses, self.courses
+        del self.depart_courses, self.non_depart_courses
         # --- deal with personal toGraduate ---
         self.toGraduate = [[b for b in self.bi_show if b not in self.takenCourses]]
         self.toGraduate.append(toGraduate_unorderd[4:])
@@ -128,19 +128,30 @@ class GUI:
         self.nextState = copy.deepcopy(self.InitialState)
         self.nextState.setLoadingLimit(self.load_scale.get())
         #---set value in display---
+        dis1 = len(self.toGraduate[0])+len(self.toGraduate[1])
+        dis2,dis3,dis4,dis5 = self.toGraduate[2],self.toGraduate[3],self.toGraduate[4],self.toGraduate[5]
+        print "toGraduate:",dis1,",",dis2,",",dis3,",",dis4,",",dis5
+        if (dis1+dis2+dis3+dis4+dis5) > 25:
+            ratio = (25-dis1)/float(dis2+dis3+dis4+dis5)#get a math.floor()
+            dis2 = int(ratio*dis2)
+            dis3 = int(ratio*dis3)
+            dis4 = int(ratio*dis4)
+            dis5 = int(ratio*dis5)
+        print "toGraduate:",dis1,",",dis2,",",dis3,",",dis4,",",dis5
         self.shibi_spin.delete(0)
-        self.shibi_spin.insert(0,len(self.toGraduate[0])+len(self.toGraduate[1]))
+        self.shibi_spin.insert(0,dis1)
         self.shish_spin.delete(0)
-        self.shish_spin.insert(0,self.toGraduate[2])
+        self.shish_spin.insert(0,dis2)
         self.shush_spin.delete(0)
-        self.shush_spin.insert(0,self.toGraduate[3])
+        self.shush_spin.insert(0,dis3)
         self.tonsh_spin.delete(0)
-        self.tonsh_spin.insert(0,self.toGraduate[4])
+        self.tonsh_spin.insert(0,dis4)
         self.sport_spin.delete(0)
-        self.sport_spin.insert(0,self.toGraduate[5]) 
+        self.sport_spin.insert(0,dis5) 
         self.sweet_scale.set(5)
         self.load_scale.set(3)
-        self.credit_scale.set(25)
+        self.credit_scale.set(dis1+dis2+dis3+dis4+dis5)
+        self.load_limit.set(self.credit_scale.get())
         self.info_label.config(text="登入完成！")
         #print self.toGraduate
         #self.bi_show.append(self.fu_shuan_bi_show[0])通識
@@ -173,9 +184,14 @@ class GUI:
         self.credit_limit = self.credit_scale.get()
         self.nextState = copy.deepcopy(self.InitialState)
         self.clearVar()
-        self.nextState.setLoadingLimit((self.load_scale.get()+5)*self.credit_scale.get())
         self.nextState.setSweetW(self.sweet_scale.get())
         self.nextState.setLoadW(self.load_scale.get())
+        dis1 = len(self.toGraduate[0])+len(self.toGraduate[1])
+        dis2,dis3,dis4,dis5 = int(self.shish_spin.get()), int(self.shush_spin.get()), int(self.tonsh_spin.get()), int(self.sport_spin.get())
+        self.nextState.setCustomDistrib(dis2,dis3,dis4,dis5)
+        if (dis1+dis2+dis3+dis4+dis5) != self.credit_scale.get():
+            self.credit_scale.set(dis1+dis2+dis3+dis4+dis5)
+        self.nextState.setLoadingLimit(self.load_limit.get()*10.0)
         courseCount = 0
         while(self.nextState.credit <= self.credit_limit):
             self.lastStates.append(copy.deepcopy(self.nextState))
@@ -183,16 +199,13 @@ class GUI:
             if not trialState:
                 print "Fininshed optimzed greedy!"
                 print courseCount,"courses added !!!"
-                print "Course taken:"
-                for t in self.nextState.taken:
-                    print t
                 break
             else:
                 courseCount += 1
                 self.nextState = trialState
         self.updateTable()
         print "Loading =",self.nextState.loading, "while loading_limit =",self.nextState.loading_limit
-        print "nextState:"
+        print "Course taken:"
         for c in self.nextState.taken:
             print c
         print self.nextState.sweetW
@@ -327,7 +340,9 @@ class GUI:
         self.sweet_scale.grid(row=7, column = 0)
         self.load_scale   = tkinter.Scale(self.root, label="重度", from_=5, to=-5)
         self.load_scale.grid(row=7, column = 1)
-        self.credit_scale = tkinter.Scale(self.root, label="學分", from_=31, to=0, command=self.updateCredit)
+        self.load_limit = tkinter.Scale(self.root, label="重度上限", from_=31, to=0, command=self.updateCredit)
+        self.load_limit.grid(row=7, column = 3)
+        self.credit_scale = tkinter.Scale(self.root, label="學分上限", from_=31, to=0, command=self.updateCredit)
         self.credit_scale.grid(row=7, column = 4)
 
 
@@ -339,19 +354,19 @@ class GUI:
         self.search_button.grid(row=8, column=1, columnspan=3)
 
         self.nextstep_button = tkinter.Button(self.root, text="下一步", command=self.nextStep)
-        self.nextstep_button.grid(row=9, column=4)
+        self.nextstep_button.grid(row=15, column=3)
 
         self.prevstep_button = tkinter.Button(self.root, text="上一步", command=self.prevStep)
-        self.prevstep_button.grid(row=9, column=3)
+        self.prevstep_button.grid(row=15, column=1)
 
-        #self.info_label = tkinter.Label(self.root, text="請登入")
-        #self.info_label.grid(row=8, column=0, columnspan=3)
+        self.info_label = tkinter.Label(self.root, text="請先登入")
+        self.info_label.grid(row=9, column=1, columnspan=3)
         
         self.login_button = tkinter.Button(self.root, text="登入", command=self.loginMethod)
         self.login_button.grid(row=2, column=4)
     
         self.quit_button = tkinter.Button(self.root, text="離開", command=self.root.destroy)
-        self.quit_button.grid(row=10, column=3)
+        self.quit_button.grid(row=16, column=4)
     
 
         self.test = Table(self.root,

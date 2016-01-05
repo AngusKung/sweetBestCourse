@@ -16,8 +16,8 @@ class Course:
     self.teacher_stars = None
     self.class_load = 5.0
     self.teacher_load = 5.0
-    self.class_recc = 2.5
-    self.teacher_recc = 2.5
+    self.class_recc = None
+    self.teacher_recc = None
     self.category = []
     if sum(self.sweet)==0:
       self.GPA = 3.66

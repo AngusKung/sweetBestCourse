@@ -3,6 +3,7 @@
 
 import Course
 import pdb
+import random
 from operator import itemgetter
 
 class State:
@@ -225,11 +226,21 @@ class State:
   def maxSelective( self, remain_credit):
     if remain_credit==0:
       return None
+    course = self.maxScore(self.non_depart_courses,remain_credit)
+    if course[1].class_recc != None and (course[1].class_recc - 2) > random.uniform(0,5):
+      self.non_depart_courses.remove(course[1])
+    if course[1].teacher_recc != None and (course[1].teacher_recc - 2) > random.uniform(0,5):
+      self.non_depart_courses.remove(course[1])
     return self.maxScore(self.non_depart_courses,remain_credit)
 
   def maxGeneral( self, remain_credit):
     if remain_credit==0:
       return None
+    course = self.maxScore(self.general_courses,remain_credit)
+    if course[1].class_recc != None and (course[1].class_recc - 2) > random.uniform(0,5):
+      self.general_courses.remove(course[1])
+    if course[1].teacher_recc != None and (course[1].teacher_recc - 2) > random.uniform(0,5):
+      self.general_courses.remove(course[1])
     return self.maxScore(self.general_courses,remain_credit)
 
   def maxPE( self,remain_credit):

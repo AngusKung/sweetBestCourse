@@ -1,0 +1,93 @@
+Title:[評價] 100-2 王慕道 相對論特論二 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者AmibaGelos (Amiba Gelos)看板NTUcourse標題[評價] 100-2 王慕道 相對論特論二時間Thu Aug 23 20:52:01 2012
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+         是
+
+      哪一學年度修課：
+         100-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+         王慕道
+
+      δ 課程大概內容
+         1. Global Nonlinear Stability of the Minkowsky Spacetime
+            (Christodoulou and Klainerman, 1993)
+
+         2. Nonlinear nature of Gravitation and Gravitational-wave experiments
+            (Christodoulou, 1991)  (又名Memory Effect)
+
+         3. The Formation of Black Holes in General Relativity
+            (Christodoulou, 2008)
+
+            3-a. Spherical Coordinate with Double Null Foliation Conformally
+                 Mapped to a Nonspherical Spacetime
+
+            3-b. Construction of Initial Data under Constraint Equation with
+                 Short time Existance and finite-time blow-up
+
+         4. Positive Mass Theorm
+            (Schoenm and Yau, 1979; Witten, 1981)
+
+         5. Energy Estimate of Gravitation
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+         ★★★★★  對重力學有興趣者
+         ★★★★★  對非線性PDE估計有興趣者
+         ★★★★    對現代數學物理有興趣者
+         ★★        其他人XD
+
+      η 上課用書(影印講義或是指定教科書)
+         沒有指定用書
+         所有上課內容皆參考Christodoulou的論文並以教授自己的語言重構
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+         比上學期稍慢的超高速板書
+         如果教授有事的話會請他的研究生(應該)代課,Memory Effect和Positive
+         Mass Theorem都是代課老師上的
+         代課老師上的課會明顯感覺到物理圖像減弱很多
+         另外教授會不定時邀請國外教授來台演講, 其中有一次便是Richard Hamilton
+         教授來上一堂Brief Introduction to Ricci Flow,另外一次則是有關Kerr
+         Spacetime Stability in linearized GR (很抱歉忘記教授的名字了)
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+         原本教授預定要學生輪流上台報告有關廣義相對論的研究
+         不過因為教授實在趕不完學期初預定要上的三篇論文(也就是1.2.3部分)
+         所以就放棄原訂計劃了(其實我到現在還是搞不清楚教授到底上完了沒有@@)
+         所以這堂課變成--沒考試,沒報告,沒作業--的課程
+         BTW,我這學期又拿到A了,應該算甜到要根管治療吧
+
+      ρ 考題型式、作業方式
+         無
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+         外系選修需要基礎大概就是上學期最後的Christodoulou's Black Hole Forma-
+         tion Theorem,再加上PDE Sol. Estimation的技巧吧
+         這也是為什麼我認為對Nonlinear PDE有興趣的人這堂課是5顆星,卻調降對現代
+         數學物理有興趣的人的評分(實在是太痛苦了)
+         老師個性極好,有問題當場發問當場回答,下課後問也可以立刻回答
+         一言以蔽之：
+         不點名,不叫人,無限加簽,無誠勿擾 :)
+
+      Ψ 總結
+         從這門課之後,又涼又甜又學得到東西的課再也不是空集合了!
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 118.166.116.128
+→ AmibaGelos:課程內容如果有誤請指證(我只是憑印象寫得Sorry) 08/23 20:53
+推 ijsfkira:傳說中的阿米巴耶! 08/23 21:08
+→ AmibaGelos:樓上很後悔沒修這堂課的宅蛙XD 08/23 21:29
+推 ijsfkira:早知道就繼續修二 不要修某門廢課...誰知道這比一還爽 囧 08/24 10:33
+→ AmibaGelos:看看那強而有力的考題型式、作業方式以及總結XD 08/24 11:00
+推 epikpi:重點是這評價短期內根本沒有參考價值吧！XD 08/26 01:35
+→ epikpi:教授之後還會來嗎？ 08/26 01:35
+推 ijsfkira:所以是阿米巴炫耀文XD(?) 08/26 10:10
+推 chiau623:下次就等阿米巴開囉 08/26 15:49
+→ AmibaGelos:對不起這其實是修到課的炫耀文(誤) 08/26 21:24
+推 dodophys:推神人學長 08/26 23:35
+
+

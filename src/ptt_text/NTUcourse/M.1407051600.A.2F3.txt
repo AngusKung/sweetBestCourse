@@ -1,0 +1,133 @@
+Title:[評價] 101-2 歐陽明 虛擬實境 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者Fred0329 (哲)看板NTUcourse標題[評價] 101-2 歐陽明 虛擬實境時間Sun Aug  3 15:39:57 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：
+
+      101-2
+
+      ψ 授課教師 
+
+      歐陽明
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+       網媒所/資工所/資工系選修
+
+      δ 課程大概內容
+
+      根據課程網
+
+      Part I: Virtual Reality
+      1. Look real, sound real, feel real, smell real, react realistically and in real-time
+      2. 3D Sound, directional sound
+      3. Environment Walkthrough, Distributed Interactive Simulation (DIS)
+      4. Tracking devices: space tracker, tracking algorithms
+      5. Immersive display: Head Mounted Display, BOOM, Stereo shutter glasses
+      6. Force Feedback Devices (Joystick, PHANToM etc.)
+      7. Trajectory prediction algorithms
+
+      Part II: Display and Visualization
+      1. Modeling (Solid modeling, build large models, physically based modeling, motion dynamics)
+      2. Global illumination algorithms( radiosity, volume rendering, scientific sualization)
+      3. Texture mapping and advanced animation
+      4. Graphics packages : OpenGL (X window, WinXP), DirectX(WinXP)
+
+      Part III: Hardware and accelerators
+      1. High performance graphics architectures
+      (Pixel-Planes, Pixel Machine, SGI reality engine, PC Graphics (nVidia, ATI), Accelerator Chips &amp; Cards)
+
+      Part IV:
+      Virtual reality paper survey and term project
+
+
+      Ω 私心推薦指數(以五分計) ★★★★
+η 上課用書(影印講義或是指定教科書)
+
+       根據課程網
+
+       Understanding Virtual Reality: Interface, Application, and Design (The Morgan Kaufmann Series in Computer Graphics), William Sherman, Alan Craig
+
+       但其實用不太到
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+      投影片上課，偶爾運用黑板說明。
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+      蠻甜的，但要拼A+每一次作業，考試都要拿蠻高的
+
+      ρ 考題型式、作業方式
+
+      一次作業，一次期中考，一次上台報告paper，一次期末project
+
+      [作業]
+
+      第一次作業針對一個寫好的package進行修改，製作出一段動畫（跳舞，打球...）
+
+      對於完全不會寫程式的人是有機會完成的，但分數自然不會太高。
+
+      若能對於package內的程式碼稍作了解，並作額外的修改，分數會比較高。
+
+      [期中考]
+
+      考試為openbook且，考試內容大多在投影片內，
+
+      因此只要稍微讀過一遍，
+
+      考試把頭影片的內容作詳細解釋，分數自然不會太差。
+
+      考試內容也包含一些有趣的考題，好比 畫 google glass。
+
+      考題中也有上課提到一點點的數學計算，但不會太難。
+
+      [報告paper]
+
+      從老師提供的期刊中，找出自己有興趣的paper，
+
+      上台報告10分鐘左右。
+
+      分數由同學之間互評，會選出前10名加分，因此要特別突出可能需要特別認真準備。
+
+      [期末project]
+
+      期末project主要根據課程，自己想出跟虛擬實境或擴增實境有關的題目。
+
+      有人做模擬參觀博物館啊，釣魚啊。 更有人做出機器人!!!
+
+      整體而言還蠻有趣的。
+
+      老師會希望有清楚的分工。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+      不太需要基礎，但要有完成final project的能力。
+
+      Ψ 總結
+
+      這門課其實還蠻平易近人的，當初修的時候還有點擔心。
+
+      但一來老師人很親切，助教也很和善。
+
+      對於同學的要求不會很高。
+
+      然而，對於想要追求很高深的數學，或是很複雜的應用，相對不適合。
+
+      （但想跟老師討論，老師都很歡迎）
+
+      蠻適合大三資工系，想要選loading不會那麼重卻又可以學到東西的同學作為選修。
+
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.25.105
+※ 文章網址: http://www.ptt.cc/bbs/NTUcourse/M.1407051600.A.2F3.html
+
+

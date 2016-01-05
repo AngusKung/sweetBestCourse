@@ -1,0 +1,276 @@
+Title:Fw: [評價] 102-2 吳安宇 數位系統設計 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者so15963 (榴槤)看板NTUcourse標題Fw: [評價] 102-2 吳安宇 數位系統設計時間Sun Jul  6 13:28:16 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是，但請另外通知作者
+
+
+      哪一學年度修課：
+
+         102-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         開課：吳安宇教授
+
+         授課：助教群講課 + 吳安宇教授補充
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關)
+
+         電機系選修
+
+      δ 課程大概內容
+
+         1.Course Overview, Digital System Design Introduction
+         2.Fundamentals of Hardware Description Language
+         3.Logic Design with Behavior Coding, Design Verification Tool
+         4.Testbench Writing, Synthesizable Coding of Verilog
+         5.Complexity Management, Improving Timing/Area/Power
+         6.Synthesis Overview and Tool Usage
+         --------------------------期中考--------------------------
+         7.Advanced Topics on Synthesis
+         8.Design Guideline: From Spec to Circuit
+         9.Memory Hierarchy
+         10.Pipelined Architecture of MIPS
+
+         簡而言之期中考前是在教寫verilog以及合成工具的使用；期末則是一些計算
+
+         機結構的內容
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+         內容：★★★★★
+
+         課程維護：?
+
+      η 上課用書(影印講義或是指定教科書)
+
+         無指定書籍，於ceiba上提供投影片，但有列參考用書
+
+         參考用書：
+
+         (ceiba上列的，應該是數位系統設計的書)
+         "Advanced Digital Design with the Verilog HDL," by M. D. Ciletti,
+         Prentice Hall, 2003.
+
+         (Main Verilog coding textbook)
+         "Verilog HDL: Digital design and modeling," Joseph Cavanagh,
+         CRC Press, 2007.
+
+         (Reference CPU textbook)
+         "Computer organization and design: The hardware/software interface,"
+         David A. Patterson and John L. Hennessy, 2009, 4th Edition
+
+         (Reference Verilog coding textbook)
+         "Digital system designs and practices: Using Verilog HDL and FPGAs,"
+         Ming-Bo Lin, Wiley, 2008.
+
+         這些書會講到一點點，但是只看投影片也還好
+
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         投影片上課，投影片會事先公布於ceiba上，助教都是講投影片，但是不同助
+
+         教的口條有差，有些比較像念投影片，有些會補充一點東西讓你有上課動力
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         課程網：
+         Homework 34% + Midterm Exam 28% + Final Project 30% + Impression 8%
+
+         第一次上課投影片：
+         Homework 30% + Midterm Exam 30% + Final Project 35% + Impression 5%
+
+
+         所以有點搞不清楚是用哪個算orz，問教授教授也是說看助教群決定
+
+         另外有一個模擬的IC contest，最多可以加學期總成績3%，故滿分為103分
+
+
+         有沒有調分不清楚，一是因為不清楚是用上面哪種方式算的，二是因為沒有
+
+         公布final project的分數就直接噴等地了，所以只能用助教寄信要我們確認
+
+         作業和考試等成績的信來推估可能調幅，個人覺得是用上面列的前三項來算
+
+         ，加上IC contest的分數後用Impression那8%或5%的分數做調整空間，但不
+
+         知道Impression會不會給滿或者是假設Impression給滿後會不會再調
+
+
+         之所以說Impression只用來做調分空間的原因是他說這部分是上課參與和態
+
+         度，但除了Final presentation老師會認一次人以外並沒有特別點過名，所
+
+         以感覺這部分只是作緩衝
+
+
+         感覺整體給分是偏甜，因為雖然沒有什麼調整但是作業和final project裡面
+
+         的口頭報告都給頗甜然後還有IC contest當作加分，唯考試比較麻煩容易手
+
+         滑就掰了。
+
+
+
+      ρ 考題型式、作業方式
+
+         先講Homework吧，HW共有四次，內容如下：
+
+         1.Carry Ripple Adder + Barrel shifter + Adder Shifter Unit
+
+         2.ALU + Register File + Simple Calculator(and Verification with FPGA)
+
+         3.Single Cycle MIPS
+
+         4.Cache Unit Design
+
+
+
+         HW1是練習gate level和RTL level；HW2是behavior level；HW3,4算是final
+
+         的前置作業，都是寫verilog，其中HW2要寫testbench，難度並不難，除了HW3
+
+         要比效能而且給分有點謎之外，其他都算給得滿甜的。
+
+
+
+         再來是期中考，期中考有點像在紙本coding，外加各種問答題，就考期中考
+
+         週前的內容，難度並不簡單所以要讀一下，改分上並不容易高分但也不會太慘
+
+         ，多數人是60~70上下，90分只有一個還兩個的樣子，因為助教改得滿細的而
+
+         且不太通融，所以每題扣個一點點就難上8,90，問答的地方也是各種細，所
+
+         以要讀熟，但是太冷僻的語法不會考。
+
+
+
+         final project是pipelined MIPS design，2-3人一組，特殊情形可以四人
+
+         ，分兩部分：baseline及extension，baseline即是設計pipelined MIPS及
+
+         其所用之cache，兩者都要可合成而且通過po sim，extension則是有兩項：
+
+         (1)branch prediction (2)L2 cache，至少要完成一項，但感覺大家兩項都
+
+         會完成，然後又是軍備競賽所以其實是兩項都要做，要可合成電路但不要求
+
+         通過po sim。
+
+         final project的分數分配如下：
+
+         baseline 60% + extension 25% + oral presentation 10% + report 5%
+
+
+
+         IC contest好像是用某年的IC競賽改的，一到兩人一組，在12小時內完成可
+
+         獲加分，寫的是RTL level且要可合成，詳細計分方式如下：
+
+         。未完成隊伍：依完成程度酌量給分 (0 ~ +1.5%)
+         。完成隊伍：總平均成績 + 1.5%
+         。上傳時間前50%完成隊伍，總平均成績 + 2.0%
+         。上傳時間前25%完成隊伍，總平均成績 + 3.0%
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         出席率表面上是寫會在impression那部分，但是好像沒有實際計分
+
+
+         基礎好像也不會怎樣，因為這門課是教verilog，但verilog本來就跟其他程
+
+         式語言有滿大的差異，所以感覺不需要程式基礎，但如果有修過計算機結構
+
+         ，或者本身會verilog的話會好上手許多。
+
+
+         老師個性喔，上課不要影響台上的人就好，但他比較希望同學不要滑手機但
+
+         不會特別噹人，但講話他會不高興。
+
+
+         加選是三類，基本上老師不希望人數超過40人，但是第三週可以盧盧看加簽
+
+
+      Ψ 總結
+
+         這門課是當作修數電實驗或者是CVSD(電腦輔助積體電路系統設計)的入門課
+                                     ^^^^聽說 DSD + IC lab = CVSD
+         ，還滿推薦想走數位的同學修修看這門課，但是如果有修過這兩門課的話修
+
+         這一門課就會略嫌簡單，但熟練度可以增加不少；但是在課程維護上有幾個
+
+         毛病要改：
+
+         1.testbench各種錯
+
+         2.spec和助教來信各種不一致
+
+         3.final presentation前三天才給testbench
+
+         4.到最後testbench還是有錯
+
+
+         好啦只是想抱怨一下，有興趣的同學還是來修一下，畢竟助教每年會換，這
+
+         門課的內容也是滿重要且值得一修的。
+
+
+
+
+※ 發信站: 批踢踢實業坊(ptt.cc)
+※ 轉錄者: so15963 (42.78.144.144), 07/06/2014 13:28:16
+※ 編輯: so15963 (42.78.144.144), 07/06/2014 13:28:40
+→ hsnuyi:分數絕對不是那樣打的 我期中超爛 final亂報 最後 A+ 07/06 15:23
+→ hsnuyi:同學總分倒數 最後 A- 所以我猜就算亂搞也至少會有 B 07/06 15:24
+→ hsnuyi:然後 作業不抓抄襲 這課確實是又甜又涼 07/06 15:25
+→ hsnuyi:當年修資結時至少還會抓抄襲 有點小失望 07/06 15:34
+噓 TommyKSHS:噓樓上 所以不抓抄襲讓你覺得又甜又涼？ 還讓你很失望？ 07/07 08:07
+→ TommyKSHS:抄作業這麼值得拿出來說嘴？ 07/07 08:07
+→ asd16895:只是亂報會被教授打臉QQ 07/07 08:37
+→ hsnuyi:又一個亂噓的正義魔人 真科科 我作業都是第二個交的 乖乖 07/07 10:41
+→ hsnuyi:這課就像合開課程一樣 都是TA在帶 還超多個 有沒領薪水啊? 07/07 10:44
+推 s93rm6:某人的心態就是可以抄作業就是爽啊 07/07 10:48
+→ s93rm6:你抄不抄一是回事 你在course板展現出來的樣子就是這樣 07/07 10:48
+→ hsnuyi:講個事實也可以戰我 還真哭哭 反正缺學分的可以來修啦 以上 07/07 10:52
+→ hsnuyi:我不用這種語氣講 就引不出噓噓魔人了啊... 傻傻的 07/07 11:01
+推 kuoly1:來course版引噓=  = 07/07 11:28
+→ kbn2300:神邏輯 臭宅可以回去看2D自嗨 你應該只會用鍵盤說話吧lol 07/07 11:38
+→ kbn2300:還是大家當面溝通清楚 躲在螢幕後面真的不太妥 :D 07/07 11:39
+噓 james371507:外星人 07/07 11:41
+噓 curt318:course板第一噓只好送給這篇某人了 07/07 11:43
+噓 r81810:亂噓2D 人家搞不好看3D的拉 07/07 11:48
+→ kbn2300:3D要戴眼鏡麻煩 就跟抓抄襲一樣 :P 07/07 11:54
+噓 frank61708:大學唸四年只學到投機取巧  我替你媽為你感到 07/07 13:18
+→ frank61708:可悲 07/07 13:19
+噓 ss355227:抄襲這件事本就不可取，講出來說失望到底在想啥 07/07 13:30
+噓 steve1012:引戰還是洗洗睡吧 07/07 13:31
+推 khdreamer:失望是說沒抓抄襲令人失望吧？這是我的第一反應啦 07/07 13:50
+推 donkilu:推原PO，抄襲要抓啦，助教看到的話下學期留心一下 07/07 13:58
+→ donkilu:這門課不抄襲的話絕對不涼，但可以學到很多東西 07/07 14:04
+噓 frank61708:final亂報被教授刮臉感覺就很爽 07/07 16:11
+→ hsnuyi:沒救了 看來大家都不希望抓抄襲 順應民意吧 07/07 16:31
+→ so15963:有人說不希望抓抄襲嗎?@@ 07/07 16:42
+→ hsnuyi:噓我的看來都不希望啊~ 沒看我第8樓的推文嗎? 呵呵 07/07 16:53
+噓 vegired:你是要我們大家稱讚你第二個交作業好棒棒？ 07/07 17:32
+→ hsnuyi:對 謝謝你的稱讚 我虛心接受了 07/07 17:36
+噓 TommyKSHS:"我作業都是第二個交的 乖乖" 你是抄第一個交的人的嗎 07/07 17:52
+→ hsnuyi:你可以問這篇原PO啊 他最快交喔 &gt;.^ 07/07 18:21
+噓 mhnp1580:中文理解能力有問題嗎？真的無恥無極限欸 07/07 18:33
+推 kbn2300:出來大家當面聊聊嘛=) 07/07 18:41
+→ hsnuyi:乖 只有兩個人看得懂我回的文就算了 跳針跳的真嚴重 07/07 19:18
+噓 frank61708:乖乖 不敢出來跟大家接觸的阿宅我們怎會聽懂你再說哪國 07/07 19:32
+→ frank61708:方言呢  醒醒吧  別再沉浸在自己的世界自慰了 07/07 19:33
+推 kbn2300:X1你也是個專業的跳跳虎呢ㄏㄏ 我們都知道你是誰啊：D 07/07 19:42
+→ hsnuyi:寄信給教授檢查我的code吧 我又沒開分身 07/07 19:45
+推 kbn2300:出來大家當面聊聊啊:) 我跳針第二遍了 也是個跳跳虎了:( 07/07 22:25
+
+

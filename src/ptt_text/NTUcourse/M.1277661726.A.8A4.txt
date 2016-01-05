@@ -1,0 +1,164 @@
+Title:[評價] 98-2 趙挺偉 應用數學一 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者BaouZakeruga (德)看板NTUcourse標題[評價] 98-2 趙挺偉 應用數學一時間Mon Jun 28 02:02:03 2010
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+
+      是
+
+      哪一學年度修課：
+
+      98-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+      趙挺偉
+
+      δ 課程大概內容
+
+      線性代數
+
+      1. WHAT DOES LINEAR MEAN, AND WHAT IS SO GOOD ABOUT IT?
+
+      2. SOLVING SYSTEMS OF LINEAR EQUATIONS
+      (A) ELIMINATION, THE ALL-AROUND METHOD EVEN IN THIS COMPUTER AGE!
+      (B) MATRICES
+
+      3. VECTOR SPACES
+      (A) VECTORS
+      (B) INDEPENDENCE, BASIS AND DIMENSION
+      (C) LINEAR TRANSFORMATIONS AND THEIR RANKS
+      (D) LINEAR FUNCTIONALS (NOT IN THE TEXTBOOK)
+      (E) DUAL SPACE (NOT IN THE TEXTBOOK)
+
+      4. DETERMINANTS
+      (A) FROM ELIMINATION TO DETERMINANTS
+      (B) CRAMER’S RULE: WHEN TO USE IT, AND WHEN NOT TO
+
+      5. EIGENVALUES AND EIGENVECTORS
+      (A) DIAGONALIZATION: WHAT IS IT GOOD FOR?
+      (B) WHAT DOES A COMPLEX EIGENVALUE MEAN?
+      (C) A TASTE OF PERTURBATION THEORY (NOT IN THE TEXTBOOK)
+
+      6. ORTHOGONALITY
+      (A) INNER PRODUCT
+      (B) PROJECTIONS
+      (C) GRAM-SCHMIDT PROCESS
+      (D) FOURIER TRANSFORM
+      (E) THE PRINCIPAL-AXIS-THEOREM AND NORMAL MODES
+
+      中間會上一點C++的程式語言，出在作業裡面
+      (個人覺得用處不大...會的早就會了，不會的也是抄別人的)
+
+      最後還會上一些Quantum Mechanics的Introduction
+
+      Kronecker-delta and Dirac-delta function, Fourier series, Hilbert space,
+      x-rep, p-rep, Quantization of angular momentum
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★
+η 上課用書(影印講義或是指定教科書)
+
+      S. Leon, Linear Algebra with Applications, 8th edition, Pearson (2010).
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+      老師用投影片上課，偶爾會輔以版書
+
+      因為老師有很濃的港腔，所以個人覺得直接看他的ppt和版書應該比聽課有效率
+
+      感覺老師實力頗堅強，他自己整理的投影片還有補充的版書都整理的很棒
+
+
+
+      而且老師很關心學生，會問說學生聽懂了沒，還會常常寄信提醒作業
+
+      因為老師要出國期末考提早，老師還好幾次投票徵詢大家的意見
+
+      放暑假後老師還很熱心的要我們回去檢討期末考卷...
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+      有兩種計分法:
+
+      (1)作業30%,期中30%,期末40%
+
+      (2)期末100%
+
+      兩者取較高的,但期末考必須取得80%以上的分數才能使用第二種
+
+      (基本上期末考難度遠高於作業與期中考，所以......)
+
+      ρ 考題型式、作業方式
+
+      每週都有作業，隔週上課交
+
+      大約都快10題左右，通常要花3、4個小時才可以寫完
+
+      大部分是出課本習題，有時候會出自己上課補充的東西(例如程式語言、量物)
+
+      個人覺得作業可以幫助複習，效果不錯
+
+
+
+      期中考幾乎都出課本習題或是上課敎過的，程式語言不會考
+
+      印象中有九大題，物理系好幾個同學破100分(滿分108)，90幾以上的也很多
+
+
+
+      期末考頗難
+
+      有六大題，滿分120分
+
+      有兩題是用eigenvalue去解system differential equation
+
+      記算很麻煩，有一題數字還很醜
+
+      另外有一兩題是大家都看不太懂題意，不過老師考試中有提示
+
+      聽得懂的就會多出20幾分囉
+
+      另外好像還有一題是非常難的，有好幾個小題搭配加分題，大家好像都寫不太出來
+
+      基本上只有一兩題是基本題(而且計算很複雜)，其他都是高難度衍伸
+
+      然後量子力學的部分不會考
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+      好像不會點名，所以通常中堂下課交完作業，後半堂教室後面就空掉了...
+
+      加簽的時候印象中老師全部都簽了
+
+      修這堂課應該只要有點微積分的底子就ok了
+
+      Ψ 總結
+
+      可能因為老師是香港人有口音，所以大家覺得自己回去看課本比聽課效率高
+
+      不過老師上課會補充很多東西，不是單純只有學到線性代數
+
+      後面QM的部份挑戰性還蠻高的(雖然期末不考)
+
+      因為線性代數可以算是量子物理的前置能力
+
+      把老師敎的那套學起來，以後量物要上手應該會很快
+
+      以一個應用數學的角度來看，老師的課程內容算是不錯的囉 =)
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.240.235
+※ 編輯: BaouZakeruga    來自: 140.112.240.235      (06/28 02:04)
+推 cowux:原PO醫學系超強帥哥 目前單身 06/28 10:59
+→ cowux:歡迎健康美麗聰明女孩站內信報名 以免向隅 06/28 11:01
+→ BaouZakeruga:................................................. 06/28 14:40
+推 cowux:BaouZakeruga (德) 《私人信箱》有新進信件還沒看 06/28 23:02
+推 pi56789007:老師很重視學生~~~~~ 06/29 21:59
+推 jass970991:它如果不調分的話......我覺得我會被當= = 07/05 23:17
+→ ray86047:天啊～～強者推薦不同凡響!!! 01/13 03:36
+
+

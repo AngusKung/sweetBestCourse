@@ -1,0 +1,106 @@
+Title:[評價] 99-1 張哲政 分析化學三 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者FerrariSpA (Enzo)看板NTUcourse標題[評價] 99-1 張哲政 分析化學三時間Fri Jan 28 17:55:43 2011
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：
+                      99-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+                張哲政
+
+      δ 課程大概內容
+        I. Instrumental Approach to Analytical Problems
+        II. DC Circuit
+        III. AC Circuit
+        IV. Diodes
+        V. Transistors
+        VI. Operational Amplifier
+        VII. Fundamentals of Spectroscopy/Spectrometry
+        VIII. Signals and Noise
+        IX. UV/Vis Spectrometry
+
+      Ω 私心推薦指數(以五分計) 0顆星
+        老師準備ppt認真度:★★★★★
+        學生聽懂人數:★
+        想學到一般的層析電化學質譜表面分析等技術:0顆星
+        缺少化學系五選三必選修 想順利畢業:0顆星
+        想學很多電子電路學，願意課後自行找資料理解，上課挑戰自我抄筆記速度極限
+        把三學分的課當六學分修者:★★★★★★★★★★
+η 上課用書(影印講義或是指定教科書)
+        Holler, Skoog, and Crouch, Principles of Instrumental Analysis, 6th Ed.,
+        Thomson Brooks/Cole, ISBN: 0-495-01201-7
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+        ppt狂按，同學問問題通常得不到直接回答，ppt不論如何都不提供，僅提供部分
+        上課投影片的圖，需要狂抄，不准錄音錄影。
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+        絕對不甜
+        如果不是第一次期中考助教改的極鬆，應該有更多人會被當掉。
+        另外兩次期考平均為57.66、54.58，(25% 30%)
+        作業佔20%(作業需要大量查詢與應用其他領域資料)，最後小考有加一些分數。
+
+      ρ 考題型式、作業方式
+The exams are primarily problems and short essays, not multiple choice. They
+will emphasize the course objectives of understanding the background theory,
+operation principles, design, applications, strengths, and limitations of
+chemical instrumentation and analysis methods. The final test is a
+comprehensive exam and will require you to integrate the class material in a
+meaningful way. Calculators used in the exam cannot contain any dictionary
+function. Anyone who only sits in the class is not allowed to take the
+midterm or the final.
+        簡單的說，如果老師想出的難一點，連題目在搞什麼都看不懂。
+        請"融會貫通"上課轟炸過的東西與課堂上給予的廢紙。(圖的順序還是亂的...)
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+        有小考過，不論是否外系選修建議先修過電子電路學，不然會很痛苦。
+        老師個性:有同學課後去問問題，但感覺老師不太想回答希望同學趕快走。
+                 因為奇怪的原因不給投影片，出的題目連助教都不完全了解。
+                 雖然助教已經相當認真，辛苦了這一學期分析三的助教。
+      Ψ 總結
+        雖然如此，依然有部分學生認為老師這樣的教學方式相當適合他們，
+        上課前幾堂與實際整學期上課內容差異相當大，修課前請認真考慮。
+        (讓你來不及退選 只能二退)
+        老師注重的絕對不只觀念，而更注重細節，上課一直講下去，
+        大部分修課同學都相當痛苦。
+        如果將我所有修過的課依照(學習效果-付出程度)做個排序，這堂課必定吊車尾。
+        這堂課是化學系五選三的必修，將這種難度與內容放在這種課裡是非常不恰當的
+        原本這堂課是何老師開課，卻因為不明原因改成張哲政開課，
+        這次修課的人真衰。
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 114.39.60.39
+→ klar:我覺得作業還好啦化學系作業比較少都被寵壞了 01/28 19:43
+推 musashi1006:不提供ppt跟禁止錄音錄影是因為智慧財產權 上次修課 01/28 21:25
+→ musashi1006:有同學拍照?錄影被制止 下周上課老師還特地放張智產權 01/28 21:26
+→ musashi1006:的投影片... 01/28 21:26
+→ musashi1006:另外 依個人的經驗 老師是相當歡迎學生問問題的 只是 01/28 21:27
+→ musashi1006:師生溝通有代溝 一開始老師下課也願意讓學生問問題 之 01/28 21:29
+→ musashi1006:後沒去旁聽 就不清楚了 倒是電子學部分教超多 比課本 01/28 21:29
+→ musashi1006:要多很多吧 後面光譜的部分就有點趕 可是又講很多細節 01/28 21:30
+→ musashi1006:這部分就不清楚教授在想甚麼... 01/28 21:31
+推 AtmanLin:智財的問題我問過願簽切結書 另外作為教學之用沒啥問題吧 01/28 21:49
+→ AtmanLin:下課讓學生問問題是有 但是有同學另外去辦公室就不一樣了 01/28 21:51
+→ AtmanLin:我之前修某些外系課 講義都是別人寫的文章 這會有問題? 01/28 21:55
+→ AtmanLin:即使如此 不論有無給學生ppt 與侵權與否無關 01/28 21:56
+推 HOWARDSHEN:我覺得教授可以給每次上課的大綱講義!! 01/29 00:14
+→ whaleswin16:老師就是喜歡看大家抄得要死要活的 他心裡很開心 01/29 18:09
+→ whaleswin16:都不知道大家忙著抄筆記都沒在聽他講什麼 01/29 18:10
+推 eagle03david:還好吧 雖然修課很重、作業很難 但我覺得老師是希望 01/30 13:08
+→ eagle03david:自己課後去找相關的資料來學習 01/30 13:09
+→ FerrariSpA:不論老師希望什麼 最後教學效果對大部份人來說很差 01/30 15:00
+→ FerrariSpA:那這一堂課並不會因為老師希望任何東西而有所改善 01/30 15:01
+→ FerrariSpA:希望學生課後找資料 卻無法引起學生興趣 01/30 15:03
+→ FerrariSpA:責任全不在老師身上? 學生素質平均來講差異不大 01/30 15:04
+→ FerrariSpA:真正會有不同的是老師的教學方式與觀念 01/30 15:05
+→ FerrariSpA:學生素質平均來講每年差異不大 漏打 01/30 15:06
+推 michael9002:聽不太懂 又沒有投影片 學習效果很差 不適合一般人 01/30 21:56
+推 jasonfghx:適合他本人吧? 02/09 09:49
+
+

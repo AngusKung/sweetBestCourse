@@ -1,0 +1,129 @@
+Title:[評價] 100-1 周逸儒 工程科學數值方法 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者dyLathetRee (底類這棵椰子樹)看板NTUcourse標題[評價] 100-1 周逸儒 工程科學數值方法時間Tue Jan 31 21:40:37 2012
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：
+
+  　　　　100-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+　　　　　應力所 周逸儒老師
+
+      δ 課程大概內容
+
+　　　　　進度大致照課本順序，每一章內容大約如下：
+          (約花三週半把前三章教完，本課重點在四、五章解ODE和PDE的部份）
+
+　　　　Ch1.Interpolation:
+                Lagrange polynomial intp.
+                Cubic spline intp.
+
+　　　　Ch2.Numerical differentiation-Finite Differences:
+                General technique for construction of FD
+                Pade approximations
+                Non-uniform grids
+
+        Ch3.Numerical integration:
+                Trapezoidal &amp; Simpson's rules、Error Analysis
+                Trap. rule with end-correction
+                Romberg integration &amp; Richardson extrapolation
+                Adaptive quadrature、Gauss quadrature
+
+        Ch4.Numerical solution of ODE:
+                Stability analysis、Explicit &amp; implicit Euler method
+                Crank-Nicolson method、Runge-Kutta methods
+                Multi-step methods(leapfrog &amp; AB2)...etc.
+
+        Ch5.Numerical solution of PDE:
+                von Neumann stability analysis、Modified wavenumber analysis
+                Implicit time advancement、Approximate factorization
+                Elliptic PDE(Iterative-point Jacobi &amp; Gauss-Seidel &amp;
+                                SOR &amp; multigrid acceleration)
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+       課本:Parviz Moin,"Fundamentals of engineering numerical analysis",
+                Cambridge University Press, 2010
+       參考:Michael T. Heath,"Scientific computing : an introductory survey",
+                McGraw-Hill, 2002
+
+        課本非常難買，找了很多店，最後某書局老板跟我說不用找了台灣沒進－＂－
+        連總圖也是這學期中才買進這本書...|||
+        但後來得知「網路免費資源」相當豐富，所以完全不用擔心找嘸課本
+        此外，老師每堂課都會發很詳細的講義，沒有課本也沒關係。
+
+        不過，這本書我個人很推薦，薄薄一本才240頁左右，
+        但內容豐富且用詞簡潔，觀念及推導清晰易懂，習題也不少，很適合自修的書。
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+        英語授課，完全寫板書，老師說他不喜歡用投影片因為會跳太快
+        學期中及期末考前各有一次上課是講解作業
+        期中那次是國語授課＆開電腦給大家看老師寫的程式及作圖結果～
+
+        老師的英語流利且清楚，聲音嘹亮絕非催眠型講者，
+        重要的觀念會一再強調，講解也很易懂，邏輯清晰，
+        大概上課聽一次跟著抄筆記，回去看一下薄薄的課本就能理解了
+
+        老師在推導時很喜歡問台下簡單的小問題，
+        像是係數、此時該用哪種方法、這樣是否穩定等等（可以用中文回答
+        不過通常都是老師一直問，但大家都沒反應^^|||
+        或是只有少數幾位國際學生比較常在課堂上回應老師
+
+        另外，每週有固定一個下午的Office Hours
+        老師也很重視並鼓勵大家多多利用，
+        作業或是任何相關問題都可以去問，老師非常親切且講解得很好～
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+        應該是紥實偏甜。
+
+        老師第一堂課就聲明這門課主要是用作業來學習
+        所以紥實在作業很重，幾乎每週都有，共12次佔80%
+        下週上課交，遲交打八折，不過可以接受部分遲交
+        作業給分算寬鬆，若已經講解過還是可以重做補交作為加分
+
+        沒有期中考，期末考超難但比例不重，佔20%
+        最後也有調分
+        原PO作業幾乎都有交齊(少一題)，期末考58，學期成績A
+
+      ρ 考題型式、作業方式
+
+        扣掉兩次講解作業、老師請假兩次及期末考週
+        幾乎每週都有1~3題作業，跟當週上課內容有關，
+        大部分是從課本習題出的，
+        很多都要寫code（語言不限，但老師說用MATLAB就可以）
+        但也有一些是推導及證明題
+        （原PO平均每週約花6~7小時寫這一科的作業）
+
+        期末考openbook三小時，純紙筆測驗，考整學期範圍但以四、五章為主
+        題目難度跟作業差不多除了不用跑程式，共4大題各25分
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+        最好有基礎的寫程式能力，基本上課堂不會教，
+        不過邊做作業邊摸索也OK只是要花更多時間
+
+      Ψ 總結
+
+        個人非常推薦這門課及周老師，
+        老師今年是第一次開課所以上課規定及風格大概也在調整中
+        作業很花時間，但如果時間允許的話會很有收獲，
+        一學期下來不但能對基本的數值微分和積分、解ODE、PDE有初步認識
+        寫程式能力（當然還有英聽能力"）也會精進許多
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 218.167.96.51
+推 rockrockrock:上課內容不難，老師講義寫得很仔細，自修也看得懂 02/02 02:42
+→ rockrockrock:最難的部份還是在寫code，沒有程式基礎會很辛苦 02/02 02:44
+→ rockrockrock:BTW，考試部份就不要有空白，老師給分很大方!! 02/02 02:46
+
+

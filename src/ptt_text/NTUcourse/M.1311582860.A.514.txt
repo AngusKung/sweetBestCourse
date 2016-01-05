@@ -1,0 +1,65 @@
+Title:[評價] 謝宏昀 機率與統計 - 看板 EE_Comment - 批踢踢實業坊
+
+
+作者pt56 (PTT+5566專業短ID)看板EE_Comment標題[評價] 謝宏昀 機率與統計時間Mon Jul 25 16:34:18 2011
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是/轉錄須保留作者ID
+
+      哪一學年度修課：99-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)  謝宏昀
+
+      δ 課程大概內容
+
+           1.Experiments, Models, and Probabilities
+           2.Discrete Random Variables
+           3.Continuous Random Variables
+           4.Pairs of Random Variables
+           5.Random Vectors
+           6.Sums of Random Variables
+           7.Parameter Estimation Using the Sample Mean
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+           R.Yates and D. Goodman
+           Probability and Stochastic Processes (簡稱PSP，很好記www)
+           2/e
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+統一教學，所以各班的配分比重都一樣
+
+           Midterm        40%
+           Final          40%
+           HW             15%
+           participation   5%
+
+
+      ρ 考題型式、作業方式
+
+除了勾選的習題外，老師還會另外出更有挑戰性的加分題
+
+自由繳交，有交的老師會加分，也會幫你改或教你更好的解法
+
+為了鼓勵同學交，老師上課時還會公布有交加分作業同學的名字
+
+考試方面則題目千變萬化，像今年的期中考還有非常冗長的題組…
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+跟系上大多數的必修課一樣，出席率原則上沒有特別重視
+
+課程內容用到不少微積分的基礎
+
+      Ψ 總結
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 218.164.122.179
+→ fcoldstar:98-2 ？！ 07/29 21:07
+感謝樓上提醒  我用舊格式忘記改= =
+※ 編輯: pt56            來自: 218.164.124.149      (08/23 11:44)
+
+

@@ -1,0 +1,123 @@
+Title:[評價] 102-2李賢源 債券市場 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者dianastar (star)看板NTUcourse標題[評價] 102-2李賢源 債券市場時間Sun Jun 29 14:40:29 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：102-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+       財金系 李賢源
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+       財金系 系內選修
+
+      δ 課程大概內容
+
+       Topic 1 Fundations for Interest Rates
+       Topic 2 Inflation and Returns
+       Topic 3 The Term Structure of Interest Rates
+       Topic 4 Risk and Rewards on Treasury Securities
+       Topic 5 The Specific Markets
+       Topic 6 The Convertible Bond Market
+       Topic 7 The Derivative Markets Related Treasury Bonds:
+               Interest Rate Swaps
+       Topic 8 The Derivative Markets Related Treasury Bonds:
+               Future Contracts
+       Topic 9 The Derivative Markets Related Treasury Bonds:
+               Opyion-Type Instrument
+       Topic10 Some New Developments on Financial Engineering Related to
+               Fixed Income Securities and Derivatives in Taiwan
+       Topic11 Some New Developments on Structure Finance in Taiwan
+       Topic12 Greece Debt Crisis' second bailout plan -
+               Private Sector Involvement
+       Topic13 The Default of Man Finance Global - Static Hedging
+
+       這是老師發的課程簡介
+       一開始老師會先從金融市場結構開始說起
+       接著帶到債券的基本概念(ytm, Duration, convexity...)與運算
+       之後便是投資組合、免疫策略、避險等較實際操作的主題
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+       認真學習 ★★★★★
+       想混學分 ★★
+
+      η 上課用書(影印講義或是指定教科書)
+
+       老師自己製作的投影片
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+       從第三個禮拜起，老師大約會花一節課檢討同學作業
+       剩下兩節課講課堂進度
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+       課堂表現 15%
+       小組作業 15%
+       期末考   70%
+
+       成績還沒出來我也不知道甜不甜XD (至少不會被當QQ
+       期末考重到根本定生死
+       但老師自己說他知道人都有失常的時候
+       如果覺得自己期末考不好
+       可以趕快寄信給老師
+       會有extra work來補救分數
+       唯一的鐵則是絕對不能作弊 (老師: 不然你在台灣別想混了!!!
+
+      ρ 考題型式、作業方式
+
+       從第三個禮拜開始就會有小組作業
+       大概4~5人一組
+       題目是老師上課上到一半就會說"來，這次的作業是..."
+       內容是債券各種狀況的實際運算，用的是台灣真正發行的公債
+       每個禮拜都有不同的主題 (像是找出一個投資組合、如何套利...
+       計算題以Excel檔繳交
+
+       期末考則是作業大匯總
+       而且是上機考TT TT
+       如果作業沒有每個禮拜跟著練習
+       考前一天真的會很想放棄ˊ_&gt;ˋ
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+       出席: 老師沒點過名，但是他記憶力很好，所以還是不要亂翹課
+       基礎: 投資學、財務管理等有學過ytm, duration, convexity等
+             會比較快進入狀況
+       加簽: 本來第一週教室爆滿，但大多數人聽到期末比重就退到只剩50人左右
+             老師都會簽
+
+      Ψ 總結
+
+       這堂課作業有時候很難、老師講話有時候會跳針
+       但我覺得收穫非常大
+       因為老師教的是業界真正在用的技巧 (雖然我們學的只是一咪咪
+       Excel技能瞬間提升 (這堂課以前我不知道甚麼是目標搜尋、規畫求解...
+       也吸收更多有關金融的有趣知識
+
+       老師檢討每周作業時，會很大聲的糾正，而且看得很細
+       像是小數點後面一定要有四位數、資料來源要標、版面要整潔等等
+       剛開始覺得老師有點煩，然而現在想想確實是非常容易被忽略的小細節
+
+       但上課的時候老師頗幽默，會講一些歷史故事和時事
+       使用的比喻會讓人忍不住笑出來 (老師: 賺錢有益身體健康!!!
+       下課問問題，老師也會不厭其煩講到你懂為止
+       根本和檢討作業凶巴巴的樣子是兩個人 (欸
+
+       總之，這堂課雖然讓人從學期初繃緊神經到學期末
+       但我個人覺得是值得修的 (心臟要很大顆這樣
+       推薦給各位
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.216.89
+※ 文章網址: http://www.ptt.cc/bbs/NTUcourse/M.1404024031.A.1C9.html
+推 YuEh24:去斯德哥爾摩囉！ 06/29 21:44
+推 bill820827:原本聽說期末考班平均40 不過最後成績出來人人拿A阿 07/02 20:03
+
+

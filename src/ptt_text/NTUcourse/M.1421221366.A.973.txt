@@ -1,0 +1,166 @@
+Title:[評價] 103-1 陳和麟 演算法 - 看板 EE_Comment - 批踢踢實業坊
+
+
+作者frankshyu (frankshyu)看板EE_Comment標題[評價] 103-1 陳和麟 演算法時間Wed Jan 14 15:42:43 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+        是
+
+      哪一學年度修課：
+
+        103-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+        陳和麟老師
+
+      δ 課程大概內容
+
+        期中考:
+
+        - Definition of algorithms
+
+                介紹演算法大概的用處，和這門課的導向
+
+        - Time complexity and Asymptotic notation
+
+                就是Theta, O, Omega notation的定義
+                然後介紹上述五種notation的transitivity, reflexivity, symmetry
+
+        - Recursive relations
+
+                遞迴關係的嚴謹解法，包含repeated substitution, recursive tree,
+                master theorem. 最後是linear recurrance的標準解法. 和一些特殊
+                解法(指數代換等)
+
+        - Sorting
+
+                演算法課程的重頭戲之一，內容包含insertion sort, bubble sort,
+                stupid sort, merge sort, quick sort, heap sort, radix sort
+                然後會是order statistics
+
+        - Codes
+
+                和密碼學有一點點關係，但是介紹的比較淺，主要講了一下Huffman
+
+        - Dynamic programming
+
+                Dynamic programming的應用，因為之後還會用到很多，所以講滿細
+                的，也算是期中考重點之一
+
+        期末考:
+
+        - Data structure
+
+                包含Heap (min heap, Fibonacci heap, binomial heap), disjoint
+                sets, hash table可以支援的指令(supported commands)和實作方法
+
+        - Graphs
+
+                期末考重點，講到了BFS、DFS、shortest path、Strongly connected
+                components (SCCs)、 topological sort 和 Max flow
+
+                特別的演算法的話有講到Kruskal's, Prim's(minimum spanning tree)
+                Dijkstra's, Bellman-Ford, Flogd-Warshall(shortest path)
+                Ford-Fulkerson (max flow)
+
+        - Decision problems
+
+                定義P、NP、NP complete、co-NP等等。然後老師滿重視NP complete
+                reduction(已知一個問題是NPC，證明另一個也是)
+
+        - Approximation algorithms
+
+                包括Knapsack, load balancing的approximation algorithm
+
+        補充教材:
+
+        一開始老師有問大家想要額外學甚麼，說如果期末有剩時間可以教。只是因為
+        後來時間好像剛剛好，老師就沒有時間補充額外的資料。
+
+      Ω 私心推薦指數(以五分計) ★★★★★+++++
+
+        老師是強者，但是講解每個細節還是很清楚，步調也抓很好。
+
+      η 上課用書(影印講義或是指定教科書)
+
+         Introduction to Algorithms, third edition,
+                by Cormen, Leiserson, Rivest and Stein.
+
+        不過原則上不會用到，聽說有強者學長把它讀完了
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+        如果有上過老師的離散數學的話，兩門課的教學風格相同。老師上課用板書，
+        這點我覺得是一個很大的優點，因為投影片上課比較難保持專注。
+
+        老師會指派輪流抄筆記的排班(共筆)然後請助教上傳到CEIBA上。但是一個人
+        一學期只會輪到一次。但是錯過任何一堂課都很可惜!而且也因為老師課堂上
+        講得很清楚，有來上課得話需要複習的時間就大大減少。
+
+        老師很鼓勵大家問問題，也不吝於解答，人非常親切。原PO就常常問很笨的
+        問題，但是老師還是很有耐心的講解。
+
+        這門課是研究所的英文授課，老師的英文很清楚，音量也很夠。是上過英文
+        授課老師裡面最好的。(有些英文授課實在是XD)
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+        照以往標準應該是很甜。就是電機系課程逼準得評分方法，大概15%A+, 15%A
+        25%A-這樣。不知道其他系所怎麼評分，但是現在有NTU Sweety，大家也可以查
+
+        都是相對評分
+
+        基本上分配是
+
+        40% HW (4次)
+        30% midterm
+        30% final
+
+      ρ 考題型式、作業方式
+
+        作業方式:
+
+        和系上李建模、張耀文老師的演算法不同，陳和麟老師的演算法沒有程式作業
+        但是不要以為這樣作業就很簡單。作業有四次，都是手寫。聽說(無從考證XD)
+        題目都是老師和以前Stanford的同學交流的，題目都很有水準。大概要寫兩個
+        工作天吧! 也不是說要一直坐在書桌前寫那種，只是腦袋要一直想。作業一次
+        大概五六題，如果能找到學長、同學討論，會好寫很多。
+
+        作業可以討論，只要寫上collaborator就都OK
+
+        考試方式:
+
+        三小時，題型就是和作業一樣
+        可以帶一張兩面A4大抄，想寫啥都可以。
+        老師會和大家說他會試著讓大抄沒用Q~Q
+        不過沒那麼壞啦XD有認真把自己的重
+        點整理下來的話，還是會用上一些大抄的內容。
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+        出席率不重視，只要自己有出現在被排在抄共筆的那周就可。
+
+        基礎我覺得其實還好，有修過離散當然很好，但是其實老師都是從頭教，所以
+        如果對演算法有興趣，都可以修
+
+        加簽應該是全簽。
+
+      Ψ 總結
+
+        老師自己是一個強者，所以從老師身上絕對可以學到很多。同時老師又很親切，
+        這真的是一門相當好的課! 無論要不要走CS組，都很有用。
+        如果對於實作演算法的內容有興趣，系上的DSnP也
+        可以搭配服用。只是原Po挺不住，中途就054A資結了QQ
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.246.10
+※ 文章網址: https://www.ptt.cc/bbs/EE_Comment/M.1421221366.A.973.html
+推 chehsunliu: 大推! 他超有耐心! 01/14 16:01
+推 arsenefrog: 大推特推 01/14 17:39
+推 s93rm6: 很喜歡這門課 01/15 03:27
+推 LYHsyuhong: 原PO高富帥 演算法達人&gt;/////&lt; 01/16 15:46
+
+

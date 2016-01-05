@@ -1,0 +1,173 @@
+Title:[評價] 101-2 賀培銘 相對論 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者harveyhs (Hango)看板NTUcourse標題[評價] 101-2 賀培銘 相對論時間Wed Jun 19 19:07:11 2013
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）： 是
+
+
+      哪一學年度修課： 101 - 2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         賀培銘教授
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+         物理系選修
+
+         天文所選修
+
+      δ 課程大概內容
+
+         照每週筆記記的 @ _ @
+
+         Overview
+
+         Riemannian Geometry
+
+         Metric
+
+         Geodesic Equation + Review of Special Relativity
+
+         Tangent Space
+
+         Parallel Transport
+
+         Curvature
+
+         Curvature continued and Riemann Curvature
+
+         Equivalence Principle and Einstein Equation,
+
+         Gravitational radiation ( gravitational wave )
+
+         Symmetry, Killing field and Perihelion Precession
+
+         Action Principle and Schwarzschild solution
+
+         Schwarzschild solution continued: causal structure
+
+         Conformal diagram, other blackholes and Quantum effect
+
+         Alternative theories
+
+         Cosmology
+
+      Ω 私心推薦指數(以五分計)
+
+         私心：★★★★
+
+         不過還是看修課的人的需求 ......
+
+         我相信會有人給三科或以下
+
+
+      η 上課用書(影印講義或是指定教科書)
+
+         Sean Carroll 的 Spacetime and Geometry
+
+         也可以用這份講義代替
+
+         http://arxiv.org/abs/gr-qc/9712019
+μ 上課方式(投影片、團體討論、老師教學風格)
+
+         板書，都在黑板上推導跟講解。
+
+         風格......典型的小賀的給演講的課（喂
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         作業跟期末，沒有期中。
+
+      ρ 考題型式、作業方式
+
+         前面有一大題是非題考觀念，後面計算題。
+
+         作業跟去年的差不多，
+
+         考試倒沒有。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         不點名，而且都會簽。
+
+         基礎......我覺得這就是最麻煩的地方了 XD
+
+         老師會教這堂課用的到的數學，
+
+         基礎我想大概是（還是得視個人熟悉情況）
+
+         * 向量分析
+
+         * 線性代數 （ 主要是線性變換、對偶空間、內積空間等等 ）
+
+         * 電磁學（ 用 Lorentz covariant tensor notation 的 ）
+
+         * 狹義相對論
+
+         然後 geodesic equation, Einstein equation 需要一點 DE 的能力。
+
+      Ψ 總結
+
+         今年是小賀第二年開，去年我有旁聽前面一半的學期，
+
+         去年小賀真的教了滿多數學的 XD
+
+         連 cohomology class 的東西都提了一點，但顯然效果應該是不太好
+
+         同時去年也花了比較多的時間講狹義相對論
+
+         （當然比起高涌泉老師是少很多啦XDD）
+
+         今年他一開始就切入黎曼幾何而且只側重技術
+
+         狹相也是大家投票要複習（欸
+
+         才在 geodesic 後面那邊複習。
+
+         看得出來老師今年想花多一點時間講物理但在我看來
+
+         處境還是有點尷尬。
+
+         因為老師並不是專業做重力、宇宙的，
+
+         所以老師詮釋相對論的角度大多時候會是從
+
+         一個規範理論 （ gauge theory ）的典範出發，
+
+         （所以才會會常跟電磁學交叉講，尤其是重力波那邊）
+
+         但在宇宙學那邊感覺就只是帶過去，
+
+         我覺得是有點非戰之罪啦。
+
+         所以覺得內容好不好也要看是要從什麼角度學相對論。
+
+
+
+
+
+
+         工商時間，明年陳義裕老師開相對論，他算是半個幹這行的XD
+
+
+
+
+
+
+
+
+         最後以小賀在課堂上說的一句話做總結：
+
+         「如果你會一點 Yang - Mills Theory, 這邊就會很簡單。」
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 140.112.249.241
+推 leo80042:推最後一句話 XD 07/18 08:55
+
+

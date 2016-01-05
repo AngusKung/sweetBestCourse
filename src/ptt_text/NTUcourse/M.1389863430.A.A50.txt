@@ -1,0 +1,117 @@
+Title:Re: [評價] 102-1 于天立 人工智慧 - 看板 EE_Comment - 批踢踢實業坊
+
+
+作者so15963 (榴槤)看板EE_Comment標題Re: [評價] 102-1 于天立 人工智慧時間Thu Jan 16 17:10:26 2014
+
+
+         因為LC寫得太好了就借用一下格式
+
+      ※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+
+         是，須通知作者
+
+      哪一學年度修課：
+
+         102-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         于天立
+
+      δ 課程大概內容
+
+         分成三部分，每部分5周左右
+
+         期中考到[2]-(1)
+
+         [1] Search
+             (1) Uninformed/Informed Search
+             (2) Non-Classical Search
+             (3) Adversarial Search
+
+         [2] Learning
+             (1) Concept Learning
+             (2) Computational Learning Theory
+             (3) Decision Tree &amp; Bayesian Network
+             (4) Reinforcement Learning
+
+         [3] Logic
+             (1) Propositional Logic
+             (2) First-Order Logic
+             (3) Planning (期末沒考)
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+
+         投影片為主，內容主要從以下兩本來：
+
+         1.Artificial Intelligence: A Modern Approach, 3/e,
+           by Russell and Norvig
+
+         2.Machine learning, by Mitchell
+
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         投影片上課，投影片比較精簡，老師會講滿多的，上課上的滿好的
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         程式作業(Python)三次 25% = 8% + 9% + 8%
+         期中考               30%
+         期末考               20%
+         期末Project          25% = 5%  (proposal)
+                                   +5%  (presentation)
+                                   +15% (term paper)
+
+
+         期末總成績全班加5分。
+
+         若在邊緣，會視作業繳交情形拯救之
+
+
+      ρ 考題型式、作業方式
+
+         作業是寫UC Berkeley著名的小精靈Project，內容是search與learning相關。
+
+         語言是Python。
+
+
+         考試方面，可帶雙面A4大抄(電腦列印可)，但考題非常靈活，所以沒讀熟
+
+         可能還是會滿慘的，老師給分並不吝嗇，有摸到邊就會給一些，所已不要
+
+         吝於表達。
+
+
+         期末專題，2~3人一組，自訂一個有關AI或ML的題目，
+
+         期末上台報告7.5分鐘並交一篇報告，報告時間滿緊迫的，
+
+         所以投影片不要做太多......
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         3類加選，不加簽
+
+      Ψ 總結
+
+         雖為研究所的課但是大學來修並無妨，比較扎實便是，內容滿有趣的但是
+
+         得花時間，老師上課上的不錯也有教學熱誠，對這一方面有興趣的很推薦
+
+         來選這門課!
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 119.2.49.2
+※ 編輯: so15963         來自: 119.2.49.2           (01/16 17:12)
+
+

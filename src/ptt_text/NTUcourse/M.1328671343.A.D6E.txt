@@ -1,0 +1,126 @@
+Title:Fw: [評價] 100-1 丁建均 微分方程 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者so15963 (榴槤)看板NTUcourse標題Fw: [評價] 100-1 丁建均 微分方程時間Wed Feb  8 11:22:22 2012
+※ [本文轉錄自 EE_Comment 看板 #1F5mX7Ln ]
+
+作者: so15963 (榴槤) 看板: EE_Comment
+標題: [評價] 100-1 丁建均 微分方程
+時間: Thu Jan 19 01:58:27 2012
+
+
+      ※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+         是, 惟須先經作者同意
+
+      哪一學年度修課：
+
+         100-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         丁建均
+
+      δ 課程大概內容
+
+         期中考：
+         chapter1  introduction to differential equations
+         chapter2  first-order differential equations
+         chapter3  modeling with first-order differentail equations
+         chapter4  higher-order differential equations
+         chapter5  modeling with higher-order differential equations
+
+         期末考：
+         chapter6  series solutions of linear equations
+         chapter7  the Laplase transform
+         chapter8  systems of linear first-order differential equations
+         chapter11 orthogonal functions and Fourier series  (11-1, 11-2, 11-3)
+         chapter12 boundary-value problems in rectangular coordinates
+                                                      (12-1, 12-2, 12-4, 12-5)
+         chapter14 integral transforms  (14-3, 14-4)
+
+         (紅色註記部分只教不考)
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+         Dennis G. Zill and Michael R. Cullen, "Differential Equations-with
+         Boundary-Value Problem", 7th ed., Brooks Cole, 2008.
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         投影片上課，老師會事先把投影片放到網上供同學下載，然後上課就是上那
+
+         一份，並搭配手寫板上課，事後會把筆跡檔放到網上。
+
+         上課風格的話，老師其實滿可愛的XD，講話有些口音，不過上的算是滿清楚
+
+         的，上課如果有跟上的話，可以省掉不少時間，雖然投影片有事後看了會覺
+
+         得有一點點雜，不過那是因為他花了一些篇幅把課本沒講略過的概念講清楚
+
+         ，值得一看
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         4次作業 + 1次小考                                              10%
+         期中考                                                         45%
+         期末考                                                         45%
+
+         期中期末都是統一考試，其中平均約60分，期末平均約50分，會統一調分
+
+         ，然因目前分數還沒出來，所以確切的調幅還不清楚
+
+      ρ 考題型式、作業方式
+
+
+         4次作業則是一次勾選10題的課本題，然後上課繳交，基本上有寫有分，評
+
+         分標準相當寬鬆，就受說這是為了鼓勵同學自己寫而不要抄襲(抄襲者零分)
+
+         有認真寫的話拿個9X 100並不算太意外
+
+         小考則是考課本例題以及勾選習題，難度並不難(至少相對期末考而言是簡
+
+         單不少啦@@ )
+
+         期中期末都是三個班統一考試，之後再統一調分，題型是計算、定理、證
+
+         明......都有，然後難度跟課本題會有相當的差距，分數的分佈在前面有
+
+         提過，可以作為參考
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         不點名，但是教授當然鼓勵大家多上課(他說這是他的動力)，基礎的話是
+
+         微積分，加簽的話則是......科科，人數有限，不過這門課雖然只有三學
+                                  (請自行上youtube查"呆呆電機系 加簽戰爭")
+         分，但是卻要上完一整本微方，所以建議如果是外系同學，可以先衡量是
+
+         否足夠的時間跟精力，再來加選
+
+         老師算是個滿有趣的人啦，上課很投入，然後激動的時候偶爾會破音，然
+
+         後偶爾會講一些莫名有笑點的笑話，問他問題他也都很願意為你解答，算
+
+         是滿好親近的一個人
+
+      Ψ 總結
+
+         好課，不修嗎？
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 27.246.120.9
+→ djshen:加簽可以參考這個.. http://tinyurl.com/7nqo74p 01/19 02:46
+推 cgl:丁丁公認的超讚，這篇講解得非常清楚!!!! 01/20 00:51
+
+※ 發信站: 批踢踢實業坊(ptt.cc)
+※ 轉錄者: so15963 (218.163.147.206), 時間: 02/08/2012 11:22:22
+
+

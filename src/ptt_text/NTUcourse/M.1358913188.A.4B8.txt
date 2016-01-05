@@ -1,0 +1,89 @@
+Title:[評價] 101-1 幾何學 李瑩英 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者bossrabbit (兔子)看板NTUcourse標題[評價] 101-1 幾何學 李瑩英時間Wed Jan 23 11:53:02 2013
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）： 是
+
+
+      哪一學年度修課：
+        101-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+        李瑩英
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+        數學系三年級必修
+      δ 課程大概內容
+        專門講在R^3空間中，曲面的一些性質，其內容專章如下:
+        (以下列出其專章下，比較重要(核心)的小節)
+        (Differential Geometry of Curves and Surfaces- Manfredo DoCarmo)
+        Ch1. Curves
+                The local theory of curves parametrized by arc length
+                The local canonical form
+                Global properties of plane curves
+        Ch2. Regular Surfaces
+                Differential functions on surfaces; the differential of a map
+                The 1st fundamental form
+                Orientation of surfaces
+                A characterization of compacet orientable surfaces
+        Ch3. The Geometry of the Gauss Map
+                Definition of the Gauss map and its 1st fundamental properties
+                The Gauss map in local coordinates
+                Ruled surfaces and minimal surfaces
+        Ch4. The Intrinsic Geometry of Surfaces
+                Isometries; Conformal map
+                The Gauss theorem and the equations of compatibility
+                Parallel transport; Geodesics
+                The Gauss-Bonnet theorem and its applications
+
+        老師只教到Gauss-Bonnet theorem，故本書第5章不再列示，有興趣者可自行
+        上網查看
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★★
+η 上課用書(影印講義或是指定教科書)
+        Differential Geometry of Curves and Surfaces- Manfredo DoCarmo
+      μ 上課方式(投影片、團體討論、老師教學風格)
+        老師用板書上課，作業每個禮拜出六題課本習題，寫題目其實就好像是團體討論
+        因為有時候自己寫不出來要找人討論。
+      σ 評分方式(給分甜嗎？是紮實分？)
+        就數學系而言，扎實偏甜(偏甜因為前兩次期考只要習題有想過會寫就容易高分)
+      ρ 考題型式、作業方式
+        第一次期中考 25%
+        第二次期中考 30%
+        期末考       30%
+        作業          1% 共 15 次 = 15%
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+        幾何學算是很有趣的一門學科。有時解題目必須借助畫圖才能想像。
+        老師應該也是全簽，因為通常總修課人數(包含加簽同學)都不會超過開課人數上
+        限。
+        外系學生如果想修該門課，必須要有微積分基礎(open mapping; continous;
+        integration; derivative; chain rule;Taylar expansion; Green's theorem;
+        surface of revolution;innerproduct;Inverse function theorem;
+        Implicit funtion theorem; total differential)，以及對數學的熱情。
+        考試內容及課本習題大部分是在講定理的原理、證明、及其應用。
+        以筆者自身經驗，每個禮拜平均花6小時在幾何學身上讀課本寫作業及討論問題
+        最後拿A，算是應得的。這門課也讓我收益良多。
+
+      Ψ 總結
+        老師上課平易近人，同學有不會的地方老師都很熱心解答。上課有不懂的地方
+        只要馬上舉手發問，老師就會再講一次。
+        雖然說這門課是開給數學系第三的必修課。但老實說，我覺得外系學生來修一定
+        也獲益良多，尤其在幾何空間的想像上會更具創造力。具筆者經驗，通常外系來
+        修數學系的課，不外乎高等微積分、幾何學、計算數學導論、機率等。數學系的
+        課雖然部分較艱深，但只要肯下苦功，必有收穫，老師也絕不吝嗇給分。
+        歡迎有志一同者修幾何學。
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.51.125
+※ 編輯: bossrabbit      來自: 140.112.51.125       (01/23 11:55)
+→ jellyfishing:推兔神!!! 01/23 12:35
+推 her0418:推兔神! 01/23 12:37
+推 a0187153:大推李瑩英! 01/24 10:20
+推 wheata:大推李瑩英教授!!! 01/24 10:21
+推 yesrex:兔神超強!! 01/29 09:53
+
+

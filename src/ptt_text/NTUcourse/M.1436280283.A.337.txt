@@ -1,0 +1,92 @@
+Title:[評價] 103-2 廖世偉 Big Data程式語言、編譯與 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者chinting (chinting)看板NTUcourse標題[評價] 103-2 廖世偉 Big Data程式語言、編譯與時間Tue Jul  7 22:44:39 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：103-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         廖世偉
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+         資工所選修
+
+      δ 課程大概內容
+
+         課程全名: Big Data程式語言、編譯與應用
+         節錄自課程網頁: https://sites.google.com/site/compiler2015/slides
+
+         這門課的上課時間是第5節及第9A節
+         第5,9節上Big Data，晚上則是Compiler的部份
+         我沒上，可能要請其它同學補充了，以下講的都是Big Data
+
+         1. Big Data 1.0~4.0 (including Map Reduce)
+         2. Quantitative Analysis
+         3. Big Data Analytics: Finding similar items
+         4. Big Data Analytics: Frequent itemsets and AdWords problem
+         5. Machine Learning: Fundamental
+         6. Machine Learning: Models and tools
+         7. Big Data Analytics: Link analysis
+         8. Bitcoin
+         9. 2B Hackathon
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+         沒有特別的用書，上課使用投影片
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         老師上課方式總是很興奮很開心，不拘泥於細節
+         這學期有兩週是請人來演講(一次是g0v，一次是在google工作的人)
+         學期末則有幾次彈性時間
+
+         實際上老師有上的部份是1和8，2到7則是請助教們講
+         助教們都很專業，講的也很好
+
+         此外比較特別的是修課同學一定要參加老師主辦的 2B Hackathon
+         時間是期中考後的某個星期日整天
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         15% 參加 2B Hackathon
+         25% Homework
+         25% Midterm
+         35% Final Project
+
+         聽助教說，有參加hackathon就不會被當，應該算滿甜的
+
+
+      ρ 考題型式、作業方式
+
+         HW1 是 Quantitative analysis，會提供房地產商的真實資料給大家做分析
+         HW2 要用 Hadoop 實做上課教過的演算法
+         期中考的範圍是上述 3~7，大約一個單元有一題，另有一題是Hadoop相關
+
+         Final Project可以把參加Hackathon的題目繼續做完，也可以上Kaggle參加比賽
+         學期最後一天要上台簡報約10分鐘
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         加簽應該沒有限制，老師充滿熱情，希望能透過課程做為平台
+         讓學生"跨領域，玩真的，做中學"
+         學期中舉辦的Hackathon也邀請了許多業界人士及知名廠商一同參與
+         這應該是一般課程比較少見的
+
+      Ψ 總結
+
+         大家快來衝鋒吧!
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.218.90
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1436280283.A.337.html
+推 jason950211: 推2B松！ 07/08 09:00
+(chy1010 刪除 ten57girl 的推文: 洗板)
+
+

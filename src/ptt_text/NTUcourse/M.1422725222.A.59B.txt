@@ -1,0 +1,136 @@
+Title:[評價] 103-1 周美吟 理論材料物理專題 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者AmibaGelos (Amiba Gelos)看板NTUcourse標題[評價] 103-1 周美吟 理論材料物理專題時間Sun Feb  1 01:26:59 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+
+         是
+
+
+      哪一學年度修課：
+
+         103-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         周美吟
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+         物理所/應用物理所 選修
+         要求先修背景知識：固態理論(晶體、response theory, etc)
+         加一點點計算物理的sense(像是知道FFT, minimization的速度之類的)
+
+      δ 課程大概內容
+
+         1. 固態理論review
+            1-a. crystal structure, force theorem以及Born-Oppenheimer approx.等
+            1-b. homogeneous eg, Hatree-Fock approx.以及Thomas-Fermi approx.
+
+         2. Density Functional Theory (theoretical side)
+            2-a. vanilla DFT (H-K theorem)
+            2-b. Kohn-Sham methods (LDA,GGA,LDA+U,EXX and hybrid)
+
+         3. DFT (計算方面)
+            3-a. pseudopotential
+            3-b. Slater/gaussian/fourier/wavlet/grid basis and basis adaptation
+
+         4. 其他有趣的東西
+            4-a. response, Green's func. and GW approx.
+            4-b. Quantum Monte Carlo (研究員代課)
+            4-c. topological stuffs (Berry's phase, polarization, etc)
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★  想大概了解現代材料物理到底在算什麼
+
+         ★★★    想把它當通識課來上了解一下材料物理
+
+         ★★      想了解prior1950s材料物理在算些什麼
+
+         ★        真的想了解現代材料物理到底在算什麼
+
+                   想要在課堂上算一遍DFT(痾根本沒算啊)
+
+      η 上課用書(影印講義或是指定教科書)
+
+         1. Richard Martin, "Electronic Structure: Basic Theory and Practical
+                                   Methods," Cambridge University Press, 2004
+         2. Ashcroft &amp; Mermin,“Solid State Physics," Saunders Company, 1976
+
+         3. C. David Sherrill介紹electronic structure theory的網站
+    http://vergil.chemistry.gatech.edu/courses/chem4681/background/node2.html
+μ 上課方式(投影片、團體討論、老師教學風格)
+
+         老師上課基本上是用投影片。一開始講Hatree-Fock的時候是用上述C. David
+         Sherril的投影片上課，後面則是用自己做的(應該啦:P)投影片
+
+         基本上老師就是以光速掃過投影片，不過底下學生有問題的話可以隨時打斷她
+         問問題。如果還是不懂的話下課也可以問，老師人很nice的~~
+
+         不過也因為全程採用投影片上課，導致整門課變得有點像是名詞解釋課OTZ
+         常常會出現一張投影片介紹完一個idea或是技術後接下來就再也用不到了@@
+         就連這門課的核心DFT的介紹也有點淺嚐輒止的感覺(是塞太多東西了嗎??)
+         大概只有一開始講Hatree-Fock以及Thomas-Fermi時有真的腳踏實地的算一遍
+         (到現在我還是不知道任何一個Khon-Sham XC potential的form:(  )
+         作業也一樣基本上集中在一開始HF與TF的部分，DFT幾乎沒有出現在作業裡@@
+
+         BTW, 本門課號稱英語授課，不過後來沒有外籍生之後就開始中英交雜了XD
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         課程網上是寫 50% 作業 + 50% 期末上台報告&amp;書面
+         不過因為沒開ceiba，所以評分基本上是黑箱啦~~XD
+         而且由於大家都很認真，所以也看不出來究竟是甜還是紮實(已知3/8人拿到A+)
+
+      ρ 考題型式、作業方式
+
+         作業我記不得是有3份還是4份了&gt;"&lt;
+         前兩份集中在第4還是5週交，之後就久久一次作業~
+         作業難度對做固態的應該是普通。不過我不是做固態的，所以覺得頗難QAQ
+
+         期末上台報告教授希望是15分鐘(2學分課程8個人修)，不過我看大家基本上都
+         超時超的很嚴重LOL，加上結束時教授還會問些問題(也開放同學問問題，不過
+         都沒人敢問XD)，所以平均應該花了有20分鐘
+
+         上台報告完之後下一個禮拜(期末考週)要交上台報告內容的書面版本。教授規
+         定10到15頁，不過照例太短用preprint太長用double column所以應該是等價
+         於8頁以上:D
+         這個期末報告loading實在是有點重，如果沒有心理準備想把這門課當作一般專
+         題(通識碩士班版XD)期末會死得頗慘，所以我扣了一顆星OTZ
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         教授人很好應該是不注重出席率啦(我翹了至少3堂還是拿A+)
+         不過因為上課速度快要超光速了，所以小心翹一堂之後講什麼通通聽不懂QQ
+
+         外系選修的話基本要會的應該是固態理論知識以及對量子物理的基本了解
+         由於教授除了講response時用了Green's func.的知識外幾乎都只用基本的
+         multi-particle Schroedinger eq.，所以不需要會量子力學也可以來修喔~
+
+         像是這學期有個學化學的來修一樣照拿A+，我本身也不是做這方面相關的
+         所以我想外系想修這門課應該不算太難~~^_^
+
+      Ψ 總結
+
+         如果你是想大概了解DFT啦QMC啦之類的技術究竟是什麼意思的話選這門課就
+         對了！
+
+         如果想更進一步嘗試算些東西的話這門課並沒有辦法給予太多幫助~~
+
+         不過其實也沒得選，因為這應該已經是這個領域台大有開的課中數一數二深
+         與廣的了OTZ
+
+         BTW, 下次開課時如果這門課改開成3學分的話星數全部可以往上加一顆，兩
+         學分的設計實在是太趕了Orz
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 61.230.16.34
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1422725222.A.59B.html
+推 b01502092: 推認真作者 02/01 22:43
+推 pumachu: 學化學的是說我嗎XD  其實我是學材料的 02/11 16:46
+→ AmibaGelos: sorry打錯啦XD...糟糕結果其實只有我一個人亂入ㄇ&gt;"&lt; 02/11 20:48
+推 pumachu: 哈哈哈我覺得你超強的啊 02/12 00:34
+
+

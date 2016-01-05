@@ -1,0 +1,110 @@
+Title:[評價] 101全 陳政維 量子力學一二 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者deepwoody (快回火星吧)看板NTUcourse標題[評價] 101全 陳政維 量子力學一二時間Mon Jul  1 21:53:34 2013
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：101全年
+ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         陳政維
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+         物理系選修課，物理所必修課
+
+      δ 課程大概內容
+
+         基本上是Shankar整本，不過順序有一些安排:
+         。101上
+           - Review of Classical Mechanics
+           - Particles and Waves (some experiments)
+           - Postulates of Quantum Mechanics
+           - 1-dim problems
+           - The Harmonic Oscillator
+           - The Uncertainty Relation
+           - System with N Degrees of Freedom
+           - Symmetry and their Consequence
+           - Rotational Invariance and Angular Momentum
+           - The Hydrogen Atom
+           - Spin
+         。101下
+           - Spin
+           - Addition of Angular Momenta
+           - Variational and WKB Methods
+           - Time-Independent Perturbation Theory
+           - Time-Dependent Perturbation Theory
+           - Scattering Theory
+           - Path Integral
+           - the Dirac Equation
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+         ★★★★★
+
+      η 上課用書(影印講義或是指定教科書)
+
+         課本: R. Shankar, Principles of Quantum Mechanics, 2nd ed.
+
+         參考書: S. Gasiorowicz, Quantum Physics, 3rd ed.
+                 E. Merzabacher, Quantum Mechanics, 3rd ed.
+                 Nouredine Zettili, Quantum Mechanics: Concepts and
+                                    Applications, 2nd ed.
+                 J. J. Sakurai, Modern Quantum Mechanics, Revised Edition
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         板書
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         101上: 期中考35% 期末考50% 作業15%
+         101下: 第一次期中考30% 第二次期中考30% 期末考40% 作業10%
+         根據epo資料，101上60人修，7人A+，5人被當，應該算是扎實偏甜一點
+
+      ρ 考題型式、作業方式
+
+         考試題目通常為筆記推導，或是一些習題改寫，有好好念課本筆記應該不難，
+         題目也不會出現太過刁難的計算。
+         作業是勾課本題目，每次五題，有時候會要我們推導課本的某個算式，一學期
+         大概有8～9份作業。課本習題解答外面有在賣，網路上也都找的到相關解答，
+         但是建議還是自己好好的算一次吧，因為解答有時候寫的不太好。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         完全不注重出席率。
+
+         外系選修的話，建議要有物理系量子物理(或同等)的基礎，不然有時候老師上
+         課節奏有點快，跟不上的話得自己看課本，而課本某些地方也沒有講得很清楚
+         ，不過感覺上好像沒什麼物理系所以外的同學修XD。
+
+         加簽的話應該是全簽，上學期人比較少一點，都跑到高老師班了。不過到了下
+         學期很多人跑來簽這班XD，聽說是高老師班太著重觀念，而不太強調計算。
+         關於高湧泉老師量子力學的評價可以參考此篇:#1H1aUUpM (NTUcourse)
+
+         遲到老師不會管，吃東西也不會管。
+
+      Ψ 總結
+
+         老師是做超導實驗的，在理論上或許沒辦法講的比做理論的老師清楚，但是我
+         覺得這門課應該算是中規中矩，該講的都有講到，不過有些地方需要自己參照
+         課本或參考書念比較好懂。如果想把量子力學整本好好念過，這門課算是推薦
+
+         By the way，下學年量子力學好像換人開了，這篇就當作畢業的紀念吧XD
+
+--
+
+「科學只有物理一個學科，其他不過相當於集郵活動而已」
+                                                                    ─拉瑟福
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.211.87
+→ harveyhs:換小賀開 07/01 22:26
+※ 編輯: deepwoody       來自: 140.112.211.87       (07/02 18:19)
+→ li042127054:竟然是五顆星... 07/03 04:18
+
+

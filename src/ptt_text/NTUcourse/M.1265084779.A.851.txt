@@ -1,0 +1,176 @@
+Title:[評價] 98-1 幾何學 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者iamwjy (醉翁之意)看板NTUcourse標題[評價] 98-1 幾何學時間Tue Feb  2 12:26:16 2010
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+
+         是
+
+      哪一學年度修課：
+
+      98 上
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         王金龍
+
+      δ 課程大概內容
+
+      1. Curves
+
+           Parametrized Curves
+           Regular Curves
+           The Vector Product in R^3
+           The Local Theory of Curves Parametrized by Arc Length
+           The Local Canonical Form
+           Global plane curve theories
+
+      2. Surfaces
+
+           Regular Surfaces
+           Change of Parameters; Differential Functions on Surfaces
+           The Tangent Plane; the Differential of a Map
+           The First Fundamental Form; Area
+           Orientation of Surfaces
+
+      3. The Geometry of the Gauss Map
+
+           The Definition of Gauss Map and 1st Fundamental Properties
+           The Gauss Map in Local Coordinates (the 2nd fundamental form)
+
+     Midterm
+
+           Vector Fields and the stronger form of the ODE Thm
+           ( the construction of orthogonal coordinates)
+           Ruled Surfaces and Minimal Surfaces
+           ( Conformal maps and isothermal coordinates)
+
+      4. The Intrinsic Geometry of Surfaces
+
+           The Gauss Theorem and The Equations of Compatibility
+           Parallel Transport; Geodesics
+           The Gauss-Bonnet Theorem and its Applications
+           The Exponential Map. Geodesic Polar Coordinates
+
+
+      Final
+Ω 私心推薦指數(以五分計) ★★★★★
+
+         5
+
+      η 上課用書(影印講義或是指定教科書)
+
+         Differential Geometry of Curves and Surfaces by  Manfredo Do Carmo
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         板書。逐步講解、計算、證明，脈絡大致上跟隨課本，偶爾有些出入，
+
+         有些重要的、但課本放在附錄或沒有講的大定理都會給予證明，
+
+         例如曲線基本定理、Bonnet定理、ODE存在唯一解定理（加強版）等等。
+
+
+         有些比較基礎的部分，老師不會提，必須自己把課本讀完。他花比較多
+
+         的時間講解動機，這是我很喜歡的部分，他讓很多太技巧的東西變得
+
+         稍微直覺一點。複雜的計算他都會詳細的把他算完，但是有時候會不小心
+
+         掛黑板，然後就下課了，會小囧。
+
+
+         老師講課很激動。聲音會常常上揚、破音導致太吵，不過無傷大雅。
+
+         上王老師的課一定要自己看課本，而且要做習題，定理要重新自己證明過。
+
+         老師超強，是第一屆的數奧金牌，Wiki也搜尋的到老師，上課有時候有點難懂，
+
+         所以一定要自己看過課本，而且要做習題，定理要重新自己證明過；
+
+         經過消化之後，會感覺通體舒暢XD。
+
+
+         老師非常強調要念好基本的概念，要知道每一章的重點是什麼，有什麼用途，
+
+         所以考試都是考基本該會的。甚至期末考考了：
+
+         State and Prove the Gauss-Bonnet Theorem
+
+         差不多就是把4.5節的一半和之前的Lemma全部默寫下來了。
+
+         所以雖然老師上課有點難度，但是考是絕對是基本（前提是要用功念）的為主。
+
+
+         再來是助教。我是給王以晟助教帶的。感覺助教蠻強的，Office Hour
+
+         去找他他都很熱心，是標準的大好人! 作業有時候慢交他也會通融。
+
+         唯獨板書字太小，有時候習題課講解速度太快、不夠清楚，會不知所云。
+
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+          Homwework 20%  Mid 40%  Final 40%
+
+         紮實偏甜。期中期末考卷我有PO在考古題版。都是考課本的證明或者習題，
+
+         只要勤寫習題，就可以拿高分。不過習題有的很困難就是了。
+
+         好心的助教會在考前寫一些解答，可以影印。
+
+         我沒有寫完習題，證了些該證的定理，期末平均有九。
+
+         但絕對是花了很多時間研讀。
+
+
+
+      ρ 考題型式、作業方式
+
+         數學系都差不多。期中考八題，120分。期末考6題，120分
+
+         作頁每個禮拜都有大約三到四題。就是考試會考的習題的一部份。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         似乎不重出席率，也沒點過名。需要的基礎有：
+
+         高等微積分：多變數微分、反函數定理、隱函數定理、Compactness的理論。
+
+         線性代數：多維平行體體積、線性映射基本概念、克拉瑪公式。
+
+         ＯＤＥ：常微分方程存在唯一定理。
+
+         若有缺漏，請推文指教。以上先備知識不是絕對需要，如果非常有興趣，
+
+         也可以後來再自修，課本的部分附錄有。
+
+　　　   其實像我因為不是數學系的，所以ODE的定理沒有證過，而且線性代數
+
+         有些也忘光了；我另一個同學甚至連反函數定理、隱函數定理都是學幾何學
+
+         第一次學，平均也有8，所以真的只要有興趣，都可以來念。　
+
+
+         絕對加簽的到。老師個性隨和。
+
+
+      Ψ 總結
+
+         剛開始念的時候，覺得很困難，但經過後來慢慢消化，就覺得還好了。
+
+         所以只要對數學有熱誠的人，絕對是大推!!!!
+
+         但是除非你心臟很強，否則最好不要修太多其他的課，會沒有時間讀書的。
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 114.47.131.197
+推 ijsfkira:老師真得很好 其實我覺得找他聊天收穫會更多XD 02/02 18:31
+→ ijsfkira:上課掛版真的滿囧的就是了... 02/02 18:31
+
+

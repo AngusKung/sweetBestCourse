@@ -1,0 +1,184 @@
+Title:[評價] 101-2 王金龍 微分幾何二 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者yusd24 (阿鄉)看板NTUcourse標題[評價] 101-2 王金龍 微分幾何二時間Sun Jun 23 18:25:42 2013
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：101-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         王金龍教授
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+         數學系大學部選修/研究所必修
+
+      δ 課程大概內容
+
+         以下是課程大綱：
+
+        Kaehler geometry and calibration.
+        Weierstrass representations, minimizing sub-manifolds
+        Douglas-Rado's solution to Plateau problem
+        Vector bundles and characteristic classes
+        Heat kernels of elliptic operators
+        Clifford modules and Dirac operators
+        Atiyah-Singer Index theorem
+
+        期中考
+
+        Gauss-Bonnet-Chern and Hirzebruch's signature theorem
+        Milnor's exotic S^7
+        Donaldson--Freidman's exotic R^4
+        ASD moduli and its local structures
+        Intro to Taubes' theorem and Seiberg-Witten
+        Perspectives on modern geometry
+
+        期末報告
+
+
+       基本上期中考前的主軸就是
+
+          1. 了解 minimal submanifolds 的行為
+          2. 了解 Atiyah-Singer Index Theorem
+
+
+       1.主要是解邊界值問題：在空間中給定一個曲線，
+         問是否存在一個極小子曲面使得這個曲面的邊界就是剛剛給定的曲線。
+         通常這叫做 Plateau's problem.
+         Douglas 給出了這個問題的解答。
+         這部分的參考文獻是 Lectures on minimal submanifolds/ Lawson
+
+       2.探討一個橢圓 PDE 的index 問題。
+         Atiyah-Singer index theorem 主要就是給出流形上
+         (更精確的說應該是流形上的向量叢)的橢圓算子指標
+         與流形的拓樸之間的關係。
+
+         原始的證明用到了極深的代數拓樸，不過在二十世紀中後期
+         Getzler 利用Dirac operator給出了一個比較容易(且比較微分幾何)的證明
+         基本上課程就跟著這個證明。
+         這部分主要是參考 Heat Kernels and Dirac Operators 這本書
+
+       期中考過後主要是應用 Atiyah-Singer index theorem.
+       大致上可以分成幾個應用：
+
+
+       1.Gauss-Bonnet-Chern theroem
+       2.Hirzebruch's signature theorem
+
+       再利用 signature theorem 證明
+
+       3.Existence of Milnor's exotic S7
+       4.Donaldson-Freedman's exotic R^4 並且介紹 ASD moduli
+
+       最後講一點點 Yang-Mills equations 跟 Gauge theory 作結束
+
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+      不大力推薦(&gt;=5)的話我也不會寫
+
+      η 上課用書(影印講義或是指定教科書)
+
+      I-1: Lawson: Lectures on minimal submanifolds
+      I-2: Osserman: A survey of minimal surfaces
+     II-1: Berline, Getzler and Vergne: Heat kernels and Dirac operators
+     II-2: Gilkey: Invariance theory, heat equation, and
+           the Atiyah-Singer index theorem
+     II-3: Lawson and Michelson: Spin geometry
+     IV-1: Freed-Uhlenbeck: Instantons and four manifolds
+
+     還有一些是老師以前當學生時做的報告。
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+      板書，基本上是跟著書本的結構走。
+      但是老師對於數學有獨到的觀點，在講課的時候常常會化簡一些證明。
+
+      教學風格極為生動，看老師上課都會覺得數學真是有趣。
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+      作業     20%
+      期中考   40%
+      期末報告 40%
+
+      紮實分吧！但是有讀書的同學應該會認為偏甜！
+
+      ρ 考題型式、作業方式
+
+      期中考前作業基本上就是補充老師上課沒有講的細節。
+      這些細節都是很容易的 - 只要你很清楚上課到底在搞什麼。
+
+      期中考後作業就比較不同，
+      目的是希望我們用學的一些工具去觸類旁通。
+
+      期中考就是考老師上課講過的/作業。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+      出席率能吃嗎？
+
+      關於基礎的部分：
+
+        微積分、線性代數、高等微積分、
+        複變函數論、大學部幾何學、
+        也許會一點點代數拓樸修起來會更輕鬆。
+        有學過研究所的偏微分方程式會更好！
+
+        不過後兩者沒學過也沒關係
+        ，課程要用到的時候再一起學就可以了。
+
+        用到的時候老師會幫大家做個簡單的簡介紹。
+
+      Ψ 總結
+
+       老師本身是臺大數學系畢業(據考察是b75)，哈佛大學博士。
+       跟老師交談過後會發現他的數學觀點很好。
+
+       比方說我去問他問題，他常常都可以馬上突破我的盲點。
+       然後告訴我說這些東西你應該要怎麼樣去想像怎樣去操作。
+
+       比起上課，更推薦修課的同學可以常常去問老師問題。
+
+
+
+       一般的數學系微分幾何一、二教的內容大致就是老師教的「微分幾何一」
+       所以這次可以修到老師開的微分幾何算是相當幸運。
+       雖然老師教的題材很多，難度也比一般的老師還深。
+
+       老師自己則是強調他教的東西都很簡單很標準！
+       他說在國外他們都是這樣學習/教學。
+
+       不過學完之後有一種值回票價的感覺。
+       下次要學到如此豐富的課程不知道要等到何時。
+
+       修課的時候有任何問題都可以去問老師，老師都很歡迎。
+       (聽說老師私底下會抱怨怎麼沒有學生來問問題XD)
+
+       老師說他自己的開課的標準是：「我是學生的話一定要覺得很累。」
+
+       所以要來修的同學一定要有心理準備，這絕對不會是一個涼課。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 114.43.91.43
+※ 編輯: yusd24          來自: 114.43.91.43         (06/23 18:29)
+推 chy1010:說好的第一句呢 06/23 18:28
+推 chy1010:補充一下好了, 出席率雖然不重要, 但是缺課要補起來 06/23 18:40
+推 chy1010:最好還是直接去找老師請教問題. 看筆記很容易看不懂. 06/23 18:41
+推 anwang:Freedman 06/24 10:25
+※ 編輯: yusd24          來自: 140.112.51.114       (06/24 11:28)
+→ yusd24:老師眼睛真是銳利XD 06/24 11:29
+推 willydp:修起來有點累 作業都做不出來很挫折 06/30 11:41
+→ willydp:修過微分幾何二之後我發現自己原來完全不懂微分幾何 06/30 11:42
+推 studentkuo:我覺得需要的代數拓樸不止一點點... 07/02 09:29
+→ studentkuo:還是說修的人應該要有覺得自己只用了一點代拓的實力？ 07/02 09:29
+
+

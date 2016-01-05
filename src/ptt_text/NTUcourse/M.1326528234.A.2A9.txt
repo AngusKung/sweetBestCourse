@@ -1,0 +1,140 @@
+Title:Fw: [評價] 100-1 簡韶逸 交換電路與邏輯設計 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者so15963 (榴槤)看板NTUcourse標題Fw: [評價] 100-1 簡韶逸 交換電路與邏輯設計時間Sat Jan 14 16:03:53 2012
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）          
+         （是／否／其他條件）：
+         是, 惟須另外告知作者
+
+      哪一學年度修課：                                                          
+
+         100-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)                        
+
+         簡韶逸
+
+      δ 課程大概內容                                                           
+
+         Unit 1 Introduction: Number Systems and Conversion
+         Unit 2 Boolean Algebra
+         Unit 3 Boolean Algebra (continued)
+         Unit 4 Applications of Boolean Algebra: Minterm and Maxterm Expansions
+         Unit 5 K-Maps
+         Unit 6 Quine-McClusky Method 
+         Unit 7 Multi-Level Gate Circuits: NAND and NOR Gates
+         Unit 8 Combinational Circuit Design and Simulation Using Gates
+         Unit 9 Multiplexers, Decodes and PLD
+         Unit 11 Latches and FFs
+         Unit 12 Registers and Counters
+         Unit 13 Analysis of Clocked Sequential Circuits
+         Unit 14 Derivation of State Graphs and Tables
+         Unit 15 Reduction of State Tables-- State assignment  (~15.2、15.8)
+         Unit 16 Sequential Circuit Design  (~16.4)
+         Unit 18 Circuits for Arithmetic Operations  (~18.2)
+
+         以上的unit是課本的章節
+         紅色標記的地方是教授另外補充的部分
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★                                      
+★★★★★                                                             
+         毫無疑問的五顆星!!
+
+      η 上課用書(影印講義或是指定教科書)                                       
+
+         C. H. Roth, Jr. Fundamentals of Logic Design, 6th edition,
+         CL-Engineering. 2009.
+
+      μ 上課方式(投影片、團體討論、老師教學風格)                               
+
+         投影片+手寫板教學，投影片中會講概念以及有大量的範例，帶
+
+         範例的時候有會適時抽點人上台
+
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)                                         
+
+         participation                                        2%
+         homework(手寫*6 + verilog作業*1)                    18%
+         quiz1                                                4%
+         quiz2                                                6%
+         midterm                                             35%
+         final                                               35%
+
+
+      ρ 考題型式、作業方式                                                     
+
+         因為是統一教學，所以作業還有考試都是各班統一
+
+         首先來講作業形式
+
+         作業總共有7次，6次課本題+1次verilog作業
+
+         課本題的部分就是勾選課本的習題，1 次量約8~10題，勾選的題
+
+         目一般來說不會太好處理，很多都滿繁瑣的，或者有些需要思考
+
+         一下，要花一些時間，然後在期中考之後會請助教統一開一堂
+
+         verilog 的教學，然後會有verilog 的題目，這一方面比較起來
+
+         倒是沒有那麼難，但是因為verilog 需要用像是工作站來跑，所
+
+         以如果對於其操作不熟悉的話，還是要花一些時間
+
+
+         考題的話形式大致不會和上課帶的範例或課本題相差不多 (當然
+
+         題目暴走的狀況除外 )，基本上有寫過作業的話對於題型不會感
+
+         到太生疏，只是期中期末有時候會出現需要想一下的題目，如果
+
+         反應不夠快或者對電路的感覺不夠的話，可能會比較吃虧。
+                       ^^^^^^^^^^^^^^^^
+ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？  
+加簽習慣？嚴禁遲到等…)                                           
+
+         出席率的部分前面有提過，有時候會點人，另外verilog 教學出
+
+         席會計入分數
+
+         加簽方面沒記錯的話是教室容量夠的話就會簽
+
+         然後這門課需要的基礎其實不多，有不少外系的同學來修課，如
+
+         果有一些基本的邏輯基礎(計算機概論或者計算機程式中教的)會
+
+         比較快上手，不過因為這些老師都會教到，所以不用擔心
+
+
+
+      Ψ 總結                                                                   
+
+         一開始上課的時候會覺得老師沒有什麼表情，但久了就會發現他
+
+         識個冷面笑匠，上他的課會有很多莫名的笑點，加上他有時候會
+
+         嘴砲一下，所以上課不太會無聊，加上教授講的也頗清楚，所以
+
+         大部份內容都可以在上課處理完，不會造成額外負擔
+
+
+         如果想輕鬆學好交電的話，選這一班準沒錯！
+               ^^^^相對啦@@
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.25.106
+※ 編輯: so15963         來自: 140.112.25.106       (01/14 16:02)
+※ 編輯: so15963         來自: 140.112.25.106       (01/14 16:02)
+※ 編輯: so15963         來自: 140.112.25.106       (01/14 16:02)
+
+※ 發信站: 批踢踢實業坊(ptt.cc)
+※ 轉錄者: so15963 (140.112.25.106), 時間: 01/14/2012 16:03:53
+※ 編輯: so15963         來自: 140.112.25.106       (01/14 16:04)
+
+

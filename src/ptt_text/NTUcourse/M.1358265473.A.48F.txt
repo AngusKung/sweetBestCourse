@@ -1,0 +1,166 @@
+Title:[評價] 101-1 場論專題 賀培銘 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者harveyhs (Hango)看板NTUcourse標題[評價] 101-1 場論專題 賀培銘時間Tue Jan 15 23:57:51 2013
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課： 101-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         賀培銘
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+         物理所
+
+      δ 課程大概內容
+
+         1.  L. Faddev and R. Jackiw, Hamiltonian Reduction of Unconstrained and
+
+             Constrained Systems.
+
+         2.  R. P. Feynman, Space-Time  Approach to Non-Relativitic Quantum
+
+             Mechanics.
+
+         3.  W. Pauli, The Connection Between Spin and Statistics.
+
+         4.  S. Weinberg, Photons and Gravitons in S-Matrix Theory: Derivation
+
+             of Charge Conservation and Equality of Gravitational and Inertial
+
+             Mass.
+
+         5.  R. Jackiw and C. Rebbi, Solitons with Fermion Number 1/2.
+
+         6.  K. Fujikawa, Evaluation of the Chiral Anomaly in Gauge
+
+             Theories with γ5 Couplings.
+
+         7.  J. Wess and B. Zumino, Consequences of Anomalous Ward Identities.
+
+         8.  S. A. Fulling, Nonuniqueness of Canonical Field Quantization in
+
+             Riemannian Space-Time.
+
+         9.  S. W. Hawking, Particle Creation by Black Holes.
+
+         10. B. Delamotte, A Hint of Renormalization.
+
+         11. J. Polchinski, Renormalization and Effective Lagrangians.
+
+         12. J. Gomis and S. Weinberg, Are Nonrenormalizable Gauge Theories
+
+             Renormalizable?
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+ ★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+         就上面那些文章，老師會放上ceiba。
+
+         有分幾個大主題：
+
+         1. Quantization
+
+         2. Anomaly
+
+         3. QFT in Curved Spacetime
+
+         4. Renormalization
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         課前閱讀文章，
+
+         課中同學們提出問題或者老師提問題，
+
+         （如果這篇文章需要一點背景知識老師會先講背景知識）
+
+         然後讓同學互相討論或者老師解答。
+
+         （不過常常小賀問的問題都拖到最後他自己回答XD）
+
+         全英文環境。
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         老師說看你參與討論與促進討論的程度來評分
+
+         （說話就會過的意思（炸））
+
+         分數還沒出來XD等出來了我補上
+
+         不過是小賀的課，先猜紮實好了。（欸
+
+         小賀給我A+ T___T 偏甜
+
+      ρ 考題型式、作業方式
+
+         沒有期中也沒有期末，作業......每個禮拜讀文章也算作業吧XD
+
+         而且也是不太輕的作業。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         全簽。
+
+         一學期的量子場論，
+
+         但小賀說網路上 David Tong 的課程聽完就差不多了。
+
+         我的感覺是 David Tong 的課程大概足以讀文章跟問問題，
+
+         要對問題給出有意思的想法還需要多點功夫。
+
+      Ψ 總結
+
+         物理系大學部到研究所一年級大部分時間都在接觸已經寫入課本
+
+         整理完全的理論，很少時間直接處理理論本身，這門課讀的文章
+
+         對我這種一直笨笨修課的人算是滿好的刺激，讓我去知道說一個理論
+
+         在形成的過程考慮了哪些事情，如老師課堂一開始的問題往往是作者
+
+         做了哪些假設，除了明講的假設外有沒有其他的；以及在學生以及研究者
+
+         的層級去看理論的區別，如期中投票第一篇 Faddeev and Jackiw 的文章
+
+         被評為最難，但其實那篇可以是純然古典的，我卻一直被自己舊有的
+
+         膚淺概念侷限住不得其門道。
+
+
+         不過在大學部能有機會上這種課感覺還滿不賴。
+
+         然而，另一方面可惜的是 = = 因為我自己太弱惹，只能偶爾問問蠢問題，
+
+         相較於解決自己或者別人的疑問，就顯得力不從心。
+
+         另外討論過程都使用英文，所以也是某種上的語言訓練課吧（欸）
+
+
+
+         下學期是弦論專題，不過小賀說弦論就是他要給演講了，然後既然有演講
+
+         大家就乖乖寫作業XD。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.249.241
+推 hsinsu:一直在等的評價文～原PO超強又謙虛!! 01/16 21:11
+※ 編輯: harveyhs        來自: 140.112.249.241      (01/17 20:37)
+推 cowux:這門課超棒 但是要自己下苦工讀文章才會學到很多東西喔 01/18 01:33
+推 justinhou:大推原PO！！！ 01/18 19:52
+推 peterqlin:原PO大神!!!! 01/19 00:10
+推 killfrog:推原PO強者我同學 01/19 23:10
+推 f34150:推 原po超強者 02/06 08:17
+
+

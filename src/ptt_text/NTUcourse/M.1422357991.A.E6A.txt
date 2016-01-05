@@ -1,0 +1,162 @@
+Title:[評價] 103-1 量子場論I - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者tryharderplz (加油~)看板NTUcourse標題[評價] 103-1 量子場論I時間Tue Jan 27 19:26:29 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+
+
+      哪一學年度修課：
+
+103-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+陳俊瑋 教授
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+物理所 選修
+
+      δ 課程大概內容
+由課程網站:
+
+1) Sep. 18:
+Field; quantum mechanics；
+from the double slit experiment to path integral;
+special relativity; the marrage of auantum mechanics and special relativity
+---quantum field theory
+
+2) Sep. 25: path integral approach to quantum mechanics
+
+3) Oct. 2: path integral approach to quantum mechanics
+
+4) Oct. 9: From coupled SHO to field to force; propagator.
+
+5) Oct. 16: Canonical qunatization; Casimir effect; Noether's theorem
+
+6) Oct. 23: the Dirac equation
+
+7) Oct. 30: Quantizing the Dirac field;
+
+8) Nov. 6: Lorentz group &amp; Weyl spinors; Spin statistics connection; Grassman
+numbers
+
+9) Nov. 13: Feynman rules for fermions; Ward-Takahashi identity
+
+10) Nov. 20: Faddeeev-Popov gauge fixing
+
+11) Nov. 27: spontaneous symmetry breaking; Goldstone's theorem
+
+12) Dec. 4: Coleman-Mermin-Wagner theorem; differential forms; non-abelian
+gauge theory; Higgs mechanism
+
+13) Dec. 11: quantizing the Yang-Mills theory
+
+14) Dec. 18: the standard model of particle physics
+
+前半學期大約follow課本前兩章，期中考前後開始跳躍。
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+兩顆星
+
+      η 上課用書(影印講義或是指定教科書)
+
+Quantum Field Theory in a Nutshell by A. Zee
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+板書講解，期末有邀請四位同學各給40分鐘的talk
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+這學期沒有期中考，所以我猜是---期末50%作業50%。
+
+因為沒有期末考所以作業就稍微多了些，這學期有八次作業，
+大概把講過範圍課本習題全寫這樣XD
+
+      ρ 考題型式、作業方式
+
+作業就是課本習題，還有一篇paper review，每次習題大約都是十題左右，兩周交。
+
+期末考有四題，其中有兩題是寫報告，另外兩題是計算題。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+全簽，不重視出席率。
+
+基礎(建議):
+-大學部四大力學
+-應數三(複變)
+-狹相(力學最後面有提過)
+
+最小要求(如果只有這些很容易會GG喔):
+-微積分
+-量物的SHO知識，了解升降operator
+
+
+
+      Ψ 總結
+
+今年是俊瑋大大最後一年開場論，只好來朝聖一番。
+
+不意外，老師的選書讓我極為痛苦，
+
+AZee是好書，如果你把他當睡前讀物來看，他用科普的手法介紹量子場論，
+
+巧妙的避掉繁雜的計算細節而將物理概念呈現給讀者，
+
+作為課本他帶給學生痛苦，尤其要寫習題的時候。
+
+
+大部分習題不是難，不是複雜，是不知道他在問什麼.....
+
+花最多時間是在那邊與習題乾瞪眼猜他要問什麼，
+
+當然這可能跟我貧弱的物理背景有關係....
+
+還好我和同學work as a team.... 不然這學期就要GG了
+
+
+這學期老師將重點放在介紹場論的一些基本工具，
+
+之後直奔Higgs、標準模型等偏粒子物理章節，
+
+對於有興趣於高能領域的同學是必備的知識。
+
+
+俊瑋大大是好人，他很努力在課堂中講解，可能因為想介紹的東西太多了，
+
+在期中之後他開始爆走，接下來這堂課就變得有點神奇。因此星數比較少。
+
+
+但是我非常喜歡老師上課鼓勵學生和他討論，
+
+平常不是很有機會和天天使用這科目的專家討論，
+
+這門課因此是我這學期收穫最為豐盛的一門課，
+
+為此我由衷感謝俊瑋大大與助教，還有罩我的數位強者同學。
+
+還有，助教作業改好松阿XD 有放水的嫌疑XD 一顆星因此就給他惹(超不客觀XD
+
+
+今年是俊瑋大大最後一年場論(原本去年就是最後一年)，
+
+所以短時間內不會再開了，在此做個紀念。
+
+
+魯魯到此一遊~~~
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.218.77
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1422357991.A.E6A.html
+※ 編輯: tryharderplz (140.112.218.77), 01/27/2015 19:26:59
+※ 編輯: tryharderplz (140.112.218.77), 01/27/2015 19:27:38
+※ 編輯: tryharderplz (140.112.218.77), 01/27/2015 19:28:35
+推 professor525: 推大神發評價文啦~~~~ 01/27 21:19
+推 AmibaGelos: 有神快跪!! 01/31 15:18
+
+

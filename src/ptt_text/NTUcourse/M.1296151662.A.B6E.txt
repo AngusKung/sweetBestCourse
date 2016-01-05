@@ -1,0 +1,112 @@
+Title:[評價] 99-1 蘇炫榮 數位通信系統 - 看板 EE_Comment - 批踢踢實業坊
+
+
+作者cckk3333 (皓月)看板EE_Comment標題[評價] 99-1 數位通信系統 蘇炫榮時間Fri Jan 28 02:07:40 2011
+哪一學年度修課：
+
+         99-1
+
+
+      δ 課程大概內容
+
+         以下是課綱
+
+         1. Overview of Elements of Digital Communication Systems.
+         2. Digital Transmission through
+            the Additive White Gaussian Noise Channel.
+         3. Digital Transmission through Bandlimited Additive White Gaussian
+            Noise Channels.
+
+         --------------------------------期中------------------------------
+
+         4. Information Sources and Source Coding.
+         5. Channel Capacity and Error Control Coding.
+
+         --------------------------------期末-------------------------------
+
+         6. Spread Spectrum Communications.
+         7. Multi-user Communications.
+
+         6跟7完全沒上到 我當初就是覺得6跟7很有趣才修這門的 = =
+
+
+         我認為教授本身會很多東西 一些語音的實際運用 JPEG的操作都會提到
+
+         不過不知道是我理解性太差還是怎樣...
+
+         我的能力就只能懂到教授知道很多東西而已
+
+         (教授感覺有一種可以把任何東西都講的很難的能力)
+
+         很多東西我都還是要回去看才看得懂
+
+         至於課程內容
+
+         我認為重點還是下半學期吧
+
+         上半學期教的通原都有教
+
+         雖然這堂課號稱通原2
+
+         不過也銜接太大了一點 = =
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+         ★★★+0.5★
+
+      η 上課用書(影印講義或是指定教科書)
+
+         Communication Systems Engineering , Proakis.
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         電機系典型的PPT上課，加上一隻電子筆畫來畫去，偶而會有一點證明
+
+         PPT非常的亂 考試基本上只會從PPT出而已
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         HW: 30%
+
+         Midterm: 30%
+
+         Final: 40%
+
+         分數還沒出來，有機會再補上
+
+      ρ 考題型式、作業方式
+
+         作業是六次的課本習題 每次約10題 + 4次有Matlab練習
+
+         (其中兩次作業是考試前 不用教) Matlab的分量不算重 不用花太多時間
+
+         然後 最後一次是用Matlab作JPEG解壓縮
+
+         比起前面幾次Matlab稍為重了一點，不過其時也還好
+
+         考試期中期末都很類似 closed book
+
+         有一部分類似名詞解釋，大概佔35%
+
+         剩下的大概就是一些計算題吧 有空考古題寫一寫 應該會有用XD
+
+      Ψ 總結
+
+         其實是學到不少東西啦 也稍微把通原的東西整理一下
+
+         如果沒有教授的話 其實真的也不太容易自己念
+
+         不過其實我覺得並沒有說上的特別好
+
+         教授有時候上一上就會說出:"不好意思 剛剛有點講錯"、
+
+         "其實這樣講也不太對"、"我剛剛有點證錯"
+
+         有一點造成學生的困擾
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 118.166.64.194
+※ 編輯: cckk3333        來自: 118.166.64.194       (01/28 02:08)
+
+

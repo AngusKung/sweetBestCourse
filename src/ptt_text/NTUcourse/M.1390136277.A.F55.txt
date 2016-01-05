@@ -1,0 +1,94 @@
+Title:[評價] 102-1 黏性流體力學 賴君亮 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者ns512346 (A砲)看板NTUcourse標題[評價] 102-1 黏性流體力學 賴君亮時間Sun Jan 19 20:57:54 2014
+※ 本文是否可提供臺大學生轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）： 是
+
+      哪一學年度修課： 102-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+         賴君亮
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+         機械所，熱流組碩士生
+      δ 課程大概內容
+         § 1: Introduction-Preliminary Concepts
+         § 2: The Equation of Fluid Motion
+         § 3: Scaling Analysis
+         § 4: Vorticity Dynamic
+         § 5: Method of Analytic Solution
+         § 6: The Analytic Solution of Simple Flow Configuration
+         § 7: Viscous Effects Predominal Flows
+         § 8: Boundary Layer Flows
+         § 9: Introduction to Hydrodynamic Stability
+         §10: Turbulence Flow
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+         ★★★★★
+      η 上課用書(影印講義或是指定教科書)
+         Viscous Fluid Flow, Third Edition, Frank M. White
+         (只念這本的話，就等死吧...)
+         板書內容
+      μ 上課方式(投影片、團體討論、老師教學風格)
+         抄板書(不帶任何書本或投影片，拿著一隻粉筆就上台講課了...)
+      σ 評分方式(給分甜嗎？是紮實分？)
+         一學期大約有18~22題考題，每題10分，
+         2次期中考各4題，期末考4題
+         剩下6~10題考題，各自分散在每週的不定期小考，一次1~2題不定
+         期末結算所有考題的成績，無作業成績
+         給分蠻硬的，建議別翹課，你不知哪天何時突然小考
+      ρ 考題型式、作業方式
+         套研究室學長的話，上課、作業、考試，是空集合，
+         但是沒上課、沒寫作業的話，期中考絕對不會寫
+         期初有開書單10本，但這10本極少出現在考題中
+
+         102-1考題舉例:
+         平時小考: 飛碟是否真能飛?動力機制為何?、將介面液膜拉開的拉力、
+                   大蚌能否吃到小蚌?、椰林大道上凸面障礙物頂點速度...
+         1st期中: 算出桌面上液滴的形狀、鹽水蜂炮旋轉、外太空長晶...
+         2nd期中: 如來神掌、壁面均勻向上塗抹油漆、師大可麗餅...
+         期末考 : 微風輕拂醉月湖面、長恨歌、科氏力...
+
+         1st Mid-term : 重點在Surface tension、Control Volume、三大守恆定律
+         →建議閱讀的原文書:
+           1. Introduction to Fluid Mechanics, Robert W.Fox
+           2. Liquid-Vapor Phase-Change Phenomena, Van P.Carey
+
+         2nd Mid-term : 重點在Stoke's problem、Lubrication Theorem、Perturbation
+         →建議閱讀的原文書:
+           1. Fundamental Mechanics of Fluids, I.G.Currie
+           2. Elementary fluid dynamics, D.J.Acheson
+           3. Advanced mathematical methods for scientists and engineers, Curl M. Bender
+
+         Final Exam   : 重點在Blasius Solution、Instability
+         →建議閱讀的原文書:
+           1. Viscous Fluid Flow, Frank M. White
+           2. Fundamental Mechanics of Fluids, I.G.Currie
+           3. Elementary fluid dynamics, D.J.Acheson
+           4. Physicochemical Hydrodynamics, Ronald F. Probstein
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+         不重出席率，但會不定期小考，很少人敢不來上課，最好有不錯的流力基礎，
+         再來選這堂課，賴老師對黏性流體力學範疇的物理觀念都講得非常清楚，
+         認真修課會有豐富的收穫，但今年是賴老師最後一年教黏性流體力學，
+         往後老師教課範圍應也不會差距太遠，留給學弟妹或外系同學做參考。
+
+      Ψ 總結
+         謝謝賴老師把我們當成美國頂尖大學的學生在教，黏流是我進台大以來，
+         修過最精采充實的一門課，賴老師謝謝您！
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.44.49
+※ 編輯: ns512346        來自: 140.112.44.49        (01/19 20:59)
+※ 編輯: ns512346        來自: 140.112.44.49        (01/19 21:01)
+※ 編輯: ns512346        來自: 140.112.44.49        (01/19 21:02)
+※ 編輯: ns512346        來自: 140.112.44.49        (01/19 21:03)
+※ 編輯: ns512346        來自: 140.112.44.49        (01/19 21:05)
+→ gj942l41l4:純推賴君亮 01/20 00:47
+※ 編輯: ns512346        來自: 140.112.4.206        (01/21 00:29)
+推 hanwang:刀下亡魂淚推~ 01/21 14:52
+
+

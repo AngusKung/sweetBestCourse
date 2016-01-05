@@ -1,0 +1,138 @@
+Title:[評價] 102-2 高涌泉 場論在凝態物理上的應用 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者harveyhs (Hango)看板NTUcourse標題[評價] 102-2 高涌泉 場論在凝態物理上的應用時間Thu Jul 24 20:51:27 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）： 是
+
+
+      哪一學年度修課：
+
+      102 - 2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+      高涌泉
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+      物理所
+
+      δ 課程大概內容
+
+      superconductivity revisited: from symmetry breakdown perspective
+
+      1-d quantized conductivity and integer Hall effect as chiral anomaly
+
+      soliton &amp; zero mode physics: Jackiw and Rebbi Scheme
+
+                                   polyacetylene: Su-Schrieffer-heeger counting
+
+      bosonization: Jordan-Wigner transformation
+
+                    Coleman's &amp; Mandelstam's formulation
+
+      大致條目是這樣，但時間分配相當不均 xD
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+      聽故事： ★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+      沒有真的指定教科書，只有推薦一些取材的書。
+
+      比較齊的是這兩本，而第二本的細節又比較詳盡一點。
+
+      Fradkin, Field Theories of Condensed Matter Physics
+
+      Altland and Simons, Condensed Matter Field theory
+
+      相較於課本，老師更熱切推薦的常是相關題材的原文或原作者重新討論的文章。
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+      老師自己準備筆記上課板書。
+
+      風格狀況我想留在其他一起講 xD
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+      因為同時還要開一門量力 xD
+
+      這門課沒有筆試，原本說的作業（課堂過程的計算）最後也沒收
+
+      基本上就是學期末自己挑一個題材給一個 20 分鐘的演講，並附上書面報告。
+
+      涼不涼看你對平常自己的題材用心到什麼程度，
+
+      若整學期就只準備了那個報告的話 算是超涼的課吧
+
+      （因為老師對題目也沒有嚴格的限制，沾邊就行了。）
+
+      ρ 考題型式、作業方式
+
+      如上述，沒有筆試，就期末口試 ＋ term paper
+
+      本來老師是說把課程中一些比較細節的推導當習題，但最後也沒有收就是。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+      點名是什麼（挖鼻）
+
+      這門課雖然一開始恐嚇說需要場論基礎，並且會跳過細節，
+
+      但最後還是重蹈了所有高老師的課的覆轍 xD
+
+      在技術上：簡單的細節往往磨得比天外飛來一筆的結論久得多。
+
+      我覺得高老師一直有一種把公式推導乾淨是老師一部份責任的信念
+
+      在普物他還遊刃有餘，但到了場論，
+
+      因為你不太可能要求他在黑板上即興 1-loop calculation 或作
+
+      zeta-function regularization
+
+      唯一可以磨一磨時間的就是玩弄 operator 間的 algebra，因此......
+
+      結果就是 xD 要跟上演講只要會代數解 Harmonic oscillator，
+
+      不害怕 second-quantized operator 「的樣子」就行了。
+
+      但若要自己老實算出比如 Schwinger model 的 axial anomaly
+
+      或 Wilczek 任意數 charge quantization 的公式，就還是要會一點場論的底子
+
+      （就是作 loop integral）
+
+
+
+      但其實我覺得這堂課的神髓還是在於老師從半過來人（咦？！）的角度
+
+      去闡述一些高能場論（凝態物理）的概念 / 技術如何
+
+      交流與應用到凝態物理（高能場論）的問題上去。
+
+      也因此才花了半個學期講超導體 xD 就是希望給出一個對稱性破缺面面觀
+
+      此外，後面 chiral anomaly 跟 fractional charge quantization
+
+      那邊觀念的應用與詮釋，有部分是出自老師自己的研究，
+
+      因而可以直接感受到整個觀念被挖掘（或者哪邊還沒被挖掘）的深度。
+
+      Ψ 總結
+
+      我一直覺得必修課的既定題材會限制涌泉葛格的發揮空間
+
+      以後還是多開這種天馬行空的課比較有趣 xDDD
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.249.197
+※ 文章網址: http://www.ptt.cc/bbs/NTUcourse/M.1406206289.A.084.html
+推 revolute:聽起來很有趣XD 07/28 17:14
+推 jass970991: 很推阿 08/20 23:21
+
+

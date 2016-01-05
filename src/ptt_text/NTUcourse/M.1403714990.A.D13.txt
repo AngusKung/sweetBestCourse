@@ -1,0 +1,107 @@
+Title:[評價] 102全 郭佳瑋 統計學一 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者RogerHsieh99 (Code R.H.)看板NTUcourse標題[評價] 102全 郭佳瑋 統計學一時間Thu Jun 26 00:49:47 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+               是
+      哪一學年度修課：
+               102學年度
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+               郭佳瑋
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+                工管系(管理學院大二必修)
+
+      δ 課程大概內容
+                Sylubus
+                 Introduction to Statistics
+                 Graphical and Tabular Descriptive Statistics
+                 Numerical Descriptive Techniques
+                 Probability
+                 Random Variables and Discrete Probability Distributions
+                 Continuous Probability Distributions
+                 Sampling Distributions
+                 Statistical Inference: Estimation
+                 Statistical Inference: Hypothesis Testing
+                 Statistical Inference: Inference about a Population
+                 Inference about Two Populations
+                 Analysis of Variance (ANOVA)
+                 Simple Linear Regression
+                 Multiple Regression
+                 Regression Analysis: model building
+                 Chi-square Test
+                 Time Series Analysis and Forecasting
+                 Nonparametric Methods
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+                 想學好統計:★★★★★
+                 只是想拿必修學分:★★★★
+      η 上課用書(影印講義或是指定教科書)
+                  Managerial Statistic 9/e Gerald Keller
+                  老師也會上傳投影片
+      μ 上課方式(投影片、團體討論、老師教學風格)
+管院唯一一班的英文授課
+老師的發音跟語速都十分ok
+像原po本身的英文程度沒有很好
+但還是都可以掌握到老師想表達的重點
+上課都以投影片為主
+講到相關的地方的時候 老師會分享在美國求學的小故事XD
+
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)*[m
+
+作業 20%
+報告 25%
+期中&amp;期末 55%
+分數應該算紮實甜
+原PO的廢物同學兩次期中跟期末考都沒及格
+但最後成績有很佛的B-
+老師會視情況把各項的比例重新分配
+
+      ρ 考題型式、作業方式
+這班跟其他班相比應該算是重的
+第六和十二周會各有一次期中考 十七周期末報告 十八周期末考
+期中考完的下一周都要交一份小project 會給你一個情境 還算好處理
+期末都會有大的project 要你應用這學期學到的統計技巧
+期末project的話就要花滿多心力的
+因為期末會有組間互評 太混的話 報告的時候很容易被別組屌打
+分數落差會有點大(不過應該都還是會有個80起跳啦)
+然後大概一學期還要交十次作業 基本上就是當周的進度
+所以算一下就會發現大概除了第一周以外
+你不是要寫作業就是要考期末考 不然就是生報告XD
+
+補充一下 考試的時候可以帶一張A4兩面的cheat sheet 上面想寫甚麼就寫甚麼
+考試的話大概是是非題五題(10%) 選擇題五題(10%) 計算題八到十題(80%)
+有時候會有bonus題 分數可以超過100 難度一般都會設在平均60~70左右
+期末考會比較XD
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+加簽的話能簽的下都會簽
+然後不需要基礎 但有個國高中機率基礎的話 可以輕鬆度過上學期第一次期中考
+老師滿care遲到這件事的 作業要在上課前給助教
+一般來說遲到一點還可以交 但情況太誇張的時候 老師就會要求嚴格執行
+      Ψ 總結
+期末考的難度通常會比期中考高不少 大概平均會低個十分到二十分不等
+算是老師整學期下來的小卻幸(因為調分會調回來XDDD)
+除了這個之外老師人滿耐斯的 有問題下課都可以問
+然後雖然做報告會讓人各種崩潰
+但老師的看法是如果沒有報告 只有考試跟作業 其實你只學到代公式
+你不會實際應用的話 其實根本不能說會統計
+自己也覺得從期末報告學到很多啦 不只統計方面
+總之很推老師的課 希望有幫助到以後的學弟妹選課~
+希望台北大晴天^^
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 118.168.205.103
+※ 文章網址: http://www.ptt.cc/bbs/NTUcourse/M.1403714990.A.D13.html
+推 GenioChen:推~ 沒有老師對不起你，是你自己對不起自己 06/26 00:54
+樓上拿B-XDDD
+※ 編輯: RogerHsieh99 (118.168.205.103), 06/26/2014 00:57:57
+※ 編輯: RogerHsieh99 (118.168.205.103), 06/26/2014 01:16:42
+※ 編輯: RogerHsieh99 (118.168.205.103), 06/26/2014 14:09:23
+
+

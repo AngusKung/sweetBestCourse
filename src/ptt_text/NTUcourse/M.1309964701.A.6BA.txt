@@ -1,0 +1,88 @@
+Title:[評價] 99-2 鄭明燕 統計學 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者jigfopsda (jigfopsda)看板NTUcourse標題[評價] 99-2 鄭明燕 統計學時間Wed Jul  6 23:04:59 2011
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：99-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+        鄭明燕
+
+      δ 課程大概內容
+        Probability
+        Random Variables
+        Joint Distributions
+        Expected Values
+        Limit Theorems
+        Distributions Derived from Normal Distribution
+        Survey Sampling
+        Estimation of Parameters and Fitting of Probability Distributions
+        Testing Hypotheses and Assessing Goodness of Fit
+        Summarizing Data
+        Comparing Two Samples
+        The Analysis of Variance
+
+        一路從機率公設衝到變異數分析......
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★
+η 上課用書(影印講義或是指定教科書)
+        Mathematical Statistics and Data Analysis, by John A. Rice, 3e
+      μ 上課方式(投影片、團體討論、老師教學風格)
+        會發講義，講義的內容就是課本的重點整理，他上課感覺就是把講義
+        念過去而已......
+        講義上面沒有例題，證明也寫的很簡略，老師偶爾會把證明講得詳細
+        一點，不過大部分還是得自己看書。
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+        作業    40%
+        期中考  30%
+        期末考  30%
+
+        印象中是這樣@@
+
+        作業是每章的勾選習題，只寫前九章，不過他上得很快作業份量也不
+        少，我覺得還滿緊湊的。
+
+        最後調分調滿多的，不過高分也沒有說很好拿。
+
+      ρ 考題型式、作業方式
+        考試有的課本習題，有點變化題，我覺得有點難度@@
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+        基礎就微積分吧，不會機率統計嚴格來說也沒關係，因為他都會從頭
+        教。不過他教得無敵快還是會一點統計再來會好點吧。
+
+        加簽的話就全簽吧，沒有簽滿。
+
+        有一次人太少有點名。
+
+      Ψ 總結
+        上超快的，快到我覺得都犧牲教學品質了，而且他幾乎只是把講義念
+        過去，聽課其實也沒比自己看書好多少，可能我資質駑鈍無法接受這
+        種教學，大部分的內容我都是自己念的......課本又寫的很簡略，很
+        難自修......
+
+        不推薦......
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 203.73.201.180
+※ 編輯: jigfopsda       來自: 203.73.201.180       (07/06 23:05)
+→ benck:看起來踩到地雷...@@ 07/06 23:18
+→ jigfopsda:大地雷QQ 07/06 23:19
+推 zxc110469:XDDD 07/06 23:27
+推 chandre:甚至聽朋友說 是為了學分不得不修 然後都自己念XD..... 07/07 15:46
+→ chandre:另推課本 07/07 15:46
+推 lauren2402:XDD 07/07 16:43
+推 chandre:就是聽樓上說的! 07/07 18:19
+→ jigfopsda:樓樓上超強@@                            我都給他罩QQ 07/07 18:36
+→ pacificocean:如果就分數來說  老師人超級好!! 07/09 11:28
+推 lucas12417:推分數+1 08/03 00:17
+推 expertsaid: 真的教蠻  火闌  的 11/03 14:18
+
+

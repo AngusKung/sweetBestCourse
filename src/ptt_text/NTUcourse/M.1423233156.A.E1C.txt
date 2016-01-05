@@ -1,0 +1,211 @@
+Title:[評價] 103-1 量測原理與機工實驗一 周元昉等 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者ndpe1220 (ndpe1220)看板NTUcourse標題[評價] 103-1 量測原理與機工實驗一 周元昉等時間Fri Feb  6 22:32:32 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：否
+
+      有些話，果然還是熄燈說比較自在！
+哪一學年度修課：103-1 兩學分 三678@共同201 需另排兩小時實驗@舊數201
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+        周元昉、單秋成、顏家鈺、潘國隆、楊馥菱、蔡曜陽 合開
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+        機械系 大三上必修   與另兩班擇一，但皆為全系合班上課，卻非必帶仍需選課
+                                          (實驗也是要額外空時間，怎麼會這樣呢??)
+δ 課程大概內容 (引自課程進度表)
+
+●教室課：
+
+        周元昉  Introduction
+                General concepts of measurement systems
+
+        顏家鈺  Introduction to commonly used laboratory instruments (DVM,
+                oscilloscope, function generator, current and voltage
+                supplies)
+
+        顏家鈺  Basic Op Amp principles and circuits
+                a. inverter, follower and buffer
+                b. addition and subtraction
+                c. integration and differentiation
+
+        顏家鈺  d. passive and active filter
+                e. Instrumentation amplifier
+                f. voltage regulator
+                Electrical noise and noise reduction techniques
+
+        單秋成  Bridge circuit and introduction to strain gages
+
+        單秋成  Strain gage transducers
+
+        周元昉  Dynamic measurement
+                Piezoelectric transducers
+
+        Midterm exam
+
+        周元昉  Velocity and acceleration measurement
+
+        楊馥菱  Introduction to measurements in fluid mechanics
+
+        楊馥菱  Temperature &amp; Pressure measurements
+                Density and viscosity measurement
+
+        潘國隆  Flow visualization
+
+        潘國隆  Measurement of surface/interface tension
+
+        蔡曜陽  Mechanical properties testing and microstructure observation
+
+        蔡曜陽  Mechanical properties testing and microstructure observation
+
+        Final exam
+
+
+●實驗課：
+
+        Calibration of a tire pressure gage
+
+        Laboratory instruments (DVM, oscilloscope, function generator,
+        current and voltage supplies)
+
+        Basic Op Amp circuits (I)
+
+        Basic Op Amp circuits (II)
+
+        Calibration of strain gages
+
+        Strain gage load cells
+
+        Charge amplifier and Piezoelectric sensors
+
+        Piezoelectric accelerometer
+
+        Calibration of flow rate/velocity in a wind tunnel
+
+        Transfer of an AVI to digital images; observation of flow lines
+
+        Pressure and velocity measurements of internal airflow
+        around a circular cylinder
+
+        Schlieren/shadowgraph photography
+
+        Mechanical properties testing and microstructure observation
+
+        Mechanical properties testing and microstructure observation
+
+
+
+      Ω 私心推薦指數(以五分計)
+
+        整體：讀者由下文自行判斷
+                在多數推薦文當中，本課程與 高等微積分(分析導論)、單元操作(一二
+
+        三及其實驗)、偏微分方程導論(林紹雄)、分析化學(張哲政)、機器學習(林軒田)
+
+        、電磁學 等等課程並列，是為一定會被推薦的課程，推薦程度由此可知
+
+        註：NTU版推爆的推薦文：http://ppt.cc/9KLa http://ppt.cc/FhDW
+
+        NTUcourse：http://ppt.cc/QUcW
+
+        助教：★★★★★滿分
+
+        甜度：月黑風高
+              不直接評價，見下方解釋
+
+        上課輕鬆：★★★ *(-1) ??  無聊又很累
+                  普通大班投影片上課，有沒有在上課看個人造化
+
+        不喜歡很多次的小考：★★★ (每週實驗小考，但是是得分重要機會)
+
+        用本科目複習其他重要必修課程：月黑風高，見總結
+
+        覺得機械系大二沒實驗頗孤單，想再做一些物理實驗：★★★
+
+        覺得機械系同學需要用實驗練習精巧的手工藝：★★★★
+                                                  (電路板的焊接等)
+
+      η 上課用書(影印講義或是指定教科書)
+
+        有列出指定用書一本，不過幾乎沒人用：
+
+        Ernest  O.  Doebelin, MEASUREMENT SYSTEMS – APPLICATION AND DESIGN,
+         5th Ed., McGraw Hill, 2003.
+
+        每周上課前上傳每頁2張投影片的講義還有實驗講義pdf檔
+
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+        在大教室共同201，每位教授皆用簡報，大班授課(全系160人)連上三堂，純講課
+
+        僅一兩教授會提早下課，偶爾才有幾個問答，另外周教授會用PPT畫筆在講解時
+
+        筆記在一旁，其他老師不會
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+        70%由下方期考形式平均主要決定，
+
+        30%由實驗結報平均所得，結報分數分為
+                               30%課前小考 70%結報內容(問題討論占較重)
+
+        總成績最後再平移十幾分，看來分數應該都不會太差吧？
+                                 Ans:花了六學分的時間還是有被當的風險 
+ρ 考題型式、作業方式
+
+        期中期末考皆為20題英文單選題，但是幾乎都是熟讀內容以後還是十分困難
+
+        的題目，想要得分真的需要苦讀各種資源(但還是可能輸給帶骰子的同學?)
+
+
+        作業原則上就是每次實驗後都要用手寫的結報，要去小福買50塊的A4方格紙活頁
+
+        本，兩本交替寫，十分精美 (讓我們的兩學分可以花到六小時程度)
+ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+        全學期點過一兩次名(傳點名單)，選修基礎的話，可能有直接用到的就是材力
+
+        流力、工數之類，但大部分同學(機械系同學)應該覺得有無基礎之下，得到的
+
+        回報差不多
+
+
+      Ψ 總結
+
+        本門課程包含機械系各個重要領域知識複習及實驗，故而被定為雙輔修的必修
+
+        科目，對於機械系的代表性可想而知。
+
+
+        希望本篇能引起迴響，不論是XX或是淚推，應該都會引起大家的心聲共鳴，誰
+
+        叫它被認為是機械系裡除了賴君亮老師所開以外，最值得一修再修的課
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.73.19
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1423233156.A.E1C.html
+推 bight135: 機械系淚推QQ 02/06 23:01
+推 jobby246wc: 淚推QQ 骰子分數比較高嗚嗚 02/07 14:41
+推 jitaomef: 實驗課可以練手工藝怎沒提XD 還是有改良了? 02/07 17:24
+
+已補上，謝謝！
+
+推 meshan: 推好課  考前要拜拜 有拜有保庇 02/07 21:09
+
+好課值得一修再修
+
+推 b01502092: 淚推 02/08 10:38
+推 allaroundboy: 機械系最無言的課之一 02/08 11:24
+推 b01502092: 去掉"一"以後，沒有之一 02/08 11:43
+※ 編輯: ndpe1220 (140.112.4.212), 02/19/2015 11:45:29
+推 SamThunder: 身為學弟覺得茫然XD 不管如何還是感謝提供！ 08/17 22:59
+
+

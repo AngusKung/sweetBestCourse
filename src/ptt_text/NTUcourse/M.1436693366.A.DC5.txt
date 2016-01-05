@@ -1,0 +1,118 @@
+Title:[評價] 103-1 丁建均 時頻分析和小波轉換 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者so15963 (榴槤)看板NTUcourse標題[評價] 103-1 丁建均 時頻分析和小波轉換時間Sun Jul 12 17:29:22 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是，但請另外通知作者
+
+
+      哪一學年度修課：
+
+         103-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         丁建均
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關)
+
+         電信所
+
+      δ 課程大概內容
+
+         (1) Introduction
+         (2) Short-Time Fourier Transform
+         (3) Gabor Transform
+         (4) Implementation of Time-Frequency Analysis
+         (5) Wigner Distribution Function
+         (6) S Transform , Cohen’s Class Time-Frequency Distribution,
+             and Other Time Frequency Analysis  Methods
+         (7) Movement in the Time-Frequency Plane and Fractional Fourier
+             Transforms
+         (8) Filter Design by Time-Frequency Analysis
+         (9) Modulation, Multiplexing, Sampling, and Other Applications
+         (10) Hilbert Huang Transform
+         (11) From Haar Transforms to Wavelet Transforms
+         (12) Continuous Wavelet Transform with Discrete Coefficients
+         (13) Discrete Wavelet Transform
+         (14) Applications of the Wavelet Transform
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+         無指定書籍，於教學網站上提供投影片
+
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         投影片上課，投影片會事先公布於教學網站上，就照投影片講，但投影片不
+
+         一定會完全上到上課，只會挑重點上，不會像微分方程一樣提供有筆記的投
+
+         影片筆記檔，所以建議要去上課。(但是好像可以課間跟他要有筆記的投影
+
+         片檔案)
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         Basic: 15 scores (基本11.8分，上課回答問題一次加0.8分，加分不限四
+
+                           次，可以破表)
+
+         Homework: 60 scores (5 times)
+　
+         Term paper 25 scores
+
+         感覺不調分，但是給分很寬鬆，作業有寫且不遲交都可以拿個9X分，其他部
+
+         份給分也都很寬鬆，最後成績出來A+的人高達全班人數的65%，甜!
+
+
+      ρ 考題型式、作業方式
+
+         無考試，五次HW都是問答題約五題，外加一題matlab，一次佔分12%，上課都會
+
+         提示回答要點，因為這門課本身內容較難，故建議要去上課(or 有人罩)
+
+
+         final project有四種形式：書面報告、口頭報告、tutorial以及編輯維基百科
+
+         其中選口頭報告總成績 +2 分，tutorial +3 分
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         出席率不管，上課吃東西不管，感覺老師滿希望同學多出席，另外作業單看投
+
+         影片並不好解決(因為作答要點往往是挖空的部分XD)，上課會提示，建議要上
+
+         課。(不過要注意的是，本學期的期中報告和外賓演講是可以簽到加分的)
+
+
+         基礎的話不太需要，老師很用心的把東西講的簡單明瞭，如果不懂可以去問他
+
+         ，他會滿認真的回答你，個人認為這門課比高等數位訊號處理難一點，但也屬
+
+         於可以接受的範圍。
+
+
+         加簽是一類，電腦選就可以了。
+
+
+      Ψ 總結
+
+         之前修過老師的ADSP然後就跑來修小波了XD，小波轉換內容上比較艱深，但是
+
+         這門課並不會講得太難，主要是以這些轉換的一些基礎性質為主，所以並不算
+
+         太令人感到痛苦，加上給分佛心，算是電信所一大熱門，推！
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.41.56
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1436693366.A.DC5.html
+
+

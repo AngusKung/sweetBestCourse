@@ -1,0 +1,75 @@
+Title:[評價] 100-2 于靖 代數拓樸導論 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者viw (STeva)看板NTUcourse標題[評價] 100-2 于靖 代數拓樸導論時間Tue Aug  7 18:31:26 2012
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+        是
+
+      哪一學年度修課：
+        100-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+        新科中研院院士──于靖大師！
+
+      δ 課程大概內容
+        de Rham cohomology (introduction, Poincare lemma, Stoke's thm.,
+        Kunneth formula, Poincare duality, Thom isomorphism)
+        singular homology (introduction)
+        covering space (intruduction, homotopy property)
+        fundamental group (introduction, correspondence with covering spaces)
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+        ★★★★☆
+
+      η 上課用書(影印講義或是指定教科書)
+        W. Fulton, Algebraic Topology, GTM, Springer 1995
+        Bott-Tu, Differential Forms in Algebraic Topology, GTM, Springer 1982
+        Madsen-Tornehave, From Calculus to cohomology, Cambridge, 1997
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+        老師純板書，上得算是滿慢的
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+        沒有人A+，但也只當掉2個人
+
+      ρ 考題型式、作業方式
+        期中期末都是發一張考卷12題，現場寫3小時交一份考卷上去，
+        然後再take home寫一個禮拜（同一份題目）
+        成績計算比例未知，老師說以take home為主
+        似乎也因此導致最後班上成績差異不大，大多在 A- ～ B 之間
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+        大師才不care出席XD
+
+        基礎的話需要基本線代、代導的代數基礎
+        還需要高微中一些基本拓樸性質（高微好像大多是講metric space）的基礎
+        看過一點點category theory的axioms會有幫助（其實看wiki也夠了）
+
+        因為沒選滿所以不知道加簽狀況如何XD
+
+      Ψ 總結
+        就是于靖老師的上課風格
+        不過這門課比之前代數導論的狀況清楚很多，老師會真的在課堂上把一些定理
+        都證明過去（所以相較之下也變慢很多XD）
+        一些intuitive的概念老師也還是會講，只是被定理細節吃掉一些時間
+        呃，不過有時候還是會跳跳的，像是de Rham講一講忽然跳去講homology
+        然後又跳回來講de Rham，中間似乎沒什麼關連XD
+
+        總之就是門自己花點時間看課本，在課堂上就會有所收穫的課
+        尤其是兩份take home給人學習東西的好機會
+        花很久時間把take home好好做出來很有成就感
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.4.182
+※ 編輯: viw             來自: 140.112.4.182        (08/07 18:32)
+推 Bourbaki:推于靖 我一直覺得他都教超好的! 08/07 19:14
+→ Bourbaki:請問少掉的那顆星是因為?? 08/07 19:14
+→ viw:教太慢了XD 08/07 20:10
+→ viw:樓上是誰啊？感覺好像認識喔 08/07 20:10
+推 chy1010:樓樓樓上數學家, 就像以前有些作家叫做佚名一樣 XD 08/07 21:52
+推 cowux:原PO代數學家 08/08 02:09
+
+

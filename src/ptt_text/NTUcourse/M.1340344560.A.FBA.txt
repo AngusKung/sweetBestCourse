@@ -1,0 +1,99 @@
+Title:[評價] 蔡崇聖老師的賽局與訊息 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者kingyam (king)看板NTUcourse標題[評價] 蔡崇聖老師的賽局與訊息時間Fri Jun 22 13:55:58 2012
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：
+
+  100-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+  經濟系蔡崇聖老師
+
+      δ 課程大概內容
+
+  期中考前講授賽局基本理論:
+                    Strategy sets and Information sets
+                    Normal Forms and Extensive Forms
+                    Dominant Strategy and Undominated Strategy
+                    Best Response
+                    Rationalizability and Iterated Dominance
+                    Pure and Mixed Strategy Nash Equilibrium
+                    Backward Induction and S.P.N.E.
+                    Finite and Infinite Repeated Games
+                    期中考後講授訊息部分:
+                    Bayesian Nash Equilibrium
+                    Perfect Bayesian Equilibrium
+                    Principal Agent Model
+                    理論的重要應用:
+                    Cournot and Bertrand Competition
+                    Median Voter Theorem
+                    Stackelberg Model
+                    Nuisance Suits
+                    Bargaining Model
+                    Lemon Market
+                    First and Second Price Auction
+                    Bargaining with Incomplete Information
+                    Job Market Signalling
+                    Cheap Talk
+                    Moral Hazard (100-2)
+                    Adverse Selection (99-2)
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+  ★★★★★
+
+      η 上課用書(影印講義或是指定教科書)
+
+  選用 Watson, Joel 2008.Strategy: An Indroduction to
+                         Game Theory (second edition)
+                    但老師不強制大家一定要買書,上課內容以老師版書為主,
+                    遇到生活中的重要例子時,會輔以投影片教學
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+  如上.老師真的真的是一位很認真的老師,上過課的學生都很喜歡他
+                    從理論講解到應用部分都很巨細靡遺.老師有時也會看學生聽課狀
+                    況,如果遇到一雙雙疑惑的眼神還會重複講解直到大家聽懂.不懂的
+                    問題也可在下課後問老師,老師會很熱心幫大家解答.上課風格呈現
+                    嚴肅中帶有幽默詼諧的氣氛
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+  期中考和期末考加總占百分之八十,考得比較好的一次占其中的
+                    七成
+                    作業分數占百分之十 (四次作業)
+                    期末報告分數占百分之十 (早交可加總分一至兩分)
+                    個人覺得是很紮實的一堂課
+
+      ρ 考題型式、作業方式
+
+  期中期末考都是計算,解釋結果的綜合題型
+                    作業方式亦同,平時熟練作業題目對期中期末考幫助很大
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+  老師不會點名,也不需甚麼基礎,老師說本課程不需要高深的微積分
+                    知識,有個經的基礎會有幫助
+                    加簽習慣方面:本學期加簽人數很多,最後因換到容納較多人的教室
+                    才解決該問題,但老師應很願意同學來上他的課.
+
+      Ψ 總結
+
+  剛進來臺大就能修到這麼有意義的一門課,真的是超級感激老師的
+                    教導.老師常說他的教學功力沒有經濟系的大老好,但我覺得漸進式
+                    的教學,思考的脈絡和步驟的推導是老師平易近人教學的最佳典範.
+                    作業,考試的解答,報告和考卷的批改都是老師親力親為,更可以體會
+                    到老師對這堂課的用心.
+                    歡迎大家來修老師的賽局與訊息,對於賽局的紮根非常有用!!!!!
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 140.112.217.21
+
+

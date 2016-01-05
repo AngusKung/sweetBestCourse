@@ -1,0 +1,286 @@
+Title:[評價] 100-2 統計物理導論 陳義裕 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者harveyhs (Hango)看板NTUcourse標題[評價] 100-2 統計物理導論 陳義裕時間Fri Jan 18 14:38:03 2013
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）： 是
+
+
+      哪一學年度修課：
+
+      100-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         陳義裕
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+         物理系大三必修
+
+      δ 課程大概內容
+
+         我的筆記不在手上XD，憑ceiba跟印象
+
+         01. The Chemical Potential and Open Systems
+             The Chemical Potential and Phase Equilibrium- A Review
+             The Gibbs Phase Rule
+             Entropy Change in A Mixing Process- the Classical Approach
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+             這邊主要是上學期的熱物的收尾。
+
+             把chemical potential 的概念交代清楚
+
+             （雖然我還是沒有很清楚T_T）
+
+         02. The Third Law of Thermodynamics
+             Statements of the Third Law
+             The Meaning of Entropy
+             Methods of Cooling
+             Consequences of the Third Law
+
+         04. The Kinetic Theory of Gases
+             Gas Pressure and the Ideal Gas Law
+             Equipartition of Energy: A Preview
+             Specific Heat Capacity of an Ideal Gas
+             A Cloud Shadowing the Sky of 19th Century Physics
+             Distribution of Molecular Speeds, A Simple Derivation
+             Mean Free Path and Collision Frequency
+             Effusion
+             Transport Processes
+
+         05. Statistical Thermodynamics
+             Coin-Tossing Experiment
+             Application to Brownian Motion
+             A Little Bit of Information Theory
+             The Maximum Entropy Formalism
+             Ensembles
+             ^^^^^^^^^
+             有講Microcanonical ensemble 跟 canonical ensemble
+
+             但沒有特別提 Grandcanonical ensemble
+
+             Thermodynamic Probability and Entropy
+             Quantum States and Energy Levels
+             Density of Quantum States
+
+         06. Classical and Quantum Statistics.
+             Boltzmann Statistics
+             The Method of Lagrange Multipliers
+             The Maxwell-Boltzmann Distribution
+             The Fermi-Dirac Distribution
+             The Bose-Einstein Distribution
+             Dilute Gases and the Maxwell-Boltzmann Distribution
+             The Connection between Classical and Statistical Thermodynamics
+             Comparison of the Distributions
+
+         07. The Classical Statistical Treatment of an Ideal Gas.
+             Thermodynamic Properties from the Partition Function
+             Partition Function for a Gas
+             Properties of a Monatomic Ideal Gas
+             Applicability of the Maxwell-Boltzmann Distribution
+             Distribution of Molecular Speeds, Yet Another Derivation
+             Equipartition of Energy: The Classical Derivation
+             Entropy Change of Mixing Revisited- the Statistical Approach
+             Maxwell's Demon.
+
+         08. The Black Body Radiation
+             Kirchhoff’s Investigation
+             Stefan-Boltzmann Law
+             Wien’s Analysis and Guess
+             Rayleigh’s Insight
+             Planck, and How the Puzzle Was Solved
+             Einstein’s Light Quanta (Photons)
+
+         09. The Heat Capacity of a Diatomic Gas.
+             The Translational Motion
+             Rotational Modes of Diatomic Molecules
+             The Quantified Linear Oscillator and the Vibrational Modes
+             of Diatomic Molecules
+             Electronic Excitation
+             The Total Heat Capacity.
+
+         10. The Heat Capacity of a Solid
+             Dulong-Petit Rule
+             Einstein's Theory of the Heat Capacity of a Solid
+             Debye's Theory of the Heat Capacity of a Solid
+
+         12. Bose-Einstein Gases
+             Blackbody Radiation and A Photon Gas
+             Bose-Einstein Condensation
+             Properties of a Boson Gas
+
+________________________________________________________________期末考XD
+
+         13. Fermi-Dirac Statistics
+             The Fermi Energy
+             Free Electrons in a Metal
+             Properties of a Fermion Gas
+
+         11. The Thermodynamics of Magnetism
+             Paramagnetism
+             Properties of a Spin-1/2 Paramagnet
+             Ferromagnetism
+             Phenomenological Model of Ginzburg and Landau
+
+         順序的編號是ceiba上的，這邊的排序是照老師上課的順序@@
+
+         不過基本上ceiba的編號就是課本的目錄XD
+
+         老師說放上去只是怕課程網太空
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+         Carter, Classical and Statistical Thermodynamics
+
+         Other References:
+
+         D. V. Schroeder, An Introduction to Thermal Physics (1999)
+         M. W. Zemansky and R. H. Dittman, Heat and Thermodynamics,
+         7th ed. (1996)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+         這本是老師滿推薦的一本參考書，裡面有很多實驗細節
+
+         另外老師說他在microcanonical ensemble的例子是參考 Kerson Huang的書
+
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         老師的風格，一言以蔽之：無限裝弱XD
+
+
+
+         汗衫紮衣服 + 牛仔短/長褲板書，
+
+         不太帶東西來抄，偶爾有一張放在口袋的小抄，可能是抄實驗數據什麼的
+
+         與其說是記著來上，不如說老師是記著他的主題
+
+         然後上課時以一個解答問題的人的角度來推演，
+
+         順便跟我們說為什麼要這樣講，以及推論時應該要注意哪些事情
+
+
+
+         雖然老師是做理論的，但他並不偏廢關於實驗的討論，
+
+         然後講完就說："我都是抄Zemansky的。"
+
+         更注重的是關於單位、數量級的討論，每推完重要結果，
+
+         便會分析式子中出現哪些物理量並且這些物理量以哪種方式影響問題
+
+         接著便會代實際的數字估計一下數量級，
+
+         讓我們對這些數字的大小有一些實際的感覺。
+
+         講完formalism便會用實際例子計算，讓formalism不那麼抽象
+
+         （其實例子也永遠都是理想氣體啦XD）
+
+
+
+         偶爾會筆誤寫錯，被糾錯之後，他就會說
+
+         "啊啊啊，對欸，好險你糾正我，不然我們就要大錯特錯了！"
+
+         "啊啊啊，謝謝欸，被你發現我在胡說八道了，丟臉ˊㄩˋa"
+
+
+
+         比起計算，強調對物理的感覺
+
+         （重點是讓你自己也覺得合理的物理感覺XD）
+
+         講解得也很清晰，很推薦的一個老師。
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         作業 30 %
+
+         期中 35 %
+
+         期末 35 %
+
+         紮實偏甜。
+
+      ρ 考題型式、作業方式
+
+
+         作業大多是 Carter的習題，加上老師偶爾設計的題組。
+
+         考試主要是上課筆記內容 + 習題及其變化題
+
+         通常他花很多時間寫字的部分都會考推論題XD
+
+         比如說 3D 推 2D，linear dependence 變成 quadratic dependence會怎麼樣
+
+         基本上都不難，不過要細心（期中考助教改滿細的XD）
+
+         考前會有例行恐嚇，不過僅止於恐嚇而已。
+
+         期末考計算推導量有變大一點，但我覺得沒那麼嚴重，
+
+         老師只是不強調計算，也沒有叫我們不會計算。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         全簽，因為老師說全校也沒別的地方上這個。
+
+         （除了研究所的統物）
+
+         雖說是統計物理，但也沒有真的用到很大量的數理統計
+                       m             m
+         高中排列組合 C  （ Boson有 H  ）還會就行了。
+                       n             n
+
+         Microcanonical ensemble有用到相空間的概念，
+
+         但像我這種正常人學完力學也不太懂相空間XD所以也不用特地去修力學。
+
+         計算粒子的能量有用particle in the box模型，大概是普物或普化程度
+
+         rotational energy 有用到eigenvalue = L(L+1)
+
+         這個有些普化也會講，但其實大多數人也就是知道有這麼回事而已。
+
+        （如果跟 Spherical Harmonics, Legendre polynomials很熟應該也很能接受）
+
+         所以真的要講，大概就普物跟微積分吧。
+
+         對基本的熱物理要有認識，基本上統物是另外一種詮釋熱力學的方法。
+
+      Ψ 總結
+
+         很推薦的老師，值得一修的課。
+
+         但我必須承認有些同學也不太喜歡他的教法，
+
+         認為他對於太隨便（尤其是估計的時候）
+
+         也在這邊提出，讓大家參考。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.249.241
+※ 編輯: harveyhs        來自: 140.112.249.241      (01/18 14:43)
+推 jerryhu5602:推老師愛裝弱XDDDDD 01/18 15:14
+推 Philethan:只要普物跟微積分...wow!! 下次去修!!! 01/18 15:27
+→ Philethan:原來今年就可以修了!! 太好了 01/18 15:28
+有加一點但書XD一開始忘了加，不過也還好啦
+※ 編輯: harveyhs        來自: 140.112.249.241      (01/18 15:37)
+→ a0184030:還有"我的數學很差"之類的XD 01/18 15:40
+→ harveyhs:"啊我也不懂啦～" 01/18 15:42
+推 Ertkkpoo:請問會很需要上學期的熱物理基礎嗎? 01/18 16:10
+→ ijsfkira:不太需要 01/18 16:16
+推 gh34163:還想說上怎麼會有統物導 原來是上學年的= = 01/18 18:22
+推 fasteddy:聽說上得很棒呢 01/18 23:42
+→ peterqlin:期末考炸掉QQ 01/19 00:10
+→ harveyhs:可是樓上橫掃個經 01/19 01:04
+
+

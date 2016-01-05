@@ -1,0 +1,148 @@
+Title:[評價] 101-1 王金龍 微分幾何一 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者chy1010 (投靠了陌生的河流)看板NTUcourse標題[評價] 101-1 王金龍 微分幾何一時間Sat Jan 12 04:07:17 2013
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課： 101-1 
+ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+        數學系王金龍教授
+
+      δ 課程大概內容
+
+        以下是課程大綱, 然後我習慣穿插一些老師上課講過的語錄,
+        有些只是憑藉著記憶現在寫下來的字句, 可能不太完整, 敬請見諒.
+
+        我們前半學期是一些 foundation :
+
+        * manifold / tangent bundle
+        * Submanifolds and Whitney embedding
+
+        dragon: 每次介紹一些新的定義, 我們就要來看一些 categorical 的東西
+好比說它在 submanifold 是怎樣, 它可以 embed 成怎麼樣.
+
+        * Sard's theorem / flow / Lie derivative
+        * Frobenius theorem / ODE 存在唯一定理跟對初始值連續
+
+        dragon: 你看任何書上沒有人會跟你講說為什麼這個會 smooth 對不對?
+這就是對 initial value 的 smooth dependence.
+                很多老師上課都幾乎會跳過這些內容, 一開始就跟你講 metric 了.
+但我覺得這些基礎是應該要講的.
+
+        * Tensors and differential forms.
+        * Cartan's formula and de Rham complex.
+        * Manifolds with boundary, Stokes theorem.
+        * De Rham theorem.
+
+        後半學期開始講 Riemannian geometry :
+
+        * Riemannian structure, Levi-Civita connection.
+        * Geodesics, curvature tensor.
+        * Variations of geodesics in complete manifolds.
+        * Jacobi fields, Cartan-Hadamard, Cartan-Ambrose-Hicks.
+        * Variations of Riemannian submanifolds, Gauss equations.
+        * Hodge theorem for harmonic forms.
+        * Sobolev spaces and elliptic regularity.
+
+        dragon: Nash-Moser iteration 我覺得這是二十世紀 PDE 最偉大的定理,
+                之一. 到現在很多東西都還是靠他們的方法在做的.
+我覺得一個數學系的大學生起碼都應該要懂這個.
+我想一想覺得應該還是要講.
+
+        * Lie groups.
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+        不推薦的基本上我也不會寫評價文啦
+
+      η 上課用書(影印講義或是指定教科書)
+        Warner: Foundation of Differentiable Manifolds and Lie Groups.
+        Cheeger and Ebin: Comparison Theorems in Riemannian Geometry.
+        Do Carmo: Riemannian Geometry.
+        以及老師自己的講義.
+
+        黎曼幾何的習題有一半是從 Do Carmo 裡面出的.
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+        老師喜歡把難的東西講得好像很簡單一樣.
+        證明看似愜意, 可是寫得又很仔細.
+
+        因為講得很簡單, 接著學生就會覺得自己似乎懂了.
+        然而又有些地方覺得很神奇又好像有點問題,
+        寫作業時會發現不太對勁, 於是開始自行發掘.
+
+        這便是引人入勝之處.
+
+        課本就躺在那邊, 反正要念就念嘛,
+        然而, 要能夠讓自己發正念覺得半夜就算不睡覺也應該弄懂,
+
+        這便是這堂課的魅力所在.
+
+
+        以下, 用上課語錄舉例說明之.
+
+        dragon: 這是一個 general principle: 看起來最麻煩的, 往往都很簡單.
+dragon: 寫完了. 不過其實我什麼事都沒有做
+dragon: 我要非常強調一點, 這些都是我們在大一微積分學過的
+dragon: 這真的只用到微積分而已, 而且變分法還只是微積分的 subset!
+dragon: 這就叫做知難行易, 至少你知道這是對的, 只差怎麼寫出來而已.
+dragon: 你要常常用不一樣的觀點來寫同一件事情, 你可能會覺得:
+奇怪? 這裡怎麼出現了好像不應該是微分幾何的東西? 
+然後你才能確定你是真的瞭解那個意思.
+σ 評分方式(給分甜嗎？是紮實分？)
+        紮實偏甜 sweetly solid
+
+
+      ρ 考題型式、作業方式
+        考試六題: 5 + 1 bonus
+        每周都有作業, 雖然只有四題可是你可能不認真寫就會寫不完.
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+        [修課基礎]
+
+        主要是 高微, 大學部幾何學, ODE/PDE.
+
+        dragon: 我 assume 那些開在大學底下的課你應該都修過了
+
+        出席率? 可以吃嗎?
+
+
+      Ψ 總結
+
+        這堂課是我在台大這麼多年以來非常少數的全勤的課,
+        其值得推薦的程度可見一斑 XD
+
+
+--
+我們愛星星至深，無懼於黑暗。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.218.142
+→ chy1010:我討厭 m 自己的文, 真心虛... 應該開分身發文的. 01/12 04:09
+推 impin:推板主~ 01/12 04:13
+推 perhdball:推版主~~ 01/12 05:16
+推 yanghowa:推版主~~~ 01/12 11:10
+推 def2864:推版主 01/12 14:46
+→ cowux:強 01/12 14:56
+推 jarmur:神鵰俠侶的評價都差不多^^ 01/12 15:35
+推 jellyfishing:推版主~~ 01/12 16:07
+推 Passer2000:上課可以在第一排睡覺，醒來老師還會對你笑(誤) 01/12 18:03
+推 ul4jvul35j4:推版主 01/12 20:49
+推 starsnight:推版主&gt;////&lt; 01/12 21:19
+推 AmibaGelos:推版主 01/12 23:37
+→ chy1010:Passer2000 可以不要表我嗎 XD 01/13 00:04
+→ deathoflove:請問這門課所需的先修基礎在哪? 還是沒有懂....XD 01/14 13:21
+
+主要是 高微, 大學部幾何學, ODE/PDE.
+
+※ 編輯: chy1010         來自: 140.112.4.182        (01/14 13:42)
+推 jacky7987:這門真的蠻硬的XD 但學到很多東西 01/15 23:28
+推 yusd24:都給你寫光了... 01/16 15:29
+推 chiau623:強大如您都執筆親評 ~ 怎能不推呢 &gt;///&lt; 01/17 01:41
+
+

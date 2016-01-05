@@ -1,0 +1,143 @@
+Title:[評價] 103-1 溫政彥 繞射原理 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者ocf001497 (榮)看板NTUcourse標題[評價] 103-1 溫政彥 繞射原理時間Fri Jul 10 13:20:52 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：
+       103-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+       溫政彥
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+       材料系 大三
+
+      δ 課程大概內容
+
+       按照ceiba
+
+       1.Introduction, plane lattices, Bravais lattice
+
+       2.Lattice planes, symmetry operation and elements
+
+       3.Basic crystallography
+
+      ---------------------Quiz 1------------------------
+
+       4.The reciprocal lattice and the Fourier transform
+
+       5.Fourier transform and the convolution theorem
+
+       6.Properties of X-rays
+
+       7.The Laue equations, Ewald construction,
+         principle of diffraction
+
+       8.Diffraction phenomenon and the application
+         of the Ewald construction
+
+       9.Intensity of diffraction; diffraction methods
+
+      ---------------------Quiz 2------------------------
+
+       10.Electron diffraction; the interference function; Scherrer equation
+
+       11.Integrated intensity, absorption factor, temperature factor
+
+       12.Phase identification; crystal structure determination
+
+      ---------------------final exam------------------------
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+       5顆~~
+
+      η 上課用書(影印講義或是指定教科書)
+
+       Element of X-ray Diffraction - B.D.Cullity &amp; S.R.Stock
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+       板書，每堂會發上課用講義，需要的時候會開投影片，但大部分還是板書
+
+       上課邏輯蠻清楚的，然後下課問老師老師也很樂意回答，會有助教課，時
+       時間通常在晚上，以多數人有空那天晚上為準           (後面會說)
+
+       重要的定理會推導一次給我們看，偶爾會在ceiba上面放一些推導的補充
+       資料
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+       作業 15%
+
+       期中一 20%
+
+       期中二 25%
+
+       期末 30%
+
+       final project 10%
+
+       紮實分
+      ρ 考題型式、作業方式
+
+       作業通常是隔週發放，會有助教課讓助教補充一些東西，同時提點一下作業
+       大概要怎麼寫，作業偶爾會用到專業的晶體結構軟體，網路上都下載的到試
+       用板，作業難度普普，有時候是老師上課時沒有導給我們的公式叫我們自己
+       推導或是課堂教的定理的應用題
+
+       考試的話分三次考，基本上老師上課講的東西一定要弄懂，而且要很清楚，
+       因為他考試的時候時常會出現
+
+       1.叫你找出一個東西，但那個東西根本不存在，你就要寫不存在
+
+       2.叫你寫到從頭寫到第三階繞射，結果根本沒有第三階
+
+       3.問你何時產生繞射，結果根本永遠不會
+
+       只要你觀念有熟你就會在寫考卷的時候心裡暗自怒譙XD
+
+       但整題來說不會太難，雖然滿分都是100，但會有10分比較難的加分題，主要
+       是課堂上的某些定理延伸推導
+
+       final project就是會叫我們我們寫程式模擬某一晶體的繞射圖樣，基本上用
+       啥語言都行，只要能給出最後的圖案就好了，然後模擬出來後，要打成一份
+       報告，詳述你解決這個問題的邏輯&amp;程式碼，基本上不會太難，如果數學邏輯
+       對了，其實應該蠻快就會結束，比較麻煩的是還要做成一個完整報告zzz
+
+       會在公布學期成績後讓分數不及格的同學補考
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+       不出席也沒關係，但不出席其實損失蠻大的
+
+       加簽的話我不太清楚，因為是必帶所以沒去注意這件事
+
+       外系加簽的話其實也不用啥基礎，大概基本BCC，FCC知道就好了吧，其實不知
+       道也沒關係，反正老師會將晶體的部分重新講一次，Fourier transform跟
+       convolution知道一點就好，本來不會也沒差，老師也會講一次
+
+      Ψ 總結
+
+       把103-1的課打在這裡就是想說推薦給外系學生選修XD，因為從老師那裡學到蠻
+       多東西，想說藉機推銷一下
+
+       基本上這堂課就是讓學生了解簡單的晶體結構，點群，空間群，另外還有晶體
+       在X-ray與electron繞射時會產生如何不同的圖樣，除此之外還會介紹各種不同
+       用X-ray與electron分析晶體結構的繞射圖樣，在學期中還會安排學生觀摩TEM
+       的操作，可以實際看到electron diffraction pattern，還蠻不錯的
+
+       對於以後想要可能會用到X光/電子繞射分析的學生算是一堂入門課，推薦給大家
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 114.37.84.252
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1436505655.A.F3B.html
+※ 編輯: ocf001497 (114.37.84.252), 07/10/2015 13:31:08
+※ 編輯: ocf001497 (114.37.84.252), 07/10/2015 13:32:53
+(chy1010 刪除 ten57girl 的推文: 洗板)
+
+

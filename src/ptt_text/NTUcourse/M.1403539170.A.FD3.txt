@@ -1,0 +1,148 @@
+Title:[評價] 102-2 林惠雯 線性代數二 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者cmrafsts (喵喵)看板NTUcourse標題[評價] 102-2 林惠雯 線性代數二時間Mon Jun 23 23:59:28 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+
+      是
+
+      哪一學年度修課：
+
+      102-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+      林惠雯 教授
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+      數學系大一必修
+
+      δ 課程大概內容
+
+      (1) Inner Products/ Gram-Schmidt Orthogonalization process
+
+      (2) Orthogonal Projection/和平紀念日
+
+      (3) The Adjoint of a Linear Operator/ Least Square Problem
+
+      (4) Normal Operators/ Self-adjoint Operators and Positive-definite
+
+      (5) Unitary and Orthogonal Operators (I)/
+
+          Unitary and Orthogonal Operators (II)
+
+      (6) 第一次期中考 / Quadratic Form
+
+      (7) 溫書假 / 掃墓節
+
+      (8) Sylvester's Law/ The Spectral Theorem
+
+      (9) Examples/ Jordan Canonical Form (I)
+
+      (10) Jordan Canonical Form (II) + 演習課 / Jordan Canonical Form (III)
+
+      (11) Minimal Polynomials + 演習課 / The Rational Canonical Form (I)
+
+      (12) The Rational Canonical Form (II) + 演習課 / SVD
+
+      (13) 第二次期中考 / Rayleigh Quotient
+
+      (14) Bilinear Forms / Symmetric Bilinear Forms
+
+      (15) Skew-Symmetric Bilinear Forms + 演習課 /
+
+           Groups Preserving Bilinear Forms
+
+      (16) Classical Groups / Orthogonal Groups
+
+      (17) Introduction to Group Representations (I) /
+
+           Introduction to Group Representations(II)
+
+      (18) 期末考
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+ ★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+      Friedberg, Linear Algebra, 4th edition
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+      板書。會先到教室擦好黑板，然後開始上課。由於多數同學有線代一的基礎，
+
+      這學期步調相對來說較快。
+
+      這學期前半是和內積空間有關的內容，二段時講了很重要的矩陣分解，
+
+      三段的內容以之前為基礎，討論雙線性形式、duel space、
+
+      group preserving bilinear form並將其延伸到更為代數化的
+
+      group representation。
+
+      由於目標不盡相同也相應的調整方式。內積空間的部分會延續上學期的步調，
+
+      經過一學期的訓練已經很能接受。配上較困難的內容相得益彰。
+
+      在較為抽象、代數化的內容時放慢步調，留出時間練習例題。
+
+      每周有一堂助教課，會講解作業及小考(有兩次)。考出來就當緣分。
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+      第一次期中考25%
+
+      第二次期中考25%
+
+      期末考30%
+
+      小考+作業20%
+
+      原本應該是紮實偏甜，看完期末分數向上調整為有唸有分數。
+
+      而且還從上學期的有分變成有合理分數。
+
+      期末平均74！逼得A+要原始成績95，不然會有超過1/5得A+。
+
+      ρ 考題型式、作業方式
+
+      作業每周5題，2~3人合交一份，其實自己交一份也不會太吃力。
+
+      小考考上課交的重要algorithm，像Joadan canonical form等。
+
+      期中計算證明各半，期末計算20分其他證明，滿分110~115不等，超過100當100。
+
+      計算和例題差不多，證明上課都有。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+      不點名。外系需有線代一基礎，我猜工數線代也可以，
+
+      反正證明都考這學期可以證明的。
+
+      要會寫證明題。計算和我一樣手殘也能過關。
+
+      應該是全簽，教室坐得下就好。
+
+      Ψ 總結
+
+      就很好啊，想不出別的形容詞。對人和對分數都很和善。
+
+      下學年開代數導論優，適合團報，無優惠。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 1.171.202.119
+※ 文章網址: http://www.ptt.cc/bbs/NTUcourse/M.1403539170.A.FD3.html
+※ 編輯: cmrafsts (1.171.202.119), 06/23/2014 23:59:49
+※ 編輯: cmrafsts (1.171.202.119), 06/24/2014 00:00:17
+※ 編輯: cmrafsts (1.171.202.119), 06/24/2014 00:01:35
+※ 編輯: cmrafsts (1.171.202.119), 06/24/2014 00:11:26
+推 xavierqqqq:老師人很親切說~ 06/24 12:02
+推 xavier13540:修不到課拉拉拉拉 06/24 20:35
+推 orzorzorg:老師的證明及內涵講解都令人收穫滿滿，恭喜今獲教學傑出 08/02 23:47
+
+

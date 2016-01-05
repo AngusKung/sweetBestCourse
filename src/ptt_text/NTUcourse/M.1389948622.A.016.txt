@@ -1,0 +1,136 @@
+Title:[評價] 102-1 張勝凱 統計學與計量經濟學暨實習一 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者wizcat (wizcat)看板NTUcourse標題[評價] 102-1 張勝凱 統計學與計量經濟學暨實習一時間Fri Jan 17 16:50:19 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）： 轉出前請先站內信徵得作者同意:D
+
+
+      哪一學年度修課： 102-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄) 張勝凱
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+                 經濟系大二必修，輔系、雙主修似乎也都要這門課
+
+      δ 課程大概內容
+                 Sylubus(和不負責任主觀翻譯蒟蒻!)
+
+            Statistics and Econometrics I and II are designed for Econ
+            major students to fulfill the departmental quantitative
+            analysis requirements.
+                 課程分成上下兩學期，目的是培養經濟系學生的"計量/量化"能力。
+
+            In Statistics and Econometrics I, we will focus on basic
+            probability theory and fundamentals of mathematical statistics
+            , since probability and statistics are important tools to
+            predict economic outcomes under uncertain environments. Some
+            important topics covered in Statistics and Econometrics I
+            are conditional probability, interval estimation, hypothesis
+            testing, and introduction of linear regression.
+                 第一學期是以"統計學/機率"的數學工具為主。再附贈神簡單的迴歸。
+
+            In Statistics and Econometrics II in Spring 2014, we will
+            concentrate on elementary regression analysis and its
+            extension to time series and panel data models. Statistics and
+            Econometrics II is a semester long course in introductory
+            econometrics. Its objective is to provide students with basic
+            statistical tools and concepts that will help them estimate
+            economic models and do subsequent inference.
+                 第二學期才是進入真正迴歸分析領域。
+
+            [註] 今年經濟系改了"統計"的課名，但這帶來的不只　nominal change
+                 是真的有實值的影響! 現在林惠玲、陳旭昇老師的班，都是上學期教統
+                 計工具+下學期迴歸分析，對學弟妹來說，要轉班也較能無縫接軌:P
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+                 ★★★★★
+
+      η 上課用書(影印講義或是指定教科書)
+
+                 Introductory Econometrics: A Modern Approach
+                 by Je_rey M. Wooldridge, South-Western Cengage Learning,
+                 5th edition, 2013. (M.d.) [W]
+
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+            上課是板書，老師會抄英文在黑板上。筆記非常完整有條理、老師手速
+            神快、字體亦十分工整。邏輯之嚴明，令原po憶及大一之微積分教授!
+
+            因為我們班只買一本計量課本，所以兩次期中考的範圍都只能仰賴上課
+            之手抄筆記，但原po擁有旭昇之中文課本，發現其可弭平缺席之影響，
+            因此強烈推薦大家擁有。
+
+            由於原po實為大三生，因此大二上過旭昇ｘ明慶，這學期亦有幫惠玲班
+            同學解題，故對三位統計老師能做一些主觀上的比較。
+
+            個人（上半學期）的偏好為：凱＞昇＞玲，但是我超愛旭昇的課本！
+            我會大推這班的原因是，老師的測驗方式、以及今年的助教。
+            其他兩班有的是openbook，或許因此我有時會感受到有點＂偏＂的考題
+            就是有點會陰人、計算繁雜的、有點tricky的...etc
+            但是我們班的考卷組成大概是：７０％超基本，３０％觀念變化。
+            考完會令人得到該拿的，錯的題目也輸的心服口服（？）
+            能從其中學到重要的觀念細節！
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+　　　　　　助教作業(10%), two midterm exams (25% each), final exam (40%).
+
+            我不知道會不會調分，但是這裡提供自己/班平均(滿分)給大家參考。
+            8.81/8.04(10), 106/99(110)，94/92(100)，89/NA(100)
+　　　　　　　最後出來的結果是A+
+            所以，無論老師有沒有調分，我覺得他都不吝於給大家好看的分數！
+            而且自己賺來的分數真的比調分有成就感：Ｄ
+
+            最後，在寫滿優點後，也寫一下這門課對我來說最大的缺點：
+            人數太少。系外同學太多（雙主修人都很強！）...有點Ｍ型社會。
+            班上有些人會因為成績好的同學太多而得到負面的外部性（例如：焦慮）
+            像我們的作業是12取9，很多強者都寫滿12次，所以平均分數被拉上去
+　　　　　　飆超高xD　我就神經很大條，只寫了前九次哈哈：P
+
+            不過人很少，真的是個小問題。
+            畢竟現在有了評價文，明年的學弟妹就能安心揪團來上勝凱班了。
+
+[補充] 經過一些考證，老師這學期採用的是relative performance，就是會調分成"某
+種"不明的distribution。可是，這並沒有公佈在課綱上，大家可以善用NTU版上的"成績
+分布查詢系統"。 成績這部分大家參考就好，或是一開學就先問老師吧:(
+
+      ρ 考題型式、作業方式
+
+                 如上述。老師會公布考古（也只有一兩年吧...囧）
+                 需要的話可以站內信我！
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+                 完全不重出席率。但是強烈建議出席助教課（ＣＰ值超高）！
+                 建議沒有開＂旭昇課本＂外掛的人，乖乖上課手抄筆記。
+
+      Ψ 總結
+
+                 這是我第一篇評價文，也是應吾友潘彥之託，祈能充實系上修課評價資
+                 料庫。也希望資訊透明化後，大家的大二必修能多一種選擇:D
+
+       [Bonus]   老師前兩次期中考就把機率與統計上完了！！教超快！不過也因此不會
+                 考很偏（？）因此，據說下學期會利用比別班多出來的時間，讓學生做
+                 點＂小專題＂，試著拿自己有興趣的資料去跑迴歸，再上台報告結果。
+                 我覺得會很有趣！可惜因為撞到想修的賽局，我下學期要換班了：（
+　　　　　　　　　好希望之後能看到下學期大家做的專題啊ＯｗＱ
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 36.226.200.6
+※ 編輯: wizcat          來自: 36.226.200.6         (01/17 18:17)
+※ 編輯: wizcat          來自: 36.226.200.6         (01/17 18:19)
+推 hsuzchan:感覺很不錯耶～前陳駱班的同學推一個 ＝） 01/17 19:37
+推 daniel810736:作業是11取8 01/17 20:02
+→ daniel810736:老師會調分 我被調低.............. 01/17 20:02
+→ wizcat:樓上!謝謝你的修正:D 01/17 21:08
+→ wizcat:還有調低有點&gt; &lt; 你要不要也發篇評價文，或我幫你補進內文~ 01/17 21:10
+※ 編輯: wizcat          來自: 36.226.200.6         (01/17 21:54)
+推 ro9956882:大推助教阿~認真負責又搞笑!! 01/18 01:46
+→ ro9956882:不過字體工整是...跟我印象中不太一樣耶XD 01/18 01:47
+
+

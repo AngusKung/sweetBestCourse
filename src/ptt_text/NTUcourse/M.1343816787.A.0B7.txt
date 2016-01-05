@@ -1,0 +1,142 @@
+Title:[評價] 100-2 王勝德 智慧終端與雲端裝置 - 看板 EE_Comment - 批踢踢實業坊
+
+
+作者ym920823 (綠茶)看板EE_Comment標題[評價] 100-2 王勝德 智慧終端與雲端裝置時間Wed Aug  1 18:26:25 2012
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：ok
+
+      哪一學年度修課：
+
+        100-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+        王勝德
+
+      δ 課程大概內容
+
+        Introduction to Cloud computing
+        Introduction to Android Platform
+            Android Application Development Platform,
+            Android applications structures
+            Activity, Service, Broadcast Receiver, Content Provider
+            Example: Hello view and Webview
+            Event-Driven GUI, Model-View-Controller, Intent and Adapters
+            Example: Notepad using Intent
+        Infrastructure-as-a-Service Model
+            Amazon S3, EC2,  HP CloudSystem Matrix
+        Platform-as-a-Service Model
+            Windows Azure
+            Google App Engine
+            Apache Hadoop
+            Mashups: Yahoo Pipes and Query Language
+        Software-as-a-Service Model
+            CRM as a Service, Salesforce.com
+            Social Computing Services
+            Document Services
+        More Android Platform Program Components
+            Make your Application Vivid – 2D &amp; 3D Graphics
+            Multimedia Playing – Audio &amp; Video, External Data Storage
+        Paradigms for Developing Cloud Applications
+            Scalable Data Storage, RESTful web services
+            HTML5, JavaScript, jQuery and PhoneGap for both contents &amp; devices
+            CSS3 for mobile design
+        Cloud Computing Issues
+        Cloud Security
+        Cloud Management
+        Term Project
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+        ★★★★
+
+      η 上課用書(影印講義或是指定教科書)
+
+        NO，老師用投影片
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+        投影片講課，
+        老師他講話比較慢，常常也需要思考一下，
+        感覺上課吸收到的東西不多@@"
+
+        (有人要幫忙補充嗎QAQ?)
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+        老師完全佛心來著，給分很甜，但作業很多...並不算涼
+        不怕寫作業可以來，幾乎全班A以上吧
+
+      ρ 考題型式、作業方式
+
+        有期中考(25%)，但拖到很晚才考，考課程中上過的內容，
+        考試前一天晚上有寄20題題目，從中出題。考試為簡答題，共六題。
+        考一節課，然後考完立刻檢討QQ，老師說我們寫的都不是他想要的...
+        但成績還是普遍偏高(!)
+
+        沒有期末考。
+
+        出席率(10%)，但根本沒點名呀@@"
+        後來超多人缺席，但跟教室太小太多人也有關...
+
+        作業(30%)才是主要部分吧，有五個，
+        前三個都頗簡單，tutorial看一看再寫個報告就可以了，
+        第四個就不簡單了，還延了兩次死線=口=
+        可以選擇Google App Engine或是Azure Platform，
+        作業內容是寫一個留言板，然後有一些要求：
+
+        1. 請讓每筆留言都能夠顯示張貼的時間
+        2. 增加刪除留言之功能
+        3. 利用 jQuery API 完成基於 Json 的 Ajax 留言板。
+        4. 將使用者登入機制更改為 Facebook Authentication。
+        5. 利用 Facebook Graph API 取得使用者的大頭照，並顯示在留言上。
+        6. 將實驗過程寫成一份簡要的報告 (3 points)，其中應包括一些心得
+           與討論 (3 points)。
+        7. (2 points)  開發智慧終端裝置版本的 Client 端來張貼留言
+
+        雖然上面有明訂各項給分，但最後好像沒照上面，
+        我拿到的分數明顯多於我寫的= ="
+
+        作業五是用Google Maps API吧，這也沒有太難
+
+        另外還有，兩次Lab Work
+        是要去電一某間操作電腦，照著tutorial做一次，
+        老實說弄完我還是不知道發生了什麼事，
+        但其實上課前老師or助教會先講解，做的時候也可以問助教，
+        寫報告才不會寫不出來。(要寫：做了什麼/學到什麼/遇到甚麼問題)
+
+        最後還有一個Final Project (35%)
+        要跟課名有關，有智慧終端裝置和雲端運算即可，
+        教授會很在意有沒有跟他上課內容有關，報告時也會問你，
+        教授還會重視創意(吧?)
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+        老師人真的很好XD
+        期中考時還拿新買的One X偷拍我們寫考卷XD
+
+        Final Project可借SE的Arc S
+
+        先修基礎老師要求會C/C++ programming
+
+        不重視出席率，但希望下學期如果人還是很多的話可以換教室Orzzz
+        尤其電二146網路很爛，又沒收訊Orz
+
+        噢對了這堂是研究所的課，只是這學期被大學部的入侵了ˊ_&gt;ˋ
+
+      Ψ 總結
+
+        給分不錯，但要學東西可能要靠自己。
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 218.187.128.69
+推 arsenefrog:推學姐 08/01 22:03
+→ ym920823:嗨學弟XD 08/11 01:07
+推 Griffith:好課推推~~~ ((但我被一堆強者嚇死了Q_O 08/22 01:32
+推 concise:推綠茶~ 08/22 14:45
+
+

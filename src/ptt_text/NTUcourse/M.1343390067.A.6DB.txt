@@ -1,0 +1,81 @@
+Title:[評價] 100-2 鐘嘉德 機率與統計 - 看板 EE_Comment - 批踢踢實業坊
+
+
+作者opy (opy)看板EE_Comment標題[評價] 100-2 鐘嘉德 機率與統計時間Fri Jul 27 19:54:24 2012
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+
+
+      哪一學年度修課：100-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+             鐘嘉德 教授
+
+      δ 課程大概內容
+
+        1. Experiments, Models, and Probabilities
+        2. Discrete Random Variables
+        3. Continuous Random Variables
+        4. Pairs of Random Variables
+        5. Random Vectors
+        6. Sums of Random Variables
+        7. Parameter Estimation Using the Sample Mean
+        8. Hypothesis Testing
+        (課程網上寫的)
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+        ★★★
+
+      η 上課用書(影印講義或是指定教科書)
+
+         "Probability and Stochastic Processes" A Friendly
+         Introduction for Electrical and Computer Engineers, Second Edition
+         Author : Roy D. Yates and David Goodman
+         Publisher : John Wiley &amp; Sons, Inc.
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+        書商給的投影片(通常是拿來講例題用) 至於定理性質什麼的
+        老師會寫在筆記本上(字是書寫體不容易看懂) 每章結束時會給大家下載
+        老師講話蠻平的而且講很快 所以蠻容易演變成自己讀的情況
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         期中、期末：各40%
+         recitation:5%
+         作業+平常成績:15%(兩者所佔比例由老師自己調整)
+         系上統一調分 算紮實吧
+
+      ρ 考題型式、作業方式
+
+         期中期末考題基本上都是計算題 有一些證明和是非題(期末)
+         作業就是勾課本習題加一些老師自己出的(補充很不好寫就是了)
+         recitation前期是助教自己選的證明題 後期是拿考古題來寫
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+        不重視出席率
+        加簽不清楚 好像沒人來加簽 基礎會微積分就好了
+
+      Ψ 總結
+
+        因為去年老師沒開 所以選這班的人很少 再加上老師上課的風格
+        來的人就更少了(期末時只剩5人)
+        不過老師大概是把原定範圍(CH1~8)整個上完的唯一一人吧 也會補充一些東西
+        雖然上課通常很無聊 但老師因為非~常~不喜歡上課用的教科書
+        所以常常表作者 例如:這題例題舉的不好 因為這位老兄(作者)做網路的
+        根本不懂通訊(老師好像是做通訊調變的研究)
+        然後就是老師說他明年不想開了(因為教科書太爛) 所以這篇評價可以看看就好
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 140.112.243.116
+推 XDucka:好有個性的老師... 07/27 23:24
+→ gnahcsemaj:期末時人還是很多啊~ 08/12 00:24
+→ user48625:是為了要考試吧..... 08/13 23:51
+
+

@@ -1,0 +1,90 @@
+Title:[評價] 102-2 黃信富 連體機電力學導論 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者ns512346 (A砲)看板NTUcourse標題[評價] 102-2 黃信富 連體機電力學導論時間Sun Jul 27 01:05:59 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+         是
+
+      哪一學年度修課：
+         102-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+         黃信富
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+         機械所，授課對象不限(大學部、碩博士生都可修)
+
+      δ 課程大概內容
+         Introduction
+         Fundamentals of fluid mechanics
+         Fundamentals of electromagnetism
+         EQS and MQS boundary value problems
+         Hydrodynamic transfer relations
+         Maxwell stress tensors
+         The EQS and MQS Bernoulli equations
+         Ferrohydrodynamics &amp; magneto- or electro- rheology
+         Electric and magnetic hydrodynamic instabilities
+         Electrohydrodynamics &amp; Electrokinetics and microfluidics
+         Biological and physiological applications
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+         ★★★★★
+
+      η 上課用書(影印講義或是指定教科書)
+         版書內容、投影片、補充講義
+         Zahn, Electromagnetic Field Theory–A Problem Solving Approach
+         Jones, Electromechanics of Particles, Cambridge University Press
+         Melcher, Continuum Electromechanics, MIT Press
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+         抄板書、投影片講解
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+         去年：Midterm 50%、Final project 50%
+         今年：Homeworks 60%、Final project 40%
+         給分算扎實
+
+      ρ 考題型式、作業方式
+         今年是4次回家作業，每次各占15%(至少都有2個禮拜時間可寫，時間算充裕)
+         1st作業：黏性流體力學基本觀念
+                  (Ex: Navier–Stokes eqn、Lubrication Theory
+                      、Oscillating flow、Drag force...)
+         2nd作業：電磁學基本觀念
+                  (Ex: Gauss's Law、Ampere's Law、Biot-Savart Law...)
+         3rd作業：電磁學進階觀念
+                  (Ex: Electric/Magnetic field's boundary value problems、
+                       Polarization、Charge density、Magnetic diffusion、
+                       Electrorotation...)
+         4th作業：連體機電力學基本觀念
+                  (Ex: Maxwell stress tensors、Transfer relations、
+                       Electroosmotic flows...)
+         Final Project：從10~14篇的連體機電力學相關論文中，挑選1篇來做研讀
+                        與討論，準備書面報告跟口頭報告。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+             良心建議不要缺席&amp;認真抄筆記，在寫作業時會很有幫助，且最好
+         有一點流力和電磁學的基礎，修課負擔會較輕，而黃教授會用四~五週
+         的時間，教導流力與電磁學的基本觀念，不用太擔心預修課程的門檻，
+         認真修課會很有收穫的。
+
+      Ψ 總結
+             這是一門CP值蠻高的研究型課程，流體力學、電磁學、電磁熱流學，
+         三種願望一次滿足，推薦給大家！
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.4.206
+※ 文章網址: http://www.ptt.cc/bbs/NTUcourse/M.1406394361.A.DAF.html
+※ 編輯: ns512346 (140.112.4.206), 07/27/2014 01:15:05
+推 j100724:修過推!可以學到很多! 07/27 09:02
+推 gj942l41l4:推  上課真的要專心  晃神一下就落後很多 07/27 14:52
+推 hik46p09:信富葛格超讚推!!!! 07/28 00:27
+推 Tesla:不修會後悔！！！ 07/28 17:31
+推 drift810623:教學深入淺出 循循善誘 老師很風趣 很棒的一門課!! 07/28 17:36
+推 ikimjustin:推信富&gt;&lt; 07/28 18:37
+推 qeadzcwsx3:大推! 07/28 19:02
+推 auroralvlun:上課講得很詳細  對電、磁、流有興趣的絕對不能錯過~ 07/28 19:03
+推 tim007:流力、電磁跨領域，BJ4 07/28 19:03
+
+

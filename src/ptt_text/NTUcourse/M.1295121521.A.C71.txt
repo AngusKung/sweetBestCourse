@@ -1,0 +1,67 @@
+Title:[評價] 99-1 劉格非 中等流體力學 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者abcxyz123 (阿里八八與四十大盜)看板NTUcourse標題[評價] 99-1 劉格非 中等流體力學時間Sun Jan 16 03:58:39 2011
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+是
+
+      哪一學年度修課：
+99-1
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+劉格非
+      δ 課程大概內容
+(一) Lagrangian vs. Eulerian
+(二) Fluid kinematics (Eulerian) Strain. rotation (Irrotational and solenoidal)
+(三) Kinematic Transport Theorem
+(四) Fources in Fluid Newtonian and Non-Newtonian
+(五) Momentum conservation to Navier-Stokes Dimensional parameters:Re, Fr, W, Str, Ri, M
+(六) Scaling Argument
+(七) Vorticity Theorem (Rayleigh's Problem)
+(八) Inviscid Limit Potential and stream function; Porous media flows
+(九) viscous Flow Boundary layer, Blasis theory; Von Karman momentum integral method; Similarit mehtod; Unsteady boundary layer.
+(十) Instability of Laminar Flow
+(十一) Streaming induced by Oscilating boundary layer Application on determining dispersion coefficients
+(十二) Turbulence Physics Scales, Reynolds stress and Mixing length theory
+(十三) Stratified fluids
+
+
+不過要看老師進度，這學期就上到(十)而已
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+★★★★★(如果能多問問題會更好)
+
+      η 上課用書(影印講義或是指定教科書)
+應該是老師以前在MIT的講義
+      μ 上課方式(投影片、團體討論、老師教學風格)
+發講義，抄版書上課，老師很注重觀念，寫作業時你不能說給個式子就好，還要解釋式子
+所表達的物理意義，而且你用什麼方程式都要有些根據，而不是想用就用；老師還講了許
+多研究生在做論文時的要注意的事，例如做研究時要找出正確的governing equation和
+boudary condition 、order的判別、穩定性分析不然做出來一定爆掉...等
+      σ 評分方式(給分甜嗎？是紮實分？)
+紮實分，有作業跟考試，作業給分比較鬆(他說作業是送我們的)，他會說作業是訓練我們
+思考，主要是讓我們期中期末能多思考寫出來；比例:作業40% 期中30% 期末30%
+      ρ 考題型式、作業方式
+不過作業可能只跟上的內容扯到一點邊，所以有作業考古或跟同學討論比較好，交完作業
+會發解答；然後期中期末會出得蠻難的，而且不會有期中期末解答
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+完全不點名，老師會說你覺得你很強可以不用來上課，不過大家算幾乎都有到拉，基礎
+應該有點流力的概念就可以修了，因為老師講得很清楚
+              加簽習慣？嚴禁遲到等…)
+可以加簽吧!老師點名都不管了，不會管到遲到
+      Ψ 總結
+
+這算土木所水利組的重課之一，不過可以學到蠻多東西的，上完課之後，有些東西沒被證
+
+明可以用就不太敢用XD，在思考一個物理問題會更嚴謹一些，覺得對研究生幫助還蠻大的
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.248.40
+※ 編輯: abcxyz123       來自: 140.112.248.40       (01/16 04:04)
+※ 編輯: abcxyz123       來自: 140.112.248.40       (01/16 04:10)
+推 orzorzorg:中肯！ 09/15 16:51
+
+

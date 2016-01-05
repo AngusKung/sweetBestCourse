@@ -1,0 +1,216 @@
+Title:[評價] 103-1 王道一 個體經濟理論一 w/馮勃翰 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者hsuzchan (梳子這樣)看板NTUcourse標題[評價] 103-1 王道一 個體經濟理論一 w/馮勃翰時間Tue Jan 27 23:41:21 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）： 好滴 :D
+
+
+      哪一學年度修課：
+
+      103 上
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+      王道一  教授    aka  Joseph Wang
+      馮勃翰  副教授  aka  Pohan  Fong
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+      經研所       必修
+      國企所博士班 必修（方案一）
+      財金所博士班 必修
+      經濟系       選修（大學部修習列為系內選）
+
+      沒有個體經濟學、微積分底子的人，切勿嘗試修課，真的會死不瞑目！
+      如果修過賽局與訊息、賽局論等課程，後半學期會輕鬆很多。
+      另外，兩位老師上課都全英文授課，下課後只有 Joseph 會維持英文模式。
+
+      δ 課程大概內容
+
+      Supporting Prices                                     (EM 1.1)
+      Shadow Prices                                         (EM 1.2)
+      Monopoly Pricing with Joint Costs [TA]                (EM 1.5)
+      Envelope Theorem                                      (EM 1.3)
+      Theory of Choice                                      (EM 2.1)
+      Budget Constrained Consumer Choice with 2 Commodities (EM 2.2)
+      Budget Constrained Consumer Choice with n Commodities (EM 2.3)
+      The 2x2 Exchange Economy                              (EM 3.1)
+      The Fundamental Welfare Theorems                      (EM 3.2)
+      Theory of Risky Choice                                (EM 7.1)
+      Attitude toward Risk                                  (EM 7.2)
+      Comparing Risky Alternatives                          (EM 7.3)
+      Principal-Agent Problem                               (EM 7.4)
+      --------------------  Quiz and TA session --------------------
+      Principal-Agent Problems: Hidden Information vs. Hidden Action
+      Edgeworth Box Bargaining Experiments
+      =====================   Midterm Exam   =======================
+      Risk Preference Experiments (Andreoni and Sprenger, AER, 2012)
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ by Joseph
+      Introduction
+      Normal-Form Representation
+      Dominance and Rationalizability
+      Belief, Best Response and Nash Equilibrium
+      Mixed Strategies (With the case of Wimbledon)
+      All-pay Auctions
+      Cournot with Private Costs
+      Bayesian Games
+      Bayesian Nash Equilibrium
+      First-Price Sealed-Bid Auctions
+      --------------------  Quiz and TA session --------------------
+      Battle of the Sexes and Focal Point
+      Purification of Mixed Strategies
+      Judo Economics
+      Backward Induction
+      Extensive-form Games
+      Subgame Perfection
+      Credibility
+      --------------------  Quiz and TA session --------------------
+      Sequential Bargaining
+      Introduction to Mechanism Design
+      Job Market Signaling
+      How Micro-economists Think About Probability
+      {by guest speaker Prof. Kim-Sau Chung (CUHK)}
+      The Sender-Receiver Game
+      Perfect Bayesian Equilibrium
+      =======================   Final Exam   =======================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  by Pohan
+Ω 私心推薦指數(以五分計) ★★★★★
+
+      想要修涼課賺學分的人           -★★★
+      想要修紮實課程充實你的人生      ★★★★★ + ★
+      常常翹課，但是能自己讀的學生    ★★★ （不能自己讀請加負號）
+      喜歡活潑、新穎教學模式的人      ★★★★
+      想要挖掘一些經濟學背後涵義的人  ★★★★★
+翻轉教室愛好者 ★★★★
+嚴重感覺自己數學不好的學生 -★★
+旁聽生推薦度 ☆☆☆
+本屆研究生普遍評價（王道一） ★★
+本屆研究生普遍評價（馮勃翰） ★★★★★
+個人私心常態分佈總評 ★★★★
+（我其實很習慣王道一老師的授課模式，下面會再講學長姐的思維。）
+η 上課用書(影印講義或是指定教科書)
+
+      前半（王道一老師）：
+      Riley (2012), Essential Microeconomics,
+Cambridge University Press (EM) 
+      上面這本是課程方向的正式教科書，習題也從裡面出；下面這本只是參考書。
+      Mas-Colell, Whinston and Green (1995), Microeconomic Theory,
+Oxford University Press
+
+      後半（馮勃翰老師）：
+      老師有自己的投影片，也會叫 TA 印給同學！（如果自己印也可以）
+Gibbons (1992), Game Theory for Applied Economists,
+Princeton University Press
+      這本只是參考書，建議對賽局不夠熟悉的人可以買來看看。
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+Joseph：幾乎全面翻轉教室，課堂會分四人一組
+      老師已經事先把課程內容錄影，並且上傳 YouTube 給同學在課前觀看；
+      上課時間會安排同學寫題目，搭配神秘的實物投影機放送給全班觀賞。
+      課堂一開始會先開放提問，接著看課程進度，有時候會把線上課程簡單帶一遍。
+      課堂最後寫題目要上繳當作點名，四人繳一份就好，一般都不算太難。
+      不過備註一下，本學期的錄影內容都是沒有剪接過的，有些同學很介意。
+
+      Pohan：投影片章節搭配中規中矩的板書內容
+      老師有一份自己編寫的 PDF 檔，算是很紮實、豐富的賽局教材！
+      針對這些檔案，老師會在課堂上重新用版書教過一遍，也讓同學可以提問題。
+      另外，老師有一堂課特別找了一個 Guest Speaker 來演講，內容也很特別！
+      以接受程度而言，多數班上學生 prefer 老師的教法。（偏傳統）
+σ 評分方式(給分甜嗎？是紮實分？)
+Joseph:  5% Quiz, 5% Class Participation, 40% Midterm
+      Pohan:   5% Quiz *2, 40% Final（如果期末考得比較好，配分改為 0%-50% ）
+
+      用絕對分數相對評，分開評分，全班大概固定 50% 會 A- 以上，當率約 15% 。
+      兩個「半學期」都是用同學的相對分數排行，打完分數以後兩邊加總；
+      加總以後就是大家的最終分數，絕對請你相信，這是紮實分！很紮實！
+ρ 考題型式、作業方式
+
+      兩個老師的小考題型幾乎都是以去年的考題為藍本，所有考試滿分都不止 100 ！
+
+      期中考的考試題型：三大題，分成很多很多小題，都是計算、簡答，（限英文）
+      考試時間大概會用五個小時以上，如果給延長，應該跟做實驗有得比。
+
+      期末考的考試題型：四到五題，有時少寫一題應該還是可以拿 90 以上，
+      考試時間會是固定三個小時，不會延長，一樣都是計算、簡答的考題比期中輕鬆。
+
+      作業的話只有 Joseph 會指定，除了少數幾次要求回家自己寫完紙本交以外，
+      幾乎都是在課堂上完成，然後以小組為單位一起繳交上去，算在 5% 中。
+      作業發布以後，兩個 TA 都會在他們的上課時段非常有耐心地講解一遍！
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+      出席率的話，前半沒錯的話就是看隊友願意不願意 cover 缺席吧！
+      後半學期出席率幾乎是完全不重要，連老師都說你會自習就可以不用來了。
+
+      外系選修，必備個體經濟學（一年的）、基礎微積分（乙可以，但建議往上修）
+      還要帶一顆挑戰你先前學過所有課本內容的決心，因為這不是什麼普通的選修！
+
+      Joseph 個性也是特別親切！有時候會有點小口吃要適應，不過大致上不成問題。
+      大學部學生一般都覺得老師很可愛，但是很多研究生一想到翻轉教室就賭爛......
+      另外，老師英文講得很好！在台大英語授課的台灣教授裡面算是很熟練的！
+
+      Pohan 個性算是和善，在研究生面前不會展現太多「桌遊控勃翰」那一面～
+      然後加老師好友，你可能會看到一些神妙的動態...  http://ppt.cc/SS-h
+      課堂上課超精彩，不過下台上了臉書以後會瞬間變成廢文王（不是我說的！）
+
+      加簽的話全簽啦！不過老話一句：三思而後行（笑
+
+      遲到別管了，不過從後面進教室比較有禮貌一點～
+
+      Ψ 總結
+
+      這門課畢竟是研究所必修，所以難度是大學時代的學分數乘以二；
+      換言之，這門課四學分，大概要拿八學分的精神與時間來應付才夠！
+
+      如果沒有心理準備，課本是一本有字天書，每個字都懂，卻不懂整體內容；
+      下半學期的自主練習作業則是智力測驗，上課聽得懂，卻一題都不會寫！ˊˇˋ
+      一路走來就是超級紮實！沒有什麼可以喘息的機會，學通的人能夠三級跳。
+
+      班上大學生大概只有五個以內吧？（我只知道自己和另一個經濟三的學弟）
+      即便以前個體學得再紮實，走進這間教室就有一半以上要從頭來過了。
+      如果秉持著做學問的態度去探討課本以外的內容，兩個老師都會超用心來回答！
+
+      然而，研究生們很多都給前半學期的課負評，有些覺得翻轉教室沒準備好，
+      另外還有很多同學就是不習慣 Joseph 安排的作業量以及上課型態；
+      所以即便我一直以來覺得老師上得很完整、讓我學到很多、思考很多問題，
+      一上去研究室就會聽到各種各樣的可怕評價，當然還有根本都聽不懂這種原因。
+
+      至於下半學期的 Pohan，一般而言都聽到研究生正評，只有些不懂賽局的用意；
+      或者可以說，賽局這種工具在個體理論上沒有什麼追根究底的感覺，
+      但是沒有深入瞭解以前可能只覺得好玩，現實中也無從應用吧！
+
+      最後推個 TA 的貢獻！兩位 TA 人都很好，也都很用心準備    ＝）
+      前半的 TA 姊姊比較偏向一步步推導的模式，用工整版書教學；（或曰：戀愛了）
+      後半的 TA 大哥比較偏向邏輯推演，比較跳躍、版書也隨便一點～（笑
+
+      不過整體而言，應該對我來說只有五個要很集中的重點：
+      第一、原來大學部黃貞穎版的個體經濟學算很簡單了。
+      第二、原來數學對學經濟的人而言那麼重要！
+      第三、經研所想的會跟管院差異比大學時期還要大很多。
+      第四、上完這門課，習慣就會考慮下學期兩位老師開的 U 字頭選修了。
+      第五、期中考請帶足糧食，否則考到一半會餓死！
+（發文附圖：我期中考帶的糧食，http://ppt.cc/~8AA &gt;&gt; http://ppt.cc/NDVE）
+
+      這門課我絕對不會說「歡迎來修」，而是說「如果這不是必修，先想為何要修！」
+
+--
+   ◢◣  ◢◤ 雲霞燦爛　絃歌鏗鏘　濟濟多士　聚首一堂     龍  的  傳  人  
+ ◢◤◥◢◤ 礪爾學　　敦爾品　　景前賢　　而思齊  ╭┼╮    ╭┼╮ψw2
+ ◥◣◢◤◢◣ │││    │││  i1
+   ◥◤◢◤◥◣ 合群力　　集群智　　光吾校而輝煌  │││──│││  n0
+ ◢◤◣◢◤ 鵬程萬里兮乘風飛揚  育才為樂兮大道是彰  │││    │││  d0
+    ◢◤  ◥◤   實現三民主義　發揮民族精神　青天白日無疆 ╰┼╯    ╰┼╯    
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 61.223.5.133
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1422373291.A.594.html
+推 francis763: （或曰：戀愛了） 01/28 01:27
+推 a039333780: 累推QQ 01/28 03:15
+推 hitma1220: 此帳必推 01/28 11:35
+推 DragonLai: 上半學期頗痛苦 01/28 17:32
+噓 yslco2000: 純噓老師翻轉教室的video是去年的，而且也幾乎都唸ppt 01/29 09:48
+推 AtmanLin: 要翻轉把影片品質弄好 台下要有學生 內容才不會走鐘 01/29 23:31
+
+

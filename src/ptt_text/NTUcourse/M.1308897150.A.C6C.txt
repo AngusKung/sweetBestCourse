@@ -1,0 +1,187 @@
+Title:[評價] 99全 陳智泓 量子物理 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者BaouZakeruga (德)標題[評價] 99全 陳智泓 量子物理時間Fri Jun 24 14:32:28 2011
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+
+       是
+
+      哪一學年度修課：
+
+       99-1, 99-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+       陳智泓
+
+      δ 課程大概內容
+
+       99-1
+
+       1.Pre-quantum mechanics
+       (Black body radiation, photoelectric effect, Compton scattering)
+
+       2.Path integral
+       (The space-time approach to non-relativistic quantum mechanics)
+
+       3.The Schreodinger equation
+
+       4.Simple quantum system in one dimension
+
+       5.Hilbert space and Dirac notation
+
+       6.Hydrogen atom
+
+
+       99-2
+
+       1.Identical particles
+
+       2.Time-independent perturbation theory
+
+       3.The variational principle
+
+       4.The WKB approximation
+
+       5.Quantum mechanical system in electromagnetic field
+       (The Schreodinger equation for an electron in an electromagnetic field,
+       Landau levels, Integral quantum Hall effect, Flux quantization and the
+       Aharanov Bohm effect)
+
+       6.Time-dependent perturbation theory
+
+       7.The adiabatic approximation
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+       Introduction to quantum mechanics second edition by David J. Griffiths
+
+       Path integral的部分是課本內容以外(不過不知道老師是參考哪本書教的)
+
+       Quantum mechanical system in electromagnetic field的部分是參考
+       Gasiorowicz Ch13
+
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+       寫板書+講解，講解概念的時間居多
+
+       老師感覺起來相當有實力，可以把數學背後的物理意義講得很清楚
+
+       老師上課偶爾會點人起來問問題，不過通常都問第一排的那個XD
+
+
+
+       另外老師也會講和課程內容相關，現在正熱門的研究
+
+       主要是老師擅長的理論凝態領域(順便收專題生?)
+
+       也會講一些他在Stanford讀博士的趣事，也相當強調物理直覺的培養
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+       99-1
+
+       兩次小考 20%, Midterm 40%, Final 40%
+
+       全班學期平均80左右，沒有調分
+
+
+       99-2
+
+       Midterm 50%, Final 50%
+
+       期中平均69，期末平均83，老師學期一開始就說他絕對不調分...
+
+
+       期中期末老師會請助教先看完題目後，在考前一堂課幫大家"複習"
+
+       基本上考題助教都會提示到，所以不難準備
+
+
+       應該算紮實分吧，畢竟這是物理系大三最主要的必修課
+
+
+      ρ 考題型式、作業方式
+
+       一個禮拜會勾大概三題習題，主要來自Griffiths那本貓書
+
+       不過Problem Set不用交，但是期中期末會考
+
+
+       小考考問答題，主要都是上課講過的重要概念
+
+       上學期期中期末只有計算題(因為問答題小考有考了)
+
+       計算題題目來自老師平常勾作業與課堂演算的題目或是它們的變化題
+
+       下學期期中期末有問答題也有計算題，難度也變得比上學期高
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+       一年只有點過兩三次名，而且好像無關分數
+
+       這門課是物理系與電機系合開，第一階段只有本系生、雙修輔系生可以選
+
+       上學期第二階段選課老師說因為教室太小不給授權碼
+
+       (就算是沒選到課的本系生也一樣，因為還有另外一個班可以accommodate)
+
+       不過下半學期好像就有給授權碼了
+
+
+       數學方面要有微積分、線性代數、微分方程的基礎
+
+       雖然偶爾會用到Fourier transform, Special function
+
+       角動量相加那邊會一點群論會比較好
+
+       不過其實不是很必要，因為不算是這門課的重點
+
+
+       物理方面其實有普物的基礎就夠了
+
+       只有很少的地方會用到古典力學的Lagrangian、Hamiltonian
+
+       還有電磁學的Maxwell equation、Gauge invariant
+
+
+      Ψ 總結
+
+       這門課其實有點像量子力學導論，相較於另一個班，比較偏數學的計算
+
+       (從教了很多approximation就可以看出來，另一班主要在上現象學)
+
+       不過其實修完大學部老師開的量子物理
+
+       再去看研究所用的那本Shankar就不會太吃力了
+
+       (果然真的很像量力導論XD)
+
+
+       老師上課很強調物理的直覺與概念
+
+       通常老師會把一個題目裡的物理系統講得更完整、更深入
+
+       偶爾也會提到平常要養成哪些習慣與想法，才能做好物理研究
+
+       不過聽說老師偶爾會有脾氣，所以要小心不要被掃到XD
+
+       總而言之，如果想把量物理論部分學得很好的人，可以來修這門課^^
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.250.142
+推 Landau:看內容跟量力根本沒啥差，早該這樣上了 06/24 18:23
+→ k1220790108:reference是Gasiorowicz 06/25 23:57
+※ 編輯: BaouZakeruga    來自: 140.112.250.142      (07/03 20:50)
+
+

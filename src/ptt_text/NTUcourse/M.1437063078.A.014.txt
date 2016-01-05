@@ -1,0 +1,71 @@
+Title:[評價] 103-2 機率 林守德 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者vincent70341 (LauDa)看板NTUcourse標題[評價] 103-2 機率 林守德時間Fri Jul 17 00:11:15 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：
+        103-2
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+        林守德
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+        資工大二必修
+      δ 課程大概內容
+        Axiom_prob, Conditional Prob, Independence, Baye's Rule
+        Random variables, mean and variance
+        discrete prob distribution
+        Continuous Probability Distribution, Normal Distribution
+        Multivariable distributions
+        Conditional distributions, correlation, independency, distribution of
+fu
+        Chebyshev's inequality, Central Limit Theorem, Law of large number
+        Confidence Interval
+        Point Estimation &amp; Chi-square fit
+        Information Theory
+        前一部分是基礎機率觀念、後半部分比較偏統計(估計和檢定)和其他應用(IR)
+        &amp;最重要的機率與人生和機率與社會
+      Ω 私心推薦指數(以五分計) ★★★★★
+        4顆
+        這堂算是偏實用的機率課，想學扎實數理機率要修數學系的機率導論
+
+      η 上課用書(影印講義或是指定教科書)
+        投影片 有指定參考書但可以不用買
+      μ 上課方式(投影片、團體討論、老師教學風格)
+        投影片上課，偶爾會點同學回答問題
+        上課步調不快，每次上課也都會先複習上次教的內容
+        教學也很有趣，老師很愛講冷笑話
+      σ 評分方式(給分甜嗎？是紮實分？)
+        7~8次作業、期中、期末考
+        總成績是相對給分，可以查一下歷年成績分配，成績分配大概就是那樣
+        有唸書、交作業很難被當
+      ρ 考題型式、作業方式
+        期中考考比較難，平均約4.50分
+        期末考整體比期中簡單，好像期末考60以上就不會被當(期末考大概有30分是期
+中考題目)
+        作業會分配由同學出題、一學期出題一次
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+        不需要基礎，如果有修過統計相關的課，這堂課的內容應該都上過了(除了IR、E
+ntropy
+等
+      Ψ 總結
+        上課蠻輕鬆的，負擔不重，算是很實用的機率課，
+        但如果想學數理機率應該要修數學系的課。
+
+
+
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.226.201.241
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1437063078.A.014.html
+※ 編輯: vincent70341 (223.136.9.126), 07/17/2015 00:33:26
+※ 編輯: vincent70341 (223.136.9.126), 07/17/2015 00:33:56
+※ 編輯: vincent70341 (223.136.9.126), 07/17/2015 00:35:55
+→ ryuchenchang: 104-2 機率導論不推。鄭老師的內容林都會cover，只 07/17 03:21
+→ ryuchenchang: 有中央極限定理會多講。 07/17 03:22
+
+

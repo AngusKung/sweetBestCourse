@@ -1,0 +1,133 @@
+Title:[評價] 99-1 陳義裕 力學上 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者BaouZakeruga (德)看板NTUcourse標題[評價] 99-1 陳義裕 力學上時間Sat Jan  8 19:41:02 2011
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+
+       是
+
+
+      哪一學年度修課：
+
+       99-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+       陳義裕
+
+      δ 課程大概內容
+
+       力學
+
+       1.Vectors
+       a.Vectors (from linear algebra)
+       b.Change of Coordinates and Transformation Matrices
+       c.Derivative of a Vector
+       d.Velocity and Acceleration, in Different Coordinate Systems
+
+
+       2.Newtonian Mechanics: Rectilinear Motion of a Particle
+       a.Newton’s Laws of Motion
+       b.Uniform Acceleration
+       c.Potential and Kinetic Energy
+       d.Velocity-Dependent Forces
+
+
+       3.Special Theory of Relativity
+       a.A Day Trip
+       b.Relativity of Time
+       c.Relativity of Length
+       d.The Ultimate Speed
+       e.The Lorentz Transformation
+       f.Spacetime
+       g.Mass, Momentum, and All That
+
+
+       4.Oscillations
+       a.Simple Harmonic Motion
+       b.Damped Harmonic Oscillators
+       c.Forced Harmonic Motion and Resonance
+       d.Phase Space
+       e.A Taste of Nonlinearity
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+       G. R. Fowles and G. L. Cassiday, ANALYTICAL MECHANICS, Seventh Edition
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+      老師用板書上課，有時候會搭配影片或是電腦模擬(投影幕)
+
+      概念講解得相當清楚，不過也因此進度上得不快(相對論就上了半個學期...)
+
+      這學期老師常常有事情請假，加上期末考又提早，所以上到的課又少了好幾堂
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+      Midterm 40%, Final 40%, Homework 20%
+
+      期中平均78.6，期末平均63.83，最後應該還會往上調一點分
+
+      算甜的紮實分吧
+
+      ρ 考題型式、作業方式
+
+      期中期末考大部分都來自老師勾的作業或是上課筆記，有計算題跟申論題
+
+      把老師教的東西都弄懂的話，要拿高分應該不難
+
+      不過不太容易滿分，因為還是有一兩題有陷阱，或是計算有點繁雜
+
+
+      作業老師會從課本勾，或是自己出
+
+      總共要交七次作業，一次大約五題，期限一個禮拜，一次大約寫兩三個小時吧
+
+      另外因為上課指定用書沒有相對論的單元
+
+      所以老師就用Griffiths電磁學Ch12做為上課大綱還有習題來源
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+      完全不會點名，會加簽外系生(不過要跟他哀求久一點...)
+
+      建議需要的基礎有：普物、微積分、線性代數
+
+      不過其實基礎不夠也沒關係，有些基礎概念老師都會重講
+
+      老師有時候還會cue同學上來解題，挺有趣的XD
+
+      Ψ 總結
+
+      陳義裕老師是教學名師，在物理系是有口碑的
+
+      老師講課還蠻幽默風趣的
+
+      而且會知道學生在哪些地方觀念容易搞混，然後用不同的計算方式切入
+
+      讓我們更清楚知道其中的概念，這是很少老師能做到的
+
+      不過也因此進度有點落後另外一班
+
+      總而言之，是一個只要認真上課就會有不少收穫的老師:)
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.250.142
+推 chengfred:推老師 01/08 20:20
+推 liltwnboiz:是強者學長噎 &gt;&lt; 01/08 20:41
+推 cowux:哇靠  是超級無敵爆強德 01/08 22:56
+推 pi56789007:推~ 01/09 10:59
+推 cowux:對了原PO醫學系雙修物理系帥哥 目前單身 01/09 15:12
+→ BaouZakeruga:..........什麼跟什麼= =+ 01/09 19:44
+※ 編輯: BaouZakeruga    來自: 140.112.250.142      (01/11 00:39)
+推 ray86047:醫學雙修物理系單身帥哥！而且又是力學A+哥!!! 01/13 03:33
+→ ray86047:天啊～～這樣的課也能輕鬆拿高分，果然是強德！ 01/13 03:34
+推 chiau623:大推陳義裕!講話生動有趣~思路邏輯清晰易懂!是超強的講者 01/20 23:53
+
+

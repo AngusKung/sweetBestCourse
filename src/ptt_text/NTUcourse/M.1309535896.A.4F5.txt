@@ -1,0 +1,93 @@
+Title:[評價] 99-2 陳健輝 離散數學 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者garychou (天然捲都是好人)看板NTUcourse標題[評價] 99-2 陳健輝 離散數學時間Fri Jul  1 23:58:14 2011
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：99-2
+
+      ψ 授課教師 陳健輝
+
+      δ 課程大概內容
+
+                 Part I: Combinatorics:
+                 Principle of Inclusion and Exclusion
+                 Generating Functions
+                 Recurrence Relation
+
+                 Part II: Algebra:
+                 Logic
+                 Relations
+                 Boolean Algebra
+                 Rings
+                 Groups
+
+                 Part III: Graph Theory:
+                 Preliminaries
+                 Spanning Trees and Connectivity
+                 Paths
+                 Miscellaneous Topics
+                 Planar Graphs
+                 Matching
+                 Cliques, Independent Sets, and Vertex Covers
+                 Maximum Flow and Minimum Cut
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+                 以分數來看 ★★★★★
+
+                 以課程內容 ★★★★ 因為有的部分沒講 所以以詳細度給點折扣
+
+      η 上課用書(影印講義或是指定教科書)
+
+      Discrete and Combinatorial Mathematics, Ralph P. Grimaldi, Addison
+      Wesley, Fifth Edition
+
+
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+σ 評分方式(給分甜嗎？是紮實分？)
+
+      每個Part教完考一次 考三次 各佔30% 考試難度會依大家成績做調整
+
+      作業10% 準時交 有寫 都是滿分 有錯不會扣分
+
+      ρ 考題型式、作業方式
+
+      考試都是從上課教的內容 作業出題型 考古題可以參考看看
+
+      有時候會出一樣的題目
+
+      作業從課程網頁看 包括課本上的題目 助教出的 投影片的理論證明等等
+
+      可以交紙本 也可以交電子檔
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+      出席率:不重要 記得去考三次試和交作業就行了 考試與作業繳交日期課程網可見
+
+      Ψ 總結
+
+      上課有些地方會跳過因為比較難的關係
+
+      大部分老師的講得還算清楚 聽不懂可以問老師 整體節奏我覺得適中
+
+      不過老師講課的語調似乎會讓很多人睡著XD 我自己曾睡著兩三次XD
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 118.232.25.2
+※ 編輯: garychou        來自: 118.232.25.2         (07/01 23:58)
+→ purincess:陳老師推 ! 07/02 00:59
+→ purincess:...我沒有推QQ 07/02 00:59
+推 fcoldstar:大推！我是電機系的，可是還是覺得陳老師教得比較好XD 07/04 10:50
+推 mqazz1:考試要搭大都會公車XD 07/06 21:48
+→ JT0109:可以聽很多笑話，雖然笑不太出來XD 07/09 17:48
+
+

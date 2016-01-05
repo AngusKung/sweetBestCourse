@@ -1,0 +1,170 @@
+Title:[評價] 102-1 廖世偉 巨量資料系統 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者nkfly (遠足)看板NTUcourse標題[評價] 102-1 廖世偉 巨量資料系統時間Mon Jan 13 20:12:16 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+                是
+
+
+      哪一學年度修課：
+                102-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+                廖世偉
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+                資工所 網媒所 為選修
+
+      δ 課程大概內容
+                Big Data: Opportunities &amp; Challenges
+                Computation: MapReduce
+                Hadoop
+                In-Memory Computation : Spark
+                Graph Computation: Pregel &amp; HAMA
+                Distributed Storage: GFS
+                Distributed DB:Google's Big Table &amp; HBase
+                Distributed DB:Dynamo &amp; Cassandra
+                Data Warehouse: Hive &amp; Shark
+                Analytics: Google's Drmel &amp; Drill
+                Analytics: Big Explorer
+                Tech Trend
+                以上轉自ceiba上的課程大綱。
+                就我自己上完的經驗，然後現在回想，
+                除了作業中有碰過的MapReduce &amp; HAMA外，
+                其餘所有的東西都只剩下一些概念，然後知道這些名詞，
+                我想以後真的需要用到時，才會再深入去研究。
+
+      Ω 私心推薦指數(以五分計) ★★★★
+                想從老師的Lecture中深入了解那些系統 (做不到)
+                想從老師的Lecture中了解系統的概念 ★★★
+                想認真做個final，並與老師深入交流 ★★★★★
+                想隨便混學分 (學不到什麼)
+                總結 ★★★★
+
+
+      η 上課用書(影印講義或是指定教科書)
+                上課用書，但推薦這本網路上的e-book
+                Urs Holzle and Luiz Andre Barroso.
+                The Datacenter as a Computer, Morgan &amp; Claypool Publishers,2009
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+                投影片上課，老師會在台上講解系統的設計的原理，
+                然後常常會直接講code。
+                老實說，大部分的時候我都聽不懂，老師在台上講的東西不知所云。
+                我想老師他是懂得其內涵的，但是可能沒有表達得讓學生可以懂。
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+                Midterm: 30%
+                Programming assignments &amp; Hands-on: 35%
+                Final project (proposal, oral presentation, report): 35%
+                期中平均60，標準差很大
+
+                分數還沒出來，不知道
+
+      ρ 考題型式、作業方式
+                考試  ：問答題、手寫程式題，好像是助教出的題目，
+                所以非常的偏非常的細，例如要手寫spark版的Kmeans，
+                然而對於spark，老師只有帶過spark官網的sample code，
+                作業中也沒使用過；
+                又或是會考到很細的什麼MapReduce的combinor，
+                誰寫普通的MapReduce考慮過這個東西??
+                我在上課方式那裡有講到，很多那麼細的東西，
+                我上課的時候就沒有真正聽懂，所以當時在考期中的時候，
+                就很憤憤，覺得為什麼要考這麼細，而不考一些大的架構。
+                不過最後，助教改得還算寬鬆，我的分數也就還好。
+
+                作業x2：程式作業，MapReduce &amp; HAMA
+                是用這兩種framework寫跟PageRank相關的演算法。
+                環境必須自己架設，例如HAMA，
+                不過MapReduce好像可以用停機很久的國網中心。
+
+                作業差不多花我2天的空閒時間可以完成，
+                從裝環境到跑sample code，到改code，debug。(我是資工系大四。)
+
+                Final Presentation： 每組有12分鐘時間報告， 3分鐘Q&amp;A。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+                基礎要會寫程式，最好是Java。
+
+                因為我實際跟老師聊過，老師他是一個好人，
+                會想認識學生並真正記得你是誰，
+                他也會關心你的研究，並會給予一些方向上的建議。
+                我覺得可以看出，老師是有料的，只是在台上表現不出來，
+                無法講得讓人聽得懂，然後閒話太多，但是實際跟老師單獨談話，
+                卻不會覺得老師閒話很多，看老師的email也覺得老師是個有條理，
+                邏輯清晰的人。
+                所以，我覺得老師是個強者，也是個想認識學生的好老師，
+                只是在台上的時候表達不出來。
+
+                第二次作業的時間差不多在期中考後2-3禮拜due，
+                所以可以說留了相對充裕的時間來做Final Project，
+                這點我覺得是相當不錯的，只要找到好隊友，
+                並提早穩定開始做，最後出來的成果都不會太差。
+
+                關於final project presentation，
+                這個部分我要大大稱讚老師的厲害，
+                老師從業界找了不少評審，大概有10個以上，
+                使得場面變得相當正式與盛大，
+                例如有些組別報告完他們自己設計的資料庫，
+                就會有一些業界前輩很積極地過去交流，
+                我覺得這基本上是挺好的一件事，
+                各取所需，提供更多的機會等等。
+
+                加簽都收。
+
+                出席沒差。
+
+      Ψ 總結
+                這門課我不甚滿意的部分有，助教出題、
+                沒有公用Hadoop Cluster可以讓學生用、老師講課讓人不太懂
+                但是為什麼我仍會給予★★★★的評價，主要基於2點。
+                1. 老師是個好人，私下與他接觸，可以學到很多，
+                而且老師在final project presentation的時候找來了很多業界評審
+                ，我覺得老師是真的有實力有料。
+                2. 我自己這組的final project，很早就開始做，
+                所以自己在這門課，也是有學到不少東西，
+                寫了不少code，並把MapReduce應用在我們的project中，
+                還是很有收穫。
+
+                最後，老師下學期有要開，Android虛擬機及編譯器，
+                老師是Android系統code的實際貢獻者，一定很強大。
+                有興趣的同學可以考慮!
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.16.156
+※ 編輯: nkfly           來自: 140.112.16.156       (01/13 20:14)
+推 hsnuconan:哇!這麼好的課 我下學期一定要修Big Data應用 01/13 23:10
+推 WCLab:樓上老師愛將 最喜歡跟老師一起沖鋒了 01/13 23:48
+推 WCLab:走過路過千萬不要錯過喔 喜歡都可以試聽看看 01/13 23:52
+推 Carlchen:\Big Data/ \Android/ 01/13 23:57
+推 lsc36:下學期想修他的Andriod系統 XD 01/14 01:46
+推 bowlbone:加簽有都收嗎？ 第一堂看到盛況後就退了...orz 01/14 07:31
+→ KernelChen:樓上一堆亂推文 請不要誤導別人 01/14 10:38
+→ KernelChen:然後原po也不是一路唸上來的 半路出家是能給什麼有用的 01/14 10:39
+→ KernelChen:資訊? 01/14 10:39
+推 QDR18:修課有一定風險 學分投資有過有當 選課前應詳閱公開說明書 01/14 15:38
+推 deicide218:一到五樓都是他Lab的學生是嗎囧 01/14 23:48
+推 samyyhh:一事歸一事 扯原PO半路出家也太過分了吧 01/15 01:32
+推 drliao:有鼓勵有指教的評價，最真，才可幫台灣衝鋒BigData或Androi 01/15 10:25
+→ drliao:我改進：去年在史丹佛教CS243時，每週有recitation hours幫 01/15 10:29
+→ drliao:沒跟上的同學，所以沒收到有沒跟上的指教，下學期加這hours 01/15 10:31
+→ drliao:請大家勿人肉搜索一到五樓，我不知。每個修課學生都是菩薩 01/15 10:37
+→ drliao:不敢有“愛將”想法。謝謝。 01/15 10:38
+推 ikeaven:這門課給我的感覺就像一家學習吃到飽的餐廳，提供豪華餐點 01/16 09:24
+推 ikeaven:需要衝鋒挑戰的，有深度；需要認識業界技術的，有交流； 01/16 09:26
+→ ikeaven:需要更多時間修其他課的，不點名；需要分數的，有空間 01/16 09:27
+推 ikeaven:如果這不是值得選的一門課，那甚麼是值得選的課 ?? 01/16 09:39
+→ chanhou:請問需要先修什麼課程嗎？本身修過C++可以嗎？ 01/27 13:55
+→ drliao:Understanding of programming is necessary but not suffi 01/30 09:06
+→ drliao:cient. Reviewing of my course slides on BigData Systems 01/30 09:06
+→ drliao:is strongly recommended. Plus, read related course mate 01/30 09:07
+→ drliao:rial in data mining, machine learning, information retr 01/30 09:08
+→ drliao:ieval. Happy New Year and Happy reading during 寒假。 01/30 09:10
+
+

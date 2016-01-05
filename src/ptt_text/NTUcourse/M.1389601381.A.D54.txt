@@ -1,0 +1,154 @@
+Title:[評價] 102-1 林惠雯 線性代數一 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者cmrafsts (喵喵)看板NTUcourse標題[評價] 102-1 林惠雯 線性代數一時間Mon Jan 13 16:22:59 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+
+      是
+
+      哪一學年度修課：
+
+      102-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+      林惠雯教授
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+      數學系大一必修
+
+      δ 課程大概內容
+
+      括號內為周次
+
+      (1) Vector spaces/ Systems of linear equations
+
+      (2) Linear combinations
+
+      (3) Steinitz exchange theorem &amp; (習題課)/ Bases
+
+      (4) Dimension formula &amp; (習題課)/ Linear transformations
+
+      (5) Matrix representation &amp; (習題課)/ Invertibility
+
+      (6) 第一次期中考/ The change of coordinate matrix
+
+      (7) Elementary matrices &amp; (習題課)/ The rank of a matrix
+
+      (8) Systems of linear equations &amp; (習題課)/
+          Homogeneous linear differential equations
+
+      (9) Determinants of order 2,3 &amp; (習題課)/ Determinants of order n
+
+      (10) Properties of determinants/ 校慶停課
+
+      (11) Calculation of determinants &amp; (習題課)/
+           Some remarks for Determinants
+
+      (12) 第二次期中考/ Eigenvalues and eigenvectors
+
+      (13) Basic properties and Examples (習題課)/ Diagonalizability
+
+      (14) Cayley-Hamilton theorem &amp; (習題課)/ Invariant subspaces
+
+      (15) Simultaneously diagonalizable &amp; (習題課)/ Upper-triangularization
+
+      (16) Matrix limits &amp; (習題課)/ Markov chains
+
+      (17) Applications/元旦放假
+
+      (18) (習題課)/期末考
+
+      以上是放在ceiba上的課程內容。每周都按照既定的進度上完。
+
+      內容循規蹈矩，不會發生需要用到的工具沒教到的狀況，又十分豐富。
+
+      由於是數學系的課，會提到的內容較偏向數學，但是計算部分也十分完整。
+
+      Ω 私心推薦指數(以五分計)
+★★★★★ 
+η 上課用書(影印講義或是指定教科書)
+
+      Linear Algebra, Stephen H. Friedberg
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+      上課前會到教室擦好黑板，寫下該次課程主題然後開始上課。
+
+      邊寫邊解釋這些內容和之前交過的東西的連結以及功用，
+
+      等於整堂課都可以溫故知新。
+
+      每個證明都會解釋證明的思路，少數證明會附上能讓人容易理解的圖說，
+
+      多數都會完整寫出，除了一些篇幅過長的會較為唬爛的略去完整的細節，
+
+      如果考出來的話記得補上，原PO第一次期中考學她寫就被紅字了。
+
+      計算部分會要同學當場練習一下，半個教室負責一半
+
+      懶得算也沒關係，她不會發現。
+
+      每周有一節主要用來檢討作業的助教課，實際上課情況會因班而異。
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+      作業12%
+
+      助教課8%
+
+      兩次期中各25%
+
+      期末30%
+
+      紮實偏甜，勉強算涼，有唸就有分！
+
+      而且教授人很好，只是真的該被當的就只能當了。
+
+      ρ 考題型式、作業方式
+
+      作業小組繳交，3人一組交一份，每周出9題左右選5題
+
+      所以每人的工作量其實很少。
+
+      作業會由助教評分，等第制，最高A+，有點小錯也不會被扣。
+
+      考題計算、證明都有。分數似乎是計算多一點點點
+
+      時間約兩小時，但是可以要求延長。
+
+      考完當天下午4點左右就會改完，同時會收到一封有分數分佈的信。
+
+      考題都可以在作業及上課內容中找到。
+
+      滿分三次都115，有一定比例的人可以破百及提早交卷，
+
+      平均分數也挺不錯的。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+      原則上不點名，只要會寫作業那就完全不必出現。除了一次全班人數莫名少就
+
+      點名扣分。教授對學生很好，除了下課接受提問外，office hours也可以延長
+
+      有空就可以去找教授問問題，也可以問和課堂無關的問題。
+
+      不需要基礎就能修。事實上學測數學已經提供足夠的基礎了。
+
+      Ψ 總結
+
+      好課值得修。事實上此教授開的課都可以去修。
+
+      下學期的線代二也值得外系考慮作為選修學分。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 1.162.206.68
+推 orzorzorg:身為外系也覺得是很好的課，可是既然是數學系的課 01/13 23:57
+→ orzorzorg:基本上就是相當紮實的，雖不太需要基礎，但得下不少功夫 01/13 23:58
+推 professor525:推原po提早交且破百，系喵萬歲。 05/31 18:13
+
+

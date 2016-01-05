@@ -1,0 +1,104 @@
+Title:[評價] 98-1 莊文議 財務模型程式應用 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者yeanla (微笑的魚)看板NTUcourse標題[評價] 98-1 莊文議 財務模型程式應用時間Tue Feb  2 11:27:20 2010
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+      哪一學年度修課：
+      98-1
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+      莊文議
+      δ 課程大概內容
+      Chapter 1: Basic Financial Calculations
+      Chapter 2: Calculating the Cost of Capital
+      Chapter 3: Financial Statement Modeling
+      Chapter 4: Building a Financial Model: The Case of PPG Corporation
+      Chapter 5: Bank Valuation
+      Chapter 6: The Financial Analysis of Leasing
+      Chapter 7: The Financial Analysis of Leveraged Leases
+      Chapter 8: Portfolio Models-Introduction
+      Chapter 9: Calculating Efficient Portfolios When There Are No Short-Sale
+                 Restrictions
+      Chapter 10: Calculating the Variance-Covariance Matrix
+      Chapter 11: Estimating Betas and the Security Market Line
+      Chapter 12: Efficient Portfolios without Short Sales
+
+      Ω 私心推薦指數(以五分計)
+ ★★★
+η 上課用書(影印講義或是指定教科書)
+      Financial Modeling, 3rd edition, by Simon Benninga. (用不到不用買)
+      老師上傳的PDF講義
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+      本課程英文授課
+      老師的英文不太流暢
+      但勉強可以聽的懂
+      老師假設我們有修過財務基礎課程
+      對於一些概念簡單唸過去
+      然後開始實際上機操作
+      使用的軟體是EXCEL
+      因為沒有切換螢幕
+      所以常常沒有看清楚要怎麼做
+      老師也會不厭其煩的教第二遍
+      之後讓我們實際操作時
+      老師也會下來巡並再個別指導不會的同學
+      我認為有點浪費時間
+      導致沒有教完期初課程大綱的進度
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+      期中40% 期末40% (都是上機考) 點名和平時成績20%
+
+      點名和平時成績在課程大綱說明是這樣寫的 Note that violating the following
+      classroom rules leads to the deduction of the participation grade: chat,
+      nod, eating, and using cellular phone.
+      但實際上沒有嚴格執行
+      上課還蠻多人在做自己的事
+
+      我期中92 班平均80
+      期末97 班平均不清楚
+      學期成績96 感覺沒什麼調
+
+      ρ 考題型式、作業方式
+      上課時老師會告訴我們考試重點在哪裡
+      考題跟上課的EXCEL檔案幾乎一模一樣
+      而且還有提供公式
+      只要把一百多頁的EXCEL檔複習過
+      考試絕對沒問題
+
+      課程前半還蠻簡單的
+      後半部要用矩陣算投資組合
+      常常一個公式要打一行多
+      只要了解EXCEL函數的本質
+      打起來其實還蠻簡單的
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+      這門課很多外籍生選
+      平常上課大約只有10位去上
+      到考試時小管電會爆滿
+      翹課率頗高
+      老師只點過一次名是加分用的
+
+      最好修過投資學、財務管理和初會
+
+      好像全簽
+
+      可以遲到也可以做自己的事
+      但是作業要先做完
+      還有老師不喜歡上課的時候有非修課學生在管電用電腦
+
+      Ψ 總結
+      老師人很親切也很有耐心
+      但本身課程有點無聊
+      有點像統計實習
+      除了一些小技巧講義沒寫
+      其他自己學就會了
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 125.232.100.122
+※ 編輯: yeanla          來自: 125.232.100.122      (02/02 11:28)
+※ 編輯: yeanla          來自: 125.232.100.122      (02/02 11:29)
+
+

@@ -288,6 +288,12 @@ class State:
           self.depart_courses.remove(course)
     self.distrib[0] = temp
 
+  def findCourse( self, course_name, teacher):
+    for course in self.depart_courses+self.non_depart_courses+self.general_courses+self.PE_courses:
+      if course.name==course_name and course.teacher==teacher:
+        print course
+        return course
+    return None
 
   def deleteCourse(self, course_name):
     for c in self.taken:

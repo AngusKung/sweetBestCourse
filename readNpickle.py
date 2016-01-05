@@ -48,11 +48,13 @@ with open(sweety_list, 'rb') as fh:
 							,line[2],[int(s) for s in line[8:]],line[4]) 
 		if line[0] in class_load:
 			newC.setClassLoad(((-class_load[line[0]])+1.0)*5.0)
-			print line[0],":",newC.class_load
+			if newC.class_load <= 5:
+				print newC
+				print newC.class_load
 		#default = 0.0
 		if line[1] in teacher_load:
 			newC.setTeacherLoad(((-teacher_load[line[1]])+1.0)*5.0)
-			print line[1],":",newC.teacher_load
+			#print line[1],":",newC.teacher_load
 		#default = 0.0
 		if line[0] in class_recc:
 			newC.setClassRecc(class_recc[line[0]]*2.5+2.5)

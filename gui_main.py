@@ -22,7 +22,7 @@ class GUI:
         self.courses, self.general_courses, self.PE_courses = readCoursePickle()
         self.EmptyState = State.State()
         self.InitialState = State.State()
-        self.nextState = State.State()    
+        self.nextState = State.State() 
         self.lastStates = []
         self.total_score = 1
     
@@ -167,17 +167,20 @@ class GUI:
         
     def loadMethod(self):
         self.checkLogin()
+        course = self.nextState.findCourse(self.loadC_field.get(),self.loadT_field.get())
+        '''
         sweety_dict = readSweetyCsv()
         course_info = sweety_dict[(self.loadC_field.get(), self.loadT_field.get())][0]
         course_info[6:] = map(int, course_info[6:])
         course = Course.Course(self.loadC_field.get(), self.loadT_field.get(), course_info[3], \
                         course_info[0], course_info[6:], course_info[2])
-        if self.nextState.canTake(course):
+        '''
+        if course!=None and self.nextState.canTake(course):
             self.nextState.generateSuccessor(course)
             print "Course %s loaded" % self.loadC_field.get()
             self.updateTable()
         else: 
-            self.info_label.config(text="帶入課程有誤") 
+            self.info_label.config(text="無法帶入課程") 
 
     def searchMethod(self):
         self.checkLogin()

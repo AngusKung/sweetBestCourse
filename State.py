@@ -295,10 +295,11 @@ class State:
         return course
     return None
 
-  def deleteCourse(self, course_name):
+  def deleteCourse(self, course_name, teacher, time):
+    print course_name, teacher, time
     for c in self.taken:
-      if c.name == course_name:
-        print "Delete:",course_name
+      if c.name == course_name and c.teacher == teacher and time in c.time:
+        print "Delete:",course_name, teacher
         state = State(self)
         for time in c.getTime():
           state.free.add(time)
@@ -330,6 +331,6 @@ class State:
           print c
           pdb.set_trace()
           state.PE_courses.remove(c)
-        return state
-    return None
+        return state, c.time
+    return None, None
     

@@ -186,7 +186,7 @@ class State:
       print "empty"
 
     if not toSelect:
-      print "Not toSelect"
+      print "Nothing in toSelect"
       return None
     else:
       course = max(toSelect,key=itemgetter(0))[1]
@@ -196,16 +196,16 @@ class State:
             self.distrib[1].remove(single)
       elif course == course2:
         self.distrib[2] -= course2.credit
-        self.depart_courses.remove(course)
+        #self.depart_courses.remove(course)
       elif course == course3:
         self.distrib[3] -= course3.credit
-        self.non_depart_courses.remove(course)
+        #self.non_depart_courses.remove(course)
       elif course == course4:
         self.distrib[4] -= course4.credit
-        self.general_courses.remove(course)
+        #self.general_courses.remove(course)
       elif course == course5:
         self.distrib[5] -= course5.credit
-        self.PE_courses.remove(course)
+        #self.PE_courses.remove(course)
       result_state = self.generateSuccessor(course)
       return result_state
 
@@ -299,13 +299,30 @@ class State:
         state.taken.remove(c)
         state.credit -= c.credit
         state.loading -= c.class_load
+        if c in self.distrib[0]:
+          print c
+          pdb.set_trace()
+          self.distrib[0].remove(c)
+        for sublist in self.distrib[1]:
+          if c in sublist:
+            print c
+            pdb.set_trace()
+            sublist.remove(c)
         if c in state.depart_courses:
+          print c
+          pdb.set_trace()
           state.depart_courses.remove(c)
         if c in state.non_depart_courses:
+          print c
+          pdb.set_trace()
           state.non_depart_courses.remove(c)
         if c in state.general_courses:
+          print c
+          pdb.set_trace()
           state.general_courses.remove(c)
         if c in state.PE_courses:
+          print c
+          pdb.set_trace()
           state.PE_courses.remove(c)
         return state
     return None

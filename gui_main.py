@@ -88,7 +88,7 @@ class GUI:
         trialState = self.nextState.deleteCourse(course_name)
         if trialState != None:
             self.lastStates.append(copy.deepcopy(self.nextState))
-            self.nextState = trialState
+            self.nextState = copy.deepcopy(trialState)
             for x in range(0,6):
                 for y in range(0,15):
                     index = "%i,%i" % (y, x)
@@ -182,7 +182,6 @@ class GUI:
     def searchMethod(self):
         self.checkLogin()
         self.credit_limit = self.credit_scale.get()
-        self.nextState = copy.deepcopy(self.InitialState)
         self.clearVar()
         self.nextState.setSweetW(self.sweet_scale.get())
         self.nextState.setLoadW(self.load_scale.get())
@@ -205,10 +204,10 @@ class GUI:
                 self.nextState = trialState
         self.updateTable()
         print "Loading =",self.nextState.loading, "while loading_limit =",self.nextState.loading_limit
+        print "Credit =",self.nextState.credit
         print "Course taken:"
         for c in self.nextState.taken:
             print c
-        print self.nextState.sweetW
         
     def infoUpdate(self, cmd):
         if cmd == "show courses not in table":

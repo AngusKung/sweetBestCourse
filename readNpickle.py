@@ -19,6 +19,9 @@ with open(CLASSES,'rb') as fh:
 	class_load = cPickle.load(fh)
 with open(TEACHER_CLASS,'rb') as fh:
 	teacher_class_load = cPickle.load(fh)
+teacher_recc = cPickle.load(open("data/teachers_recc.pkl"))
+class_recc   = cPickle.load(open("data/classes_recc.pkl"))
+teacher_class_recc = cPickle.load(open("data/class_teacher_recc.pkl"))
 
 fh = open(NTUcourse,'rb')
 teacher_stars,class_stars,teacher_classes,class_teachers = cPickle.load(fh)
@@ -51,6 +54,10 @@ with open(sweety_list, 'rb') as fh:
 			newC.setTeacherLoad(((-teacher_load[line[1]])+1.0)*5.0)
 			print line[1],":",newC.teacher_load
 		#default = 0.0
+		if line[0] in class_recc:
+			newC.setClassRecc(class_recc[line[0]]*2.5+2.5)
+		if line[1] in teacher_recc:
+			newC.setTeacherRecc(teacher_recc[line[1]]*2.5+2.5)	
 		if line[0] in class_stars:
 			newC.setClassStars( class_stars[line[0]] )
 		else:

@@ -25,53 +25,13 @@ class GUI:
         self.nextState = State.State()    
         self.lastStates = []
         self.total_score = 1
+    
     def test_cmd(self, event):
         if event.i == 0:
             return '%i, %i' % (event.r, event.c)
         else:
             return 'set'
-
-    def browsecmd(self, event):
-        self.test.bind("<BackSpace>", self.delete)
-        self.test.bind("<Return>", self.display)
-        #print("event:", event.__dict__)
-        #print("curselection:", self.test.curselection())
-        #print("active cell index:", self.test.index('active'))
-        #print("active:", self.test.index('active', 'row'))
-        #print("anchor:", self.test.index('anchor', 'row'))
-        
-
-    def display(self, event):
-        menu = tkinter.Menu(self.root, tearoff=0)
-        index = self.test.index('active')
-        course_name = self.var[index].encode('utf-8')
-        for c in self.nextState.taken:
-            if c.name == course_name:
-                menu.add_command(label="教師: %s" % c.teacher)
-                menu.add_command(label="課號: %s" % c.ID)
-                menu.add_command(label="平均GPA: %.2f / 4.3" % c.GPA)
-                menu.add_command(label="課程重度: %.2f / 10.00" % c.class_load)
-                menu.add_command(label="老師重度: %.2f / 10.00" % c.teacher_load)
-                menu.add_command(label="課程星數: %.2f / 5.00" % c.class_stars)
-                menu.add_command(label="老師星數: %.2f / 5.00" % c.teacher_stars)     
-        menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))
-        
-    def delete(self, event):
-        index = self.test.index('active')
-        course_name = self.var[index].encode('utf-8')
-        trialState = self.nextState.deleteCourse(course_name)
-        if trialState != None:
-            self.lastStates.append(copy.deepcopy(self.nextState))
-            self.nextState = trialState
-            for x in range(0,6):
-                for y in range(0,15):
-                    index = "%i,%i" % (y, x)
-                    if course_name == self.var[index].encode('utf-8'):
-                        self.var[index] = ""
-        else:
-            self.info_label.config(text="刪除失敗QQ")
-                    
-                
+    
     def initVar(self):
         self.root = tkinter.Tk()
         self.var = ArrayVar(self.root)
@@ -96,10 +56,47 @@ class GUI:
             elif x == 5: self.var[index] = "六"
 
     def clearVar(self):
-        for y in range(0, 15):
-            for x in range(0, 6):
+        for x in range(0, 6):
+            for y in range(0, 15):
                 index = "%i,%i" % (y, x)
                 self.var[index] = ""
+
+    def browsecmd(self, event):
+        self.test.bind("<BackSpace>", self.delete)
+        self.test.bind("<Return>", self.display)
+        
+    def display(self, event):
+        menu = tkinter.Menu(self.root, tearoff=0)
+        index = self.test.index('active')
+        course_name = self.var[index].encode('utf-8')
+        for c in self.nextState.taken:
+            if c.name == course_name:
+                menu.add_command(label="教師: %s" % c.teacher)
+                menu.add_command(label="課號: %s" % c.ID)
+                menu.add_command(label="平均GPA: %.2f / 4.3" % c.GPA)
+                menu.add_command(label="課程重度: %.2f / 10.00" % c.class_load)
+                menu.add_command(label="老師重度: %.2f / 10.00" % c.teacher_load)
+                menu.add_command(label="課程星數: %.2f / 5.00" % c.class_stars)
+                menu.add_command(label="老師星數: %.2f / 5.00" % c.teacher_stars)  
+                menu.add_command(label="課程推薦: %.2f / 5.00" % c.class_recc)
+                menu.add_command(label="老師推薦: %.2f / 5.00" % c.teacher_recc)            
+        menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))
+        
+    def delete(self, event):
+        index = self.test.index('active')
+        course_name = self.var[index].encode('utf-8')
+        trialState = self.nextState.deleteCourse(course_name)
+        if trialState != None:
+            self.lastStates.append(copy.deepcopy(self.nextState))
+            self.nextState = trialState
+            for x in range(0,6):
+                for y in range(0,15):
+                    index = "%i,%i" % (y, x)
+                    if course_name == self.var[index].encode('utf-8'):
+                        self.var[index] = ""
+        else:
+            self.info_label.config(text="刪除失敗QQ")
+                    
            
     def loginMethod(self):
         print "Logging..."
@@ -140,19 +137,7 @@ class GUI:
     #    for item in bi_show:
     #        for time in sweety_dict[item][0][4].split(" ")[ :-1]:
     #            self.current_state.append(sweety_dict[item])
-    #            self.updateTable([time, item])
-
-    def updateTable(self):
-        self.clearVar()
-        for c in self.nextState.taken:
-            for t in c.time:
-                index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
-                self.var[index] = c.name
-        self.infoUpdate("show courses not in table")
-    
-    def checkLogin(self):
-        if self.bi_show == []:
-            self.info_label.config(text="請先登入！")    
+    #            self.updateTable([time, item])    
         
     def loadMethod(self):
         self.checkLogin()
@@ -210,25 +195,6 @@ class GUI:
             info_classes = [_class for _class in taken_classes if _class not in table_classes]
             self.info_label.config(text="\n".join(info_classes))
 
-    def updateScore(self):
-        if (self.credit_scale.get()-self.total_score) >= 0:
-            self.total_score = int(self.shibi_spin.get()) + int(self.shish_spin.get()) + \
-                               int(self.shush_spin.get()) + int(self.tonsh_spin.get()) + int(self.sport_spin.get())
-            self.shibi_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            self.shish_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            self.shush_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            self.tonsh_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            self.sport_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            if self.total_score >= self.credit_scale.get():
-                self.shibi_spin.config(to=self.shibi_spin.get())
-                self.shish_spin.config(to=self.shish_spin.get())
-                self.shush_spin.config(to=self.shush_spin.get())
-                self.tonsh_spin.config(to=self.tonsh_spin.get())
-                self.sport_spin.config(to=self.sport_spin.get())
-            self.score_label.config(text="能力點數：%i" % (self.credit_scale.get()-self.total_score))
-   
-    def updateCredit(self, value):
-        self.updateScore()
 
     def ruleOutTaken(self,exceptions):
         for taken in self.takenCourses:
@@ -253,6 +219,21 @@ class GUI:
             if flag!=1:
                 print "!!! Can't find:",taken
 
+    def updateTable(self):
+        self.clearVar()
+        for c in self.nextState.taken:
+            for t in c.time:
+                index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
+                self.var[index] = c.name
+        self.infoUpdate("show courses not in table")
+    
+    def checkLogin(self):
+        if self.bi_show == []:
+            self.info_label.config(text="請先登入！")
+    
+    def updateCredit(self, value):
+        self.updateScore()
+
     def prevStep(self):
         if len(self.lastStates) > 0:
             if self.nextState not in self.lastStates:
@@ -274,7 +255,6 @@ class GUI:
                 self.updateTable()
         else:
             self.info_label.config(text="請先登入！")
-
 
     def createTable(self):
         self.user_label = tkinter.Label(self.root, text="帳號：")
@@ -389,6 +369,24 @@ class GUI:
         self.test.tag_configure('active', background='blue')
         self.test.tag_configure('title', anchor='w', bg='red', relief='sunken')
         self.root.mainloop()
+
+    def updateScore(self):
+        if (self.credit_scale.get()-self.total_score) >= 0:
+            self.total_score = int(self.shibi_spin.get()) + int(self.shish_spin.get()) + \
+                               int(self.shush_spin.get()) + int(self.tonsh_spin.get()) + int(self.sport_spin.get())
+            self.shibi_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            self.shish_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            self.shush_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            self.tonsh_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            self.sport_spin.config(to=(2*self.credit_scale.get()-self.total_score))
+            if self.total_score >= self.credit_scale.get():
+                self.shibi_spin.config(to=self.shibi_spin.get())
+                self.shish_spin.config(to=self.shish_spin.get())
+                self.shush_spin.config(to=self.shush_spin.get())
+                self.tonsh_spin.config(to=self.tonsh_spin.get())
+                self.sport_spin.config(to=self.sport_spin.get())
+            self.score_label.config(text="能力點數：%i" % (self.credit_scale.get()-self.total_score))
+
 
 gui = GUI()
 gui.initVar()

@@ -79,7 +79,13 @@ class State:
     for time in course.getTime():
       if time not in self.free:
         return False
-    if course.credit == 0 or course in self.rule_out or course in self.taken:
+    if course.credit == 0 or course in self.rule_out or course in self.taken or course.ID == 'PE2099':
+      return False
+    count = 0 
+    for c in self.taken:
+      if c.name == '專題研究':
+        count+=1
+    if count >=2 and course.name == '專題研究':
       return False
     return True
 
@@ -347,6 +353,7 @@ class State:
   def likeCourse(self, course):
     maxdot = 0
     print " ========= You may also like ========"
+    course.favor+=1.2
     for c in self.depart_courses+self.non_depart_courses+self.general_courses+self.PE_courses:
       average_dot = 0
       count = 0
@@ -367,6 +374,10 @@ class State:
   def dislikeCourse(self, course):
     maxdot = 0
     print " ========= You may also dislike ========"
+    if course.favor<1.2:
+      course.favor = 0.0
+    else:
+      course.favor-=1.2
     for c in self.depart_courses+self.non_depart_courses+self.general_courses+self.PE_courses:
       average_dot = 0
       count = 0

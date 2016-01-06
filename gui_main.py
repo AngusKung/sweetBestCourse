@@ -125,10 +125,14 @@ class GUI:
                 self.var[index] = ""
             if arg[0]:
                 self.nextState.likeCourse(course)
+                result = "與[%s]相關課程喜好程度上升" % course.name+"\n%.2f"%course.favor
             else:
                 self.nextState.dislikeCourse(course)
+                result = "與[%s]相關課程喜好程度下降" % course.name+"\n%.2f"%course.favor
         else:
             self.info_label.config(text="刪除失敗QQ")
+        average_sweet = sum([c.GPA for c in self.nextState.taken])/float(len(self.nextState.taken))
+        self.info_label.config(text="總學分數: %d" % self.nextState.credit+"\n負擔指標: %.2f"%self.nextState.loading+"\n歷年平均GPA: %.2f\n"%average_sweet+result)
        
     def loginMethod(self):
         self.info_label.config(text="登入中...")
@@ -158,21 +162,21 @@ class GUI:
         self.InitialState.setPersonDistrib(self.toGraduate)
         self.InitialState.transformID()
         #---set value in display---
-        bi_show_credit = 0
+        self.bi_show_credit = 0
         past_ID = []
         for c in self.toGraduate[0]:
             if c.ID in past_ID:
                 continue
             else:
-                bi_show_credit+=c.credit
+                self.bi_show_credit+=c.credit
                 past_ID.append(c.ID)
-        dis1 = bi_show_credit+sum([group[0].credit for group in self.toGraduate[1]])
+        dis1 = self.bi_show_credit+sum([group[0].credit for group in self.toGraduate[1]])
         dis2,dis3,dis4,dis5 = self.toGraduate[2],self.toGraduate[3],self.toGraduate[4],self.toGraduate[5]
         print "toGraduate:",dis1,",",dis2,",",dis3,",",dis4,",",dis5
         print len(self.toGraduate[1])
         while dis1 > 15:
             self.toGraduate[1].pop()
-            dis1 = bi_show_credit+sum([group[0].credit for group in self.toGraduate[1]])
+            dis1 = self.bi_show_credit+sum([group[0].credit for group in self.toGraduate[1]])
         print len(self.toGraduate[1])
         if (dis1+dis2+dis3+dis4+dis5) > 25:
             ratio = (25-dis1)/float(dis2+dis3+dis4+dis5)#get a math.floor()
@@ -226,10 +230,9 @@ class GUI:
         self.nextState.clearCourses()
         self.nextState.setSweetW(self.sweet_scale.get())
         self.nextState.setLoadW(self.load_scale.get())
-        dis1 = sum([c.credit for c in self.toGraduate[0]])+sum([group[0].credit for group in self.toGraduate[1]])
+        dis1 = self.bi_show_credit+sum([group[0].credit for group in self.toGraduate[1]])
         dis2,dis3,dis4,dis5 = int(self.shish_spin.get()), int(self.shush_spin.get()), int(self.tonsh_spin.get()), int(self.sport_spin.get())
         self.nextState.setCustomDistrib(dis2,dis3,dis4,dis5)
-        self.load_limit.set(dis1+dis2+dis3+dis4+dis5)
         self.nextState.setLoadingLimit(self.load_limit.get()*10.0)
         self.credit_limit = dis1+dis2+dis3+dis4+dis5
         self.courseCount = 0
@@ -249,7 +252,7 @@ class GUI:
         print "Course taken:"
         for c in self.nextState.taken:
             print c
-        average_sweet = sum([c.GPA for c in self.nextState.taken])/float(self.courseCount)
+        average_sweet = sum([c.GPA for c in self.nextState.taken])/float(len(self.nextState.taken))
         self.info_label.config(text="總學分數: %d" % self.nextState.credit+"\n負擔指標: %.2f"%self.nextState.loading+"\n歷年平均GPA: %.2f"%average_sweet)
         
     def infoUpdate(self, cmd):

@@ -296,32 +296,33 @@ class State:
         return course
     return None
 
-  def deleteCourse(self, course_name, teacher, time):
+  def deleteCourse(self, course_name, teacher, time, cmd):
     #print course_name, teacher, time
     for c in self.taken:
-      if c.name == course_name and c.teacher == teacher and time in c.time:
-        print "Delete:",course_name, teacher
-        state = State(self)
-        for time in c.getTime():
-          state.free.add(time)
-        state.taken.remove(c)
-        state.credit -= c.credit
-        state.loading -= c.class_load
-        course = c
-        if c in self.distrib[0]:
-          self.distrib[0].remove(c)
-        for sublist in self.distrib[1]:
-          if c in sublist:
-            sublist.remove(c)
-        if c in state.depart_courses:
-          state.depart_courses.remove(c)
-        if c in state.non_depart_courses:
-          state.non_depart_courses.remove(c)
-        if c in state.general_courses:
-          state.general_courses.remove(c)
-        if c in state.PE_courses:
-          state.PE_courses.remove(c)
-        return state, c.time, course
+      if c.name == course_name and c.teacher == teacher:
+        if time in c.time or cmd:
+          print "Delete:",course_name, teacher
+          state = State(self)
+          for time in c.getTime():
+            state.free.add(time)
+          state.taken.remove(c)
+          state.credit -= c.credit
+          state.loading -= c.class_load
+          course = c
+          if c in self.distrib[0]:
+            self.distrib[0].remove(c)
+          for sublist in self.distrib[1]:
+            if c in sublist:
+              sublist.remove(c)
+          if c in state.depart_courses:
+            state.depart_courses.remove(c)
+          if c in state.non_depart_courses:
+            state.non_depart_courses.remove(c)
+          if c in state.general_courses:
+            state.general_courses.remove(c)
+          if c in state.PE_courses:
+            state.PE_courses.remove(c)
+          return state, c.time, course
     return None, None, None
 
   def likeCourse(self, course):

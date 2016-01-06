@@ -34,6 +34,7 @@ class GUI:
 
     def initVar(self):
         self.root = tkinter.Tk()
+        self.root.wm_title("NTU Best Course")
         self.var = ArrayVar(self.root)
         for y in range(-1, 15):
             index = "%i,%i" % (y, -1)
@@ -66,38 +67,54 @@ class GUI:
         index = self.test.index('active')
         time = "%s" % chr(65+int(index[2]))+chr(48+int(index[0]))
         course_name, teacher = self.var[index].encode('utf-8').split(" \n")
-        self.test.bind("<BackSpace>", lambda event, arg=[False, course_name, teacher, time]: self.delete(event, arg))
-        self.test.bind("<Tab>", lambda event, arg=[True, course_name, teacher, time]: self.delete(event, arg))
-        self.test.bind("<Return>", lambda event, arg=[course_name, teacher, time]: self.display(event, arg))
+        self.test.bind("<BackSpace>", lambda event, arg=[False, index, course_name, teacher, time]: self.delete(event, arg))
+        self.test.bind("<Tab>", lambda event, arg=[True, index, course_name, teacher, time]: self.delete(event, arg))
+        self.test.bind("<Return>", lambda event, arg=[index, course_name, teacher, time]: self.display(event, arg))
+        self.test.bind("<Key>", lambda event, arg=[course_name, teacher, time]: self.adjust(event, arg))
+
+    def adjust(self, event, arg):
+        course_name, teacher, time = arg
+        for c in self.nextState.taken:
+            if c.name == course_name and c.teacher == teacher:
+                if time in c.time or "%s \n%s" % (course_name, teacher) in self.info_classes:
+                    if event.char == "=":
+                        self.nextState.likeCourse(c)
+                    elif event.char == "-":
+                        self.nextState.dislikeCourse(c)
 
     def display(self, event, arg):
         menu = tkinter.Menu(self.root, tearoff=0)
-        course_name, teacher, time = arg
-        index = self.test.index('active')
+        index, course_name, teacher, time = arg
         for c in self.nextState.taken:
-            if c.name == course_name and c.teacher == teacher and time in c.time:
-                menu.add_command(label="教師: %s" % c.teacher)
-                menu.add_command(label="課號: %s" % c.ID)
-                menu.add_command(label="平均GPA: %.2f / 4.3" % c.GPA)
-                menu.add_command(label="課程重度: %.2f / 10.00" % c.class_load)
-                menu.add_command(label="老師重度: %.2f / 10.00" % c.teacher_load)
-                menu.add_command(label="課程星數: %.2f / 5.00" % c.class_stars)
-                menu.add_command(label="老師星數: %.2f / 5.00" % c.teacher_stars)  
-                hot = [recc for recc in [c.class_recc, c.teacher_recc] if recc not in [None]]
-                if sum([recc for recc in hot if recc not in [None]]) > 0:
-                    score = sum(hot) / len(hot) * 20
-                    print score
-                    menu.add_command(label="熱門度: %.2f %%" % score)   
+            if c.name == course_name and c.teacher == teacher:
+                if time in c.time or "%s \n%s" % (course_name, teacher) in self.info_classes:
+                    menu.add_command(label="教師: %s" % c.teacher)
+                    menu.add_command(label="課號: %s" % c.ID)
+                    menu.add_command(label="平均GPA: %.2f / 4.3" % c.GPA)
+                    menu.add_command(label="課程重度: %.2f / 10.00" % c.class_load)
+                    menu.add_command(label="老師重度: %.2f / 10.00" % c.teacher_load)
+                    menu.add_command(label="課程星數: %.2f / 5.00" % c.class_stars)
+                    menu.add_command(label="老師星數: %.2f / 5.00" % c.teacher_stars)  
+                    hot = [recc for recc in [c.class_recc, c.teacher_recc] if recc not in [None]]
+                    if sum([recc for recc in hot if recc not in [None]]) > 0:
+                        score = sum(hot) / len(hot) * 20
+                        print score
+                        menu.add_command(label="熱門度: %.2f %%" % score)   
         menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))    
 
     def delete(self, event, arg):
-        course_name, teacher, time = arg[1:]
-        trialState, times, course = self.nextState.deleteCourse(course_name, teacher, time)
+        index, course_name, teacher, time = arg[1:]
+        cmd = False
+        if time[0] == "G":
+            cmd = True
+        trialState, times, course = self.nextState.deleteCourse(course_name, teacher, time, cmd)
         if trialState != None:
             self.lastStates.append(copy.deepcopy(self.nextState))
             self.nextState = copy.deepcopy(trialState)
             for t in times:
-                index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
+                t_index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
+                self.var[t_index] = ""
+            if cmd:
                 self.var[index] = ""
             if arg[0]:
                 self.nextState.likeCourse(course)
@@ -210,6 +227,7 @@ class GUI:
         print "Course taken:"
         for c in self.nextState.taken:
             print c
+        self.info_label.config(text="想說什麼資訊呢？\n請晏徵加入XDD(?)")
         
     def infoUpdate(self, cmd):
         if cmd == "show courses not in table":

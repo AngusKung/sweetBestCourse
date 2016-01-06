@@ -69,6 +69,13 @@ class GUI:
         self.test.bind("<BackSpace>", lambda event, arg=[False, course_name, teacher, time]: self.delete(event, arg))
         self.test.bind("<Tab>", lambda event, arg=[True, course_name, teacher, time]: self.delete(event, arg))
         self.test.bind("<Return>", lambda event, arg=[course_name, teacher, time]: self.display(event, arg))
+        self.test.bind("<Key>", self.adjust)
+
+    def adjust(self, event):
+        if event.char == "=":
+            self.nextState.likeCourse()#course
+        elif event.char == "-":
+            self.nextState.dislikeCourse()#course
 
     def display(self, event, arg):
         menu = tkinter.Menu(self.root, tearoff=0)
@@ -176,6 +183,7 @@ class GUI:
                         course_info[0], course_info[6:], course_info[2])
         '''
         if course!=None and self.nextState.canTake(course):
+            self.nextState.pureDelete(course)
             self.nextState.generateSuccessor(course)
             print "Course %s loaded" % self.loadC_field.get()
             self.updateTable()

@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf8 -*-
+
 import cPickle
 import csv
 import pdb
@@ -57,7 +60,7 @@ with open(sweety_list, 'rb') as fh:
 		vectors = []
 		for word in words:
 			print word
-			if word not in model:
+			if word not in model or word ==u'一' or word ==u'二' or word ==u'三' or word ==u'四' or word ==u'上' or word ==u'下' or word ==u'導論' or word ==u'概論' or word ==u'通論':
 				print "Not in model:",word
 				continue
 			vectors.append(model[word])

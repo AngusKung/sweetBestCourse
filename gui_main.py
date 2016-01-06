@@ -91,22 +91,24 @@ class GUI:
         index = self.test.index('active')
         course_name, teacher = self.var[index].encode('utf-8').split(" \n")
         time = "%s" % chr(65+int(index[2]))+chr(48+int(index[0]))
-        trialState, times = self.nextState.deleteCourse(course_name, teacher, time)
+        trialState, times, course = self.nextState.deleteCourse(course_name, teacher, time)
         if trialState != None:
             self.lastStates.append(copy.deepcopy(self.nextState))
             self.nextState = copy.deepcopy(trialState)
             for t in times:
                 index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
                 self.var[index] = ""
+            if not event:
+                print "TABdelete"
+                self.nextState.likeCourse(course)
+            else:
+                print "delete"
+                #self.nextState.dislikeCourse(course)
         else:
             self.info_label.config(text="刪除失敗QQ")
-        if not event:
-            print "TABdelete"
-        else:
-            print "delete"
 
     def TABdelete(self, event):
-        self.hardDelete(False)
+        self.delete(False)
            
     def loginMethod(self):
         self.info_label.config(text="登入中...")

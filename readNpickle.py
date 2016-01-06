@@ -1,14 +1,23 @@
+#!/usr/bin/python
+# -*- coding: utf8 -*-
+
 import cPickle
 import csv
 import pdb
+import jieba
+import gensim
+import numpy
 
 import Course
 import State
 
-sweety_list = "Data/sweety_list.csv"
-NTUcourse = "Data/NTUcourse_stars.pkl"
-EEComment = "Data/EE_comment_stars.pkl"
-Courses = "Data/Courses.pkl"
+jieba.set_dictionary('jieba/extra_dict/dict.txt.big')
+model = gensim.models.Word2Vec.load("data/wiki.zh.text.model")
+
+sweety_list = "data/sweety_list.csv"
+NTUcourse = "data/NTUcourse_stars.pkl"
+EEComment = "data/EE_comment_stars.pkl"
+Courses = "data/Courses.pkl"
 
 TEACHER = "data/teachers_loading.pkl"
 CLASSES = "data/classes_loading.pkl"
@@ -45,7 +54,18 @@ with open(sweety_list, 'rb') as fh:
 			continue
 		#==========
 		newC = Course.Course(line[0],line[1],[l for l in line[5].split(' ') if l != '']\
-							,line[2],[int(s) for s in line[8:]],line[4]) 
+							,line[2],[int(s) for s in line[8:]],line[4])
+		#----- to cut the word and append vector -----
+		words = jieba.cut(line[0].strip())
+		vectors = []
+		for word in words:
+			print word
+			if word not in model or word ==u'一' or word ==u'二' or word ==u'三' or word ==u'四' or word ==u'上' or word ==u'下' or word ==u'導論' or word ==u'概論' or word ==u'通論':
+				print "Not in model:",word
+				continue
+			vectors.append(model[word])
+		newC.setWordVectors(vectors)
+
 		if line[0] in class_load:
 			newC.setClassLoad(((-class_load[line[0]])+1.0)*5.0)
 			if newC.class_load <= 5:

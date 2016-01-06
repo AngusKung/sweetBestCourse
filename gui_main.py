@@ -25,13 +25,13 @@ class GUI:
         self.nextState = State.State() 
         self.lastStates = []
         self.total_score = 1
-    
+
     def test_cmd(self, event):
         if event.i == 0:
             return '%i, %i' % (event.r, event.c)
         else:
             return 'set'
-    
+
     def initVar(self):
         self.root = tkinter.Tk()
         self.var = ArrayVar(self.root)
@@ -66,7 +66,6 @@ class GUI:
         self.test.bind("<Tab>", self.TABdelete)
         self.test.bind("<Return>", self.display)
 
-        
     def display(self, event):
         menu = tkinter.Menu(self.root, tearoff=0)
         index = self.test.index('active')
@@ -87,27 +86,29 @@ class GUI:
                     print score
                     menu.add_command(label="熱門度: %.2f %%" % score)   
         menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))
-        
+
     def delete(self, event):
         index = self.test.index('active')
         course_name, teacher = self.var[index].encode('utf-8').split(" \n")
         time = "%s" % chr(65+int(index[2]))+chr(48+int(index[0]))
-        trialState, times = self.nextState.deleteCourse(course_name, teacher, time)
+        trialState, times, course = self.nextState.deleteCourse(course_name, teacher, time)
         if trialState != None:
             self.lastStates.append(copy.deepcopy(self.nextState))
             self.nextState = copy.deepcopy(trialState)
             for t in times:
                 index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
                 self.var[index] = ""
+            if not event:
+                print "TABdelete"
+                self.nextState.likeCourse(course)
+            else:
+                print "delete"
+                #self.nextState.dislikeCourse(course)
         else:
             self.info_label.config(text="刪除失敗QQ")
-        if not event:
-            print "TABdelete"
-        else:
-            print "delete"
 
     def TABdelete(self, event):
-        self.hardDelete(False)
+        self.delete(False)
            
     def loginMethod(self):
         self.info_label.config(text="登入中...")
@@ -168,14 +169,14 @@ class GUI:
         #self.bi_show.append(self.fu_shuan_bi_show[0])通識
         #self.to_show = [course for course in self.bi_show if course not in self.takenCourses]
         #self.updateBishow2Table(self.to_show)
-        
+
     #def updateBishow2Table(self, bi_show):
     #    sweety_dict = readSweetyCsv()
     #    for item in bi_show:
     #        for time in sweety_dict[item][0][4].split(" ")[ :-1]:
     #            self.current_state.append(sweety_dict[item])
     #            self.updateTable([time, item])    
-        
+
     def loadMethod(self):
         self.checkLogin()
         course = self.nextState.findCourse(self.loadC_field.get(),self.loadT_field.get())
@@ -191,7 +192,7 @@ class GUI:
             print "Course %s loaded" % self.loadC_field.get()
             self.updateTable()
         else: 
-            self.info_label.config(text="無法帶入課程") 
+            self.info_label.config(text="無法帶入課程")
 
     def searchMethod(self):
         self.checkLogin()

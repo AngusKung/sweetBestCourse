@@ -4,6 +4,7 @@
 import Course
 import pdb
 import random
+import numpy as np
 from operator import itemgetter
 
 class State:
@@ -296,7 +297,7 @@ class State:
     return None
 
   def deleteCourse(self, course_name, teacher, time):
-    print course_name, teacher, time
+    #print course_name, teacher, time
     for c in self.taken:
       if c.name == course_name and c.teacher == teacher and time in c.time:
         print "Delete:",course_name, teacher
@@ -306,31 +307,40 @@ class State:
         state.taken.remove(c)
         state.credit -= c.credit
         state.loading -= c.class_load
+        course = c
         if c in self.distrib[0]:
-          print c
-          pdb.set_trace()
           self.distrib[0].remove(c)
         for sublist in self.distrib[1]:
           if c in sublist:
-            print c
-            pdb.set_trace()
             sublist.remove(c)
         if c in state.depart_courses:
-          print c
-          pdb.set_trace()
           state.depart_courses.remove(c)
         if c in state.non_depart_courses:
-          print c
-          pdb.set_trace()
           state.non_depart_courses.remove(c)
         if c in state.general_courses:
-          print c
-          pdb.set_trace()
           state.general_courses.remove(c)
         if c in state.PE_courses:
-          print c
-          pdb.set_trace()
           state.PE_courses.remove(c)
-        return state, c.time
-    return None, None
+        return state, c.time, course
+    return None, None, None
+
+  def likeCourse(self, course):
+    average_dot = 0
+    maxdot = 0
+    count=0
+    for c in self.depart_courses+self.non_depart_courses+self.general_courses+self.PE_courses:
+      for vectorA in course.word_vectors:
+        for vectorB in c.word_vectors:
+          dot = np.dot(vectorA,vectorB)
+          print dot
+          if dot > maxdot:
+            maxdot = dot
+          average_dot+=dot
+          count+=1
+    average_dot /= float(count)
+    print "maxdot :",maxdot
+    print "average_dot :",average_dot
+
+
+
     

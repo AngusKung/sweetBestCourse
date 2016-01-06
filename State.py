@@ -96,6 +96,18 @@ class State:
     state.loading += course.class_load
     return state
 
+  def clearCourses(self):
+    for course in self.taken:
+      for time in course.getTime():
+        self.free.add(time)
+      self.credit -= course.credit
+      self.loading -= course.class_load
+      self.taken.remove(course)
+    print self.free
+    print self.credit
+    print self.loading
+    print self.taken
+
   def setPersonDepart( self,department ):
     self.personDepart = department
 

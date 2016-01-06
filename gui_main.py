@@ -58,7 +58,7 @@ class GUI:
         self.var["-1,6"] = "其他課程"
 
     def clearVar(self):
-        for x in range(0, 6):
+        for x in range(0, 7):
             for y in range(0, 15):
                 index = "%i,%i" % (y, x)
                 self.var[index] = ""
@@ -94,13 +94,13 @@ class GUI:
                     menu.add_command(label="課程重度: %.2f / 10.00" % c.class_load)
                     menu.add_command(label="老師重度: %.2f / 10.00" % c.teacher_load)
                     menu.add_command(label="課程星數: %.2f / 5.00" % c.class_stars)
-                    menu.add_command(label="老師星數: %.2f / 5.00" % c.teacher_stars)  
+                    menu.add_command(label="老師星數: %.2f / 5.00" % c.teacher_stars)
                     hot = [recc for recc in [c.class_recc, c.teacher_recc] if recc not in [None]]
                     if sum([recc for recc in hot if recc not in [None]]) > 0:
                         score = sum(hot) / len(hot) * 20
                         print score
-                        menu.add_command(label="熱門度: %.2f %%" % score)   
-        menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))    
+                        menu.add_command(label="熱門度: %.2f %%" % score)
+        menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))
 
     def delete(self, event, arg):
         index, course_name, teacher, time = arg[1:]
@@ -153,7 +153,7 @@ class GUI:
         self.nextState = copy.deepcopy(self.InitialState)
         self.nextState.setLoadingLimit(self.load_scale.get())
         #---set value in display---
-        dis1 = len(self.toGraduate[0])+len(self.toGraduate[1])
+        dis1 = sum([c.credit for c in self.toGraduate[0]])+sum([group[0].credit for group in self.toGraduate[1]])
         dis2,dis3,dis4,dis5 = self.toGraduate[2],self.toGraduate[3],self.toGraduate[4],self.toGraduate[5]
         print "toGraduate:",dis1,",",dis2,",",dis3,",",dis4,",",dis5
         if (dis1+dis2+dis3+dis4+dis5) > 25:
@@ -202,9 +202,10 @@ class GUI:
     def searchMethod(self):
         self.checkLogin() 
         self.clearVar()
+        self.nextState.clearCourses()
         self.nextState.setSweetW(self.sweet_scale.get())
         self.nextState.setLoadW(self.load_scale.get())
-        dis1 = len(self.toGraduate[0])+len(self.toGraduate[1])
+        dis1 = sum([c.credit for c in self.toGraduate[0]])+sum([group[0].credit for group in self.toGraduate[1]])
         dis2,dis3,dis4,dis5 = int(self.shish_spin.get()), int(self.shush_spin.get()), int(self.tonsh_spin.get()), int(self.sport_spin.get())
         self.nextState.setCustomDistrib(dis2,dis3,dis4,dis5)
         self.load_limit.set(dis1+dis2+dis3+dis4+dis5)
@@ -227,7 +228,8 @@ class GUI:
         print "Course taken:"
         for c in self.nextState.taken:
             print c
-        self.info_label.config(text="想說什麼資訊呢？\n請晏徵加入XDD(?)")
+        average_sweet = sum([c.GPA for c in self.nextState.taken])/float(courseCount)
+        self.info_label.config(text="總學分數: %d" % self.nextState.credit+"\n負擔指標: %.2f"%self.nextState.loading+"\n歷年平均GPA: %.2f"%average_sweet)
         
     def infoUpdate(self, cmd):
         if cmd == "show courses not in table":

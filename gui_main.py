@@ -54,6 +54,7 @@ class GUI:
             elif x == 3: self.var[index] = "四"
             elif x == 4: self.var[index] = "五"
             elif x == 5: self.var[index] = "六"
+        self.var["-1,6"] = "其他課程"
 
     def clearVar(self):
         for x in range(0, 6):
@@ -62,15 +63,17 @@ class GUI:
                 self.var[index] = ""
 
     def browsecmd(self, event):
-        self.test.bind("<BackSpace>", self.delete)
-        self.test.bind("<Tab>", self.TABdelete)
-        self.test.bind("<Return>", self.display)
-
-    def display(self, event):
-        menu = tkinter.Menu(self.root, tearoff=0)
         index = self.test.index('active')
         time = "%s" % chr(65+int(index[2]))+chr(48+int(index[0]))
         course_name, teacher = self.var[index].encode('utf-8').split(" \n")
+        self.test.bind("<BackSpace>", lambda event, arg=[False, course_name, teacher, time]: self.delete(event, arg))
+        self.test.bind("<Tab>", lambda event, arg=[True, course_name, teacher, time]: self.delete(event, arg))
+        self.test.bind("<Return>", lambda event, arg=[course_name, teacher, time]: self.display(event, arg))
+
+    def display(self, event, arg):
+        menu = tkinter.Menu(self.root, tearoff=0)
+        course_name, teacher, time = arg
+        index = self.test.index('active')
         for c in self.nextState.taken:
             if c.name == course_name and c.teacher == teacher and time in c.time:
                 menu.add_command(label="教師: %s" % c.teacher)
@@ -85,12 +88,10 @@ class GUI:
                     score = sum(hot) / len(hot) * 20
                     print score
                     menu.add_command(label="熱門度: %.2f %%" % score)   
-        menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))
+        menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))    
 
-    def delete(self, event):
-        index = self.test.index('active')
-        course_name, teacher = self.var[index].encode('utf-8').split(" \n")
-        time = "%s" % chr(65+int(index[2]))+chr(48+int(index[0]))
+    def delete(self, event, arg):
+        course_name, teacher, time = arg[1:]
         trialState, times, course = self.nextState.deleteCourse(course_name, teacher, time)
         if trialState != None:
             self.lastStates.append(copy.deepcopy(self.nextState))
@@ -98,18 +99,13 @@ class GUI:
             for t in times:
                 index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
                 self.var[index] = ""
-            if not event:
-                print "TABdelete"
+            if arg[0]:
                 self.nextState.likeCourse(course)
             else:
-                print "delete"
                 self.nextState.dislikeCourse(course)
         else:
             self.info_label.config(text="刪除失敗QQ")
-
-    def TABdelete(self, event):
-        self.delete(False)
-           
+       
     def loginMethod(self):
         self.info_label.config(text="登入中...")
         self.bi_show, self.fu_shuan_bi_show = Initial(self.user_field.get(), self.grade_field.get())
@@ -169,13 +165,6 @@ class GUI:
         #self.to_show = [course for course in self.bi_show if course not in self.takenCourses]
         #self.updateBishow2Table(self.to_show)
 
-    #def updateBishow2Table(self, bi_show):
-    #    sweety_dict = readSweetyCsv()
-    #    for item in bi_show:
-    #        for time in sweety_dict[item][0][4].split(" ")[ :-1]:
-    #            self.current_state.append(sweety_dict[item])
-    #            self.updateTable([time, item])    
-
     def loadMethod(self):
         self.checkLogin()
         course = self.nextState.findCourse(self.loadC_field.get(),self.loadT_field.get())
@@ -228,12 +217,13 @@ class GUI:
             for y in range(0, 15):
                 for x in range(0, 6):
                     if self.var["%i,%i" % (y,x)] != "":
-                        table_classes.append("%s  %s" % (self.var["%i,%i" % (y,x)].encode('utf-8').split(" ")[0], self.var["%i,%i" %(y,x)].encode('utf-8').split("\n")[1]))
+                        table_classes.append(self.var["%i,%i" % (y,x)].encode('utf-8'))
             taken_classes = []
             for c in self.nextState.taken:
-                taken_classes.append("%s  %s" % (c.name,c.teacher))
-            info_classes = [_class for _class in taken_classes if _class not in table_classes]
-            self.info_label.config(text="\n".join(info_classes))
+                taken_classes.append("%s \n%s" % (c.name,c.teacher))
+            self.info_classes = [_class for _class in taken_classes if _class not in table_classes]
+            for i in range(len(self.info_classes)):
+                self.var["%i,6" % i] = self.info_classes[i]              
 
 
     def ruleOutTaken(self,exceptions):
@@ -390,10 +380,11 @@ class GUI:
 
         self.test = Table(self.root,
                      rows=25,
-                     cols=7,
+                     cols=8,
                      state='disabled',
-                     width=25,
-                     height=100,
+                     width=890,
+                     maxwidth=1000,
+                     height=1000,
                      rowheight=2,
                      colwidth=18,
                      titlerows=1,
@@ -411,7 +402,7 @@ class GUI:
                      usecommand=0,
                      command=self.test_cmd)
         #self.var["%i,%i" % (-1, -1)].bind("<Enter>",self.Display)
-        self.test.grid(row=0, column=5, rowspan=25)
+        self.test.grid(row=0, column=5, rowspan=30)
         self.test.tag_configure('sel', background='yellow')
         self.test.tag_configure('active', background='blue')
         self.test.tag_configure('title', anchor='w', bg='red', relief='sunken')

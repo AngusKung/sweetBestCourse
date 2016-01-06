@@ -18,8 +18,8 @@ class Course:
     self.teacher_stars = None
     self.class_load = 5.0
     self.teacher_load = 5.0
-    self.class_recc = None
-    self.teacher_recc = None
+    self.class_possibility = 0.0
+    self.teacher_possibility = 0.0
     self.category = []
     self.word_vectors = []
     self.favor = 5.0
@@ -73,10 +73,10 @@ class Course:
     self.category.append(newCat)
 
   def setTeacherRecc(self, recc):
-    self.teacher_recc = recc
+    self.teacher_possibility = recc
 
   def setClassRecc(self, recc):
-    self.class_recc = recc
+    self.class_possibility = recc
 
   def setWordVectors(self, vectors):
     self.word_vectors = vectors

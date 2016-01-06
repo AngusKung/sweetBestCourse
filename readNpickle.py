@@ -19,9 +19,9 @@ NTUcourse = "data/NTUcourse_stars.pkl"
 EEComment = "data/EE_comment_stars.pkl"
 Courses = "data/Courses.pkl"
 
-TEACHER = "data/teachers_loading.pkl"
-CLASSES = "data/classes_loading.pkl"
-TEACHER_CLASS = "data/class_teacher_loading.pkl"
+TEACHER = "data/teachers_possibility.pkl"
+CLASSES = "data/classes_possibility.pkl"
+TEACHER_CLASS = "data/class_teacher_possibility.pkl"
 with open(TEACHER,'rb') as fh:
 	teacher_load = cPickle.load(fh)
 with open(CLASSES,'rb') as fh:
@@ -77,9 +77,9 @@ with open(sweety_list, 'rb') as fh:
 			#print line[1],":",newC.teacher_load
 		#default = 0.0
 		if line[0] in class_recc:
-			newC.setClassRecc(class_recc[line[0]]*2.5+2.5)
+			newC.setClassRecc(class_recc[line[0]])
 		if line[1] in teacher_recc:
-			newC.setTeacherRecc(teacher_recc[line[1]]*2.5+2.5)	
+			newC.setTeacherRecc(teacher_recc[line[1]])	
 		if line[0] in class_stars:
 			newC.setClassStars( class_stars[line[0]] )
 		else:

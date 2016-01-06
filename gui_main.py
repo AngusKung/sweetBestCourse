@@ -63,14 +63,16 @@ class GUI:
 
     def browsecmd(self, event):
         self.test.bind("<BackSpace>", self.delete)
+        self.test.bind("<Tab>", self.TABdelete)
         self.test.bind("<Return>", self.display)
 
     def display(self, event):
         menu = tkinter.Menu(self.root, tearoff=0)
         index = self.test.index('active')
-        course_name = self.var[index].encode('utf-8')
+        time = "%s" % chr(65+int(index[2]))+chr(48+int(index[0]))
+        course_name, teacher = self.var[index].encode('utf-8').split(" \n")
         for c in self.nextState.taken:
-            if c.name == course_name:
+            if c.name == course_name and c.teacher == teacher and time in c.time:
                 menu.add_command(label="教師: %s" % c.teacher)
                 menu.add_command(label="課號: %s" % c.ID)
                 menu.add_command(label="平均GPA: %.2f / 4.3" % c.GPA)
@@ -78,25 +80,33 @@ class GUI:
                 menu.add_command(label="老師重度: %.2f / 10.00" % c.teacher_load)
                 menu.add_command(label="課程星數: %.2f / 5.00" % c.class_stars)
                 menu.add_command(label="老師星數: %.2f / 5.00" % c.teacher_stars)  
-                menu.add_command(label="課程推薦: %.4s / 5.00" % c.class_recc)
-                menu.add_command(label="老師推薦: %.4s / 5.00" % c.teacher_recc)            
+                hot = [recc for recc in [c.class_recc, c.teacher_recc] if recc not in [None]]
+                if sum([recc for recc in hot if recc not in [None]]) > 0:
+                    score = sum(hot) / len(hot) * 20
+                    print score
+                    menu.add_command(label="熱門度: %.2f %%" % score)   
         menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))
 
     def delete(self, event):
         index = self.test.index('active')
-        course_name = self.var[index].encode('utf-8')
-        trialState = self.nextState.deleteCourse(course_name)
+        course_name, teacher = self.var[index].encode('utf-8').split(" \n")
+        time = "%s" % chr(65+int(index[2]))+chr(48+int(index[0]))
+        trialState, times = self.nextState.deleteCourse(course_name, teacher, time)
         if trialState != None:
             self.lastStates.append(copy.deepcopy(self.nextState))
             self.nextState = copy.deepcopy(trialState)
-            for x in range(0,6):
-                for y in range(0,15):
-                    index = "%i,%i" % (y, x)
-                    if course_name == self.var[index].encode('utf-8'):
-                        self.var[index] = ""
+            for t in times:
+                index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
+                self.var[index] = ""
         else:
             self.info_label.config(text="刪除失敗QQ")
-                    
+        if not event:
+            print "TABdelete"
+        else:
+            print "delete"
+
+    def TABdelete(self, event):
+        self.hardDelete(False)
            
     def loginMethod(self):
         self.info_label.config(text="登入中...")
@@ -218,10 +228,10 @@ class GUI:
             for y in range(0, 15):
                 for x in range(0, 6):
                     if self.var["%i,%i" % (y,x)] != "":
-                        table_classes.append(self.var["%i,%i" % (y,x)].encode('utf-8'))
+                        table_classes.append("%s  %s" % (self.var["%i,%i" % (y,x)].encode('utf-8').split(" ")[0], self.var["%i,%i" %(y,x)].encode('utf-8').split("\n")[1]))
             taken_classes = []
             for c in self.nextState.taken:
-                taken_classes.append(c.name)
+                taken_classes.append("%s  %s" % (c.name,c.teacher))
             info_classes = [_class for _class in taken_classes if _class not in table_classes]
             self.info_label.config(text="\n".join(info_classes))
 
@@ -254,7 +264,7 @@ class GUI:
         for c in self.nextState.taken:
             for t in c.time:
                 index = "%i,%i" % (int(t[1]), (int(ord(t[0])-65)))
-                self.var[index] = c.name
+                self.var[index] = "%s \n%s" % (c.name, c.teacher)
         self.infoUpdate("show courses not in table")
     
     def checkLogin(self):

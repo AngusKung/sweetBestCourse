@@ -1,0 +1,142 @@
+Title:[評價] 103-1 李琳山 數位語音處理概論 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者DevilMirror (魔鏡:(()看板NTUcourse標題[評價] 103-1 李琳山 數位語音處理概論時間Sun Jan 25 21:50:28 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：yes
+
+
+      哪一學年度修課：103-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+李琳山
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+電機系選修
+(也許也是資工系選修吧)
+
+      δ 課程大概內容
+[期中考：Fundamental Topics]
+1. Introduction
+2. Basic Concepts in Speech Recognition
+3. Research Roadmap in this Area
+4. More about Hidden Markov Models (HMM)
+5. Acoustic Modeling
+6. Language Modeling
+7. Speech Signals and Front-end Processing
+8. Linguistic Decoding and Search Algorithm
+
+[期末考：Research Topics]
+9. Speech Recognition Updates
+10. Speech-based Information Retrieval
+11. Spoken Document Understanding and Organization for User Content Interaction
+12. Computer-Assisted Language Learning (CALL)
+13. Speaker Variabilities: Adaption and Recognition
+14. Linguistic Processing and Latent Topic Analysis
+15. Robustness for Acoustic Environment
+16. Some Fundamental Principles - EM Algorithm
+17. Spoken Dialogues
+18. Conclusion
+
+      Ω 私心推薦指數(以五分計)
+★★★★★
+η 上課用書(影印講義或是指定教科書)
+無教科書。
+老師一開始就會把半學期的上課投影片都上傳
+
+參考書目：
+1. X. Huang, A. Acero, H. Hon, “Spoken Language Processing”,
+   Prentice Hall, 2001,松瑞
+2. F. Jelinek, “Statistical Methods for Speech Recognition”,
+   MIT Press, 1999
+3. L. Rabiner, B.H. Juang, “Fundamentals of Speech Recognition”,
+   Prentice Hall, 1993, 民全
+4. C. Becchetti, L. Prina Ricotti, “Speech Recognition- Theory and
+   C++ implementation”, Johy Wiley and Sons, 1999, 民全
+5. D. Jurafsky, J. Martin, “Speech and Language Processing-
+   An Introduction to Natural Language Processing, Speech Recognition,
+   and Computational Linguistics, 2nd edition”, Prentice-Hall, 2009
+6. G. Tur, R. De Mori, “Spoken Language Understanding- Systems for
+   Extracting Semantic Information from Speech”, John Wiley &amp; Sons, 2011
+
+其他參考文獻課堂上提供
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+老師用投影片上課
+每堂課、包括作業講解都會錄起來
+資工系館的椅子坐起來真的很舒服很催眠......XD
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+期中考    25%
+作業      15%  5%   15%
+期末考    10%
+期末報告  30%
+
+考試的調分狀況不清楚
+期末報告的分數也不清楚
+作業的話，助教通常會解釋分數如何配置
+
+      ρ 考題型式、作業方式
+[考試]
+英文出題，中文回答
+OPEN BOOK(講義)，但不可以用電腦、手機
+期中考比較多演算，期末幾乎都是名詞解釋
+滿分超過一百分
+考前老師會發考古題
+也可以goo到好心電機系學長提供的考古題及他寫的答案
+基本上老師只是希望大家可以唸書而已
+不想要刁難大家&gt; &lt;
+
+[作業]
+貌似歷年來都是一樣的
+不過作業三有時候是big5有時候是utf8
+因為都一樣就不多介紹了
+可以參考前面幾篇評價文:D
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+1. 出席、遲到
+班級很大，不來也沒關係的~~
+而且還有影片可以回家看
+但是不來就是自己的損失囉:PP
+
+2. 先修條件
+應該是機率與統計吧，但其實也還好
+然後C或C++一定要會，不然就掰了
+然後有用到Linus的作業環境 &lt;----- !!!重要!!! (懶的著色XD)
+沒用過的同學最好先去摸一下，或是問同學喔!!!!!!!!!!!!
+
+3. 老師個性
+琳山超Q的~~~~~~~~(開小花)
+
+4. 加簽
+電機系資工系應該是都可以簽吧，其他我就不知道啦~~
+
+      Ψ 總結
+琳山是大師 &lt;3 超Q &lt;3
+聽說琳山快退休了，要朝聖的要快點(?)
+第一堂課和最後一堂課，老師會講很多樹與林XD
+
+這堂課基本上因為是概論，所以不會很難
+雖然我作業還是寫不太出來
+期中期末考好像只有平均左右XD (平均一百分會不會有點誇XD
+但感覺就是學到很多東西
+而且學起來是開心的哈哈:D
+
+真的很喜歡琳山老師，大家對訊號處理有興趣的可以考慮來修修看囉!!
+
+--
+█晨  !?!     ◣             █
+█行    ╯ ◥ .   -⊙    ▄e █▊+ █
+█是   晨行人                           .   ====3 █▋- █
+█一         Morningers Only      ╭ ╯     ╭ ╯ ╭ ╯  ~ ╯ ╭ ╯      █
+█種                           ~~  ﹀〉     ~ ﹀〉   ﹀〉   ﹀〉   ﹀〉       █
+█生活態度 http://morningers.wix.com/morningers-only █
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.220.83
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1422193837.A.A98.html
+※ DevilMirror:轉錄至看板 EE_Comment                               01/25 21:53
+推 brian980466: 是Linux喔！ 01/27 16:23
+
+

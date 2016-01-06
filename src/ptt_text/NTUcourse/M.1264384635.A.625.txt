@@ -1,0 +1,68 @@
+Title:[評價] 98-1 莊永裕 計算機組織與組合語言 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者jigfopsda (jigfopsda)看板NTUcourse標題[評價] 98-1 莊永裕 計算機組織與組合語言時間Mon Jan 25 09:57:13 2010
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：98-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+        莊永裕
+      δ 課程大概內容
+        combinational circuits
+        sequential circuits
+        TOY architecture
+        TOY programming
+        TOY assembly
+        Advanced Architecture
+        ARM Architecture
+        ARM Instructions
+        ARM assembly
+        ARM optimization
+        IA32 architecture
+        IA32 assembly basics
+        IA32 ISA
+        procedure
+        real arithmetic
+        SIMD
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★★
+η 上課用書(影印講義或是指定教科書)
+        無指定教科書，僅投影片。
+      μ 上課方式(投影片、團體討論、老師教學風格)
+        投影片上課。
+      σ 評分方式(給分甜嗎？是紮實分？)
+        4 assignments (56%)
+        class participation (4%)
+        midterm exam (16%)
+        final project (24%)
+        有調分。
+      ρ 考題型式、作業方式
+        期中考可以攜帶任何紙本資料。
+        作業一是手寫，其他是程式作業，由批改系統批改。
+        final project deadline 在期末考完一週，任選跟組合語言有關係的主題。
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+        加選方式是1。出席率與成績無關，最好有程式語言基礎。
+      Ψ 總結
+        教授講話很有趣XD雖然不很常講笑話，不過每次講都會讓全班大笑XD
+
+        教授投影片非常清楚，即使上課沒在聽也有辦法靠著它把作業寫完。
+
+        final project 算是這門課最累的部份，一月初公佈，不過因為deadline在
+        期末考週後六天，所以大部份的人都是期末考考完才開始做。我這組就是這
+        樣，非常累......半數以上的組別都是做gba game，雖然說那個和組語其實
+        沒有太大關係。
+
+        給分很大方！很多人學期成績都比預期的高，我也是XD
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 211.74.121.26
+推 ilway25:外系生大推 01/25 13:19
+推 chaselsu:推莊永裕 01/25 23:28
+推 cocoyan:推啊！ 01/26 04:57
+
+

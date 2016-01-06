@@ -1,0 +1,147 @@
+Title:[評價] 103-1 洪一平 圖形分析辨認 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者cuteSquirrel (松鼠)看板NTUcourse標題[評價] 103-1 洪一平 圖形分析辨認時間Mon Feb  9 20:51:23 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是 須註明來自PTT。
+
+
+      哪一學年度修課：103-1
+ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         洪一平 - 圖形分析辨認
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+         資工系 資工所 但是也有一些電機所的同學一起上
+
+      δ 課程大概內容
+
+         I. Pattern Recognition Overview
+
+         II. Bayesian Decision Theory
+
+         III. Supervised Learning Using Parametric Approaches
+
+         IV. Supervised Learning Using Non-parametric Approaches
+
+         V. Linear Discriminant Functions
+
+         VI. Unsupervised Learning and Clustering
+
+         VII. Special Topics in PR
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+         4.5顆星
+
+      η 上課用書(影印講義或是指定教科書)
+
+         老師用投影片上課，但是會有對應的課本和參考書籍。
+
+
+         指定閱讀
+         R. Duda, P. Hart, D. Stork, Pattern Classification, 2nd Ed.,
+         John Wiley and Sons, 2001.
+
+         Reference book:
+
+         1. S. Theodoridis, K. Koutroumbas, Pattern Recognition, 4th ed.,
+            Academic Press, 2009.
+
+         2. C. M. Bishop, Pattern Recognition and Machine Learning, Springer,
+            2006.
+
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         前半學期講的很仔細，很注重數學機率、統計的概念、證明。
+
+         後半學期步調會加快。
+
+             用投影片上課，每周都會針對課堂互動、同學問答的地方修正投影片。
+
+         老師很活潑，會拋出一些問題讓同學思考，勇敢舉手回答就對了。
+
+         不用擔心答錯，老師會給予提示，臨時太緊張卡住的話
+
+         同學、朋友、隔壁的正妹、型男或者大神也可以舉手救你。
+
+         課後寄e-mail 給老師註明日期、自己的 姓名 學號 回答問題與內容
+
+         可以當作課堂互動的參與紀錄。
+
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+
+         Term Project and Presentation   45%
+
+         Mid-Term Exam(紙筆測驗)         30%
+
+         Homework assignments(課後作業)  20%
+
+         Class Participation             5%
+
+
+         一分耕耘 一分收穫。期末Project很重要，一定要用心做。
+
+         Homework、Project 有任何問題可以請教課程TA，人很好講解也很細心。
+
+      ρ 考題型式、作業方式
+
+             Homework 有3~4次(102-1有4次，103-1有3次)
+
+         大部分是勾選出來的課本習題，題型有難有易，平均算是中間偏難一點。
+
+         Homework 可以繳交電子檔，可繳交紙本，
+
+         切記勿遲交作業，會扣分。
+
+
+             紙筆測驗只有一次期中考試，3小時考試時間，
+
+         大約考5~7大題(有計算題、證明題)。
+
+         課本、作業務必熟讀、精通。
+
+         不敢說拿滿分，但是有認真準備考70~85應該沒問題。
+
+         PS: 這學期好像有神人考99還是100~ XD
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         出席率不計分。但是還是推薦去教室上課，有聽過一次再複習會快上很多。
+
+         推薦3人同行，因為這樣Project分組剛剛好，不多也不少。
+
+         基礎：大一微積分、機率與統計、線性代數。
+
+         加簽：開學第一周上課找老師登記，領取綠色的授權碼紙條。
+
+      Ψ 總結
+
+         期末Project 很重要
+
+         期末Project 很重要
+
+         期末Project 很重要
+
+         因為很重要所以講三次。
+
+
+         小魯弟期中考考的一般般，有幸靠Project Proposal 和 Demo 保住A+。
+
+         要謝的人太多了，就謝天吧！
+
+
+         最後祝大家： 新年快樂，寒假愉快~
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 114.36.249.61
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1423486286.A.0E8.html
+※ 編輯: cuteSquirrel (114.36.249.61), 02/09/2015 20:53:10
+推 ryuchenchang: 02/09 23:49
+
+

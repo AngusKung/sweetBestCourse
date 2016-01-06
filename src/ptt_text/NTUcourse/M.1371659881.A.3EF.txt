@@ -1,0 +1,161 @@
+Title:[評價] 101-2 高涌泉 臨界現象與重整化群 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者harveyhs (Hango)看板NTUcourse標題[評價] 101-2 高涌泉 臨界現象與重整化群時間Thu Jun 20 00:37:59 2013
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）： 是
+
+
+      哪一學年度修課： 101 - 2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         高涌泉教授
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+         物理所選修
+
+      δ 課程大概內容
+
+         phase transitions, critical phenonema
+
+         order parameters, broken symmetries, critical exponents
+
+         scaling laws, mean field theory
+
+         Ising model
+
+         Kadanoff block spin transformations
+
+         perturbative renormalization group
+
+         epsilon expansion, Wilson-Fisher fixed point
+
+         sine-Gordon equation
+
+         本來說要講 conformal field theory 可是那節課忘記帶 note 這樣
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+         私心（一個沒修課旁聽故事的心情） ★★★★
+η 上課用書(影印講義或是指定教科書)
+
+         沒有指定非要什麼書，但有給很多參考文獻
+
+        1. K. Wilson and J. Kogut, The Renormalization Group and ε Expansion,
+           Phys. Rep. 12, 75 (1974).
+
+        2. K. Wilson, The Renormalization Group and Critical Phenomena,
+           Rev. Mod. Phys. 55, 583 (1983).
+
+        3. John Cardy, Scaling and Renormalization in Statistical Physics.
+
+        4. Edouard Brezin, Introduction to Statistical Field Theory.
+
+        5. Jean Zinn-Justin, Phase Transition and Renormalization Group.
+
+        6. Mehron Kardar, Statistical Physics of Fields.
+
+        7. W. D. McComb, Renormalization Methods, A Guide for Beginners.
+
+        8. S. K. Ma, Modern Theory of Critical Phenomena.
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+        拿筆記板書，標準涌泉葛格的課 XD
+
+        就是會花很多時間講故事（他的規劃之外但是我們意料之內）
+
+        還有一些在很多地方都會重複的話 XD
+
+        「地球是圓的。」
+
+        「高手才會欣賞簡單的東西。」
+
+        「我物理至少還好到知道這件事情我做不到。」
+
+        然後一如往常的計算有時候會蠟東蠟西
+
+       （而且因為他參考了很多本書所以有時候符號會不自洽）
+
+        鋪梗說要講然後最後忘了講等等
+
+        不過因為我是來聽故事的所以可以容忍這些事情
+
+        然後除了講這件事情的物理概念外還會講為什麼這件事情是厲害的
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+        因為高老師會自己改考卷，然後他同時有開量力。
+
+        所以一開學就講明他不想考試ＸＤ
+
+        用作業跟期末報告打分數。
+
+        由於他本來只想給 ：「過」跟「不過」兩種成績
+
+        但系辦不准
+
+        所以他也說他不會花很多心力去分辨仔細到 A+ 的程度
+
+        說要 A+ 的就不要修
+
+        他自己也說旁聽是最好的。
+
+      ρ 考題型式、作業方式
+
+        作業很隨機，可能是上課的計算沒補到的就出成作業讓大家回去補。
+
+        期末是挑一篇有關 renormalization group 的文章上台報
+
+        然後也要交書面的整理報告。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+        涌泉葛格不點名。
+
+        基礎的話，我覺得至少得有基本的量子物理跟統計物理
+
+        會場論, Feynman diagram 更好，
+
+        否則你可能會不知道他的 one loop correction 是在幹嘛 ＸＤ
+
+        比如他那時候就不解釋地在黑板上......
+
+        http://ppt.cc/EPzY
+Ψ 總結
+
+        高老師是很能言善道的一個人
+
+        不管我們同不同意他講的話
+
+        至少可以先聽聽他怎麼去體會，理解跟闡述整件事情
+
+        所以我覺得就這樣聽他一個學期感覺還不錯
+
+        而且題目是 renormalization group 這種初學者
+
+        常常覺得很詭異的主題，
+
+        透過他的解釋可以讓自己覺得整件事情沒有那麼怪 XD
+
+
+
+        BTW,
+
+        不巧的是，前幾天 Wilson 過世了。
+
+        http://tinyurl.com/mpv46au
+
+        R. I. P.   K. G. Wilson
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.25.105
+※ 編輯: harveyhs        來自: 140.112.25.105       (06/20 00:52)
+推 chiau623:老師說明年也會開這種性質的專題課 但是會換不同主題 06/21 00:48
+
+

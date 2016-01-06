@@ -1,0 +1,117 @@
+Title:Fw: [評價] 103-2 黃寶儀 計算機概論  - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者yangchris11 (歪彥)看板NTUcourse標題Fw: [評價] 103-2 黃寶儀 計算機概論 時間Thu Jul  9 10:56:31 2015
+※ [本文轉錄自 EE_Comment 看板 #1Lcpz_mv ]
+
+作者: yangchris11 (歪彥) 看板: EE_Comment
+標題: [評價] 103-2 黃寶儀 計算機概論 
+時間: Tue Jul  7 10:54:53 2015
+
+
+
+      ※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+      哪一學年度修課：
+
+        103-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+        黃寶儀(英文授課)
+
+      δ 課程大概內容
+
+        Admin
+        History
+        Data Storage
+        Data Manipulation
+        Hardware
+        Operating System
+        Networking
+        Algorithms
+        Programming Languages
+        Artificial Intelligence
+        Theory of Computation
+
+      Ω 私心推薦指數(以五分計) ★★★
+η 上課用書(影印講義或是指定教科書)
+
+        J. Glenn Brookshear, Computer Science -- An Overview, 12th edition
+        基本上投影片大部分都是課本裡的內容，所以教授不要求買課本
+        不過課本讀起來也是比起投影片詳細很多，如果可以還是可以買來收藏(?)
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+        全英授課，包括Essay,Quiz,Project,期中期末等等，都是用英文
+
+        比較特別的是分組制度
+        學期初Polly會要大家自己找組員，2人~3人一組
+        然後這學期你們這組就要一起交出Quiz,Essay,Project
+
+        上課的氣氛都還蠻歡樂的，還有摺紙鶴大賽XDDDDDDD(?)
+        老師不點名，but出席率非常的高，可能是可以調劑身心吧XD
+        雖然Quiz個人覺得有點冗，每組上台回答的方式會浪費蠻多時間
+        導致這學期有些後面的章節沒有完整講到，不過能跟教授互動的時間是真的很多
+
+        Project也是蠻好玩的，只要你願意自己花時間下去做
+        能做出個成品或者App，通常分數都會爆高，而且demo時很有成就感(?)
+        不過沒實際做出來的，分數也不會到超級無敵低就是了
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+      *Quiz 15%
+       Participation 5%
+       Midterm 20%
+       Final 20%
+      *Project 20%
+      *Essay 10% each
+       (*為同組組員同分)
+
+        Quiz都有交、Essay不要亂寫、Project不要擺爛、期中期末不要裸考
+        Participation絕對是你最難拿分的一項，不要問為什麼，你會怕
+        103-2學期我們班50個人，A+ 26個，A 17個，A- 3個， B+ 4個
+
+
+      ρ 考題型式、作業方式
+
+        作業有兩份Essay跟一份Project(分成proposal跟report)
+        http://nslab.ee.ntu.edu.tw/courses/intro-cs-spring-15/paper.html
+http://nslab.ee.ntu.edu.tw/courses/intro-cs-spring-15/project.html
+        Polly的課程網頁裡面都很詳細，有興趣的可以自己研究看看
+
+        考題形式：
+        請參考OP的考古題，雖然我們今年題目形式有幾題新的
+        不過考前讀個三到四年 期中期末絕對是妥妥的
+        http://nslab.ee.ntu.edu.tw/courses/intro-cs-spring-15/exams.html
+ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+        應該是全簽啦
+
+      Ψ 總結
+
+        電機系計算機概論算是每個班都有自己的特色
+        有人喜歡硬的、有人喜歡涼的、有人喜歡甜的
+        緣份就是這樣，不能強求的，你聽你的烏鳴，他看他的日出
+        人人有功練，是最棒
+        自己本身是覺得做project的過程中可以學到蠻多的啦
+        觀察啦 我的觀察啦
+        之前感覺對這些什麼網路啦、硬體啦是真的沒概念
+        不過一學期之後也是有對這些東西有了初步的認識了啦，吧
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.25.106
+※ 文章網址: https://www.ptt.cc/bbs/EE_Comment/M.1436237695.A.C39.html
+推 jimmy8025: 推寫app神手歪彥 07/07 22:14
+推 ytrewq0101: 聽說Participation是以上課與老師交流程度來評嗎？ 07/08 02:20
+→ eddy1021: 你聽你的烏鳴 07/08 22:47
+
+※ 發信站: 批踢踢實業坊(ptt.cc)
+※ 轉錄者: yangchris11 (140.112.25.106), 07/09/2015 10:56:31
+(chy1010 刪除 ten57girl 的推文: 洗板)
+
+

@@ -1,0 +1,175 @@
+Title:[評價] 102-2 蔡欣穆 無線網路基礎與應用 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者HTConeSV (htc)看板NTUcourse標題[評價] 102-2 蔡欣穆 無線網路基礎與應用時間Thu Jan 29 15:38:19 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：102-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+         蔡欣穆
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+         資工所/網媒所選修
+
+      δ 課程大概內容
+Fundamentals
+        ‧ Basics of wireless communications
+        ‧ Radio propagation (below physical layer)
+        ‧ Modulation (physical layer)
+        ‧ Spread spectrum (physical layer)
+        ‧ Diversity (physical layer)
+        ‧ Media Access Control (MAC) protocol for Wireless
+        ‧ Routing in Wireless Networks
+        ‧ Transport Layer over Wireless
+
+        Not so fundamental:
+        ‧ Advanced topics in research papers
+
+        Applications
+        ‧ Visible Light Communications (VLC)
+        ‧ Vehicular Networks (called VANET sometimes)
+        ‧ WiFi (Wireless LAN, WLAN)
+        ‧ Wireless Sensor Networks
+
+      Ω 私心推薦指數(以五分計)
+         喜歡動手做實驗：★★★★★
+         涼：★★
+         不會寫程式只想聽無線網路知識：0顆
+
+      η 上課用書(影印講義或是指定教科書)
+         沒有指定教科書
+
+         參考用書清單：
+         Wireless Networking: know it all, Chandra
+         Wireless Communications, Andrea Goldsmith
+         Wireless Communications: Principles and Practice 2/e, Theodore
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+         一開始是用手寫板純板書上課
+         說要改變上課方式，希望同學抄筆記而不要睡著
+         後來不知道為什麼還是改成用投影片上課，只是手寫板還是照用
+         有用手寫板畫記過的投影片會上傳到課程網站
+
+         老師上課時會問問題，然後用點名機抽點同學回答
+         如果該位被抽點到的同學沒到，似乎不會怎樣，就換抽下一位
+
+         每周會有小考
+         但是後來就變成上完課出小考題目，下次上課要交
+
+         上課老師有兩位，一位就蔡欣穆老師，另一位中研院林靜茹老師
+         每周會輪流上課，不過蔡老師的時間會比較多
+
+         蔡欣穆老師上課重觀念的理解，一上課會先稍微複習上次的內容
+         老師人很好，會從基礎開始教，會上fourier transform等信號知識
+         沒有修過信號與系統也很容易吸收
+         蔡老師主要是負責教Basic、Path loss、Fading、Diversity、Routing
+
+         林靜茹老師則是中研院資創中心的老師，上課稍嫌快了些，要專心聽
+         主要是負責教Modulation、Physical layer、MAC layer、MIMO
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+         沒有期中、期末考
+         有四個作業 + Final Project
+
+         配分：
+         Assignment 1~4：各15%
+         Final Project：25%
+         Per Class Quiz：15%
+
+         算紮實偏甜吧
+
+
+      ρ 考題型式、作業方式
+         作業及Final Project皆為分組作業
+
+         一開始要自己先找好組員，5人一組
+         作業及Final Project都要同一組人力完成
+
+         組員選擇非常重要，好的組員帶你上天堂，爛的就讓你做到死
+         然後拜託組員一定至少要有一人會做影像處理!!
+
+         作業用到的背景知識：C、C++、Matlab、影像處理
+         C、C++應該資訊系同學都會，算是必備
+         強力建議要會Matlab，我自己是修課時才自學的
+
+         因為是小組作業，你可以不用全部技能都會
+         大家可以分一分工作，有些人負責寫C、有些負責Matlab這樣
+         但要一定要確定有組員會，像是影像處理就一定要有人懂才行
+         不然第一個作業就做不出來囉
+
+         每份作業都需要DEMO和繳交Report
+
+         Final Project則需要繳交Proposal、ACM格式Report(英文撰寫)
+         以及每組都要上台做presentation
+
+
+         作業一：CamCom
+         簡單來講就是光通訊
+         要寫C code控制Arduino讓LED燈有Modulation
+         再用手機錄製LED燈，拿影片做Decode解出LED燈所傳送的字串
+         用到技能：C、Matlab、影像處理
+作業二：USRP Wireless System
+         利用兩台USRP機器傳送訊號，一台當transmitter、另一台當receiver
+         架設環境是用Ubuntu live USB
+         只要有USB隨身碟(建議32GB)，還有灌有Ubuntu的電腦就可以製作了
+         以後要寫作業就用USB開機即可
+         live USB只需要做一個，因為同個環境可以控制多台USRP
+
+         本次作業是利用OFDM，來實作出Tx端Modulate、IFFT、Cyclic prefix
+         Rx端收到資料後，利用Matlab實作Symbol Design、Channel Learning、
+         Remove CP、Phase Tracking及處理CFO和SFO
+         用到技能：C++、Matlab
+作業三：NS-2 Wireless Channel Implementation
+         利用NS-2模擬器實作bit-rate selection protocol
+         需要用到Ubuntu系統，我用自己電腦的Ubuntu，沒有裝在live USB
+         用到技能：C、TCL(這助教會教你看懂code)
+作業四：Wireless Sensor Network
+         利用很多個Zigduino實作出Routing Protocol
+         反正就src端會傳裡面帶有某字串的packet
+         會經過很多個node，最後傳到dst端，要解出傳送的字串
+         src端則要印出經過的node路徑及Round Trip Time
+         評分標準還有success rate、拔掉路徑中間的Node看會不會換路徑
+         用到技能：C
+Final Project：自選
+         可以用前面的作業做延伸，但要搭配實作Paper的部分
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+         每個禮拜的小考算是變相的點名
+         外系同學建議要會的技能：C、C++、Matlab
+
+         加簽的話原本是以每組的組員做積分，取18組
+         積分規則如下
+         ‧大四或碩二分數 +1
+         ‧大二 or 大一 -1
+         ‧資訊學群科系 +1
+         ‧電機資訊學院外科系所 -1
+         接著計算整組積分，積分高的先錄取。
+         若積分平手則以收到註冊e‐mail的時間再作排序
+
+         但後來第一節課後就嚇跑不少人
+         變成有找到組員的就能加簽這樣
+
+      Ψ 總結
+
+         這門課Loading不輕，而且需要用到許多實作部分，無誠勿試！
+         如果你被課名騙到，以為是無線網路「基礎」就錯了
+         每個作業平均要花20小時以上!!
+
+         還有這門課主要是講網路底層，與計算機網路講的上層部分基本上不同
+         先修課程基礎為計算機程式設計，如果有信號與系統基礎應該有幫助
+
+         還有組員一定要找好，非常重要！！
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 211.74.96.67
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1422517101.A.9C8.html
+※ 編輯: HTConeSV (211.74.96.67), 01/29/2015 16:01:25
+推 pairslipper: 推 做這門的作業很耗時間但也很有趣XD 03/22 20:31
+
+

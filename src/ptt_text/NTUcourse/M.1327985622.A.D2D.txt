@@ -1,0 +1,200 @@
+Title:[評價] 100-1 傅楸善 計算機概論 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者a3225737 (Hong/轟哥/Hsiaoboyo)看板NTUcourse標題[評價] 100-1 傅楸善 計算機概論時間Tue Jan 31 12:53:40 2012
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：
+100-1
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+傅楸善
+      δ 課程大概內容
+Chapter 1: Introducing Computer Systems
+Lesson 1A: Exploring Computers and Their Uses
+Lesson 1B: Looking Inside the Computer System
+Chapter 2: Presenting the Internet
+Lesson 2A: The Internet and the World
+Lesson 2B: E-Mail and Other Internet Services
+Computing Keynotes: Creating Your Own Web Page
+Chapter 3: Interacting with Your Computer
+Lesson 3A: Using the Keyboard and Mouse
+Lesson 3B: Inputting Data in Other Ways
+Chapter 4: Seeing, Hearing, and Printing Data
+Lesson 4A: Video and Sound
+Lesson 4B: Printing
+Computing Keynotes: Buying Your First Computer
+Chapter 5: Processing Data
+Lesson 5A: Transforming Data into Information
+Lesson 5B: Modern CPUs
+Chapter 6: Storing Data
+Lesson 6A: Types of Storage Devices
+Lesson 6B: Measuring and Improving Drive Performance
+Chapter 7: Using Operating Systems
+Lesson 7A: Operating System Basics
+Lesson 7B: Survey of PC and Network Operating Systems
+Chapter 8: Working with Application Software
+Lesson 8A: Productivity Software
+Lesson 8B: Graphics and Multimedia
+Chapter 9: Networks
+Lesson 9A: Networking Basics
+Lesson 9B: Data Communications
+Chapter 10: Working in the Online World
+Lesson 10A: Connecting to the Internet
+Lesson 10B: Doing Business in the Online World
+Computing Keynotes: Professional Certification Programs
+Chapter 11: Database Management
+Lesson 11A: Database Management Systems
+Lesson 11B: Survey of Database Systems
+Chapter 12: Development of Information Systems
+Lesson 12A: The Basics of Information Systems
+Lesson 12B: Building Information Systems
+      Ω 私心推薦指數(以五分計) ★★★★★
+有基礎  ★★★★★
+沒基礎  ★★
+想混分數★★★★★
+愛蹺課  ★★★★
+學號很小★★
+η 上課用書(影印講義或是指定教科書)
+G. B. Shelly, T. J. Cashman, and M. E. Vermaat, Discovering Computers 2002,
+Course
+Technology, Boston, MA, 2001.
+好像已經到2012年版本了
+      μ 上課方式(投影片、團體討論、老師教學風格)
+老師只上第一周，對！就是第一周
+剩下就照學號下去分
+基本上不會有文學院的來修課
+所以就是理學院下去排（理學院基本上應該分的完）
+照學號去分配章節
+這學期教到12章
+
+不過後來一堆人退選所以又有一些變動
+
+
+老師會提供投影片
+報告前一週去找助教（可能會被放鳥XD）
+有問題也可以問助教
+
+然後就是上課講解
+
+另外要準備8個笑話
+老師說笑話比本文重要
+
+
+然後期中期末會個別選出報告最好的 由同學投票
+可以領取現金5000元
+所以自認口才一流學號又很小的趕快去修
+
+期中只有3搶1
+期末6搶1  （因為有人2堂課會講不完）
+
+
+期末領到的還有請吃雞排喔XD
+
+喔還有報告的人有加分
+只是不知道多少
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+基本上到期末考完還不知道期中期末跟作業分配比例..
+助教人很好
+作業有準時交基本上90起跳不是問題
+
+期中期末有寫助教也盡量給你分數
+算甜吧
+
+      ρ 考題型式、作業方式
+
+期中考就老師出了5題名詞解釋
+剩下好像是同學出的（每一個報告的人要出兩題題目跟答案給老師）
+考前一週會洩題一些
+
+期末考則是多達22題名詞解釋
+另外則是沒有同學出的部份
+
+作業喔
+第一份是電腦配備寫給老師
+基本上用CPUZ printscreen寄給助教就好了
+
+第二份是找10個各主題的網站
+比方說什麼A380介紹最好的網站...這是我這學期覺得最沒意義的作業..
+我不覺得助教有一個一個點開
+
+第三份是用word打出學號末兩碼+100 頁數 的課本所有內容
+越像越好，看是無腦，其實也還好
+
+第四份是把學號末兩碼頁數的課本內容打出來
+然後變粗體字，靠右對齊 結束
+
+第五份是用MIDI編輯一首曲子，無限定曲目
+
+第六份是玩新接龍，牌局是1000+學號末兩碼
+把所有流程用printscreen合成pdf上傳....
+
+第七份原本是用access打資料
+最後助教說做一張聖誕卡就好了= =
+
+
+基本上有準時交分數都超高的..
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+你報告當天要到就好，不然助教可能會殺了你
+你他你蹺課基本上不會怎樣
+
+基礎喔，我覺得要有點興趣吧
+畢竟有些台風很差的人上台報告會聽得很痛苦很痛苦
+
+如果有基礎基本上可以輕鬆電爆這門課
+
+
+加簽？  大家第一周聽完上課方式應該就退選了20人
+所以上網就有拉
+
+最後整班只有38人(上限50)
+
+遲到？ 你高興就好XD
+
+
+   Ψ 總結
+
+基本上我相信你看完上面你一定覺得幹這啥廢課或是老師在衝啥之類的
+
+不過我還是幫老師講講話好了
+老師常常注重投影片上相當、非常不重要的細節
+所以報告的人投影片上每一張圖上面的字都要看過不然你可能被他釘在台上
+
+老師也會自備板凳站在旁邊一直做上下樓梯之類的動作邊聽你講
+他也會適時補充上課的東西或是同學講解不足之處
+
+
+不過畢竟修課就是不會才來學
+所以如果剛好選到台風不好又不懂課程的人報告頗辛苦的^^"
+
+期中跟期末難度差很大
+期中自己投影片還看的懂
+期末可能需要上點課
+
+
+老師的口頭禪是好極了
+這題會出現在期末考BONUS記得記起來
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.250.20
+※ 編輯: a3225737        來自: 140.112.250.20       (01/31 12:58)
+推 hsnu117030:好酷的課@@ 01/31 12:59
+推 bslkcss:大推~ 01/31 14:00
+→ bslkcss:這學期神人還算多....所以上台的人大多講得不錯 01/31 14:00
+推 oncemore:作業滿酷的XD 01/31 15:24
+推 Murasaki0110:沒要上台又稍有電腦常識的話無敵涼XD 01/31 16:05
+→ Murasaki0110:想學東西的話還是選三學分的吧 01/31 16:06
+推 cawaiimaple:這不是通識嗎~所以可能會有文學院的吧XD我那學期就好 01/31 20:10
+→ cawaiimaple:幾個=ˇ=報告順序排很後面結果沒報告到XD 01/31 20:11
+→ a3225737:不是通識 01/31 23:28
+推 microwaveweb:爽課呀~附註期中期末拿5000的人成績直接100XD 02/01 00:01
+推 yyd:這門課好幽默喔還要準備笑話XDDDDDDDD好想修!!!!!!!! 02/01 19:12
+→ purplishfish:可是我覺得老師好不負責 02/01 20:05
+→ purplishfish:沒底子真的會很累喔 02/01 20:05
+
+

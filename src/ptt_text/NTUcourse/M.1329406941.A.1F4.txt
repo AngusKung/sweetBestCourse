@@ -1,0 +1,73 @@
+Title:[評價] 100-1 陳信希 自然語言處理 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者jigfopsda (jigfopsda)看板NTUcourse標題[評價] 100-1 陳信希 自然語言處理時間Thu Feb 16 23:42:19 2012
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：100-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+        陳信希
+
+      δ 課程大概內容
+        Overview &amp; Mathematical Foundations
+        Collocations
+        N-grams
+        Smoothing (Statistical Inference)
+        Hidden Markov Models
+        Part-of-Speech Tagging
+        Maximum Entropy Markov Model
+        Syntax and Grammars
+        Syntactic Parsing
+        Statistical Parsing
+        Semantic Representation and Computational Semantics
+        Lexical Semantics
+        An Application: Machine Translation
+        Computational Discourse
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★
+η 上課用書(影印講義或是指定教科書)
+        (1) Daniel Jurafsky and James H. Martin,
+         Speech and Language Processing: An Introduction to Natural Language
+                 Processing, Computational Linguistics and Speech Recognition,
+                 Second Edition. Prentice Hall, 2008.
+        (2) Christopher D. Manning and Hinrich Schutze,
+         Foundations of Statistical Natural Language Processing,
+         MIT Press, 1999.
+        兩本課本，但其實投影片就很夠了，不需要借或買。
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+        投影片上課，還滿常早下課的@@常常最後一節課只上一半時間就下課了。
+        但最後幾週進度很趕，跳過滿多的...
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+        期中期末考
+        期末專題
+
+      ρ 考題型式、作業方式
+        考試都考問答，只要回答概念就好，除了範圍很大以外倒也不算太難。
+
+        期末專題是要判斷句子的樹狀結構，子句間的因果轉折關係。依正確率給分。
+        如果只是做出一個尚能接受的結果，以期末專題而言其實不太花時間，但如果
+        要做得很好應該是滿困難的吧...
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+        最好是會機率統計啦，雖然數學基礎會講但是講超快的，沒學過應該是
+        會聽不懂吧@@最好知道Bayesian跟MLE是什麼...
+
+        老師很願意簽人，最後教室滿擠的@@
+
+      Ψ 總結
+        這門課其實內容滿多的@@但考試內容不太難，平常也沒有作業，所以負擔倒也
+        還好。老師上課感覺有點平淡，印象中好像沒聽他講過笑話@@就課程內容而言
+        還算不錯啦。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 203.67.110.147
+
+

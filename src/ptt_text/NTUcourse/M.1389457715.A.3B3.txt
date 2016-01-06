@@ -1,0 +1,118 @@
+Title:[評價] 102-1 李建模 交換電路與邏輯設計 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者Ginza ()看板NTUcourse標題[評價] 102-1 李建模 交換電路與邏輯設計時間Sun Jan 12 00:28:32 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+      是
+
+      哪一學年度修課：
+
+      102上學期
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+      李建模
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+      電機系大二必修
+
+      δ 課程大概內容
+
+      上半學期 :
+      Unit 1 Introduction: Number Systems and Conversion
+      Unit 2-3 Boolean Algebra
+      Unit 4 Minterm and Maxterm Expansions
+      Unit 5 K-Maps
+      Unit 7 Multi-Level Gate Circuits: NAND and NOR Gates
+      Unit 8 Combinational Circuit Design and Simulation Using Gates
+      Unit 9 Multiplexers, Decodes and PLD
+
+      下半學期 :
+      Unit 11 Latches and FFs
+      Unit 12 Registers and Counters
+      Unit 13 Analysis of Clocked Sequential Circuits
+      Unit 14 Derivation of State Graphs and Tables
+      Unit 15 Reduction of State Tables-- State assignment  (~15.2、15.9)
+      Unit 16 Sequential Circuit Design  (~16.4)
+      Unit 18 Circuits for Arithmetic Operations  (~18.2)
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+      ★★★★★
+
+      η 上課用書(影印講義或是指定教科書)
+
+      Roth, Kinney
+      Foundamentals of Logic Design, 7th, international edition
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+      投影片 + 電子板書
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+      Participation             2%
+      Homework                 18%
+      Quiz1                     4%
+      Quiz2                     6%
+      Midterm                  35%
+      Final                    35%
+
+      ρ 考題型式、作業方式
+
+      電機系統一教學，所以作業還有考試都是各班統一
+
+      作業 : 八次，七次課本題 + 一次 Verilog 作業
+
+      課本題就是勾選課本的習題，一次大約10題，
+
+      一般來說不會太好處理，很多都滿繁瑣的，或者有些需要思考，頗花時間，
+
+      期中考後助教統一開一堂 Verilog 的教學，
+
+      會有一次 Verilog 上機，因為verilog 需要用像是工作站來跑，
+
+      如果對於其操作不熟悉的話，還是要花一些時間
+
+      考試 : 大概就是課本習題的變形或延伸
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+      個人認為這是電機系大二必修中相對簡單的一門課
+
+      不用基礎，只要有一顆清楚的腦袋 XD
+
+      不點名，不過教室幾乎是滿的，也有一些大一的學生來修
+
+      Participation 的分數的話，老師會希望大家自己組 study group
+
+      當組長的話兩%穩拿，不然舉手就是回答老師上課三不五時提出的小問題
+
+      Ψ 總結
+
+      非常推薦老師的課! 老師真的很關心同學，會很希望大家發言!
+
+      還有教授會不時在投影片間穿插 Food For Thought 讓同學動動腦，
+
+      上課之前也會出一點簡單的題目幫大家複習
+
+      另外我覺得老師很大的特色是在的下課時放一些勵志小影片，
+
+      像是老師最愛的 Steve Jobs 和 Randy Pausch 的演講，鼓舞一下同學，
+
+      還有有時會講些他在 Stanford 求學發生的趣事 XD
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 61.230.129.204
+推 henry1915:建模真的棒!!! 01/12 00:53
+推 pml0415:  建模真的棒!!! 01/12 01:00
+推 scrashedward: 真的棒!!!  可是我是韶逸班(?) 01/12 01:15
+推 felgher:推建模 真的是好老師 01/12 14:51
+※ pttbarca:轉錄至看板 EE_Comment                                  01/12 15:25
+
+

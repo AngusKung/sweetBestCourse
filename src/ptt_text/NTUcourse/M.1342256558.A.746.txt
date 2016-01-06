@@ -1,0 +1,94 @@
+Title:[評價] 100-2 計算機程式 陳柏華 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者initialworld (Hello world)看板NTUcourse標題[評價] 100-2 計算機程式 陳柏華時間Sat Jul 14 17:02:34 2012
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：
+ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+         陳柏華
+
+      δ 課程大概內容
+         The basics of C++ Programming
+         (1) Introduction to the Course
+         (2) Functions, Comments, #include and namespace, Variables and
+             Arithmetic Types,Assignments and Execution Sequence,
+             Interactive Input, and Repetition.
+         (3) Data Types, Numerical Operators, Arithmetic Assignment,
+             Named Constants, Logical Operators, Conditional Statements,
+             Repetition and Selectio.
+         (4) More functions, string type, character escape sequence,
+             stream files, output formatting.
+         (5) Default Arguments of Functions, Function Overload, Recursion
+         (6) file input, switch statement, enumeration
+         (7) Array
+         (8) Vector
+         (9) Class
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★★
+η 上課用書(影印講義或是指定教科書)
+         Problem Solving, Abstraction, and Design Using C++, 6th Edition, F. L.
+         Friedman and E. B. Koffman, Pearson.
+
+         主要是以投影片為主，沒有書也沒關係，投影片和課堂練習就足夠，上課也沒
+         用到教科書。
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+         上課用投影片
+         老師因為沒有pointer，所以就用wii的手把來控制投影片，還有上課會突然冷
+         笑，並不會太嚴肅，蠻風趣的。有三節課，前兩節會上課，最後一節會有題目
+         ，作為課堂練習，當天12pm前上傳，老師說盡量課堂上寫完，在課堂之後完成
+         分數八折，但是只要做完好像都沒扣分。
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+         Lab(課堂練習) 10%
+         Participation 10%
+         Homework      30%
+         Midterm 1     15%
+         Midterm 2     15%
+         Final exam    20%
+         不會調分，但Lab和Homework的部分容易高分，兩次的期中考也不難，總而言
+         之，只要有去上課和交作業，80分以上不是問題。
+
+      ρ 考題型式、作業方式
+         有兩次期中考和期末考，題型都差不多。30~40分為筆試，debug或output那
+         一小段的程式碼，還有一些基本觀念，例如Class和Struct的比較。上機佔
+         60~70分，幾乎類似作業題目。第一次期中考可以open notebook or book
+         ，但筆記不能有code，而且規定只能看本課程的教科書。而第二次期中考和期
+         末考就只有上機可以open book。
+
+         七次的作業，都是當週上課內容，期限為下週上課前，需上傳到ceiba。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+         出席率沒特別注重，有時候需要簽到。
+
+         加簽前先寄信給老師，老師都會答應，再去跟助教拿授權碼。
+
+         這門課是土木系必修，我不是土木系也不是資工系，完全沒程式基礎，C++
+         老師會從頭教起，負擔沒有想像的重。
+
+         編譯器需要用visual studio 2010，有一次我用beta 2011，助教無法
+         compile就算0分。
+
+      Ψ 總結
+         這門課老師不錯，上課也很自由，老師很耐心，很nice，很樂意幫同學
+         debug。第一次接觸到程式就遇到這麼好的老師真幸運。負擔不重，又可以學
+         到不少技巧，建議對程式有興趣又沒基礎的同學，這門課是不錯的選擇。對程
+         式有興趣又有基礎的同學，這門課是拿高分的好幫手。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 114.44.126.55
+※ 編輯: initialworld    來自: 114.44.126.55        (07/14 17:05)
+推 j87370:推陳柏華老師XD 07/14 19:19
+推 jlin1105:推~建議教的函式要自己玩過，例如換順序、增減符號之類的 07/15 03:25
+推 jackie820322:推~ 07/15 16:04
+推 tenminutes:大推 老師人超好 07/22 20:27
+推 tracy1991621: 真的!!人超好，雖然最近有變胖 03/04 10:27
+推 noisymute: 非常有耐心而且教得淺顯易懂，推變胖 03/11 18:51
+
+

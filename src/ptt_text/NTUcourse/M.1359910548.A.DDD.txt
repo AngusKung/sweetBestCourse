@@ -1,0 +1,90 @@
+Title:[評價] 計算機概論 周承復教授 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者Nineguan (宋小馬)看板NTUcourse標題[評價] 計算機概論 周承復教授時間Mon Feb  4 00:55:45 2013
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+
+
+      哪一學年度修課：
+ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄) 周承復
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 資訊系選修
+
+      δ 課程大概內容
+
+         介紹computer science的基礎知識
+         例如 二進位/十六進位, 機器語言, 作業系統, 網路架構, 演算法等等
+
+         Chp 1  Data Storage
+         Chp 2  Data Manipulation
+         Chp 3  Operating Systems
+         Chp 4  Networking and the Internet
+         Chp 5  Algorithms
+         Chp 6  Programming Languages
+         Chp 7  Software Engineering
+         Chp 8  Data Abstractions
+         Chp 9  Database Systems
+         Chp 10 Computer Graphics
+         Chp 11 Artificial Intelligence
+         Chp 12 Theory of Computation
+
+      Ω 私心推薦指數(以五分計) ★★★★★ 五顆星爆表
+
+      η 上課用書(影印講義或是指定教科書)
+
+         Computer Science an Overview by J.Glenn Brookshear
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         用老師的投影片上課 投影片會PO在課程網頁上面
+
+         按照投影片內容上 課本其餘敘述要自己念(其實投影片已經涵蓋大部分的重點)
+
+         然後遇到某些單元老師會特別額外補充  Ex.網路安全(密碼學)
+
+         一學期還會有2~3次企業參訪
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         作業或project 30~35%
+
+         midterm 30%
+
+         final 30%
+
+         class participation 5~10%
+
+         Bonus(寫uva的題目) at most 5%
+
+         給分甜炸了
+
+      ρ 考題型式、作業方式
+
+         考試全部問答題(有些是計算題)
+
+         作業也是問答題(課本上後面的習題)
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         老師從來沒點名 不注重出席率
+
+         但是上課發言 或是問問題 老師會登記起來 可能有加分
+
+         老師人超好 還會給我們溫書假
+
+      Ψ 總結
+
+         這門課真的很棒 很甜而且又學的到東西
+
+         缺點是進度沒控制好 聽說每一屆都沒有教完(剩下的要自己念 但考試又不會考沒交過的XD)
+
+         老師也對學生非常好 所以想學計概的話來這班準沒錯
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 220.136.28.177
+推 oncemore:周99 02/04 01:41
+
+

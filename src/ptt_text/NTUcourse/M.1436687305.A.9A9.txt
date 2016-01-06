@@ -1,0 +1,137 @@
+Title:[評價] 103-2 資料結構與演算法實務 陳倩瑜 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者wilson85771 (HOW)看板NTUcourse標題[評價] 103-2 資料結構與演算法實務 陳倩瑜時間Sun Jul 12 15:48:22 2015
+哪一學年度修課： 103-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+        陳倩瑜 老師
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+        生機系/所
+      δ 課程大概內容
+ Chapter 1: Fundamentals introduces a scientific and engineering basis for
+comparing algorithms and making predictions. It also includes our programming
+model.
+Chapter 2: Sorting considers several classic sorting algorithms, including
+insertion sort, mergesort, and quicksort. It also includes a binary heap
+implementation of a priority queue.
+Chapter 3: Searching describes several classic symbol table implementations,
+including binary search trees, red-black trees, and hash tables.
+Chapter 4: Graphs surveys the most important graph processing problems,
+including depth-first search, breadth-first search, minimum spanning trees,
+and shortest paths.
+Chapter 5: Strings investigates specialized algorithms for string processing,
+including radix sorting, substring search, tries, regular expressions, and
+data compression.
+Chapter 6: Context highlights connections to systems programming, scientific
+computing, commercial applications, operations research, and intractability.
+
+課綱我只是複製貼上，實際上是配合Coursera課程
+下面詳述
+      Ω 私心推薦指數(以五分計)
+        (希望不給星星沒有違規，我認為自己是讓老師失望的學生，沒資格評分)
+      η 上課用書(影印講義或是指定教科書)
+        本課程參考Princeton在Coursera上設置的"Algorithm"網路課程
+        教材基本上只要申請coursera，官方的文件、教學影片，都很夠用
+        課本... 應該也沒什麼時間念啦
+        老師有說明過，他本人篩選過很多本演算法課本
+        Princeton這位教授的著作他認為是最經典的
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+        如前述，一切教材配合Coursera的Algorithm
+        老師起初強烈希望各位同學能回去看完影片
+        上課就能回答問題並討論
+        類似翻轉教室...  不過施行並不順利
+        似乎大家都沒先看影片
+
+        老師也很有耐心，上課會把影片內容 (我們理應先看過的)
+        重點提示一遍
+        鼓勵大家回答問題
+        把麥克風傳下去，拿到麥克風的人可以答也能pass
+        大致答對可以依照組別加分
+        主要目的還是鼓勵大家預習影片再來上課
+
+        老師上課會提出Critical Question
+        這是來上課最重要的收穫
+        思考一些光是呆板看影片看課本也沒注意到的觀念
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+        給分甜與否請參考Sweety Course
+        我個人成績很普通，純粹是我不認真，此不予評論
+      ρ 考題型式、作業方式
+        "幾乎" 每周，至多每兩周，會有一個程式作業
+        起初兩周是讓我們熟悉JAVA用的
+        後面的就很抓狂了...
+        我是外系生，只修過C++的基礎程式設計課
+        我記得第三、四週開始，我就邁向一屁股坐在自習室寫code
+        寫六個小時也無法完成的窘境....
+        評分是交給線上批改系統 (好像叫批改娘...
+        可以隨時上傳，然後隨時看到0分崩潰 (?
+
+        期中考題很大部分是Coursera的Excercise
+        只改了數字而已，有準備有分，這是老師很佛心的部分
+        考前也會洩題
+
+        期末考就... 因為coursera課程網關了..等等因素
+        老師就考了觀念性的問答題
+        其實我覺得不難，都是上課看過的東西
+        只是自己複習太少，而且很傻很天真的以為跟期中考一樣
+        看看Coursera的習題就好...  就爆了
+        老師還很謙虛的發文說  感覺大家學習效果不佳  他會檢討等等
+        我好慚愧TAT
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+        出席率不管，不過其中一節，是在周二中午，真的只有一節課、翹課率比較高
+        老師有時候會苦笑的說  看得出來變冷清了
+
+      Ψ 總結
+
+        我是管院生，只修過一門程式設計，我會一直哀哀叫，理工戰神不要噓我
+
+        這裡我想偷偷感謝一下助教們，每次我code寫不出來，助教都樂意在FB回覆我
+        指引方向，真的感謝助教讓我吵了一學期 &gt;////&lt;
+
+        喔對，會另外安排助教課，自由出席，主題大多是解說作業解題方法
+        想更快寫出code，就不要忽略助教課
+
+        老師在學期初看到班上有些二三年級的大學部生
+        就說了"有些知識，很值得越早知道越好"
+        這門課修完了，我非常同意老師這句話
+        雖然我有點一知半解，但是下次再提起某些結構或演算法
+        我可以講得出大致觀念，那就離實作成功不遠了
+
+        這門課我最大的收穫其實是，寫code的速度....
+        作業對我這個門外漢來講真的很痛苦
+        常常在自習室碰壁了又碰壁，每周"至少"六小時作業不騙你
+        (再次強調我是外系，本科生應該會厲害點)
+        JAVA的syntax也被強迫在前半學期就弄很熟 (不論演算法效率的話)
+        我在另門也是用JAVA的物件導向課程就...混得很快樂...
+
+        我想起了大一國文的吳旻旻老師曾說
+        「(寫文章時)你想破頭才來到你腦袋的第一個想法... 勇敢地把它拋棄！」
+        學習資料結構演算法就是這種感覺
+        一個要求的程式功能，用基本的syntax用力、暴力的解，一定能完成
+        這門課、以及作業的修練，就是教我們如何拋棄太過直觀而粗魯的作法
+        尋求一個更精緻、有效率的方式解決問題
+        雖然作業很痛苦
+        我也必須承認，修完這門課我深深感覺到
+        沒學過資料結構演算法，真的別說自己學過程式設計！
+
+        最後，
+        老師真的非常非常用心、也很有耐心聽學生的意見回饋
+        樂於跟學生交流的老師真的很珍貴
+        希望下一批有幸修到這門課的同學
+        能跟我一樣喜歡這門課
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 36.231.241.29
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1436687305.A.9A9.html
+推 steveyeh987: 推老師～ 07/12 21:04
+推 JasonKOU: 大推這門課 07/14 21:35
+推 handsomerson: 其實助教課是助教人太好自己額外安排的吧 09/16 10:11
+→ handsomerson: 一般來說應該是沒有的 09/16 10:11
+
+

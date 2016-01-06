@@ -1,0 +1,195 @@
+Title:[評價] 103-2 吳安宇 數位系統設計 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者cHarryc (阿輝)看板NTUcourse標題[評價] 103-2 吳安宇 數位系統設計時間Tue Aug 25 15:20:29 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：
+
+         103-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         開課：吳安宇教授
+
+         授課：助教授課+教授補充
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關)
+
+         電機系選修
+
+      δ 課程大概內容
+
+         1.Course Overview, Digital System Design Introduction
+         2.Fundamentals of Hardware Description Language(ch1-3)
+         3.Logoc Design at Register Transfer Level(ch4, 7)
+         4.Logic Design with Behavior Coding, Design Verification Tool(ch8-10)
+         5.Testbench Writing, Synthesizable Coding of Verilog
+         6.Complexity Management, Improving Timing/Area/Power
+         7.Synthesis Overview and Tool Usage
+         --------------------------期中考--------------------------
+         8.Advanced Topics on Synthesis
+         9.Design Guideline: From Spec to Circuit
+         10.Memory Hierarchy
+         11.Pipelined Architecture of MIPS
+
+         這並不是一門知識課而是一門實作課，已熟悉verilog和合成工具為目的，後面
+         教授一些計結知識是因為作業會實作這方面的內容
+
+      Ω 私心推薦指數(以五分計) ★★★★★(建議與計算機結構同時上)
+
+         ★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+         無指定書籍，於ceiba上提供投影片，但有列參考用書
+
+         參考用書：
+
+         (Main Verilog coding textbook)
+         "Verilog HDL: Digital design and modeling," Joseph Cavanagh,
+         CRC Press, 2007.
+
+         (Reference CPU textbook)
+         "Computer organization and design: The hardware/software interface,"
+         David A. Patterson and John L. Hennessy, 2009, 4th Edition
+
+         (Reference Verilog coding textbook)
+         "Digital system designs and practices: Using Verilog HDL and FPGAs,"
+         Ming-Bo Lin, Wiley, 2008.
+
+         others:
+
+         (Advanced Verilog Coding)
+         "Advanced Digital Design with the Verilog? HDL",
+         Michael D. Ciletti, Published by Prentice Hall,2003
+
+         "Modeling, Synthesis, and Rapid Prototyping with the Verilog? HDL,”
+         Michael D. Ciletti, Published by Prentice Hall, 1999
+
+         (For Verilog design and microarchitecture)
+         "Digital Design and Computer Architecture, 2nd Edition"
+         Harris , 2012
+
+         雖第一堂裡提供了很多參考書，但只看課堂ptt應該也很ok，重點是上課要認
+
+         真聽
+
+        μ 上課方式(投影片、團體討論、老師教學風格)
+
+         投影片上課，上課前會先上傳ceiba，除了第一堂由老師概略地描述此堂課外
+
+         ，其他皆由助教上，老師大部分都會到場，上課期間會補充一些內容，有不
+
+         有趣可能取決於助教的上課風格，每年上課的助教都不一樣，另外如果對課
+
+         程或作業有問題的話，助教們都會很熱心回答
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         課程網有一套標準，但每年助教好像都會微調，今年的是這樣
+
+         HW1~HW4 + IC contest (30%)
+
+         midterm (30%)
+
+         final project(40%)
+
+         bonus (4%)
+
+         分數應該算微甜偏紮實，HW 和 final大家應該都會盡力完成，花的時間的
+
+         滿多助教也不會刁難，最後等第的差別主要決定在期中考，次要決定在 final
+
+         的 presentation部分，這兩個分數落差會比較大，另外bonus的部分，期末
+
+         的時候助教會詢問大家願不願意幫忙作課程的維修，包括修改 ptt、作業說
+
+         明、testbench等，依照用心程度加分
+
+      ρ 考題型式、作業方式
+
+         HW有四次，跟去年沒什麼變
+
+         HW1：Carry Ripple Adder + Barrel shifter + Adder Shifter Unit
+
+         HW2：ALU + Register File
+
+         HW3：Single Cycle MIPS
+
+         HW4：Cache Unit Design
+
+         HW1寫 RTL 和 Gate level；HW2寫 Behavior level包含一個testbench；
+
+         final 要寫 Pipeline MIPS 所以HW3 &amp; HW4算是 final的前置作業，有寫
+
+         好的話可以減輕後來負擔。
+
+         除非原本已經對verilog非常熟悉，不然應該會感到每次HW都是一個難度跳
+
+         躍，需要花時間揣摩或與隊友討論，但注意會抓抄襲，討論後應以自己的
+
+         能力寫出，基本上作業若符合要求都給分數滿高的。
+
+         另外作業一小部分分數來自IC contest，差不多等於現場上機考試，難度不
+
+         高，時間內(不超過太久)都有不錯分數。
+
+
+         再來是期中考，紙筆考試，考題類型很多樣，是非、問答、人工compile、
+
+         手寫code等等都有，不過重點要把觀念弄懂，這部分是最後分數的差異，想
+
+         不錯等第這部份要把握
+
+
+         而final project的部分有分basic和extension，basic就是寫出pipeline的
+
+         MIPS，占70%，其他30%是extension，extension有三個，有時間就三個都做
+
+         完，但拿分的關鍵在presentation，做要做的精緻，讓老師和助教覺得你有
+
+         用心做，把做一兩個extension做得完整，會比三個都做但做得草率分數還高
+
+         但final這部分大家分數差異不大，應該是都有認真做吧哈哈。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         出席率老師好像有點過名，但沒反應在最後的成績上。
+
+         應該是不需要基礎，助教幾乎是從頭教verilog，雖然助教教得速度有些快，
+
+         但輔以HW做練習應該還跟得上，建議可和吳教授開的另一門課計算機結構同
+
+         時修，相輔相成，兩邊的學習效果都會比較好，一邊是知識，一邊是實作。
+
+         上課滿輕鬆的，但老師希望同學用心，不喜歡同學用電腦和手機，睡覺可能
+
+         會被叫起來，每週通常不會上滿三堂，負擔不大。
+
+         這堂課是三類加選，今年只有2X人修，有選就會上，建議可以先找好隊友
+
+         再選。
+
+      Ψ 總結
+
+         上一個評價有提到，這門課是當作修數電實驗或者是CVSD(電腦輔助積體電路
+
+         系統設計)的入門課，但是如果有修過這兩門課的話，這堂課會稍嫌簡單，至
+
+         於課程維護上，可能是因為這門課才開不久，去年的作業部分不是那麼完整
+
+         精緻，有些小問題，但今年已 改善許多，今年的兩個助教都很不錯，指導同
+
+         學部分都很熱心，作業上有什麼問題都會很快處理，今年開始新加的bonus部
+
+         分也會讓這門課越來越成熟，滿推薦想走數位的同學來修修看!
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.243.231
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1440487232.A.8C1.html
+※ 編輯: cHarryc (140.112.243.231), 08/25/2015 15:22:04
+
+

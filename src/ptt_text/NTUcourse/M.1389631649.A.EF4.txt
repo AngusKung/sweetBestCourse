@@ -1,0 +1,126 @@
+Title:[評價] 102-1 李琳山 數位語音處理概論 - 看板 EE_Comment - 批踢踢實業坊
+
+
+作者charleykuo97 (hungchi)看板EE_Comment標題[評價] 102-1 李琳山 數位語音處理概論時間Tue Jan 14 00:47:27 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+      哪一學年度修課： 102-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+              李琳山 教授
+
+      δ 課程大概內容
+
+              1.Introduction
+              2.Fundamentals of Speech Recognition
+              3.Map of Subject Areas
+              4.More about Hidden Markov Models
+              5.Acoustic Modeling
+              6.Language Modeling
+              7.Speech Signals and Front-end Processing
+              8.Search Algorithms for Speech Recognition
+              **********以上期中考**********************
+              9.Speech Recognition Updates
+              10.Speech-based Infromation Retrieval
+              11.Spoken Document Understanding and Organization for
+                 User-content Interaction
+              12.Computer-Assisted Language Learning
+              13.Speaker Variabilities: Adaption and Recognition
+              14.Linguistic Processing and Latent Topic Analysis
+              15.Robustness for Acoustic Environment
+              16.Some Fundamental Principles–EM Algorithm
+              17.Spoken Dialogues
+              18.Conclusion
+              **********以上期末考**********************
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+              ★★★★★，大推這門課!!
+
+      η 上課用書(影印講義或是指定教科書)
+
+              沒課本，只有投影片，不過投影片會有Reference讓大家去看
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+              投影片上課，偶爾會用板書輔助解釋，老師上課的講解都非常的清楚
+
+              不過我覺得速度蠻快的，每個禮拜課堂開始的時候老師都會把前面的
+
+              內容複習一次。另外我覺得很棒的一點是跟信號與系統一樣，老師上
+
+              課都會錄音放到網路上，上課有不清楚的地方可以課後再聽一次。
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+              三次作業分別15%、5%、15%
+
+              Final Project 30%
+
+              期中考        25%
+
+              期末考        10%
+
+              分數還沒出來不知道，不過應該是紮實分
+
+      ρ 考題型式、作業方式
+
+              三次作業：
+
+              第一次作業是用C/C++或Matlab寫關於Hidden Markov Model的程式
+
+              第二次作業是二選一，使用HTK或是標記Spectrogram
+
+              第三次作業是用C/C++或Matlab寫關於Language Model的程式
+
+              第一次和第三次是程式實作，要花一點時間，第二次很快就能寫完
+
+              從配分比例也可略知一二各作業的難度XD
+
+              Final Project：
+
+              題目自訂，任何跟語音相關的主題都可以寫，型式可以是閱讀論文的
+
+              讀書報告，或是程式的實作。
+
+              期中考、期末考：
+
+              考試open book，主要是問答題，都從上課或作業內容出，加上open
+
+              book，基本上不難，考前老師會提供考古題，考題型式都差不多。
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+              上課不會點名，不管遲到，不過一堂課三小時下來內容都很多，上課老師
+
+              的講解會比投影片清楚很多，不然就是用線上的錄音把課補上。
+
+              基礎的話主要是機率、線性代數、信號與系統，不過用到最多的應該是
+
+              機率。
+
+              加簽的情況有點忘記了，大學部是1類加選，研究所不太確定。
+
+      Ψ 總結
+
+              真的是一門非常棒的課，一學期修下來收穫非常多，對於語音處理的基本
+
+              概念跟其相關主題都會有一定的認識，上課介紹的演算法都很經典，老師
+
+              是這個領域的大師，上課的講解也非常的清楚，深入淺出，透過上課就
+
+              能學到很多，總之，非常推薦有興趣的人來修。
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.250.58
+※ 編輯: charleykuo97    來自: 140.112.250.58       (01/14 09:55)
+※ 編輯: charleykuo97    來自: 140.112.250.58       (01/14 09:55)
+推 donkilu:只看投影片幾乎看不懂，幸好有補課QwQ  推這門課 01/15 15:25
+
+

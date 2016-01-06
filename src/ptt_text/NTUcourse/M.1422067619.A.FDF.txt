@@ -1,0 +1,75 @@
+Title:[評價] 化學數學一 陸駿逸 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者chemistry123 (酒石酸)看板NTUcourse標題[評價] 化學數學一 陸駿逸時間Sat Jan 24 10:46:56 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：103上
+ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+         陸駿逸
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+         化學系大二必修
+      δ 課程大概內容
+         Determinants
+         Inverse matrices
+         Vector space
+         Linear dependence &amp; linear independence
+         Eigencvalues &amp; eigenvectors
+         Diagonalization
+         Inner product spaces
+         Nuclear spin
+         Fourier series &amp; Fourier transformation
+         Dirac delta fuction
+         Convolution
+         X-ray diffraction
+         Partial differential equation(Separation variables)
+         Group theory(element operation, point group, projection operator)
+
+      Ω 私心推薦指數(以五分計)
+ ★★★★★+
+η 上課用書(影印講義或是指定教科書)
+         Mathematics method in physical science --- Boas
+         (這是課程明定的教科書XD)
+         事實上我覺得他用的脈絡是 Shankar 的 Quantum mechanics 第一章
+         群論他是照著Cotton的那本Chemical application in group theory去教的
+         也是第一章
+      μ 上課方式(投影片、團體討論、老師教學風格)
+         主要是板書 Fourier series那邊有用電腦跑程式給我們看
+         群論的後半部主要用投影片教
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+         作業45%
+         期中期末各30%
+         期末分數還出120 給分無敵甜吧
+      ρ 考題型式、作業方式
+         作業基本上就是課本勾的練習題
+         不過如果只做老師勾的習題應該是不太夠的 自己要多找一些題目來做
+         考題方式大概都出個5,6題  都是蠻有創意的題目  寫完都覺得蠻開心的
+         思考如果太僵化很容易落入小陸的陷阱  像是期末就有一題40分的題目
+         用老師上課做的方法可能要半小時   但是換個坐標系只要五分鐘
+         另外推助教們是個好人  而且都很厲害~
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+         不注重出席率 不需要任何基礎 但是需要能夠短時間學習起大量東西的能力
+         所以我覺得在修這門課前預習個簡單的線性代數跟群論會更得心應手
+         加簽感覺是都簽  老師個性很好~~~是個可愛的怪人XD
+      Ψ 總結
+         對我來說這門可是一門很棒的課  因為它讓我短時間就掌握了線代傅立葉
+         微方群論的基本精神  雖然說跟分別學過這些工具一學期的人還是有差距
+         但是基本上讓你登堂入室已經沒有問題了  以後再需要甚麼技巧很容易查
+         個資料就上手  老師是個天才型的老師  所以可能不容易看出他上課的脈絡
+         會覺得難以找握這門課  但是老師的脈絡其實非常清晰  但是不會將章節之
+         間的連結明講  但是懂了就會非常enjoy 對我來說的話我也一直不太喜歡太
+         規矩的老師XD  喜歡擁有自己的想像空間  很棒喔這門課XD
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.73.71
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1422067619.A.FDF.html
+→ ra21844: 沒有化數的一屆淚推 01/24 12:58
+推 icheee: 但是你最後三句連用三次但是 但是還是推一下 01/25 00:10
+推 jane820113: 樓上XD 02/02 19:20
+推 TCJRay: 原本A+被調低的表示 07/14 15:07
+
+

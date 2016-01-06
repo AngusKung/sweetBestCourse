@@ -1,0 +1,188 @@
+Title:[評價] 102-1 陳俊瑋 量子場論一 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者harveyhs (Hango)看板NTUcourse標題[評價] 102-1 陳俊瑋 量子場論一時間Mon Jan 27 21:27:07 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）： 是
+
+
+      哪一學年度修課： 102-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         陳俊瑋教授
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+         物理所
+
+      δ 課程大概內容
+
+
+         以下是以大標題分，不一定照順序。
+
+         0. Classical field theory: Lagrangian formulation
+
+         1. Path Integral Quantization:
+
+            real/complex scalar field
+
+            Dirac field
+
+            Gauge field -- Faddeev - Popov trick
+
+                        -- Abelian gauge theory (QED)
+
+                        -- Non-Abelian gauge theory (Yang-Mills)
+
+         2. Canonical Quantization:
+
+            real/complex scalar field
+
+            Dirac field
+
+
+         3. Perturbation Theory
+
+            framework--
+
+                       Gaussian integral / Wick theorem
+
+                       Feynman rules
+
+            application--
+
+                       phi-4 theory, scalar, QED
+
+                       Scattering amplitudes / cross sections / decay rate
+
+                       tree level QED processes
+
+         4. Symmetry and Symmetry breaking
+
+            Global symmetry : Noether theorem,... etc..
+
+            Local symmetry: gauge symmetry
+
+            Symmetry Breaking: Global Symmetry : Goldstone theorem
+
+                               Local Symmetry: Higgs Mechanism
+
+         5. Grand Unification:
+
+            SU(2) X U(1) electroweak theory / Glashaw-Weinberg-Salam model
+
+
+         另外在講 Dirac field 的時候講了一段 Group theory
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+ ★★★~★★★★ 看個人對場論的感受狀況。
+
+      η 上課用書(影印講義或是指定教科書)
+
+         A. Zee 的 Quantum field theory in a nutshell
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         板書，老師講解，滿標準的物理系課程
+
+         量子場論有很多種切入角度，
+
+         老師採取的是比較輕鬆式、直覺式的方法
+
+         （難聽一點，可以說很隨便XD）
+
+         （所以才用 Zee 那本書）
+
+         因為 Zee 很強，所以他的結論都可以不以嚇人的公式作結，
+
+         但有人，尤其是初學者，
+
+         可能會對於要自己去摸透作者忽略掉的重重計算覺得反感，
+
+         這好像是一種必然的缺陷 XD
+
+         但這是研究所的課了，細節的確也該靠自己吃下來。
+
+
+         講到比較偏現象的時候，老師的講解會比較精彩。
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         A. Take-home mid-term exam 30 %
+
+            Take-home final exam    30 %
+
+            Homework                40 %
+
+         B. Take-home mid-term exam 25 %
+
+            Take-home final exam    25 %
+
+            Homework                50 %
+
+         取高的。
+
+         由於場論習題一部分需要老老實實的計算，所以滿紮實的。
+
+         但給分算很慷慨。
+
+         作業盡量不要遲交 XD 聽說遲交打折很兇
+
+      ρ 考題型式、作業方式
+
+         期中期末都是 take-home exam
+
+         內容通常涵蓋老師上課來不及完整講的 XD 紮實的延長學期時數
+
+         比如期中考 Dirac equation 在 Coulomb potential 的解
+
+         CPT 定理 / Majorana fermion
+
+         期末考 SU(2) X U(1) theory 的 Feynman rule 推導。
+
+         怎麼找 Higgs Boson、跟 Global/Local symmetry breaking 的異同討論
+
+         作業就是 Zee 中幾乎所有的上過的章節的習題。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         很 free 不點名，會唱到名只有發作業的時候
+
+         最低的門檻：
+
+             量子力學的基本結構，
+
+             狹義相對論
+
+             對協變符號有一定的熟悉。
+
+
+      Ψ 總結
+
+         其實不管教的老師是誰
+
+         作為現代物理學中被廣泛使用的一種架構
+
+         量子場論要下的功夫本來就很多，
+
+         修課通常是看一個真的有在第一線使用場論工具的人
+
+         從他的角度跟你分享使用心得。
+
+
+         至於修課跟自己學的絕對差異...
+
+         就是有壓力要把計算老實做過吧 XD
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 140.112.249.241
+推 f34150:原po強者 01/28 08:53
+推 peterqlin:原PO蕭神 01/28 17:51
+推 gh34163:樓上 \Kappa GOD/ 01/28 20:01
+推 jacky82226: 推俊瑋 01/28 11:34
+
+

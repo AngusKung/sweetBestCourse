@@ -1,0 +1,120 @@
+Title:[評價] 99-1 迴歸分析 江金倉 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者Bruce31 (廢龜)看板NTUcourse標題[評價] 99-1 迴歸分析 江金倉時間Fri Jan 14 23:45:11 2011
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+         是
+
+      哪一學年度修課：99-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         數學系 江金倉教授
+
+      δ 課程大概內容
+
+         1. Motivating Examples and Model Construction.
+         2. Simple and Multiple Linear Regressions.
+         3. Problems and Remedies - normality, unequal variances, correlated
+            errors, outliers and influential observations, and multicollinea
+            -rity.
+         4. More Complicated Models:
+            Polynomial Regression Models
+            Segmented polynomials with known(or unknown) knots
+            Cobb-Douglas model
+            Logistic regression model
+            Deciding on the need for transformations or additional terms
+            Transformations:Graphical Methods,
+                            Analytic methods: Box and Cox method
+
+         會用一些基本的矩陣代數
+         然後要學怎麼用"R"這個軟體
+         偶爾要讀一些paper,解釋內容在說什麼還有其背後意義
+         也會講一些講義以外的統計知識
+
+         (i)期中project:
+         用R跑ε~ N(0,1)&amp;ε~ Cauchy(0,1)的model
+         看看用LSE估出的parameters的mean, s.d, bias, MSE
+
+         Akaike Criterion &amp; Bayesian Schwarz Criterion
+         Gourieroux,C. and Monfort,A.(1995)
+         Statistics and Econometric Models:
+         Testing, confidence regions, model selection and asymptotic theory
+         Volume2, Cambridge, page 307-313
+
+         Srivastava, M.S. and Singh, B. (1989). Boostrapping in multiplicative
+         models. Journal of Econometrics. 42, 287-297.)
+
+         (ii)期末project(2選1):
+         Yingcun Xia. Model checking in regression via dimension reduction
+         Biometrika, 96, page 133-148
+
+         Hui Zou. The Adaptive Lasso and Its Oracle Properties
+         Journal of the American Statistical Association,101,page 1418-1429
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+         下載講義即可，因為下面那本書台灣沒有代理了
+
+         指定用書:
+         Sen, A. and Srivastava, M. (1990). Regression Analysis: Theory, Methods
+         , and Applications. Springer.
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         板書為主，偶爾會問同學問題
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         作業7次:20%
+         期中project(3次):共10%
+         期末project:10%
+         Quiz(4次):每次10%
+         Mid-term, Final:各30%
+         所以總分有140分，這學期90以上就有A+了
+
+      ρ 考題型式、作業方式
+
+         考試小考和期中考還有期末考都沒有差別
+         大概是6~7大題，有些會有幾小題
+         偶爾出一下名詞解釋還有paper的東西
+         大部分是講義內容和作業
+         有時候會有上課額外教的或一些變化
+
+         作業會有手寫題和電腦題(用R做)
+         期末project在考完期末考的下星期交
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+          基本上有一點線性代數和統計知識就可以了
+          不會點名
+
+      Ψ 總結
+
+          老師想要教我們的東西很多，上課還滿充實的，有時候因為資質駑鈍，沒有辦
+          法像強者學弟、同學、學長姐一樣一聽就懂，可能會有點跟不上，回家就要自
+          己慢慢消化，但是只要老師有空就可以去他的研究室問問題，他會很樂意教你
+          。
+
+          作業內容常常會有要用電腦做的題目，這時候就可以用R這套軟體來寫，上課也
+          會教一點使用方法，偶爾也會請強者學長來教你怎麼用，但還是要靠自己常寫
+          才有感覺。
+
+          考試也不會太刁難同學，但考卷都是老師親自改的，只要用掰的或是想亂寫摸
+          到一點邊的基本上都會直接被撇掉，不要冀望能得到一些筆墨分數，這時候只
+          能怪自己觀念不正確，除非改錯才可以要分，不然硬坳是沒用的~
+
+          評分上也說到總分有140分，所以要達到A+的分數不會太難，但還是平時要扎實
+          的做作業、projects才可以，考試很多所以時間很緊湊，範圍通常就是現在教
+          到的地方，但因為這樣會對課程內容更加熟悉；循序漸進地跟著老師學，一學
+          期下來收穫會很多!
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 114.36.43.77
+
+

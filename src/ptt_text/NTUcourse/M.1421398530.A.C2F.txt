@@ -1,0 +1,197 @@
+Title:[評價] 103-1 闕志達 積體電路設計 - 看板 EE_Comment - 批踢踢實業坊
+
+
+作者frankshyu (frankshyu)看板EE_Comment標題[評價] 103-1 闕志達 積體電路設計時間Fri Jan 16 16:55:27 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+        是
+
+      哪一學年度修課：
+        103-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+        闕志達教授
+
+      δ 課程大概內容
+
+        期中考:
+
+        Chapter1 Introduction to CMOS circuits
+
+                介紹基本的CMOS電路，包含Inverter, NAND, NOR, Multiplexer等等
+                還有latch, PTL(pass transistor logic), Tri-state inveter
+                不過都沒有很深入，主要只是讓大家知道CMOS可以做出啥
+
+        Chapter2 Device and Layout
+
+                在講MOSFET的基本操作，前半段和電子一很像
+                因為CMOS Logic不會用到BJT，所以後半段會把MOSFET說明得更細
+                包含leakage, noise margin等等(這和電子III有重複)
+                然後後面教你看半導體的layout，因為作業和考試會用到
+
+        Chapter3 Delay
+
+                就是CMOS電路對於不同fan in, fan out情況下因為電阻、電容
+                不同造成的rise time, fall time delay。
+                還有transistor的sizing問題
+
+        Chapter4 Power
+
+                包含static power, dynamic power等等
+                這邊會把前面的leakage說明得更細，然後帶到一些active power
+                後半段就講low power design的辦法，像是clock gating等等
+
+        Chapter5 Interconnection
+
+                Interconnection就是半導體元件個層之間的metal wire
+                會提到一些coupling的問題，和怎麼估計wire RC delay
+                還有wire的寄生元件(寄生電容、寄生電感)
+
+        Chapter6 Combinational circuit design
+
+                這章真的　超　級　雜　一大堆亂七八糟的電路，但是老師也不會
+                真的考，主要應該只是希望我們知道背後的原理和設計理念
+                像是domino logic, dual rail等等比較特殊的設計
+
+        期末考:
+
+        Chapter7 Sequential logic
+
+                就是latch和flipflop，包含算delay的minimum, maximum等等
+                另外也介紹各種FF和latch的設計方法(12T等)
+
+        Chapter8 Datapath subsystem
+
+                個人覺得這是全部裡面最艱難的一章...
+                Datapath subsystem就是在講adder, multiplier, shifter等等
+                用來做arithmetic operation的東西
+                簡單的像是carry ripple adder
+                另外會講很多演算法，像是Booth, Baugh-Wooley algorithm等
+                有非常多加速運算的方法，數學真的有點難，需要花時間
+
+        Chapter9 Array subsystems
+
+                就是各種memory, SRAM，DRAM，ROM，CAM等等
+                其實很像通識課...因為不會像是電子III一樣下去解很細的電流
+
+        Chapter10 Power,Clock,I/O
+
+                也是有點快速帶過，在講供電(VDD)、給clock signal和
+                I/O buffer circuits
+                不知道是不是因為時間也不太夠，老師最後兩章沒有講很細
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+        沒有先修的電機系學生:(就是一般普羅大眾XD)
+
+                五顆，把很多基礎的東西都介紹到了
+
+        自己已經有先修Verilog、數位系統的同學:
+
+                四顆，
+                某些章節滿有可能會覺得沒學到東西(我猜的，不確定&gt; &lt;)
+                但是還是可以知道一些元件面的東西，仍然值得推薦
+
+      η 上課用書(影印講義或是指定教科書)
+
+                Weste and Harris, Integrated Circuit Design, 4th Ed.
+
+                推薦買一下，老師有些投影片只有放圖，怕忘記的話有課本可以查
+                文字
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+                基本上都是投影片
+                闕老師算是數位領域厲害的教授，上課也挺風趣的
+
+                但是還是強烈建議買課本，因為投影片上也些內容只有圖片
+
+                老師上課的時候固然會講，但是有時候想要詳細資訊還是需要文字敘述
+
+                有些同學可能會覺得學的東西很雜，事實上也是如此
+                (可以看前面內容介紹)
+
+                畢竟這個領域我們在其他必修課都比較少碰到(除了交電)
+
+                但是對於任何想走ICS組的同學而言算是很重要的課
+
+                有配兩個助教，兩個助教都非常好，無論是專業素養還是身為助教
+
+                助教在FB開討論社團，有問題也都可以私訊助教，助教都會回，很熱心
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+                成績還沒出來，但是應該就正常電機系必修課評分標準
+
+                期中考助教改滿鬆的，作業也是幾乎有交就有好分數
+
+                最後一次作業除外啦XD等一下會再說明
+
+      ρ 考題型式、作業方式
+
+                考試: (30%+30%)
+
+                其實個人覺得死背的東西很多，很多名詞要和設計聯想在一起
+
+                像是期末考考一題please draw the design of Manchester Chain
+
+                如果忘記Manchester Chain是啥，那就直接往生，啥毛也寫不出來
+
+                或是像是要列出三種static power來源等等，都需要背誦
+
+                也會考設計，通常是最後一大題
+
+                期中考最後一大題是給layout, 畫電路圖
+
+                期末考是先設計block diagram, 然後手寫verilog(這有點往生=  =)
+
+                ===================================================
+
+                作業: (40%)
+
+                總共四次，
+
+                第一次很簡單，就是一些小計算，大概一個下午可以寫完
+
+                第二次有點殘暴，用肉眼看layout...大概要一到兩天
+
+                三四都是寫verilog，大概也要兩到三天
+
+                作業設計的不錯，助教testbench也都給很好，有教你怎麼除錯
+
+                但是第四次有一部分的分數是用設計的好壞(delay*cell area)
+
+                來決定你的分數的(第四次作業10%裡面的30%，也就是總成績3%)
+
+                這真令人有點緊張Q~Q
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+                沒啥特別的，應該是要修過交電，老師人很好，加簽應該全簽
+
+      Ψ 總結
+
+                是一門好課，loading大概就是一門必修課
+
+                老師人很好，有些地方會有點無聊(如memory)，但是也是難免
+
+                畢竟無法強求隨時都很有趣XD
+
+                助教也很用心，給同的幫助很多
+
+                是一門推薦的複選必修
+
+                值得一提的是和電子三一起修會有相輔相成的效果，到學期下半
+
+                會滿輕鬆的
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.246.10
+※ 文章網址: https://www.ptt.cc/bbs/EE_Comment/M.1421398530.A.C2F.html
+推 bob71735: 推！！ 01/21 12:31
+推 tony8: 老師人最好 海珊最不愛打仗 04/10 00:13
+
+

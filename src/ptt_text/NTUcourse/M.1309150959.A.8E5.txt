@@ -1,0 +1,118 @@
+Title:[評價] 99-2 陳倩瑜 資料結構與演算法實務 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者andyaoao (觸哥)看板NTUcourse標題[評價] 99-2 陳倩瑜 資料結構與演算法實務時間Mon Jun 27 13:02:37 2011
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：99-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)陳倩瑜 教授
+
+      δ 課程大概內容
+
+                 以下為複製老師上課大綱：
+
+                 1. Complexity
+                 2. Linear Lists – Array Representation
+                 3. Linear Lists – Linked Representation
+                 4. Arrays and Matrices
+                 5. Stacks
+                 6. Queues
+                 7. Skip Lists and Hashing
+                 8. Binary and Other Trees
+                 9. Priority Queues
+                 10. Greedy Method
+                 11. Divide and Conquer
+                 12. Dynamic Programming
+                 13. Backtracking
+                 14. Branch and Bound
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+                  ★★★★
+
+      η 上課用書(影印講義或是指定教科書)
+
+                  大部分是power point
+
+                  另外搭配
+
+                        1. Robert Sedgewick, Algorithms in C++, Parts 1-4: Fundamentals, Data
+                        Structure, Sorting, Searching (3rd Edition), Addison-Wesley Professional,
+                        1998.
+                        2. Elliot B. Koffman and Paul A. T. Wolfgang, Objects, Abstraction, Data
+                        Structures and Design: Using C++, Wiley, 2005.
+
+                這兩本書
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+                 老師會放投影片放程式碼，然後在黑板上畫圖講解
+
+                 如果有其他的輔助教具(通常是網頁) 老師會開給我們看
+
+                 上sorrting的時候老師就會放影片讓我們比較不同的演算法
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+                 作業占40%  應該算蠻甜的部分  只要對應該都會90分以上
+
+                 考試期中期末各30% 期中考頗難 老師利用"無規則"調分法
+
+                 幫全班加分 (我覺得平均加了20分...
+
+                 期末考稍微仁慈一點。
+
+                 總成績還沒出來  所以也不清楚。
+
+      ρ 考題型式、作業方式
+
+                 作業有十份 其中九份是交code 另一份是寫證明
+
+                 code的作業會有線上批改系統
+
+                 讓學生在繳交前知道自己的作業是否正確
+
+                 考試的話是手寫code以及證明
+
+                 大部分是在解釋演算法的速度或者是運作方式
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+
+                 老師人很好，雖然她都不點名，但大家仍有維持一定的出席率(應該吧...
+
+                 生機所開的課，我本身是外系選修，建議想選修的人要有一定的
+
+                 程式語言基礎，不然會修的很累。
+
+                 這門課很扎實，作業回家都要花上一定的時間。
+
+                 因為修課人數不多，老師會很注重每個人的學習狀況，
+
+                 她會希望大家常問問題，隨時向她反映學習狀況。
+
+      Ψ 總結
+
+                 老師人很好 (再次強調)
+
+                 課程的扎實程度請想修課的人再三考慮
+
+                 一定要有程式語言基礎
+
+                 如果好好學的話可以學到很多東西
+
+                 推薦這位老師
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.7.214
+※ 編輯: andyaoao        來自: 140.112.7.214        (06/27 13:03)
+推 P568912:老師人很棒!!!!!!!!!! 07/02 01:04
+
+

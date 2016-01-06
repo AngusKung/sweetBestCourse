@@ -1,0 +1,167 @@
+Title:[評價] 102-1 郭佳瑋 收益管理與訂價 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者goodah (好啊)看板NTUcourse標題[評價] 102-1 郭佳瑋 收益管理與訂價時間Sun Jan 12 01:17:45 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+是
+
+      哪一學年度修課：
+
+102-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+郭佳瑋
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+工管系 選修
+
+      δ 課程大概內容
+
+      （取自課程大綱）
+Identified as the “number-one emerging business strategy, a practice poised to explode” by The Wall Street Journal, revenue management (RM) is the art and science of price-driven profit optimization. In today’s dynamic markets, the key challenge is to sell the right product to the right customer at the right price and at the right time. Revenue management involves managing a firm's demand-side decisions (e.g. market segmentation, pricing and capacity allocation) to maximize revenues. It has gained
+attention recently as one of the most impactful areas of operations management (OM) and operations research (OR). This course provides an introduction to the theory of revenue management and pricing, and reviews the applications in many practical settings such as airlines, retailers, cruises, hotels, media advertising, finance,…etc. It will comprise of a set of lectures that will cover the theoretical fundamentals of the area, as well as an overview of the status of current practice in the field through
+the presentation and discussion of recent cases and papers. Game theory, stochastic dynamic pricing, and microeconomics will be used in class.
+We will maintain throughout an informal setting, with the goal of an active learning environment through open discussions. Participating students will be individually responsible for presenting a couple of cases/papers to the class, so it will also be an opportunity for them to get some detailed feedback on and improve their presentation skills.
+
+簡單來說就是
+從航空業如何增加收益 差別取價 等等的問題開始
+延伸到 各種行業如何千方百計增加自己的收益啦
+比如飯店業 餐飲業 電信業 甚至還有賭場
+範圍很廣～
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★★ 大推佳瑋超讚
+
+      η 上課用書(影印講義或是指定教科書)
+
+老師有上課投影片
+雖然有課本但老師說不用買（圖書館好像有）
+基本上也是不用課本啦
+不過要買一本case 寫作業會用到
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+基本上都是前兩節老師用投影片上課
+學期初的時候老師在第三節課安排了好玩的遊戲讓大家體驗看看訂價的感覺
+之後因為每一組都要負責一篇指定的case，所以每週的第三節課就是會有負責當周case的組別上台presentation
+
+老師的教學風格我很喜歡～
+他會在一開始先概括講一下所有今天會討論到的主題
+然後才開始進入正題
+最後下課前也會再簡單的複習一遍今天上了什麼
+我覺得老師這樣的做法很體貼！
+對於課程內容的各個部分的連結會很清楚
+上起課來很有組織～
+不會一頭霧水的就突然進入某個topic
+然後莫名其妙的又下課了
+
+然後這堂課是英文授課的
+所以這學期班上也超多交換學生
+上台報告也要全英文
+感覺自己的英文有變好哈哈
+不過老師有說下次開就會是中文了～
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+- Class Participation (including class attendance, contribution to the case study discussions, and personal information due on Class 3) 13%
+- Case Presentations 14%
+- Midterm 20%
+- Final Project 28%
+- Written Assignments 25% (5% for each case write-up)
+
+期中考其實不難
+內容除了上課教的一些涉及到數學的東西之外
+也有一個短短的case
+雖然有數學的部分
+但可以帶一張A4大抄（修過佳瑋統計的就懂哈哈）
+可以寫任何你想要的東西 但只限單面
+所以其實有認真的話不難
+另外 可以感受的到老師送很多不用數學的基本分給不擅長的人
+我是很不認真的然後考了6X分啦
+但同學考9X也是大有人在
+
+老師有說 如果對考試沒自信的人
+可以多花點心思在case和期末project上
+仔細看的話會發現那些的比重是很重的
+每組總共要交5份指定case write-up加上一次的上台presentation
+case write-up老師給分都很大方
+最爛也有A-
+所以大家可以不用太擔心～
+
+1/21補充：結果我拿B+.... Orz
+
+      ρ 考題型式、作業方式
+
+只有期中考 內容有計算跟簡答題 最後一部分是一個短短的case
+讀完之後要回答一些相關的問題
+
+作業的話
+因為整個學期總共有八個case
+所以我們全班七組就一組選一個（有一組自願負責兩個）
+每一組就要在輪到自己的時候報告當周的case
+然後這八個case裡面有五個是指定的
+也就是說這五個case每一組都要寫case write-up
+從這個方面看算是有點重的選修課
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+加簽的話
+學期初很多老外
+老師就說想簽的同學就先登記
+但後來好像老外發現課不涼就都退光了
+所以大家都有簽到
+
+基礎的話
+因為感覺老師有把難度調低
+沒有基礎應該也可以修
+但有些部分如果有修過管理科學模式應該會更得心應手
+
+      Ψ 總結
+
+佳瑋是我最愛的老師之一～～
+他的課就是持續的有作業、project讓你持續把注意力放在上面
+也因此不會輕易的lose track of課的內容
+如果是喜歡涼課爽課的人的話就不推
+喜歡翹課的人也不推
+這堂課比較適合願意花時間、喜歡分組討論、對接觸實際case有興趣的人
+
+修這堂課 可能每週都會要跟組員約討論
+所以其實需要花滿多時間在這堂課上的
+像我這學期就是修太多課
+沒有好好花時間在他身上
+真的好愧疚＠＠
+
+總結來說
+雖然我沒有很用心 基礎也沒有很紮實
+可是還是覺得學到很多東西
+而且都是很實作上的知識
+老師開學時都會強調他的課不是爽課
+所以我相信大家如果都能認真看待這門課
+這門課一定會回報你很多的～
+anyway
+希望大家都能來感受佳瑋的魅力！！！
+
+--
+推 godtomanne:alt+f4沒有用?                                        9/10 00:18
+→ alt:去你媽的           　　　　　                               9/10 00:24
+噓 F4:你才沒用　　　　　　                                         9/10 00:25
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 59.115.53.234
+※ 編輯: goodah          來自: 59.115.53.234        (01/12 01:32)
+推 analboy:頭推 01/12 01:35
+推 bensnsd:懺悔文 01/12 01:35
+→ goodah:哈哈哈哈 01/12 01:47
+推 ness1798:推!! 01/12 01:49
+推 shawty:XD 01/12 01:54
+推 lucky60430:推佳瑋~~~雖然我配不上他但真的是札實好課 01/12 15:16
+※ 編輯: goodah          來自: 59.115.33.148        (01/21 16:17)
+
+

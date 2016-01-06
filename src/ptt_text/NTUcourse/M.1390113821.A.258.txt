@@ -1,0 +1,165 @@
+Title:[評價] 102-1 林巍聳 電工學 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者ndpe1220 (ndpe1220)看板NTUcourse標題[評價] 102-1 林巍聳 電工學時間Sun Jan 19 14:43:39 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：否
+
+
+      哪一學年度修課：102上學期　四678 @新生301
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         林巍聳
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+         機械系雙班　電子電機知識領域選修 (電機系開)
+
+      δ 課程大概內容
+
+         老師投影片章節：                     課本對應章節：
+
+     電路學：
+
+     EEch1 Introduction                         同左
+
+     EEch2 Resistive Circuits                   同左
+
+     EEch3 Inductance and Capacitance           同左
+
+     EEch4 Transients                           同左
+
+     EEch5 Steady-State Sinusoidal Analysis     同左
+
+     EEch6 Frequency Response                   同左
+
+
+     電工機械：
+
+     EECh7 Magnetic circuits                    Ch15 Magnetic circuits
+
+     EECh8 DC machines                          Ch16 DC machines
+
+     EECh9 AC machines                          Ch17 AC machines
+
+
+     電子學：
+
+     EECh10 Electronic components             Ch10 Diodes
+                                              Ch12 Field-Effect Transistors
+                                              Ch13 Bipolar Junction Transistors
+
+     邏輯電路：
+
+     EECh11 Logic circuits                      Ch7 Logic Circuits
+                                                Ch8 Microcomputers
+
+     放大器：
+
+     EECh12 Amplifiers                        Ch11 Ampliers: Specications
+                                                and External Characteristics
+                                              Ch14 Operational Ampliers
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+         整體：★★★
+
+         想學好電路學：★★★
+         (解等效電路、暫態)
+
+         想學好電工機械：★★★
+
+         想學好電子學：★
+
+         想學好邏輯電路：★
+
+         想學好放大器：★★
+
+         涼度：★★★★★滿分 (不點名、考得簡單)
+
+         甜度：★★★★(因為考得簡單)
+
+         想認識不同年級的朋友：★ (一般投影片教學 上面講下面聽)
+
+
+      η 上課用書(影印講義或是指定教科書)
+
+　　　　 Electrical Engineering: Principles and Applications, 5th ed.,
+
+         Allan R. Hambley, Pearson Education. (雖然已經出6th，但指定5th題號
+
+         之習題)　
+
+         個人覺得章節有點凌亂，很多地方不好讀，尤其電子學講解順序詭異，不
+         好自學
+
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         老師一開學就把Ch1-6的四格投影片和習題題號上傳cebia，上課講解投影片，
+
+         老師聲音有點磁性會想睡。過後投影片上傳較慢，可能在上課後才傳。
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         Midterm         50%
+         Final           40%
+         Exercises       10%
+
+
+      ρ 考題型式、作業方式
+
+         作業是一開學指定的課本習題，助教會發電郵指定繳交時間，除了電子學和
+
+         邏輯電路每章兩題以外，其餘約每章六題，如果作業都有了解，期考就得心
+
+         應手相當簡單。
+
+         一次期中考(Ch1-5)、一次期末考(剩餘章節)，大部分計算題，可能有一簡答
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         不點名，不計遲到，所以在考試當天人數會倍增...
+
+
+         基礎的話，幾乎只要高中物理有了解，幾乎不需普物，但會用到一點微分方
+
+         程，可能會提到拉普拉斯和傅立葉，除此之外幾乎不需基礎
+
+
+         老師個性而言，也是願意一起解決問題，但上課人少也很少互動
+
+
+         加簽而言，因為選課人少(加選方式1)、學號分班，大部分得到人工加簽才能
+
+         讓學號單號選課，其餘有選就有。
+
+
+      Ψ 總結
+
+         從章節分配來看，就能知道課程重點應在前兩部分，後面章節飛得很快，雖
+
+         然這學期被放掉不少課，老師仍能提前結束，考前那周還能停課，可見在教
+
+         材內容和教學進度上，份量之少以及快速。
+
+
+         雖上一篇說期末考超難，但個人認為只是範圍較廣，反而重點少，作業都有
+
+         了解的話也幾乎是非常簡單，適合欠涼課的機械系同學
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 114.36.0.102
+※ 編輯: ndpe1220        來自: 114.36.0.102         (01/19 14:44)
+推 jimy00ex:總結 想學:2星 想爽爽過:5星 01/19 18:04
+※ bigfish0330:轉錄至看板 EE_Comment                               01/20 18:07
+推 bigfish0330:借轉EE課程版 01/20 18:07
+
+

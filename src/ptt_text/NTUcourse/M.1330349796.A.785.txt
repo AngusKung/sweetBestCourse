@@ -1,0 +1,106 @@
+Title:[評價] 100-1 張耀文 演算法 - 看板 EE_Comment - 批踢踢實業坊
+
+
+作者rock101980 ()看板EE_Comment標題[評價] 100-1 張耀文 演算法時間Mon Feb 27 21:36:33 2012
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課： 100-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+        張耀文  教授
+
+      δ 課程大概內容
+
+        1. Algorithmic fundamentals: mathematical foundations, growth of functi
+        recurrences (5 hrs)
+
+        2. Sorting and order statistics (5 hrs)
+
+        3. Data structures: heap, binary search trees, RB trees, disjoint sets
+
+        4. Advanced design and analysis techniques: dynamic programming,greedy
+        algorithms, amortized analysis (11 hrs)
+
+        5. Graph algorithms: graph representations, searching, minimum spanning
+        trees, shortest paths, matching, network flow (14 hrs)
+
+        6. NP-completeness, computational complexity, and approximation
+        algorithms(6 hrs)
+
+        7. General-purpose algorithms: computational geometry,
+        branch and bound, and simulated annealing, as time permits.
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+        ★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+        T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein,
+        Introduction to Algorithms, 3rd Ed.,
+        MIT Press/McGraw Hill, 2009.
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+        投影片，偶爾寫黑板
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+        手寫作業加小考   30%
+        程式作業         20%
+        期中考           20%
+        期末考           30%
+
+        算是紮實分
+
+      ρ 考題型式、作業方式
+
+        手寫作業：
+        這學期有五次，通常是14題上下，給兩週時間寫。
+        題目大部份是課本習題，偶有以外的題目。
+        最後一題為DIY，是要依該次作業範圍出一道題目，並給予解答。
+
+        小考：
+        這學期有三次，每次3題，有認真寫作業應該不難。
+        有時上課沒時間考也會發給大家帶回去寫，下一週再交，
+        所以小考主要應該是督促同學讀書用的。
+
+        程式作業：
+        共三次，有二週多的時間，基本上就是實際應用上課所學，
+        對於跑的較快或是能得到較好結果的程式會給bouns。
+        基本上有修過計算機程式就能應付。
+
+        期中考/期末考：
+        題目部份從作業來，部份從考古題出，也有不屬於前兩者的題目，
+        題型基本和作業相同，
+        上課認真，作業好好寫，老師給的考古題看一遍，原則上不難寫。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+        老師不會點名，不過會親自發作業，同時會記得同學名字與長像。
+        上課回答問題可能一兩次就能讓老師記得你。
+        期中期末考都是老師親自批改，可以看出老師的認真。
+
+        雖然老師建議要先修資料結構或離散數學，不過我覺得沒修也沒差，
+        只是有修可能會輕鬆一些。基本上跟著老師的步調，作業肯花時間思考，
+        就不會有什麼問題。
+
+        加簽的部份，這學期人沒滿，所以全簽。
+
+      Ψ 總結
+
+        這是一門重思考的課，所有的細節都應想過一遍，雖然loading很重，
+        但不肯花時間下功夫(至少作業別抄)，只會跟自己過不去(成績上和學習上都有)
+        建議在課比較輕時修，也比較能細細品味演算法的奧妙。
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 59.117.65.236
+※ 編輯: rock101980      來自: 59.117.65.236        (02/27 21:39)
+
+

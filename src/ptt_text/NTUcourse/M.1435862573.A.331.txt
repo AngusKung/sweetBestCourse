@@ -1,0 +1,184 @@
+Title:[評價] 103-2 徐慰中 高等編譯器設計 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者yan12125 (姥姥)看板NTUcourse標題[評價] 103-2 徐慰中 高等編譯器設計時間Fri Jul  3 02:42:47 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：103-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+         徐慰中
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+         資工所 選修
+
+      δ 課程大概內容
+         延續上學期compiler的內容，主要講compiler如何把程式優化
+
+         以下截自Ceiba的課程內容：
+
+         Introduction
+         LLVM: Introduction, IR, and API (Guest Speaker)
+         Basic optimizations: redundancy elimination, DCE, copy propagation
+         Register Allocations
+         Instruction Scheduling: List scheduling, global scheduling,
+                                 ILP exploitation
+         Instruction scheduling: Control and data speculative loads,
+                                 Superblocks and hyperblocks,
+                                 loop unrolling and software pipelining
+         ========================以上期中考範圍===========================
+         Machine Independent Optimizations: data flow analysis (Chapter 9)
+         DFA: Data Flow Analysis
+         TLP and DLP Cache Prefetching (Chapter 11)
+         iteration space, polyhedral model, data reuse, data dependence tests
+         Introduction to OpenCL POCL Kernel Compiler
+         Whole System Optimization Link-time Optimizations Data Prefetching
+         Auto-Vectorization and GPGPU Compiler Optimizations
+         ========================以上期末考範圍===========================
+
+         有三次上課不是老師上課。第一次LLVM introduction是助教講，第二次POCL
+         是其中一個修課同學Clay Chang講，第三次是Whole System Optimization，講
+         MCLinker，是Skymizer的唐文力(Luba Tang)講的。
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+         學到東西 ★* 5
+         混學分   ★* 2
+         整體評價 ★* 4.5
+
+         少半顆星是因為在晚上，我個人不喜歡晚上的課，很容易跟其他事情撞時間
+
+      η 上課用書(影印講義或是指定教科書)
+         Compilers -- Principles, Tools and Techniques,
+         by A. Aho, M. Lam, R. Sethi, and J. Ullman, second edition. 2006
+         就是傳說中的龍書
+
+         上課內容對應到龍書的後半部。課本本身不會用到，老師上課也不是完全照
+         著課本上。
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+         傳統的上課方式，老師在台上講，大家在底下聽
+
+         上課是用老師自己做的投影片，投影片都會放到ceiba上
+
+         老師很希望大家能多多提問，腦力激盪，幾乎所有的問題老師都會很有耐心的
+         回答。另外，投影片上會有一些簡短的問題（例如為什麼這樣優化效能反而變
+         差），老師會問大家有什麼想法。如果都沒人回答就會點幾個人（似乎都是老
+         師認識的人）回答。整體而言上課氣氛還算熱絡，不會老師一個人唱獨角戲。
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+         兩次作業、兩次考試，有人說是各25%
+         分數還沒出來。不過根據其他課的經驗（編譯器&amp;虛擬機器），分數會往上調一
+         些。
+
+         2015/07/14 UPDATE:
+         分數出來了，我期中考92/130，期末考成績應該差不多，最後A
+
+      ρ 考題型式、作業方式
+         考試open anything。可以帶任何紙本參考資料、電腦。電腦可以上網google找
+         資料、查paper等等。唯一的限制是不能使用通訊軟體（LINE, facebook,
+         etc.）
+
+         考試全部都是問答題。內容主要有兩類：操作型的題目跟討論型的題目。操作
+         型的題目就是叫你把講義上的演算法演練一遍。比較簡單但相當繁瑣，會花很
+         多時間。例如這學期期中考有考一題register allocation，期末考有考
+         reaching definition和available expressions
+
+         討論型的題目就相當多樣。可能會問兩三個演算法或實做的優缺點比較，或是
+         在某些情況可以使用哪些演算法。這類型的題目只要寫的東西合理基本上都會
+         給分。
+
+         老師有一項有趣的規定：只要在考試前寄信給老師題目，老師如果覺得這題目
+         有當作考題的價值，就會放進考題裡，想出題目的人會有額外加分。所以考試
+         的滿分會超過100。這學期期中考滿分130，期末考115。
+
+         作業有兩次。第一次是dead code elimination。作業要拿LLVM的code來改，先
+         把LLVM compile起來會花一些功夫。之後就把助教寫的pseudocode翻譯成C++就
+         好。由於LLVM的API很完整，作業整體算滿簡單的。
+
+         第二次是給一些C++的程式，要我們在不改演算法的情況下優化效能。上課講過
+         的招數，譬如loop unrolling，data prefetch等等都可以用。因為優化的方法
+         很多，而且不一定用下去效能都會變好，所以我花了滿多時間在一個一個方法
+         嘗試上。
+
+         作業二這邊有個插曲。原本有打算出三次作業。助教把第二次跟第三次都出好
+         之後發現時間不夠，所以就投票表決。Register allocation跟manual
+         optimization兩者中後者得票數較多，於是就變成作業二。
+
+         兩次作業大概都花掉我三四天的時間。
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+         基礎這邊我先來列一下ceiba上的說法：
+
+         1) Introduction to Compilers
+         2) Computer Organizations
+         3) Advanced Computer Architectures
+
+         我個人有修過徐老師的Compiler和電機系的計算機結構，還有旁聽過徐老師的
+         虛擬機器，個人覺得上課很專心大概可以聽懂8成。其中影響比較大的是
+         compiler和虛擬機器。compiler絕大部分的觀念在這門課都會用到，沒修過的
+         話應該幾乎聽不懂老師在說什麼，虛擬機器則是和高等compiler有不少重疊的
+         地方，聽第二遍會比較懂一些。一些計算機結構教的硬體概念比較還好，上課
+         的時候邊google就行了。
+
+         Coding方面會寫C跟C++是一定要的，x86 assembly稍微有點認識應該就可以了
+
+         基本上老師不點名，不過缺席一堂課會損失很大。我自己的經驗是如果不去上
+         課，要自己把投影片的內容補起來會很辛苦。
+
+         加簽應該不是個問題。這門課初選開放20人，我初選就上了。（我身份算是外
+         系，在選課系統裡面是最後一個順位的）選這門課的人有不少和老師認識，我
+         猜都是研究compiler同領域認識的。上課大家都很踴躍發言，不時會有天馬行
+         空的點字，整體上課氣氛算是滿歡樂的。
+
+         這學期是開在禮拜五晚上ABC，6:30~9:20。通常中間不下課，老師會連講三小
+         時。地點是在資工系館的310。因為晚上三樓以上有門禁，需要研究生的學生證
+         ，或是有修專題，向系辦申請三樓以上的權限才能嗶，如果都沒有就不能太晚
+         到教室。
+
+         助教是吳哲仰(Sean Wu)，是個真強者。拿過ACM ICPC金牌，也有在比CTF的比
+         賽。
+
+         老師原本在交大當教授，後來到台大來。老師是說他10年沒開高等編譯器了。
+         上課內容常常會有很古早的東西，不過也有很多最近10年才出來的新東西。老
+         師似乎對新的東西比較不熟，不過還是看得出來有不斷努力在更新。
+
+      Ψ 總結
+         雖然我已經第三次修/旁聽徐老師的課了，上課還是給我不少腦力激盪的機會。
+         老師一直把問題丟出來的教法，使得每次上課都還是會激發很多新的想法。作
+         為我大學最後幾門課之一，我樂在其中。
+
+         不過，如果問我推不推薦這門課，我會說：除非真的很想弄懂compiler內部各
+         種優化的技術，否則不建議修。特別是我認為這門課不適合當作拓展視野、吸
+         收新知的課。這門課的深度和難度，比較像一門研究型的課，而不是入門的課
+         程。整體而言，還是算一門好課啦。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.247.145
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1435862573.A.331.html
+
+補充一下，這學期有另外一門廖世偉開的高等編譯器，內容和這門課不一樣，主要是講
+Android裡用到的編譯器技術，例如Dalvik VM，JIT/AOT等等，常常會請jserv來演講。詳
+細情況可能要請有修課的同學補充。
+※ 編輯: yan12125 (140.112.247.145), 07/03/2015 02:46:14
+※ 編輯: yan12125 (140.112.247.145), 07/03/2015 03:04:49
+推 cocoyan: 好文推。 07/03 03:17
+推 suhorng: 推~ 徐老師的課讚 07/03 12:08
+推 candy0515: 推原po神~ 07/03 13:23
+推 HZYSoft: 大推徐老師，超級會教，virtual machine 也是好課 07/03 14:55
+→ HZYSoft: 用書有誤，恐龍書是作業系統課本，編譯器這本叫「龍書」 07/03 14:55
+→ HZYSoft: 廖世偉老師高等編譯器這學期停開，只有開big data 07/03 14:56
+
+樓上PCMan（膜拜）
+感謝指正 用書那邊已修正
+廖老師的課抱歉沒查證清楚，誤以為也是高等編譯器。這學期有去旁聽一次是在禮拜一
+晚上，應該是「Big Data程式語言、編譯與應用」沒錯
+※ 編輯: yan12125 (140.112.25.105), 07/03/2015 20:43:57
+推 sysgood: 原PO是神!!!! 07/04 22:51
+(chy1010 刪除 ten57girl 的推文: 洗板)
+※ 編輯: yan12125 (140.112.247.145), 07/14/2015 18:56:34
+→ yan12125: 感謝chy1010板大，辛苦了 07/14 18:57
+
+

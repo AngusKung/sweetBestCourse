@@ -1,0 +1,147 @@
+Title:[評價] 98全 王振男 微積分乙 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者tzusky (瑜)看板NTUcourse標題[評價] 98全 王振男 微積分乙時間Mon Jul  5 21:25:41 2010
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：98全
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         王振男教授
+
+      δ 課程大概內容
+
+          上學期
+          1. Basic concepts, Functions
+          2. Limits, Continuity
+          3. Differentiation, Chain rule, Implicit differentiation
+          4. Applications of derivatives
+          5. Integration
+          6. The Definite Integral, The fundamental theorem of Calculus
+          7. Change of variables, Applications of integrals
+          8. Transcendental functions, Techniques of integration
+          9. Improper integrals
+          10. Ordinary differential equations
+          11. Conic sections, Polar coordinates
+          12. Infinite sequences and series
+
+          下學期
+          1. Power series, Taylor and Maclaurin series
+          2. Applications of power series, Fourier series
+          3. Vector-valued functions
+          4. Function of several variables, Continuity, Partial derivatives,
+             The chain rule
+          5. Directional derivatives and Gradient vectors
+          6. Tangent vectors, Linear approximations, Optimization problems
+          7. Optimization with constraints, Lagrange multiplier
+          8. Taylor’s formula
+          9. Double integrals
+          10. Applications of double integrals
+          11. Triple integrals and applications
+          12. Substitutions in multiple integrals
+          13. Line integrals, Green’s theorem
+          14. Review of discrete probability, Continuous probability
+          15. Poisson and exponential distributions
+          16. Normal distribution
+          17. Central limit theorem
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★
+η 上課用書(影印講義或是指定教科書)
+
+         1.微積分：Thomas' Calculus, 11th Edition, by Weir, Hass, amd Giordano.
+                   Pearson International Edition
+
+         2.機率：  Calculus for Biology and Medicine, 2nd Edition,
+                   by C. Neuhauser (老師會印上課用到的給我們)
+
+         3.統計：  中文版講義 (老師會放在網頁上)
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         老師板書上課，講解速度非常之快
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         扎實，不調分
+
+         上學期因大家期中考不甚理想，有將作業分數比重調高；
+
+         但下學期因為大家期中考都太高，再加上作業成績太過接近，作業比重調很低
+
+         此外，上學期學期56分就給過，下學期則是53分給過
+
+      ρ 考題型式、作業方式
+
+         作業：指定課本習題(20題左右)，助教挑其中6題改
+
+         小考：一次兩題，每題10分。通常為上週課程內容，隔週考
+
+         期考：期中、期末兩次，6~7題，其中有1~2題為作業裡的題目(送分題的意思)
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         不點名，完全不管出席率，不過出席率始終很高
+
+         就一門大一微積分課程來說，應該只需要高中基礎，不過我覺得這門課如果先自
+
+         修過的話，上起來或較有效率且收穫較豐
+
+         加簽不瞭解
+
+      Ψ 總結
+
+         老師講解十分清楚、條理分明，且板書整齊
+
+         不過，老師上學期第一堂課就說過，由於課程內容太多，速度一定比較快
+
+         上了兩學期之後的感覺是，真的太快了。或許對班上某些先自修過的同學
+
+         來說剛好，但對像我這樣的一般人來講真的無法在上課時完整吸收
+
+         需要靠課後反覆翻閱筆記並練習習題才能理解
+
+         上學期期中考和期末考都蠻難的，不過自己覺得有練習的話60分以上沒問題
+
+         下學期期中考算簡單，班上許多人都80分以上，90分也有一些
+
+         然而，期末考真的要讓人哭了，40分的作業題目，由於真的不好算，也不一
+
+         定會全拿，其他題目就像是天書了，看完題目才覺得期末花時間念這科報酬
+
+         率也太低，然後完全不給墨水分
+
+         此外，個人認為老師在學期中甚至快期末的時候調整成績比例，實在很不能
+
+         讓人苟同，像上學期6~7次小考只取3次，下學期卻在期末的時候說要全取，
+
+         有的人因為有其他事情就沒準備或沒去考，小考成績就掰了，然後作業寫
+
+         得非常辛苦只佔5% (這是快期末的時候調的)，公平性可議
+
+         總的來說，老師教得很好，只是連他自己都說我們上的是微1.5，內容多速度
+
+         快是不能改變的，如果真的有心要好好學習微積分而且有自修過又不想上微甲
+
+         (上課時數較多)的人，推薦你來修這堂課；如果只想拿到必修學分的人，就建
+
+         議你不要折磨自己了
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 61.231.146.14
+※ 編輯: tzusky          來自: 61.231.146.14        (07/05 21:34)
+推 radar735:子天空! 07/05 21:34
+推 ccyares:直屬學弟推！ 07/05 21:35
+推 hylhyl:中肯推! 07/05 22:01
+推 s920202:同學推 07/06 00:12
+→ s920202:ntumed98work 07/06 00:13
+推 simon61002:純推短褲振男王 07/06 01:25
+→ iamredlight:PUSH 07/06 10:36
+
+

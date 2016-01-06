@@ -1,0 +1,124 @@
+Title:[評價] 103-1 傅楸善 計算機概論 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者NTUForest (NTUForest)看板NTUcourse標題[評價] 103-1 傅楸善 計算機概論時間Sat Jan 31 13:11:59 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：須事先告知
+
+
+      哪一學年度修課：
+103-1
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+傅楸善
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+全校選修，資工系除外
+      δ 課程大概內容
+
+Chapter 1: Digital Literacy: Introducing a World of Technology
+Chapter 2: The Internet: Accessing, Searching, Sharing, and Communicating
+Chapter 3: Computers and Mobile Devices: Evaluating the Possibilities
+Chapter 4: Programs and Apps: Using Software at Work, School, and Home
+Chapter 5: Digital Safety and Security: Identifying Threats, Issues, and
+Defenses
+Chapter 6: Inside Computers and Mobile Devices: Exploring the Components
+Chapter 7: Input and Output: Examining Popular Devices
+Chapter 8: Digital Storage: Preserving on Media and in the Cloud
+Chapter 9: Operating Systems: Managing, Coordinating, and Monitoring
+Resources
+Chapter 10: Communications and Networks: Sending and Receiving Digital
+Content
+Chapter 11: Information and Data Management: Organizing, Verifying,
+Maintaining, and Accessing
+Chapter 12: Information Systems and Program Development: Designing and
+Building Solutions
+
+(以上節錄自課程大綱)
+
+
+
+      η 上課用書(影印講義或是指定教科書)
+
+M. E. Vermaat, S. L. Sebok, and S. M. Freund, Discovering Computers, Course
+Technology, Boston, MA, 2014.
+
+不一定要購買！
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+老師只上第一週。 不能接受請勿選修。
+
+接下來會分配剩下的11章節給修課同學，然後被分配到的要上課教，用老師提供的簡報，
+
+簡報裡面一字一句都不能漏掉，圖片也要詳細解釋，老師會在旁邊看，隨時糾正、補充，
+
+英文名詞一定要先弄熟，如果念錯或是翻譯錯誤會被老師釘在上面，直到講對為止，
+
+另外老師也要求大家要準備數個笑話穿插其中，講到一個段落就要播笑話(影片形式)，
+
+有些人準備的真的蠻好笑的，有些就.......真的很難笑，老師說笑話比本文重要！
+
+老師自己第一週上課也有播笑話喔XD
+
+還有一個特別的規則，期中考、期末考前一週會個別選出報告最好的同學，
+
+全部由同學投票，選出來的可以領取現金5000元，老師是當場從錢包拿出5000元現金，
+
+超豐厚的獎勵啊！絕對不是什麼難用的禮卷喔XD
+
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+作業30%, 期中考30%, 期末考40%
+
+要被當是很困難的事情，只要不要太混，選了就是兩學分入手，
+
+我作業都有準時交，都有點名到，期中100，期末有幾題不會寫，最後拿A+，應該是偏甜
+
+
+      ρ 考題型式、作業方式
+
+期中考以名詞解釋為主，期末考以問答題為主，期末考有加分題，基本上有讀有分，
+
+九成題目都在簡報中找的到答案，只有少數要靠平常多閱讀科技訊息才能回答，
+
+作業這學期有五個，都很簡單，像是列出自己電腦的配備這種，
+
+最有趣的應該是完成一關新接龍(Freecell)，聽起來很簡單，
+
+其實真的要花點腦筋去解，我重來無數次才完成orz
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+加選是第一類，教室永遠坐不滿，歡迎大家來修課XD
+
+外系選修完全不需要基礎，因為這門課本來就是基礎中的基礎，內容很淺，
+
+課程不會像資訊系三學分的計概一樣深，如果想學更多東西建議去選三學分的，
+
+另外每一章節結束都會有幾個小問題，老師藉由點同學回答問題順便點名，
+
+可能會徵酌扣分，遲到就快點入座就好，老師不會說話
+
+
+      Ψ 總結
+
+上課方式很特別的一門課，不能接受千萬別選，雖然報告很麻煩，
+
+但是你也會因此對那一章的東西特別瞭解，而且老師會要報告的同學每個人出兩題，
+
+會斟酌放在期中期末考中，算是一點有bonus吧！
+
+反正就是一門很輕鬆負擔不大的一門課啦！
+
+P.S.老師的口頭禪是好極了，期末考有考到喔XD
+
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 118.165.189.240
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1422681122.A.3E0.html
+推 kikko1805: 補個老師喜歡黑色幽默和黃色笑話="=暴力也很愛... 01/31 14:31
+推 online27e: 只要報告的人擺爛就很有可能雷到炸的一門課 02/02 21:01
+推 W350765: 老師也很愛做莫名的上下板凳運動XD 02/25 13:05
+
+

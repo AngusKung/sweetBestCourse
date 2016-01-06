@@ -1,0 +1,136 @@
+Title:[評價] 101-1 齊震宇 代數拓樸 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者willydp (willyliu)看板NTUcourse標題[評價] 101-1 齊震宇 代數拓樸時間Sun Jan 20 22:11:11 2013
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課： 101-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+         齊震宇, 數學系助理教授
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+         數學系選修, 需要讀過代數導論以及基礎的點集拓樸.
+
+      δ 課程大概內容
+         Category theory,
+         Singular homology, Singular cohomology, Simplicial homology,
+         Cellular complex, CW-complex, Cross, cup, cap, and slant product
+         Universal coefficient theorem, Basic homological algebra
+         Homology and cohomology of fibre bundles, Dualities
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+ ★★★★★
+η 上課用書(影印講義或是指定教科書)
+         Edwin H. Spanier, Algebraic Topology (指定教科書)
+         Glen E. Bredon, Topology and Geometry
+         Jean Dieudonne, A History of Algebraic and Differential Topology, 1900-1960
+
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+         板書, 上課錄影
+         http://www.youtube.com/user/TIMSLECTURES/featured
+σ 評分方式(給分甜嗎？是紮實分？)
+         紮實偏甜
+
+         作業 25% (共5次)
+         課堂練習 10%  (ceiba上宣稱有這項, 但似乎沒有)
+         期中考 25%
+         期末分組報告 40%
+
+      ρ 考題型式、作業方式
+         期中考事前公開考試題目candidate (俗稱大洩題) 考4題
+         考試內容為基本的定理敘述與證明
+         期中考有回家作業部分 寫一個星期
+         內容多為課程內容的基本應用, 考題難度普通.
+         期末分組報告, 平均4.5人一組. 報告內容為閱讀參考資料, 老師指派的主題.
+         主題有 Maximal Tori in Lie Groups,
+                Chern Class and Grassmannian Manifolds,
+                Cobordant Classes of Spheres,
+                Cobordism Rings.
+         (以上為本人所知, 或許還有其他本人沒聽到的)
+
+         報告每人有30分鐘(事實上很多人報告了一小時)
+         報告的時候老師會隨機口試, 問一些細節或報告內容的背景知識.
+         據老師說他會問三題, 有二題答不出來就期末分數零分, 但本人沒有案例查證.
+         事後要繳交書面報告, 寫下整組的報告內容.
+         書面報告要求寫得完整詳細, 大約是20頁的程度.
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+         加簽方式3
+         外系選修者應有代數以及點集拓樸的基礎;
+         老師認真教學, 課後或課外時間也會關心學生的學習, 具年輕老師的熱情.
+
+      Ψ 總結
+         本學期的課程在於homology與cohomology theory, 對於homotopy則完全未提
+         一開始介紹category theory, 接著定義singular homology,
+         然後跳到Acyclic Model Theorem,
+         又回到 subdivision, excision, Mayer-Vietoris sequence.
+         算了幾個例子, 幾個應用之後, 介紹simplicial complex, homology
+         而後有Lefschetz fixed point theorem.
+         接著簡單帶過了CW-complex, 定義了axiomic homology theory.
+         下半個學期從homological algebra開始, 教了free approximation,
+         derived functors, Universal coefficient theorem, Künneth formula
+         接著講到在homology, cohomology的應用, 例如Eilenberg-Zilber theorem
+         各種product, 然後是Leray-Hirsch theorem, Thom isomorphism, Gysin seq
+         學期末的幾堂課, 則在講slant product與Lefschetz, Poincaréduality
+
+         就教學風格論, 上課速度普通, 不特別慢或快.
+         對代數熟悉的人應該能輕鬆跟上上課速度.
+         課堂中, 若有任何不懂的地方, 都可以立刻打斷(經實驗證實.)
+         老師會再次詳細地解釋.
+         下課時, 對課程內容有任何問題, 老師都能不厭其煩地解釋給學生聽.
+         老師教學認真, 也要求學生認真地修一門課.
+         老師認為學習是一件重要的事情, 有任何理由無法全心學習, 老師皆無法通融.
+
+         學期初, 老師發信給所有選該課的學生, 邀請學生面談了解各自狀況.
+         談話內容涉及學生的學習狀況, 知識背景, 任何學習相關的事情.
+         談話過程中, 老師很主動地指示學生學習的態度與方向等.
+
+         老師曾在期中不斷強調: 若有任何同學想停修, 他都會立刻簽名.
+         老師強調修課學生應盡認真學習的義務, 若無法做到, 則應停修.
+
+         課外, 老師常會寄信給同學, 提醒同學準備下次上課該預習什麼,
+         或者上課內容有哪些地方該更正, 或寄補充資料.
+         老師上課準時, 但是下課幾乎都會晚20分鐘左右, 且經常沒有中堂下課.
+
+
+          以下為軼事記載:
+         1. 老師曾公開批評Hartshorne和Lang的書寫得很糟.
+         2. 老師曾把前二節課所講的內容完整地重講一遍, 因為上課內容有瑕疵.
+         3. 老師曾在非上課時間重新錄影某次上課內容.
+         4. 老師在上課內容出錯時會發出戲劇般的懊悔聲音和肢體動作.
+         5. 老師曾為了重新錄影某次上課內容, 在上課時衝到洗手間換上當天的衣服.
+         6. 老師時常提到師母, 其感情應該不錯.
+         7. 老師曾跑去旁聽林惠雯老師的李群李代數, 一邊改作業.
+         8. 老師經常熬夜, 曾經改作業改到隔天4點.
+         9. 據同學說老師帶服務學習時曾教同學如何把拖把擰乾.
+
+          心得:
+         本人是上學期經翁秉仁老師推薦修這門課, 而後也常聽其他老師推薦.
+         個人現在也非常推薦想學習幾何基礎的同學修齊老師的課.
+         老師很有親和力, 又是台大數學系學長, 哈佛博士, 今年新聘教師,
+         教學用心認真(很重要所以要說三次.) 表達清楚.
+         據學長說齊老師曾經從美國衝回來教他們線代, 十分熱血.
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 36.225.1.98
+※ 編輯: willydp         來自: 36.225.1.98          (01/20 22:40)
+推 chy1010:紮實偏甜難道已經是數學系課程的寫照了嗎 XD 01/20 23:07
+→ willydp:依前人標準w 01/20 23:27
+推 newproblem:前人是誰? 林紹熊高微那篇嗎 XD 01/20 23:39
+推 wolfbequiet:洩 01/21 02:05
+推 rrro:推齊老師！他很棒很有心當然課程內容我就不清楚了 01/21 19:16
+※ 編輯: willydp         來自: 118.166.200.249      (01/21 21:42)
+→ willydp:課程影片放在youtube了 01/21 21:43
+推 studentkuo:這門課很耐讀，我到現在還在讀。而且老師很熱心，我昨 02/01 18:30
+→ studentkuo:天還去office hour問問題。(p.s.原Po是神人) 02/01 18:30
+推 hdpig:我就是那個負責錄影的人...其實老師曾經在某次非上課時間， 02/20 09:59
+→ hdpig:一次補錄前三堂課有錯誤的地方，而他真的帶了三套衣服來換， 02/20 10:00
+→ hdpig:之後再由我們用剪接方式覆蓋原本錯誤的地方。 02/20 10:01
+
+

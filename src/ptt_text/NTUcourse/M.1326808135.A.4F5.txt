@@ -1,0 +1,123 @@
+Title:[評價] 100-1 丁建均 微分方程 - 看板 EE_Comment - 批踢踢實業坊
+
+
+作者cgl ()看板EE_Comment標題[評價] 100-1 丁建均 微分方程時間Sat Jan 17 16:01:42 2012
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）          
+         （是／否／其他條件）：
+         是
+
+      哪一學年度修課：                                                          
+
+         100-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)                        
+
+         丁建均
+
+      δ 課程大概內容                                                           
+
+         Unit 1 Introduction to Differential Equations
+         Unit 2 First-Order Differential Equations
+         Unit 3 Modeling with First-Order Differential Equations
+         Unit 4 Higher-Order Differential Equations
+         Unit 5 Modeling with Higher-Order Differential Equations
+         以上是期中考範圍
+
+         Unit 6 Series Solutions of Linear Equations
+         Unit 7 The Laplace Transform
+         Unit 8 Systems of Linear First-Order Differential Equations(只教不考)
+         Unit 11 Orthogonal Functions and Fourier Series
+         Unit 12 Boundary-Value Problems in Rectangular Coordinates
+         Unit 14 Integral Tramsforms
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★                                      
+★★★★★                                                             
+         五顆星!!大推!!
+
+      η 上課用書(影印講義或是指定教科書)                                       
+
+         Dennis G. Zill, Michael R. Cullen, Differential Equations with
+         Boundary-Value Problems, 7th edition
+
+      μ 上課方式(投影片、團體討論、老師教學風格)                               
+
+         投影片+手寫板教學，
+
+         老師對於觀念的細節會盡量講得清楚，如果上課有疑問，
+
+         在下課時間老師也很願意和同學討論，老師人很好。
+
+         老師會帶投影片上的例題(應該就是課本習題)，所以上課也能練習一些題目。
+
+         有時候老師會拿過去幾年的考古題當作例題講解，給大家多思考一些
+
+         較難的題目(據老師的說法是"做頭腦體操")。
+
+         投影片跟上課的筆跡檔都會上傳到老師的個人網頁，供同學參考。
+
+      σ 評分方式(給分甜嗎？是紮實分？)                                         
+
+         homework*4 + quiz*1                                 10%
+         midterm                                             45%
+         final                                               45%
+
+
+      ρ 考題型式、作業方式                                                     
+
+
+         作業總共有6次，每次10題，都是老師勾選的課本習題。
+
+         課本習題不會太刁鑽(難度比起期中考和期末考簡單很多)。
+
+         今年是第一次舉行小考，這次小考題目是抽課本習題及以前的考古題。
+
+
+         期中末考題形式是筆試(廢話XD)，題目大概就是課本習題變得很難，
+
+         因為今年的考題出得很難，所以考試都有延長時間(大概是20分鐘)
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？  
+加簽習慣？嚴禁遲到等…)                                           
+
+         今年微方丁班是大熱門，有許多許多人搶著加簽。
+
+         所以學期初上課時教室很難找位子，但學期中就有很多位子坐了。
+
+         因為班級人數很多，老師不會點名。
+
+         加簽大概是教室容量夠的話就會簽，老師會發授權碼，開課第一天一票難求。
+
+         這門課需要的基礎只有微積分。
+
+         在Ch8會用到一些線性代數的觀念，但不多，所以不需要學過線性代數。
+
+
+      Ψ 總結                                                                   
+
+         總而言之，丁建均老師是個非常認真而且幽默，教學也非常好的老師。
+
+         大大大大推。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc)
+◆ From: 140.112.25.106
+※ 編輯: cgl             來自: 118.168.70.192       (01/17 22:30)
+→ positMIT:標題內文不1樣 01/17 22:15
+→ djshen:正在編輯@@ 01/17 22:20
+→ cgl:對不起，我終於編輯好了。因為我不知道怎麼用彩色，所以只好 01/17 22:31
+→ cgl:轉錄後再編輯。 01/17 22:31
+※ 編輯: cgl             來自: 118.168.70.192       (01/17 22:40)
+※ 編輯: cgl             來自: 140.112.25.106       (01/18 14:56)
+推 penlininkshs:推丁丁! 01/18 23:01
+→ waltersun:超級棒的 丁丁超可愛 01/19 00:01
+推 kuoly1:推丁丁!!! 丁丁超認真超可愛!!! 01/19 00:09
+推 so15963: 01/19 01:19
+→ cgl:樓上推空白文(抖) 01/20 00:49
+推 gamerred:原PO強者m(_._)m 我覺得還是要有線性代數基礎 02/07 09:56
+→ gamerred:不然傅立葉那邊應該會聽不懂 02/07 09:56
+※ 編輯: cgl             來自: 118.168.91.160       (02/07 11:13)
+推 s93rm6:丁丁超棒 02/13 23:05
+
+

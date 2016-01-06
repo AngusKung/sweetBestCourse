@@ -1,0 +1,141 @@
+Title:[評價] 102-1 薛克民 計算數學導論 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者BangGod5566 (邦神五六)看板NTUcourse標題[評價] 102-1 薛克民 計算數學導論時間Sun Jan 12 17:16:57 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：
+
+        102-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+        薛克民
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+        數學系大三必修
+
+      δ 課程大概內容
+
+        1. Polynomial interpolation
+
+           Barycentric formula
+           Errors and convergence of interpolation
+           Convergence for analytic functions
+           Hermite integral formula
+           Runge phenomenon, Gibbs phenomenon
+           Piecewise polynomial interpolation(Splines)
+
+        2. Numerical integral
+
+           Clenshaw-Curtis quadrature formula
+           Gauss quadrature formula
+           Spectral differentiation formula
+
+        3. Numerical ODEs
+
+           Runge-Kutta method
+           Consistency, zero stability
+           Linear multi-step methods and root conditions
+           Convergence for Linear multi-step methods
+
+        4. Root finding
+
+           Newton's and fixed-point iteration
+
+        5. Linear systems
+
+           Condition number, direct solver
+           Steepest-descent and conjugate gradient methods
+             for SPD sparse linear system
+           Krylov-based method for non-Hermitian sparse linear system
+           QR algorithm for matrix eigenvalue problems
+           Companion matrix for polynomial roots finding and eigenvalue solver
+
+        5. Others
+
+           Chebfun tutorial
+           Latex tutorial
+           Matlab tutorial
+
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+        學習數值分析: 3
+        不想上課只想拿A+: 5
+
+      η 上課用書(影印講義或是指定教科書)
+
+        有兩本主要參考書
+        1. Approximation Theory and Approximation Practice, L.N. Trefethen
+        2. Numerical Analysis, Walter Gautschi
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+        板書，偶爾會準備投影片
+        大約每三周會有兩節exercise session在天數館3F的電腦教室
+        exercise session 有介紹Chebfun、某些Matlab工具
+        如何編譯Latex及一些上課時提到的數值方法(這門課其實就是數值分析啦)
+
+        老師是個親切可愛的人，但上課真的不太容易讓人理解
+        他滿認真在上課的，也看得出有準備(會從很多本書中抓東西來講)
+        不過不知為什麼，聽了兩節課可能還是一頭霧水
+        我覺得自己找一本基礎的數值分析書來看比較快
+
+        (老師選的那兩本也很難唸....
+         個人推荐以下兩本
+         A friendly introduction to numerical analysis, Brian Bradie
+         Numerical analysis, Burden &amp; Faires)
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+        Homework          60%
+        Programming test  20%  (期末前兩周)
+        Written test      20%  (期末考當周)
+
+        不用太拚，甚至不用上課，就能有A以上
+        這樣算涼又甜吧
+        原因請見下面
+
+      ρ 考題型式、作業方式
+
+        作業共6次，需要使用Matlab，也有一些理論推導或計算
+        第一周老師介紹一個叫Chebfun的toolbox(就是第一本參考書的作者弄出來的)
+        作業中有很多地方會用到
+
+        作業格式老師希望大家用Latex做出漂亮整齊的
+        不過助教說儘量就好(實際上用相機拍下計算過程貼到word再上傳也OK)
+        作業改的非常寬鬆，有寫有分，不用完全寫對也有機會滿分
+
+        期末考分為上機考(用matlab)和筆試，各佔20%，都和作業很像
+
+        上機考考三小時，open anything，包括上網
+        筆試二小時，一樣open anything，包括上網
+
+        舉例來說
+        1. 上機考有一題Clenshaw-Curtis積分，因為沒在上課我完全沒概念
+           不過google一下，連code都找的到
+        2. 筆試我只會一題，其它的就翻上面推荐的那本Bradie的書
+
+        最後我兩項都有80以上
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+        對matlab有熟的話，這門課會變成躺著拿A+
+        其它的微積分應該就夠了
+
+      Ψ 總結
+
+        想學東西還是修別的老師開的吧
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 140.112.25.97
+推 starsnight:總結XDDD 01/12 18:13
+
+

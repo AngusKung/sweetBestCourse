@@ -1,0 +1,92 @@
+Title:[評價] 99-2 于天立 計算機概論 - 看板 EE_Comment - 批踢踢實業坊
+
+
+作者so15963 (榴槤)看板EE_Comment標題[評價] 99-2 于天立 計算機概論時間Sat Jul  9 23:17:50 2011
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+              是/然須告知作者
+
+      哪一學年度修課：
+              99-2                                                                 
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+              于天立
+
+      δ 課程大概內容
+
+              1. Fundamentals: Data storage
+              2. Systems: Machine architecture, Operating system, Networking
+              3. Science: Algorithms, Programming languages
+              4. Areas in CS: Software engineering, Data abstraction,
+                 Database systems.
+              5. Data Types and Expressions
+              6. Arrays, Strings, Addresses, and Pointers
+              7. Artificial Intelligence
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+              J. Glenn Brookshear, Computer Science -- An Overview,
+              10th edition
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+σ 評分方式(給分甜嗎？是紮實分？)
+
+              偏扎實, 最後會小調
+
+              期中考35%
+              期末考35%
+              作業一次5%*6=30%
+
+              這學期最後每個人調5%
+
+      ρ 考題型式、作業方式
+
+              考題:
+
+              考題內容, 形式還滿多元的, 不少部分不是硬背題
+
+              期中時考題相對著重解釋, 題目大概有
+              有要算2's compliment, 寫簡單演算法, 解釋ring token,
+              operating system, 寫遞迴的code, 還有machine language的題目等等
+
+              期末考題的形式真的就滿多的了, 大概有
+              寫prolog, mysql, 資料結構的code, 畫樹, NPC的問題, heuristic等等
+
+              作業:
+
+              作業共6 次, 每次都是依上課進度去勾課本習題, 然後最後面會放一題
+              程式題, 程式題是老師自己出的, 不會太難而且算頗有趣
+
+              此外期中期末考卷是老師自己改的, 如果寫得不好的話他還是會盡量給
+              你些分數, 然他似乎對某些點有不少要求(所以常常會有一些小點被扣分)
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+              今年加簽的話是簽20個, 當場用excel去跑(聽說之前是直接寫程式??)
+
+              然後老師真的滿用心的, 除了上課內容拿捏得好以外, 會補充不少額外
+              的東西, 作業等等也頗費心去出這樣
+
+      Ψ 總結
+
+              這門課算是頗有料的計算機概論吧(然而就是相對硬?) 然後可以學到不
+              少東西, 無論是課本內/ 外都是, 老師上課滿嗨的, 而且內容不會單調
+              ,prolog以及mysql等等內容都算是頗有趣的(然不幸地這些都會考出來
+              XD) 用心的話可以學到很多東西
+
+              總而言之好課要來修啊!!
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 140.112.241.154
+推 james371507:大推 07/11 01:04
+推 waltersun:超棒! 07/16 00:45
+推 janetlai22:推推推 07/23 22:04
+推 a071442002:推于天立 07/24 09:31
+
+

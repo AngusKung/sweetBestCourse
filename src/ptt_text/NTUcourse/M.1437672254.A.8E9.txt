@@ -1,0 +1,160 @@
+Title:[評價] 103-2 齊震宇 拓樸學導論 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者acliv (acliv)看板NTUcourse標題[評價] 103-2 齊震宇 拓樸學導論時間Fri Jul 24 01:24:07 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+        是
+
+      哪一學年度修課：
+        103-2
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+        齊震宇助理教授
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+        數學系選修
+
+      δ 課程大概內容
+代數拓樸：（此部分主要發摟老師在youtube上的影片）
+        Tychonoff's lemma, space filling curve, singular homology groups, chain
+        homotopy, invariance of homotopy groups, Acyclic model theorem,
+        Mayer-Vietoris sequence, Brouwer fixed point theorem, Invariance of
+        domain
+
+        拓樸空間上的測度理論：
+        Uryson's lemma, partition of unity, Riesz's representation theorem,
+        Haar's measure on locally compact Hausdorff topological groups,
+        Fubini's theorem on the product of locally compact Hausdorff spaces
+
+        基本群：
+        lifting property, covering map, deck transformation, Seifert-van Kampen
+        theorem
+
+        流形：
+        Sard's theorem, wedge product, Stoke's theorem, vector fields,
+        tangent/normal bundle, cohomology, projective formula, cohomology,
+        some Lie group and Lie algebra
+        （這邊很不熟，歡迎強者同學補充QQ）
+
+      Ω 私心推薦指數(以五分計)
+        有強烈學習意願者 ★★★★★
+        想混學分 GGGGGGG
+
+      η 上課用書(影印講義或是指定教科書)
+代數拓樸：
+        E. Spanier, Algebraic topology
+        G. Bredon, Topology and Geometry (GTM 139)
+
+        拓樸空間上的測度理論：
+        W. Rudin, Real and Complex analysis
+        Donald L. Cohn, Measure Theory
+
+        基本群：
+        G. Bredon, Topology and Geometry (GTM 139)
+
+        流形：
+        沒有特別跟隨哪一本
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+        第一次上課是期初考，不管已選上或要加簽都要考，範圍是G. Bredon第一章的幾
+
+        個小節，其實就是考拓樸空間的一些基本性質。沒過的話老師會非常不建議你修
+
+        ，雖然硬要應該也是可啦...
+
+        上課方式為純板書，老師口條相當好，板書也清楚。不過上課速度稍快，許多證
+
+        明老師是用口頭講解而不一定寫下來，回家必須仔細體會。
+
+        老師講課常會給我們動機，如接下來的內容是要解決甚麼問題啦，或是現在的東
+
+        西與哪些領域相關等。
+
+        使用的參考書經常換，除了代數拓樸部分之外，經常是某一本書用了兩周左右後
+
+        就換下一本書，也許是因為這是導論的關係吧？優點是可以接觸到各種不同題材
+
+        ，對於有強烈學習意願者非常合適。
+
+        （不過原po自己有些難適應，好多東西沒念懂QQ）
+
+        同時老師也十分鼓勵我們問問題，而且去找他他一定能啟發你！即便你沒有能解
+
+        決那個問題的足夠知識，他也能夠在黑板上把相關概念從頭發展到完整解釋，非
+
+        常厲害&lt;(_ _)&gt;推薦大家多去問他問題XD
+
+
+        以下附上幾句語錄：
+
+        「甚麼，這還不夠簡單！？」
+「那這是不是？當然是嘛！」
+「有任何問題都可以問，不管多蠢都可以。」
+『老師，你講的東西都有驗證過嗎？』「我全部都驗證過。」
+「這裡可以給你們一個習題...算了不要寫了啦！（擦掉）」
+「這些習題不要交給我...我無法想像看到你們的習題會有甚麼反應...」
+σ 評分方式(給分甜嗎？是紮實分？)
+        習題與討論   15%
+        期中考       50%
+        期末口頭報告 35%
+
+        紮實（見下方補充）
+
+      ρ 考題型式、作業方式
+        作業每周約三題，內容大多不難，常是check老師當周所提證明之細節，或是在進
+
+        入一個新的主題時練習相關的基本性質。老師速度快，不過平時有跟上的話兩小
+
+        時內應可搞定。
+
+        期中考題為平時所學之應用，我覺得頗有難度= =a（會po考古題版）；但值得注
+
+        意的是，形式是take home exam，且老師歡迎大家去跟他討論，會給提示，甚至
+
+        留手機給我們方便聯絡，因此有善用的話成績絕對不會差。老師曾提過提示太多
+
+        要扣分，不過原po每題都問一堆他也沒怎樣，人超好XDDD
+
+        期末是個人報告，內容是學期中所講之各主題的延伸題材。老師會在講到每個主
+
+        題時提出可能的題材，有興趣者可先選先準備。報告時間約為兩小時，日期的話
+
+        是期末考當周及後一周。報告要求就是該主題的所有細節！板書，老師要你證甚
+
+        麼最好都要能說清楚，不然可能被電QQ
+
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+        不重出席率，但還是建議來聽，一方面老師教得很好，一方面有時講授的內容參
+
+        考書找不到。
+
+        外系選修的話，線代跟微積分最好修過一個學期，加上一些代數如group action
+
+        、normal subgroup、exact sequence等。
+
+        加簽部分前面已有提到～
+
+
+
+      Ψ 總結
+        授課教師認真，要學可以學到很多東西的好課～
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 59.115.99.4
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1437672254.A.8E9.html
+※ 編輯: acliv (59.115.99.4), 07/24/2015 01:26:40
+推 rrro: 齊老師超強~~ 07/24 13:07
+推 jason3: Mayer-Vietoris sequence 07/24 14:03
+已改，謝謝!!
+※ 編輯: acliv (59.115.99.12), 07/24/2015 15:41:03
+推 cmrafsts: 耶我記得有李代數和李群，你GG啦XDDD 07/24 22:28
+→ acliv: 挖  樓上翻牆上ptt哈哈 07/24 23:59
+※ 編輯: acliv (59.115.99.12), 07/25/2015 00:00:08
+※ 編輯: acliv (59.115.104.225), 08/19/2015 23:57:01
+
+

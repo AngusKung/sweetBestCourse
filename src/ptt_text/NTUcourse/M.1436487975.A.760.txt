@@ -1,0 +1,172 @@
+Title:[評價] 103全 王振男 分析導論優 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者xavier13540 (柊 四千)看板NTUcourse標題[評價] 103全 王振男 分析導論優時間Fri Jul 10 08:26:03 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：
+ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         王振男
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+
+         數學系大二選修 可抵必修分析導論
+
+      δ 課程大概內容
+
+         上學期大致依序講了這些：
+
+         - The construction of real numbers and set theory
+
+         - Point set topology and continuity
+
+         - Derivatives
+
+         - Functions of BV, rectifiable curves, Riemann-Stieltjes integrals
+
+         - Infinite series and infinite products
+
+         - Sequences of functions
+
+         下學期大致依序講了這些：
+
+         - Compactness, Arzelà-Ascoli theorem, Peano existence theorem,
+
+           Weierstrass approximation theorem // 重要卻難以分類的雜項XD
+
+         - Partial derivatives, inverse function theorem, implicit function
+
+           theorem, Lagrange multiplier
+
+         - Jordan measurable sets, multiple Riemann integrals, coordinate
+
+           transformations
+
+         - Lebesgue/Borel measure, measurable functions
+
+         - Lebesgue integrals
+
+         - Fubini's theorem and Tonelli's theorem
+
+         - Fourier series and Fourier transforms
+
+         更多更詳盡內容 在
+
+         http://www.math.ntu.edu.tw/~jnwang/courses/analysis/
+
+         振男課程網 (?
+
+      Ω 私心推薦指數(以五分計)
+ ★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+         - Apostol, Mathematical Analysis
+
+         - Wheeden and Zygmund, Measure and Integral: An Introduction to Real
+
+           Analysis
+
+         這兩本是習題來源
+
+         雖然課程內容大致上以那兩本為主
+
+         還是有一些東西(e.g. 下學期一開始的compactness和Fourier transform)可說是
+         完全不在課本範圍內
+
+         另外 老師有時也會講Rudin的東西 或者用Rudin的證明
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         上課方式就是板書
+
+         星期二09:10~10:00是助教課 會在那時候考小考+檢討作業
+
+         老師在講述定理或證明時相當清楚 跳過的部分也會提醒大家要思考為什麼這邊可
+         以這樣寫之類的
+
+         不過缺點是有時進度會慢了一點 例如反函數定理和座標變換的地方 證明就各花
+         了一個星期 // 個人是希望能用兩節課就講完
+
+         另外就是 開學時都會有個課程大綱
+
+         不過那些課程大綱完全沒用 基本上進度是那些的兩倍以上XD
+
+         最後 老師請假的頻率似乎有比較高 這兩個學期除了自主學習週 還放掉了三次以
+         上 // 私心希望能花多點時間講L^p space
+σ 評分方式(給分甜嗎？是紮實分？)
+
+         作業20% 小考20% 三次大考各佔20%
+
+         給分相當紮實
+
+         上學期因為我比較忙(謎: 明明就是你比較混) 有兩次作業沒交 連帶的下場就是
+         第二次期中悲劇了 只拿了B
+
+         下學期除了作業的習題 我把課本甚至Rudin剩下的習題也做一做 努力不要讓期中
+         悲劇 最後拿A
+
+      ρ 考題型式、作業方式
+
+         作業應該跟其他數學課差不多(?) 就是勾課本習題
+
+         小考通常考兩題 40分鐘 幾乎都是證明
+
+         而且有時會出現難度比較高的題目
+
+         大考通常考五題 180分鐘
+
+         雖然把握基本題差不多就可以及格
+
+         老師都會固定出一道詭異(?)的題目
+
+         有時這道詭異的題目會是某個定理(e.g. Cesàro summability =&gt; Abel
+         summability, Sard's theorem, etc.)
+
+         這件事告訴我們平常要多讀課外讀物XD
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         老師不管出席率的
+
+         只是小考在早九 如果遲到的話會很慘(不給補考 如果我最後一次小考有去就A+了
+         QAQ)
+
+         另外就是 如果你想修這門課
+
+         你要覺得微積分甲很簡單才行
+
+         至少 至少 在看ε-δ的證明時 要覺得很輕鬆容易
+
+         不然在這門課應該很辛苦
+
+      Ψ 總結
+
+         這是門好課
+
+         不過除非你真的很強
+
+         除了要花很多時間外 要有GPA被拉低的準備
+
+--
+                 2                         2    1                  ψxavier13540
+給定一個二次元(|R )上的開集 G，設 f: G →|R ∈ C 。考慮一 autonomous system
+╭dx/dt = f(x)，若 ∀t ≧ 0，有φ (x°) ∈ K ⊆ G，其中 K 在 G 上 compact，則
+╰x(0) = x°                     t
+ω(x°) 只能是一定點、一週期軌道或連接有限個 critical point 的連通路徑，不會像三
+次元一樣可能出現混沌(chaos)。此即為 ODE 動力系統中的 Poincaré–Bendixson 定理。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.249.76
+※ 文章網址: https://www.ptt.cc/bbs/NTUcourse/M.1436487975.A.760.html
+推 cmrafsts: 雖然我後來被Apostol的廣度打動了，但它依然是爛課本 07/10 15:50
+→ xavier13540: 樓上表示這是門又涼又甜的課無誤 07/10 16:04
+(chy1010 刪除 ten57girl 的推文: 洗板)
+→ xavier13540: 我歡天喜地地想看看誰留了什麼言 結果居然是樓上這 07/10 20:41
+→ xavier13540: 種垃圾評論 07/10 20:41
+推 kiki830621: 原PO中肯 07/10 22:07
+
+

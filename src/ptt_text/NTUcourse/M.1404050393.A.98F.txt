@@ -1,0 +1,88 @@
+Title:[評價] 102-2 薛克民 應用數學方法 - 看板 NTUcourse - 批踢踢實業坊
+
+
+作者t0444564 (艾利歐)看板NTUcourse標題[評價] 102-2 薛克民 應用數學方法時間Sun Jun 29 21:59:51 2014
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課：
+ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+　　　　　薛克民
+
+      λ 開課系所與授課對象 (是否為必修或通識課 / 內容是否與某些背景相關) 
+　　　　　數學系、數學研究所、應用數學科學研究所的選修
+
+      δ 課程大概內容
+　　　　　數值漸近的方法去逼近一些方程式的漸進解，如：
+　　　　　Perturbation methods for algebraic equations
+　　　　　Asymptotic expansion of integral:
+　　　　　　1. Waton's Lemma
+　　　　　　2. Laplace' method
+　　　　　　3. Method of stationary phase
+　　　　　　4. Method of steepest descent
+　　　　　Dimensional analysis, scaling, and differential equations
+　　　　　　1. Perturbation methods for Duffing equations
+　　　　　　2. Lindstedt-Poincare technique for Duffing equations
+　　　　　Doundary layer problem
+　　　　　Calculus of variations(變分法)
+　　　　　Diffenece equation(差分方程, 離散數學的東西)
+　　　　　WKB thoery
+　　　　　
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+　　　　　有系統的學習:★★★
+　　　　　有學到東西:★★★★
+　　　　　分數高、有學到東西:★★★★★
+　　　　　[以上請看後面的描述即知XD]
+
+      η 上課用書(影印講義或是指定教科書)
+　　　　　老師沒有"固定用書"，他所教的內容摘自各式各樣的書，習題來源也是
+　　　　　主要的參考書有這些:
+　　　　　1. J.D. Logan, Applied Mathematics, 3rd Edition, Wiely 2006
+　　　　　2. C.M. Bender and S.A. Orszag, Advanced Mathematical Method
+　　　　　　 for scientists and Engineers, McGraw-Hill; 1978
+　　　　　3. An introduction to asymptotic analysis
+　　　　　4.  Mathematical modelling in applied sciences
+
+　　　　　1、2是老師上課常常會拿出來的書
+　　　　　3、4則是網路上可以搜尋到的文章，是一些簡單的簡介。
+
+　　　　　我自己則推薦Problems in perburation這本書，這是一本習題集，
+　　　　　考試是Open book，這本書在考試時、寫作業都有極大的用處。
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+　　　　　完全講述，不過今年有了不同的風格，老師上課會準備一點講義，
+　　　　　通常是在上課前後就會上傳於ceiba，不過期中考後感覺很忙就沒製作。
+
+　　　　　如果有出Hoemework，就會在課堂上討論習題。
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+　　　　　應該是紮實甜吧。我朋友期末考低我30分都可以一起拿A+了
+
+      ρ 考題型式、作業方式
+　　　　　期中考30%
+　　　　　期末考30%
+　　　　　作業40%，共計四次
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+　　　　　不重出席率，作業有交考試有考應該就沒問題。
+　　　　　先備知識大概就微積分[泰勒展開]、一點微分方程的知識即可。
+
+　　　　　老師個性很好，有問必答，不過由於他出題目幾乎都是某些書上找下來的，
+　　　　　所以他預設這些題目都沒有問題，所以作業會讓人做得要死要活
+　　　　　但期中考與期末考都不會刁難我們。
+
+　　　　　而且有時候他的作業需要我們寫code，但老師很好心的幫我們把code都寫好了?!
+　　　　　所以其實也不用寫code XD.
+
+      Ψ 總結
+　　　　　有認真上課應該就會過，而且不知道為什麼，作業每次都A+, 被選為作業觀摩
+　　　　　期中期末平均97.5，我想應該平常上課作筆記，作業把這些筆記拿來用即可
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 115.43.181.223
+※ 文章網址: http://www.ptt.cc/bbs/NTUcourse/M.1404050393.A.98F.html
+
+

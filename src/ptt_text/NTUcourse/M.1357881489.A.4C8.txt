@@ -1,0 +1,125 @@
+Title:[評價] 101-1 江簡富 電磁學二 - 看板 EE_Comment - 批踢踢實業坊
+
+
+作者so15963 (榴槤)看板EE_Comment標題[評價] 101-1 江簡富 電磁學二時間Fri Jan 11 13:18:07 2013
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：
+
+         是，但需另行通知作者
+
+      哪一學年度修課：
+
+         101-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+         江簡富
+
+      δ 課程大概內容
+
+         N.N.Rao,"Elements of Engineering Electromagnetics" Ch6~Ch10
+
+         6.1 Transmission line
+         6.2 Line terminated by resistive load
+         6.3 Transmission-line discontinuity
+         6.4 Lines with reactive terminations and discontinuities
+         6.5 Lines with initial conditions
+         6.6 Interconnections between logic gates
+         6.7 Crosstalk on transmission lines
+
+         7.1 Short-Circuited Line
+         7.2 Line Terminated by Arbitrary Load
+         7.3 Transmission-Line Matching
+
+ ===============================期中期末分隔線================================
+
+         7.4 The Smith Chart: 1. Basic Procedures
+         7.5 The Smith Chart: 2. Applications
+         7.6 The Lossy Line
+         7.7 Pulses on Lossy Lines
+
+         8.1 Uniform plane wave propagation in an arbitrary direction
+         8.2 TE and TM waves in a parallel-plate waveguide
+         8.3 Transmission-line equivalents
+         8.4 Dispersion and group velocity
+         8.5 Reflection and refraction of plane waves
+         8.6 Dielectric slab guide
+
+         9.1 Rectangular metallic waveguide and cavity resonator
+         9.3 Losses in metallic waveguides and resonators
+
+         10.1 Hertzian dipole
+         10.2 Radiation resistance and directivity
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+★★★★★
+η 上課用書(影印講義或是指定教科書)
+
+         N.N.Rao, "Elements of Engineering Electromagnetics," sixth ed,
+         Pearson Education International, 2004.
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+         板書上課，神導證，神進度
+
+         大致上課就是教授會先抄一個黑板的筆記然後開始講解，然後進度頗快
+
+         常常可以早十到二十分鐘下課
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+         原始成績算法：
+
+         Midterm                                       40%
+         Final                                         40%
+         Quiz*2 + Homework*10                          20%
+
+         之後會系上統一調分
+
+      ρ 考題型式、作業方式
+
+         習題的部分是勾選課本會上的章節的單數節的雙數題，雙數節的單數題
+
+         小考的話則是考上課的導證
+
+         期中期末是各班共同命題
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+         不管出席率，基礎的話應該是微積分還有電磁學一，加簽全簽(授權碼)
+
+         教授人滿好的，下課去問問題都繪滿用心地回答
+
+      Ψ 總結
+
+         這班的電磁學教得相當的棒，比起Nannapaneni Narayana Rao大大的課本
+
+         ，可以讓同學快樂很多，不過因為上課主要都是導證，而且比較精簡，所
+
+         以作業的部分最好要勤加練習，整個學期交十次所以一次會分到的題量並
+
+         不大，不過需要注意的是因為本班進度比較快，建議一定要花時間讀，不
+
+         然上課可能會完全聽不懂。
+
+         然後還是要強調一下教授的上課推導還滿強的，搞懂的話可以輕鬆很多地
+
+         了解課本內容。
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc) 
+◆ From: 140.112.25.108
+推 djshen:推 01/11 13:20
+推 jackervator:推 01/11 13:23
+推 WillisTsai:修課的基礎應該還有微分方程喔! 01/13 21:10
+推 KATSUKIHIME:推江簡富教授的神推導! 01/15 15:38
+推 OckhamsRazor:推勤加練習 01/16 00:07
+推 Nien1027:神推導!!  教授教的觀念可說是一以貫之 01/16 15:38
+→ donkilu:傳說中的七小時電磁學XDDDD 上完課回去看課本就很清楚 01/16 18:30
+推 ro3289:推 01/16 22:40
+推 ypf791:有影片有講義有筆記大概就可以把課本丟了.... 01/17 21:33
+推 OckhamsRazor:推顏藝 01/18 14:18
+推 ly2314:推顏藝 02/20 22:00
+
+

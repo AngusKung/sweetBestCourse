@@ -1,0 +1,114 @@
+Title:[評價] 103-1 簡韶逸 交換電路與邏輯設計 - 看板 EE_Comment - 批踢踢實業坊
+
+
+作者jimmy8025 (正餘弦)看板EE_Comment標題[評價] 103-1 簡韶逸 交換電路與邏輯設計時間Sun Jan 18 18:31:35 2015
+※ 本文是否可提供臺大同學轉作其他非營利用途？（須保留原作者 ID）
+         （是／否／其他條件）：是
+
+
+      哪一學年度修課： 103-1
+
+      ψ 授課教師 (若為多人合授請寫開課教師，以方便收錄)
+
+              簡韶逸
+
+      δ 課程大概內容
+
+              電機系大二上必修
+              [以下課程大綱轉自Ceiba]
+              Ch01 Number System and Conversion
+              Ch02 Boolean Algebra
+              Ch03 Boolean Algebra (Continued)
+              Ch04 Application of Boolean Algebra
+              Ch05 Karnaugh Map
+              Ch07 Multi-level Gate Circuits:NAND NOR Gates
+              Ch08 Combinational Ckt Design (skip 8.1,8.2)
+              Ch09 Multiplexers Decoders and PLDs (skip 9.7,9.8)
+              Ch11 Latchs and FFs
+              Ch12 Registers and Counters
+              Ch13 Analysis of Clocked Sequential Ckts
+              Ch14 Derivation of State Graphs and Tables
+              Ch15 Reduction of State Tables (15.1,15.2)
+              Ch16 Sequential Ckt Design (16.1-16.4)
+
+      Ω 私心推薦指數(以五分計) ★★★★★
+
+              ★★★★★
+
+      η 上課用書(影印講義或是指定教科書)
+
+              C. H. Roth, Jr. and L. L. Kinney
+              Fundamentals of Logic Design, 7th edition
+
+      μ 上課方式(投影片、團體討論、老師教學風格)
+
+              上課方式主要為投影片加上手寫板，上課後會上傳整份老師上課
+              的投影片。講解時會舉很多範例讓同學熟悉課本裡的概念，不時
+              會抽點同學上台回答問題。
+              期中和期末各有安排一次Quartus軟體的教學，期中的Lab要求同
+              學做出Full Subtracter，期末則是兩人一組以Project的形式，
+              選擇要做乘法器或是除法器。
+
+      σ 評分方式(給分甜嗎？是紮實分？)
+
+              Participation     2%
+              Homework*7  2%*7=14%
+              Quiz1             4%
+              Quiz2             4%
+              Project           6%
+              Midterm          35%
+              Final Exam       35%
+
+      ρ 考題型式、作業方式
+
+             這次開課是四個班統一教學，所以作業、考試、期中期末的
+              Quartus Lab內容都相同。
+
+              作業全部都從課本裡出，只要有認真在上課基本上都會寫，有些
+              題目比較細，需要花比較多時間思考。
+
+              考試的部分：基本上和作業的題型差不多，而且課堂有另外開設
+              交電的課程網站，會公布近四年的小考、期中期末考的考古題。
+
+              Quartus的部分：期中為個人實作FullSubtracter，期末Final
+              Project 則是兩人一組，需要發揮創意，以及耐心才能完成這份
+              作業。
+
+
+      ω 其它(是否注重出席率？如果為外系選修，需先有什麼基礎較好嗎？老師個性？
+加簽習慣？嚴禁遲到等…)
+
+              有時上課會點人來回答問題，被點的同學之後就不會再被點名。
+              另外一個則是期中Quartus Lab上機時會點名作為出席率的依據。
+              這門課不用甚麼基礎就可以來上了，所以有不少外系的同學來
+              上課。加簽的部分，基本上教室坐的下都會給加簽，今年來上
+              簡韶逸教授班的同學大概有一百多個，所以搶手程度可想而知。
+
+
+      Ψ 總結
+
+              老師上課講解清楚，一個概念會用許多例子來說明，上課認真
+              聽，基本上下課後不用花太多時間複習，就可以直接寫作業的
+              題目。這學期因為老師請假及上課進度的問題，前前後後補了
+              幾次課，補課時間都在星期四的第五節。上課氣氛輕鬆，不會
+              感到特別有壓力，如果想學好交電，選這一班準沒錯！
+
+
+--
+※ 發信站: 批踢踢實業坊(ptt.cc), 來自: 140.112.240.217
+※ 文章網址: https://www.ptt.cc/bbs/EE_Comment/M.1421577098.A.B5C.html
+※ 編輯: jimmy8025 (140.112.240.217), 01/18/2015 18:33:24
+推 b98901056: 推會跟課的助教~ 01/19 15:14
+推 yangchris11: 助教超猛XD 01/19 23:38
+推 sunprinceS: 推助教～超有耐心心又超罩！！ 01/21 23:47
+推 JDholder: 哈哈推學弟+推教授 01/22 21:32
+噓 sunhextfn: 不推作業，難到逼人抄解答。教授教太慢也是問題。 01/23 01:54
+→ sunhextfn: 交電是很吃天分的科目，個人不太喜歡 01/23 01:55
+推 norta: 交電作業應該都不太改的吧,那應該是滿簡單的作業才對…相 01/24 05:14
+→ norta: 比機率or電磁or電子二三作業 01/24 05:14
+推 norta: 交電應該是大二必修裡面倒數幾個輕的吧，但不一定甜因為不 01/24 05:16
+→ norta: 太調分(嘆氣 01/24 05:17
+推 yangchris11: 強者我同學&gt;&lt; 01/26 12:07
+推 Trumen: 助教人超好的~~ 02/08 21:33
+
+

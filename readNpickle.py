@@ -60,8 +60,8 @@ with open(sweety_list, 'rb') as fh:
 		vectors = []
 		for word in words:
 			print word
-			if word not in model or word ==u'一' or word ==u'二' or word ==u'三' or word ==u'四' or word ==u'上' or word ==u'下' or word ==u'導論' or word ==u'概論' or word ==u'通論':
-				print "Not in model:",word
+			if word not in model or word ==u'一' or word ==u'二' or word ==u'三' or word ==u'四' or word ==u'上' or word ==u'下' or word ==u'導論' or word ==u'概論' or word ==u'通論' or word ==u'與' or word ==u'實務' or word ==u'原理' or word ==u'學':
+				print "Not in consideration:",word
 				continue
 			vectors.append(model[word])
 		newC.setWordVectors(vectors)

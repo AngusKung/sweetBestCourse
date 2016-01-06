@@ -103,7 +103,7 @@ class GUI:
                 self.nextState.likeCourse(course)
             else:
                 print "delete"
-                #self.nextState.dislikeCourse(course)
+                self.nextState.dislikeCourse(course)
         else:
             self.info_label.config(text="刪除失敗QQ")
 
@@ -162,8 +162,7 @@ class GUI:
         self.sport_spin.insert(0,dis5) 
         self.sweet_scale.set(5)
         self.load_scale.set(3)
-        self.credit_scale.set(dis1+dis2+dis3+dis4+dis5)
-        self.load_limit.set(self.credit_scale.get())
+        self.load_limit.set(dis1+dis2+dis3+dis4+dis5)
         self.info_label.config(text="登入完成！")
         #print self.toGraduate
         #self.bi_show.append(self.fu_shuan_bi_show[0])通識
@@ -195,17 +194,15 @@ class GUI:
             self.info_label.config(text="無法帶入課程")
 
     def searchMethod(self):
-        self.checkLogin()
-        self.credit_limit = self.credit_scale.get()
+        self.checkLogin() 
         self.clearVar()
         self.nextState.setSweetW(self.sweet_scale.get())
         self.nextState.setLoadW(self.load_scale.get())
         dis1 = len(self.toGraduate[0])+len(self.toGraduate[1])
         dis2,dis3,dis4,dis5 = int(self.shish_spin.get()), int(self.shush_spin.get()), int(self.tonsh_spin.get()), int(self.sport_spin.get())
         self.nextState.setCustomDistrib(dis2,dis3,dis4,dis5)
-        if (dis1+dis2+dis3+dis4+dis5) != self.credit_scale.get():
-            self.credit_scale.set(dis1+dis2+dis3+dis4+dis5)
         self.nextState.setLoadingLimit(self.load_limit.get()*10.0)
+        self.credit_limit = dis1+dis2+dis3+dis4+dis5
         courseCount = 0
         while(self.nextState.credit <= self.credit_limit):
             self.lastStates.append(copy.deepcopy(self.nextState))
@@ -272,9 +269,6 @@ class GUI:
     def checkLogin(self):
         if self.bi_show == []:
             self.info_label.config(text="請先登入！")
-    
-    def updateCredit(self, value):
-        self.updateScore()
 
     def prevStep(self):
         if len(self.lastStates) > 0:
@@ -327,41 +321,35 @@ class GUI:
 
         self.shibi_label = tkinter.Label(self.root, text="系必")
         self.shibi_label.grid(row=5, column=0)
-        self.shibi_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
+        self.shibi_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, width=4)
         self.shibi_spin.grid(row=6, column=0)
 
         self.shish_label = tkinter.Label(self.root, text="系選")
         self.shish_label.grid(row=5, column=1)
-        self.shish_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
+        self.shish_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, width=4)
         self.shish_spin.grid(row=6, column=1)
 
         self.shush_label = tkinter.Label(self.root, text="選修")
         self.shush_label.grid(row=5, column=2)
-        self.shush_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
+        self.shush_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, width=4)
         self.shush_spin.grid(row=6, column=2)
 
         self.tonsh_label = tkinter.Label(self.root, text="通識")
         self.tonsh_label.grid(row=5, column=3)
-        self.tonsh_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
+        self.tonsh_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, width=4)
         self.tonsh_spin.grid(row=6, column=3)
 
         self.sport_label = tkinter.Label(self.root, text="體育")
         self.sport_label.grid(row=5, column=4)
-        self.sport_spin  = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
+        self.sport_spin  = tkinter.Spinbox(self.root, from_=0, to=self.total_score, width=4)
         self.sport_spin.grid(row=6, column=4)
         
         self.sweet_scale  = tkinter.Scale(self.root, label="甜度", from_=5, to=-5)
         self.sweet_scale.grid(row=7, column = 0)
         self.load_scale   = tkinter.Scale(self.root, label="重度", from_=5, to=-5)
         self.load_scale.grid(row=7, column = 1)
-        self.load_limit = tkinter.Scale(self.root, label="重度上限", from_=31, to=0, command=self.updateCredit)
-        self.load_limit.grid(row=7, column = 3)
-        self.credit_scale = tkinter.Scale(self.root, label="學分上限", from_=31, to=0, command=self.updateCredit)
-        self.credit_scale.grid(row=7, column = 4)
-
-
-        #self.score_label = tkinter.Label(self.root, text="能力點數：%i" % (self.credit_scale.get()+1-self.total_score))
-        #self.score_label.grid(row=8, column=0, columnspan=2)
+        self.load_limit = tkinter.Scale(self.root, label="重度上限", from_=31, to=0)
+        self.load_limit.grid(row=7, column = 4)
         
         self.search_button = tkinter.Button(self.root, text="搜尋最佳課程", command=self.searchMethod)
         self.search_button["width"] = 20
@@ -411,23 +399,6 @@ class GUI:
         self.test.tag_configure('active', background='blue')
         self.test.tag_configure('title', anchor='w', bg='red', relief='sunken')
         self.root.mainloop()
-
-    def updateScore(self):
-        if (self.credit_scale.get()-self.total_score) >= 0:
-            self.total_score = int(self.shibi_spin.get()) + int(self.shish_spin.get()) + \
-                               int(self.shush_spin.get()) + int(self.tonsh_spin.get()) + int(self.sport_spin.get())
-            self.shibi_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            self.shish_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            self.shush_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            self.tonsh_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            self.sport_spin.config(to=(2*self.credit_scale.get()-self.total_score))
-            if self.total_score >= self.credit_scale.get():
-                self.shibi_spin.config(to=self.shibi_spin.get())
-                self.shish_spin.config(to=self.shish_spin.get())
-                self.shush_spin.config(to=self.shush_spin.get())
-                self.tonsh_spin.config(to=self.tonsh_spin.get())
-                self.sport_spin.config(to=self.sport_spin.get())
-            #self.score_label.config(text="能力點數：%i" % (self.credit_scale.get()-self.total_score))
 
 
 gui = GUI()

@@ -261,7 +261,7 @@ class State:
 
   def maxScore( self, courses ,creditLimit):
     try:
-      return max([( course.GPA*self.sweetW+course.class_load*0.43*self.loadW, course ) for course in courses \
+      return max([( course.GPA*self.sweetW*self.favor+course.class_load*0.43*self.loadW*self.favor, course ) for course in courses \
                 if (course.credit <= creditLimit and self.canTake(course) and self.loading+course.class_load <= self.loading_limit)],key=itemgetter(0))
     except:
       return None
@@ -325,21 +325,47 @@ class State:
     return None, None, None
 
   def likeCourse(self, course):
-    average_dot = 0
     maxdot = 0
-    count=0
+    print " ========= You may also like ========"
     for c in self.depart_courses+self.non_depart_courses+self.general_courses+self.PE_courses:
+      average_dot = 0
+      count = 0
       for vectorA in course.word_vectors:
+        dot = 0
         for vectorB in c.word_vectors:
           dot = np.dot(vectorA,vectorB)
-          print dot
           if dot > maxdot:
             maxdot = dot
           average_dot+=dot
           count+=1
-    average_dot /= float(count)
-    print "maxdot :",maxdot
-    print "average_dot :",average_dot
+      if count != 0:
+        average_dot /= float(count)
+        if average_dot >5.0:
+          print c
+          c.favor+=(0.2*average_dot)
+
+  def dislikeCourse(self, course):
+    maxdot = 0
+    print " ========= You may also dislike ========"
+    for c in self.depart_courses+self.non_depart_courses+self.general_courses+self.PE_courses:
+      average_dot = 0
+      count = 0
+      for vectorA in course.word_vectors:
+        dot = 0
+        for vectorB in c.word_vectors:
+          dot = np.dot(vectorA,vectorB)
+          if dot > maxdot:
+            maxdot = dot
+          average_dot+=dot
+          count+=1
+      if count != 0:
+        average_dot /= float(count)
+        if average_dot >5.0:
+          print c
+          if c.favor<(0.2*average_dot):
+            c.favor = 0.0
+          else:
+            c.favor-=(0.2*average_dot)
 
 
 

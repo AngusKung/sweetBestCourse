@@ -22,7 +22,7 @@ class Course:
     self.teacher_recc = None
     self.category = []
     self.word_vectors = []
-    self.favor = 1.0
+    self.favor = 5.0
     if sum(self.sweet)==0:
       self.GPA = 3.66
     else:

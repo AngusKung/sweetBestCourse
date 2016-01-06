@@ -65,22 +65,29 @@ class GUI:
 
     def browsecmd(self, event):
         index = self.test.index('active')
-        time = "%s" % chr(65+int(index[2]))+chr(48+int(index[0]))
-        course_name, teacher = self.var[index].encode('utf-8').split(" \n")
-        self.test.bind("<BackSpace>", lambda event, arg=[False, index, course_name, teacher, time]: self.delete(event, arg))
-        self.test.bind("<Tab>", lambda event, arg=[True, index, course_name, teacher, time]: self.delete(event, arg))
-        self.test.bind("<Return>", lambda event, arg=[index, course_name, teacher, time]: self.display(event, arg))
-        self.test.bind("<Key>", lambda event, arg=[course_name, teacher, time]: self.adjust(event, arg))
+        if self.var[index] != "":
+            time = "%s" % chr(65+int(index[2]))+chr(48+int(index[0]))
+            course_name, teacher = self.var[index].encode('utf-8').split(" \n")
+            self.test.bind("<BackSpace>", lambda event, arg=[False, index, course_name, teacher, time]: self.delete(event, arg))
+            self.test.bind("<Tab>", lambda event, arg=[True, index, course_name, teacher, time]: self.delete(event, arg))
+            self.test.bind("<Return>", lambda event, arg=[index, course_name, teacher, time]: self.display(event, arg))
+            self.test.bind("<Key>", lambda event, arg=[course_name, teacher, time]: self.adjust(event, arg))
 
     def adjust(self, event, arg):
         course_name, teacher, time = arg
+        result = ""
         for c in self.nextState.taken:
             if c.name == course_name and c.teacher == teacher:
                 if time in c.time or "%s \n%s" % (course_name, teacher) in self.info_classes:
                     if event.char == "=":
                         self.nextState.likeCourse(c)
+                        result = "與[%s]相關課程喜好程度上升" % c.name+"\n%.2f"%c.favor
                     elif event.char == "-":
                         self.nextState.dislikeCourse(c)
+                        result = "與[%s]相關課程喜好程度下降" % c.name+"\n%.2f"%c.favor
+        average_sweet = sum([c.GPA for c in self.nextState.taken])/float(len(self.nextState.taken))
+        self.info_label.config(text="總學分數: %d" % self.nextState.credit+"\n負擔指標: %.2f"%self.nextState.loading+"\n歷年平均GPA: %.2f\n"%average_sweet+result)
+        
 
     def display(self, event, arg):
         menu = tkinter.Menu(self.root, tearoff=0)
@@ -95,9 +102,9 @@ class GUI:
                     menu.add_command(label="老師重度: %.2f / 10.00" % c.teacher_load)
                     menu.add_command(label="課程星數: %.2f / 5.00" % c.class_stars)
                     menu.add_command(label="老師星數: %.2f / 5.00" % c.teacher_stars)
-                    hot = [recc for recc in [c.class_recc, c.teacher_recc] if recc not in [None]]
+                    hot = [recc for recc in [c.class_possibility, c.teacher_possibility] if recc not in [None]]
                     if sum([recc for recc in hot if recc not in [None]]) > 0:
-                        score = sum(hot) / len(hot) * 20
+                        score = sum(hot) / len(hot) * 100
                         print score
                         menu.add_command(label="熱門度: %.2f %%" % score)
         menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))
@@ -225,15 +232,15 @@ class GUI:
         self.load_limit.set(dis1+dis2+dis3+dis4+dis5)
         self.nextState.setLoadingLimit(self.load_limit.get()*10.0)
         self.credit_limit = dis1+dis2+dis3+dis4+dis5
-        courseCount = 0
+        self.courseCount = 0
         while(self.nextState.credit <= self.credit_limit):
             trialState = self.nextState.greedySearch()
             if not trialState:
                 print "Fininshed optimzed greedy!"
-                print courseCount,"courses added !!!"
+                print self.courseCount,"courses added !!!"
                 break
             else:
-                courseCount += 1
+                self.courseCount += 1
                 self.lastStates.append(copy.deepcopy(self.nextState))
                 self.nextState = copy.deepcopy(trialState)
         self.updateTable()
@@ -242,7 +249,7 @@ class GUI:
         print "Course taken:"
         for c in self.nextState.taken:
             print c
-        average_sweet = sum([c.GPA for c in self.nextState.taken])/float(courseCount)
+        average_sweet = sum([c.GPA for c in self.nextState.taken])/float(self.courseCount)
         self.info_label.config(text="總學分數: %d" % self.nextState.credit+"\n負擔指標: %.2f"%self.nextState.loading+"\n歷年平均GPA: %.2f"%average_sweet)
         
     def infoUpdate(self, cmd):

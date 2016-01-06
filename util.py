@@ -9,19 +9,6 @@ import State
 
 Courses = "data/Courses.pkl"
 
-def readLoadingPickle():
-	TEACHER = "data/teachers_loading.pkl"
-	CLASSES = "data/classes_loading.pkl"
-	TEACHER_CLASS = "data/class_teacher_loading.pkl"
-	with open(TEACHER,'rb') as fh:
-		teacher = cPickle.load(fh)
-	with open(CLASSES,'rb') as fh:
-		classes = cPickle.load(fh)
-	with open(TEACHER_CLASS,'rb') as fh:
-		teacher_class = cPickle.load(fh)
-
-	return teacher,classes,teacher_class
-
 def readCoursePickle():
 	with open(Courses,'rb') as fh:
 		courses,general_courses,PE_courses = cPickle.load(fh)
@@ -31,12 +18,12 @@ def readCoursePickle():
 
 def readSweetyCsv():
 	sweety_dict = dict()
-	with open('Data/sweety_list.csv', 'rb') as fh:
-		data = csv.reader(fh, delimiter=',')
-		for line in data:
-			info = line
+	with open ("Data/sweety_list.csv", 'r') as f :
+		for line in f :
+			info = line.split(',')
 			course_name = info[0].decode('utf-8')
-			teacher = info[1].decode('utf-8')
+			#print course_name
+			#teacher = info[1]
 			#credit = info[2]
 			#class_for = info[3]
 			#class_num = info[4]
@@ -53,10 +40,10 @@ def readSweetyCsv():
 			#Am = info[15]
 			#A  = info[16]
 			#Ap = info[17]
-			if (course_name, teacher) not in sweety_dict:
-				sweety_dict[(course_name, teacher)] = [info[2:]]
+			if course_name not in sweety_dict:
+				sweety_dict[course_name] = [info[1:]]
 			else:
-				sweety_dict[(course_name, teacher)].append(info[2:])
+				sweety_dict[course_name].append(info[1:])
 	return sweety_dict
 
 def checkRuleOut( courses, course, distrib, rule_out):

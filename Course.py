@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf8 -*-
 
+import numpy
+
 class Course:
   def __init__( self, name , teacher , time , credit, sweet, ID):
     self.name = name
@@ -19,6 +21,7 @@ class Course:
     self.class_recc = None
     self.teacher_recc = None
     self.category = []
+    self.word_vectors = []
     if sum(self.sweet)==0:
       self.GPA = 3.66
     else:
@@ -73,3 +76,6 @@ class Course:
 
   def setClassRecc(self, recc):
     self.class_recc = recc
+
+  def setWordVectors(self, vectors):
+    self.word_vectors = vectors

@@ -25,13 +25,13 @@ class GUI:
         self.nextState = State.State() 
         self.lastStates = []
         self.total_score = 1
-    
+
     def test_cmd(self, event):
         if event.i == 0:
             return '%i, %i' % (event.r, event.c)
         else:
             return 'set'
-    
+
     def initVar(self):
         self.root = tkinter.Tk()
         self.var = ArrayVar(self.root)
@@ -64,7 +64,7 @@ class GUI:
     def browsecmd(self, event):
         self.test.bind("<BackSpace>", self.delete)
         self.test.bind("<Return>", self.display)
-        
+
     def display(self, event):
         menu = tkinter.Menu(self.root, tearoff=0)
         index = self.test.index('active')
@@ -81,7 +81,7 @@ class GUI:
                 menu.add_command(label="課程推薦: %.4s / 5.00" % c.class_recc)
                 menu.add_command(label="老師推薦: %.4s / 5.00" % c.teacher_recc)            
         menu.post(390+110*(int(index[2])+1), 90+34*(int(index[0])+1))
-        
+
     def delete(self, event):
         index = self.test.index('active')
         course_name = self.var[index].encode('utf-8')
@@ -157,14 +157,14 @@ class GUI:
         #self.bi_show.append(self.fu_shuan_bi_show[0])通識
         #self.to_show = [course for course in self.bi_show if course not in self.takenCourses]
         #self.updateBishow2Table(self.to_show)
-        
+
     #def updateBishow2Table(self, bi_show):
     #    sweety_dict = readSweetyCsv()
     #    for item in bi_show:
     #        for time in sweety_dict[item][0][4].split(" ")[ :-1]:
     #            self.current_state.append(sweety_dict[item])
     #            self.updateTable([time, item])    
-        
+
     def loadMethod(self):
         self.checkLogin()
         course = self.nextState.findCourse(self.loadC_field.get(),self.loadT_field.get())
@@ -180,7 +180,7 @@ class GUI:
             print "Course %s loaded" % self.loadC_field.get()
             self.updateTable()
         else: 
-            self.info_label.config(text="無法帶入課程") 
+            self.info_label.config(text="無法帶入課程")
 
     def searchMethod(self):
         self.checkLogin()

@@ -18,8 +18,8 @@ class Course:
     self.teacher_stars = None
     self.class_load = 5.0
     self.teacher_load = 5.0
-    self.class_possibility = 0.0
-    self.teacher_possibility = 0.0
+    self.class_possibility = None
+    self.teacher_possibility = None
     self.category = []
     self.word_vectors = []
     self.favor = 5.0

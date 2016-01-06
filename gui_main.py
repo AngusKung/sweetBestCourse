@@ -24,7 +24,7 @@ class GUI:
         self.InitialState = State.State()
         self.nextState = State.State() 
         self.lastStates = []
-        self.total_score = 1
+        self.total_score = 31
 
     def test_cmd(self, event):
         if event.i == 0:
@@ -201,11 +201,11 @@ class GUI:
         dis1 = len(self.toGraduate[0])+len(self.toGraduate[1])
         dis2,dis3,dis4,dis5 = int(self.shish_spin.get()), int(self.shush_spin.get()), int(self.tonsh_spin.get()), int(self.sport_spin.get())
         self.nextState.setCustomDistrib(dis2,dis3,dis4,dis5)
+        self.load_limit.set(dis1+dis2+dis3+dis4+dis5)
         self.nextState.setLoadingLimit(self.load_limit.get()*10.0)
         self.credit_limit = dis1+dis2+dis3+dis4+dis5
         courseCount = 0
         while(self.nextState.credit <= self.credit_limit):
-            self.lastStates.append(copy.deepcopy(self.nextState))
             trialState = self.nextState.greedySearch()
             if not trialState:
                 print "Fininshed optimzed greedy!"
@@ -213,7 +213,8 @@ class GUI:
                 break
             else:
                 courseCount += 1
-                self.nextState = trialState
+                self.lastStates.append(copy.deepcopy(self.nextState))
+                self.nextState = copy.deepcopy(trialState)
         self.updateTable()
         print "Loading =",self.nextState.loading, "while loading_limit =",self.nextState.loading_limit
         print "Credit =",self.nextState.credit
@@ -292,6 +293,22 @@ class GUI:
         else:
             self.info_label.config(text="請先登入！")
 
+    def updateScore(self):
+        if (31-self.total_score) >= 0:
+            self.total_score = int(self.shibi_spin.get()) + int(self.shish_spin.get()) + \
+                               int(self.shush_spin.get()) + int(self.tonsh_spin.get()) + int(self.sport_spin.get())
+            self.shibi_spin.config(to=(2*31-self.total_score))
+            self.shish_spin.config(to=(2*31-self.total_score))
+            self.shush_spin.config(to=(2*31-self.total_score))
+            self.tonsh_spin.config(to=(2*31-self.total_score))
+            self.sport_spin.config(to=(2*31-self.total_score))
+            if self.total_score >= 31:
+                self.shibi_spin.config(to=self.shibi_spin.get())
+                self.shish_spin.config(to=self.shish_spin.get())
+                self.shush_spin.config(to=self.shush_spin.get())
+                self.tonsh_spin.config(to=self.tonsh_spin.get())
+                self.sport_spin.config(to=self.sport_spin.get())
+
     def createTable(self):
         self.user_label = tkinter.Label(self.root, text="帳號：")
         self.user_label.grid(row=0, column=0)
@@ -321,27 +338,27 @@ class GUI:
 
         self.shibi_label = tkinter.Label(self.root, text="系必")
         self.shibi_label.grid(row=5, column=0)
-        self.shibi_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, width=4)
+        self.shibi_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
         self.shibi_spin.grid(row=6, column=0)
 
         self.shish_label = tkinter.Label(self.root, text="系選")
         self.shish_label.grid(row=5, column=1)
-        self.shish_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, width=4)
+        self.shish_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
         self.shish_spin.grid(row=6, column=1)
 
         self.shush_label = tkinter.Label(self.root, text="選修")
         self.shush_label.grid(row=5, column=2)
-        self.shush_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, width=4)
+        self.shush_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
         self.shush_spin.grid(row=6, column=2)
 
         self.tonsh_label = tkinter.Label(self.root, text="通識")
         self.tonsh_label.grid(row=5, column=3)
-        self.tonsh_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, width=4)
+        self.tonsh_spin = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
         self.tonsh_spin.grid(row=6, column=3)
 
         self.sport_label = tkinter.Label(self.root, text="體育")
         self.sport_label.grid(row=5, column=4)
-        self.sport_spin  = tkinter.Spinbox(self.root, from_=0, to=self.total_score, width=4)
+        self.sport_spin  = tkinter.Spinbox(self.root, from_=0, to=self.total_score, command=self.updateScore, width=4)
         self.sport_spin.grid(row=6, column=4)
         
         self.sweet_scale  = tkinter.Scale(self.root, label="甜度", from_=5, to=-5)

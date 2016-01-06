@@ -261,7 +261,7 @@ class State:
 
   def maxScore( self, courses ,creditLimit):
     try:
-      return max([( course.GPA*self.sweetW*self.favor+course.class_load*0.43*self.loadW*self.favor, course ) for course in courses \
+      return max([( course.GPA*self.sweetW*course.favor+course.class_load*0.43*self.loadW*course.favor, course ) for course in courses \
                 if (course.credit <= creditLimit and self.canTake(course) and self.loading+course.class_load <= self.loading_limit)],key=itemgetter(0))
     except:
       return None

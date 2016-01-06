@@ -325,6 +325,13 @@ class State:
           return state, c.time, course
     return None, None, None
 
+  def pureDelete(self, course):
+    for time in c.getTime():
+      self.free.add(time)
+    self.taken.remove(course)
+    self.credit -= course.credit
+    self.loading -= course.class_load
+
   def likeCourse(self, course):
     maxdot = 0
     print " ========= You may also like ========"

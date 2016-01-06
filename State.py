@@ -25,6 +25,7 @@ class State:
       self.loading_limit = prevState.loading_limit
       self.sweetW = prevState.sweetW
       self.loadW = prevState.loadW
+      self.starW = prevState.starW
       """
       Mon  Tues Wed  Thur Fri  Sat  Sun
       A0   B0   C0   D0   E0   F0   G0
@@ -53,6 +54,7 @@ class State:
       self.loading_limit = 125.0
       self.sweetW = 1.0
       self.loadW = 1.0
+      self.starW = 1.0
 
   def __eq__( self , other ):
   	return self.taken == other.taken
@@ -138,6 +140,9 @@ class State:
 
   def setLoadW( self, loadW):
     self.loadW = loadW
+
+  def setStarW( self, starW):
+    self.starW = starW
 
   def setCustomDistrib( self, dis2, dis3, dis4, dis5):
     self.distrib[2] = dis2
@@ -279,7 +284,7 @@ class State:
 
   def maxScore( self, courses ,creditLimit):
     try:
-      return max([( course.GPA*self.sweetW*course.favor+course.class_load*0.43*self.loadW*course.favor, course ) for course in courses \
+      return max([( course.favor*((course.class_stars+course.teacher_stars)*self.starW/5.0+course.GPA*self.sweetW+course.class_load*0.43*self.loadW), course ) for course in courses \
                 if (course.credit <= creditLimit and self.canTake(course) and self.loading+course.class_load <= self.loading_limit)],key=itemgetter(0))
     except:
       return None

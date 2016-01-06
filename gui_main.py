@@ -197,9 +197,10 @@ class GUI:
         self.sport_spin.insert(0,dis5) 
         self.sweet_scale.set(5)
         self.load_scale.set(3)
+        self.star_scale.set(3)
         self.load_limit.set(dis1+dis2+dis3+dis4+dis5)
-        self.nextState = copy.deepcopy(self.InitialState)
         self.InitialState.setPersonDistrib(self.toGraduate)
+        self.nextState = copy.deepcopy(self.InitialState)
         self.nextState.setLoadingLimit(self.load_scale.get())
         self.info_label.config(text="登入完成！")
         #print self.toGraduate
@@ -230,6 +231,7 @@ class GUI:
         self.nextState.clearCourses()
         self.nextState.setSweetW(self.sweet_scale.get())
         self.nextState.setLoadW(self.load_scale.get())
+        self.nextState.setStarW(self.star_scale.get())
         dis1 = self.bi_show_credit+sum([group[0].credit for group in self.toGraduate[1]])
         dis2,dis3,dis4,dis5 = int(self.shish_spin.get()), int(self.shush_spin.get()), int(self.tonsh_spin.get()), int(self.sport_spin.get())
         self.nextState.setCustomDistrib(dis2,dis3,dis4,dis5)
@@ -399,6 +401,8 @@ class GUI:
         self.sweet_scale.grid(row=7, column = 0)
         self.load_scale   = tkinter.Scale(self.root, label="重度", from_=5, to=-5)
         self.load_scale.grid(row=7, column = 1)
+        self.star_scale   = tkinter.Scale(self.root, label="星評", from_=5, to=-5)
+        self.star_scale.grid(row=7, column = 2)
         self.load_limit = tkinter.Scale(self.root, label="重度上限", from_=31, to=0)
         self.load_limit.grid(row=7, column = 4)
         

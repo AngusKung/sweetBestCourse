@@ -147,15 +147,26 @@ class GUI:
         self.toGraduate.append(toGraduate_unorderd[1][0])
         self.toGraduate.append(toGraduate_unorderd[2][0])
         self.toGraduate.append(toGraduate_unorderd[3][0])
-        self.InitialState.setLoadingLimit(50.0)
+        self.InitialState.setLoadingLimit(200.0)
         self.InitialState.setPersonDistrib(self.toGraduate)
         self.InitialState.transformID()
-        self.nextState = copy.deepcopy(self.InitialState)
-        self.nextState.setLoadingLimit(self.load_scale.get())
         #---set value in display---
-        dis1 = sum([c.credit for c in self.toGraduate[0]])+sum([group[0].credit for group in self.toGraduate[1]])
+        bi_show_credit = 0
+        past_ID = []
+        for c in self.toGraduate[0]:
+            if c.ID in past_ID:
+                continue
+            else:
+                bi_show_credit+=c.credit
+                past_ID.append(c.ID)
+        dis1 = bi_show_credit+sum([group[0].credit for group in self.toGraduate[1]])
         dis2,dis3,dis4,dis5 = self.toGraduate[2],self.toGraduate[3],self.toGraduate[4],self.toGraduate[5]
         print "toGraduate:",dis1,",",dis2,",",dis3,",",dis4,",",dis5
+        print len(self.toGraduate[1])
+        while dis1 > 15:
+            self.toGraduate[1].pop()
+            dis1 = bi_show_credit+sum([group[0].credit for group in self.toGraduate[1]])
+        print len(self.toGraduate[1])
         if (dis1+dis2+dis3+dis4+dis5) > 25:
             ratio = (25-dis1)/float(dis2+dis3+dis4+dis5)#get a math.floor()
             dis2 = int(ratio*dis2)
@@ -176,6 +187,9 @@ class GUI:
         self.sweet_scale.set(5)
         self.load_scale.set(3)
         self.load_limit.set(dis1+dis2+dis3+dis4+dis5)
+        self.nextState = copy.deepcopy(self.InitialState)
+        self.InitialState.setPersonDistrib(self.toGraduate)
+        self.nextState.setLoadingLimit(self.load_scale.get())
         self.info_label.config(text="登入完成！")
         #print self.toGraduate
         #self.bi_show.append(self.fu_shuan_bi_show[0])通識
